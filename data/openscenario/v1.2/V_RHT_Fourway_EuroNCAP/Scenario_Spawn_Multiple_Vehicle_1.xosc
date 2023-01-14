@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="2" date="2022-07-21T10:00:00" description="Scenario: spawnPoint staight(startLink to targetLink)" author="MORAI:scenario-module-team"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="V_RHT_Fourway_EuroNCAP" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Genesis_DH" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2022-07-21T10:00:00" />
+              <Weather atmosphericPressure="80000" fractionalCloudCover="zeroOktas" temperature="170">
+                <Sun illuminance="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+				<Wind direction="0" speed="0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="dry"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="13.88"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="_3_0_R2_" index="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false" />
+          <Maneuver name="spawn_point manuever">
+            <Event name="spawn_event" priority="overwrite">
+              <Action name="spawn_action_1">
+                <GlobalAction>
+                  <TrafficAction>
+                    <TrafficSourceAction radius="10" count="5" period="5" periodRange="3" offset="0" offsetRange="0.1"
+                                         closedLoop="false" discretionaryLaneChange="true" >
+                      <Position>
+                        <LinkPosition id="_3_0_R1_" index="0"/>
+                      </Position>
+                      <InitSpeed>
+                        <AbsoluteTargetSpeed type="link" value="0.2" range="0.1"/>
+                      </InitSpeed>
+                      <DesiredSpeed>
+                        <AbsoluteTargetSpeed type="custom" value="65" range="15"/>
+                      </DesiredSpeed>
+                      <Waypoint routeStrategy="random">
+                        <Position>
+                          <LinkPosition id="_3_0_R1_" index="1200"/>
+                        </Position>
+                      </Waypoint>
+                      <TrafficDefinition name="TrafficDefinition_1">
+                        <VehicleCategoryDistribution>
+                          <VehicleCategoryDistributionEntry model="2016_Hyundai_Ioniq" weight="1" />
+                        </VehicleCategoryDistribution>
+                      </TrafficDefinition>
+                    </TrafficSourceAction>
+                  </TrafficAction>
+                </GlobalAction>
+              </Action>
+              <Action name="spawn_action_2">
+                <GlobalAction>
+                  <TrafficAction>
+                    <TrafficSourceAction radius="10" count="5" period="5" periodRange="3" offset="0" offsetRange="0.1"
+                                         closedLoop="false" discretionaryLaneChange="false" >
+                      <Position>
+                        <LinkPosition id="_3_0_L1_" index="1700"/>
+                      </Position>
+                      <InitSpeed>
+                        <AbsoluteTargetSpeed type="link" value="0.2" range="0.1"/>
+                      </InitSpeed>
+                      <DesiredSpeed>
+                        <AbsoluteTargetSpeed type="custom" value="65" range="15"/>
+                      </DesiredSpeed>
+                      <Waypoint routeStrategy="random">
+                        <Position>
+                          <LinkPosition id="_3_0_L1_" index="1900"/>
+                        </Position>
+                      </Waypoint>
+                      <TrafficDefinition name="TrafficDefinition_1">
+                        <VehicleCategoryDistribution>
+                          <VehicleCategoryDistributionEntry model="2017_Hyundai_Grandeur" weight="1" />
+                        </VehicleCategoryDistribution>
+                      </TrafficDefinition>
+                    </TrafficSourceAction>
+                  </TrafficAction>
+                </GlobalAction>
+              </Action>
+              <Action name="spawn_action_3">
+                <GlobalAction>
+                  <TrafficAction>
+                    <TrafficSourceAction radius="10" count="5" period="5" periodRange="3" offset="0" offsetRange="0.1"
+                                         closedLoop="false" discretionaryLaneChange="false" >
+                      <Position>
+                        <LinkPosition id="_3_0_L2_" index="1700"/>
+                      </Position>
+                      <InitSpeed>
+                        <AbsoluteTargetSpeed type="link" value="0.2" range="0.1"/>
+                      </InitSpeed>
+                      <DesiredSpeed>
+                        <AbsoluteTargetSpeed type="custom" value="65" range="15"/>
+                      </DesiredSpeed>
+                      <Waypoint routeStrategy="random">
+                        <Position>
+                          <LinkPosition id="_3_0_L2_" index="1900"/>
+                        </Position>
+                      </Waypoint>
+                      <TrafficDefinition name="TrafficDefinition_1">
+                        <VehicleCategoryDistribution>
+                          <VehicleCategoryDistributionEntry model="2014_Kia_K7" weight="1" />
+                        </VehicleCategoryDistribution>
+                      </TrafficDefinition>
+                    </TrafficSourceAction>
+                  </TrafficAction>
+                </GlobalAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="event_startTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <SimulationTimeCondition value="0" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

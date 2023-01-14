@@ -1,0 +1,30 @@
+{
+	"User": "42dot",
+	"exclude_file_actions": [],
+	"exclude_file_submenu": [],
+	"import_actions": {
+		"42dot": 1,
+		"NGII_Shp_Ver1_Node_Link": 0,
+		"NGII_Shp_Ver1_Lane_Marking_Data": 0,
+		"NGII_Shp_Ver2": 0,
+		"NGII_Shp_Ver2_Lane_Marking_Data": 0,
+		"txt": 0,
+		"stryx_geojson": 0,
+		"naver_geojson": 0,
+		"roadrunner": 0,
+		"Stryx": 0,
+		"Naver": 0,
+		"DeepMap": 0,
+		"TomTom_avro": 0,
+		"TomTom_shp": 0,
+		"TomTom_geojson": 0,
+		"Civilmaps": 0,
+		"Mobiltech": 0
+	},
+	"exclude_export_actions": ["sim_build_data"],
+	"exclude_menu": ["menuExport", "menuMap_Creation", "menuLanelet2_Conversion"],
+	"program_name": "42dot Map Editor (v1.5.0)",
+	"program_key": "map_editor_42dot",
+	"config_file_io": "config_file_io_default.json",
+	"user_manual_url": "https://help-morai-sim.scrollhelp.site/"
+}

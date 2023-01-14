@@ -1,0 +1,370 @@
+d:\Work\Maps\morai_map_editor\src\proj_mgeo_editor_morai_opengl\log\log_20220920123745.log
+		TRACE	2022-09-20 12:37:47	Called: load_mgeo
+TRACE	2022-09-20 12:37:47	Called: ask_save_current_data
+TRACE	2022-09-20 12:37:47	No MGeo data to save -> return
+TRACE	2022-09-20 12:37:47	init_load_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load
+TRACE	2022-09-20 12:38:06	load MGeo data from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri
+INFO	2022-09-20 12:38:06	MGeo data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri
+INFO	2022-09-20 12:38:06	D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri
+TRACE	2022-09-20 12:38:06	Called: reset_start_point
+TRACE	2022-09-20 12:38:06	Called: reset_end_point
+TRACE	2022-09-20 12:38:06	Called: reset_stop_point
+TRACE	2022-09-20 12:38:06	Called: reset_start_point
+TRACE	2022-09-20 12:38:06	Called: reset_end_point
+TRACE	2022-09-20 12:38:06	Called: reset_stop_point
+INFO	2022-09-20 12:38:06	Data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri
+ERROR	2022-09-20 12:38:06	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "d:\Work\Maps\morai_map_editor\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "d:\Work\Maps\morai_map_editor\src\lib\mgeo\class_defs\mgeo.py", line 953, in create_instance_from_json
+		    global_info, node_set, link_set, junction_set = MGeo.load_node_and_link(folder_path)
+		  File "d:\Work\Maps\morai_map_editor\src\lib\mgeo\class_defs\mgeo.py", line 478, in load_node_and_link
+		    with open(filename, 'r') as f:
+		FileNotFoundError: [Errno 2] No such file or directory: 'D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri\\node_set.json'
+		
+TRACE	2022-09-20 12:38:08	Called: load_mgeo
+TRACE	2022-09-20 12:38:08	Called: ask_save_current_data
+TRACE	2022-09-20 12:38:08	No MGeo data to save -> return
+TRACE	2022-09-20 12:38:08	init_load_path: D:\Work\Maps\morai_map_editor\data\mgeo_data
+TRACE	2022-09-20 12:38:16	load MGeo data from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-09-20 12:38:16	MGeo data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-09-20 12:38:16	D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-09-20 12:38:16	Called: reset_start_point
+TRACE	2022-09-20 12:38:16	Called: reset_end_point
+TRACE	2022-09-20 12:38:16	Called: reset_stop_point
+TRACE	2022-09-20 12:38:17	Called: reset_start_point
+TRACE	2022-09-20 12:38:17	Called: reset_end_point
+TRACE	2022-09-20 12:38:17	Called: reset_stop_point
+INFO	2022-09-20 12:38:17	Data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-09-20 12:38:42	Called: delete_objects_out_of_xy_range
+TRACE	2022-09-20 12:38:45	Called: reset_start_point
+TRACE	2022-09-20 12:38:45	Called: reset_end_point
+TRACE	2022-09-20 12:38:45	Called: reset_stop_point
+TRACE	2022-09-20 12:38:51	Called: delete_item
+INFO	2022-09-20 12:38:51	JUNCTION (id: 1000074) deleted.
+INFO	2022-09-20 12:38:51	JUNCTION (id: 1000055) deleted.
+TRACE	2022-09-20 12:38:51	Called: reset_start_point
+TRACE	2022-09-20 12:38:51	Called: reset_end_point
+TRACE	2022-09-20 12:38:51	Called: reset_stop_point
+TRACE	2022-09-20 12:38:53	Called: delete_item
+INFO	2022-09-20 12:38:54	JUNCTION (id: 1000057) deleted.
+TRACE	2022-09-20 12:38:54	Called: reset_start_point
+TRACE	2022-09-20 12:38:54	Called: reset_end_point
+TRACE	2022-09-20 12:38:54	Called: reset_stop_point
+TRACE	2022-09-20 12:38:55	Called: delete_item
+INFO	2022-09-20 12:38:55	JUNCTION (id: 1000056) deleted.
+TRACE	2022-09-20 12:38:55	Called: reset_start_point
+TRACE	2022-09-20 12:38:55	Called: reset_end_point
+TRACE	2022-09-20 12:38:55	Called: reset_stop_point
+TRACE	2022-09-20 12:38:57	Called: delete_item
+INFO	2022-09-20 12:38:57	JUNCTION (id: 1000054) deleted.
+TRACE	2022-09-20 12:38:57	Called: reset_start_point
+TRACE	2022-09-20 12:38:57	Called: reset_end_point
+TRACE	2022-09-20 12:38:57	Called: reset_stop_point
+TRACE	2022-09-20 12:39:07	Called: delete_item
+INFO	2022-09-20 12:39:07	LANE_BOUNDARY (id: C319BS010550) deleted.
+TRACE	2022-09-20 12:39:07	Called: reset_start_point
+TRACE	2022-09-20 12:39:07	Called: reset_end_point
+TRACE	2022-09-20 12:39:07	Called: reset_stop_point
+TRACE	2022-09-20 12:39:11	Called: delete_item
+INFO	2022-09-20 12:39:11	LANE_BOUNDARY (id: B219BS011351) deleted.
+TRACE	2022-09-20 12:39:11	Called: reset_start_point
+TRACE	2022-09-20 12:39:11	Called: reset_end_point
+TRACE	2022-09-20 12:39:11	Called: reset_stop_point
+TRACE	2022-09-20 12:39:12	Called: delete_item
+INFO	2022-09-20 12:39:12	LANE_BOUNDARY (id: C319BS010570) deleted.
+TRACE	2022-09-20 12:39:12	Called: reset_start_point
+TRACE	2022-09-20 12:39:12	Called: reset_end_point
+TRACE	2022-09-20 12:39:12	Called: reset_stop_point
+TRACE	2022-09-20 12:39:15	Called: delete_item
+INFO	2022-09-20 12:39:16	LINK (id: A219BS010394) deleted.
+TRACE	2022-09-20 12:39:16	Called: reset_start_point
+TRACE	2022-09-20 12:39:16	Called: reset_end_point
+TRACE	2022-09-20 12:39:16	Called: reset_stop_point
+TRACE	2022-09-20 12:39:18	Called: delete_item
+INFO	2022-09-20 12:39:18	LINK (id: A219BS010673) deleted.
+TRACE	2022-09-20 12:39:18	Called: reset_start_point
+TRACE	2022-09-20 12:39:18	Called: reset_end_point
+TRACE	2022-09-20 12:39:18	Called: reset_stop_point
+TRACE	2022-09-20 12:39:39	Called: delete_item
+INFO	2022-09-20 12:39:40	LINK (id: A219BS010636) deleted.
+TRACE	2022-09-20 12:39:40	Called: reset_start_point
+TRACE	2022-09-20 12:39:40	Called: reset_end_point
+TRACE	2022-09-20 12:39:40	Called: reset_stop_point
+TRACE	2022-09-20 12:39:43	Called: delete_item
+INFO	2022-09-20 12:39:43	LANE_BOUNDARY (id: B219BS011317) deleted.
+TRACE	2022-09-20 12:39:43	Called: reset_start_point
+TRACE	2022-09-20 12:39:43	Called: reset_end_point
+TRACE	2022-09-20 12:39:43	Called: reset_stop_point
+TRACE	2022-09-20 12:39:44	Called: delete_item
+INFO	2022-09-20 12:39:44	LANE_BOUNDARY (id: LM000240) deleted.
+TRACE	2022-09-20 12:39:44	Called: reset_start_point
+TRACE	2022-09-20 12:39:44	Called: reset_end_point
+TRACE	2022-09-20 12:39:44	Called: reset_stop_point
+TRACE	2022-09-20 12:39:45	Called: delete_item
+INFO	2022-09-20 12:39:45	LANE_BOUNDARY (id: B219BS011353) deleted.
+TRACE	2022-09-20 12:39:45	Called: reset_start_point
+TRACE	2022-09-20 12:39:45	Called: reset_end_point
+TRACE	2022-09-20 12:39:45	Called: reset_stop_point
+TRACE	2022-09-20 12:39:46	Called: delete_item
+INFO	2022-09-20 12:39:46	LANE_BOUNDARY (id: B219BS011346) deleted.
+TRACE	2022-09-20 12:39:46	Called: reset_start_point
+TRACE	2022-09-20 12:39:46	Called: reset_end_point
+TRACE	2022-09-20 12:39:46	Called: reset_stop_point
+TRACE	2022-09-20 12:39:47	Called: delete_item
+INFO	2022-09-20 12:39:47	LANE_BOUNDARY (id: C319BS010569) deleted.
+TRACE	2022-09-20 12:39:47	Called: reset_start_point
+TRACE	2022-09-20 12:39:47	Called: reset_end_point
+TRACE	2022-09-20 12:39:47	Called: reset_stop_point
+TRACE	2022-09-20 12:39:48	Called: delete_item
+INFO	2022-09-20 12:39:48	LANE_BOUNDARY (id: B219BS011352) deleted.
+TRACE	2022-09-20 12:39:48	Called: reset_start_point
+TRACE	2022-09-20 12:39:48	Called: reset_end_point
+TRACE	2022-09-20 12:39:48	Called: reset_stop_point
+TRACE	2022-09-20 12:39:51	Called: delete_item
+INFO	2022-09-20 12:39:51	LANE_BOUNDARY (id: B219BS011355) deleted.
+TRACE	2022-09-20 12:39:51	Called: reset_start_point
+TRACE	2022-09-20 12:39:51	Called: reset_end_point
+TRACE	2022-09-20 12:39:51	Called: reset_stop_point
+TRACE	2022-09-20 12:39:53	Called: delete_item
+INFO	2022-09-20 12:39:53	LANE_BOUNDARY (id: C319BS010560) deleted.
+TRACE	2022-09-20 12:39:53	Called: reset_start_point
+TRACE	2022-09-20 12:39:53	Called: reset_end_point
+TRACE	2022-09-20 12:39:53	Called: reset_stop_point
+TRACE	2022-09-20 12:40:05	Called: delete_item
+INFO	2022-09-20 12:40:05	TRAFFIC_SIGN (id: B119BS010188) deleted.
+INFO	2022-09-20 12:40:05	TRAFFIC_SIGN (id: B119BS010189) deleted.
+INFO	2022-09-20 12:40:05	TRAFFIC_SIGN (id: B119BS010190) deleted.
+TRACE	2022-09-20 12:40:05	Called: reset_start_point
+TRACE	2022-09-20 12:40:05	Called: reset_end_point
+TRACE	2022-09-20 12:40:05	Called: reset_stop_point
+TRACE	2022-09-20 12:40:15	Called: delete_item
+INFO	2022-09-20 12:40:15	LANE_BOUNDARY (id: C319BS010234) deleted.
+TRACE	2022-09-20 12:40:15	Called: reset_start_point
+TRACE	2022-09-20 12:40:15	Called: reset_end_point
+TRACE	2022-09-20 12:40:15	Called: reset_stop_point
+TRACE	2022-09-20 12:40:16	Called: delete_item
+INFO	2022-09-20 12:40:16	LANE_BOUNDARY (id: B219BS010413) deleted.
+TRACE	2022-09-20 12:40:16	Called: reset_start_point
+TRACE	2022-09-20 12:40:16	Called: reset_end_point
+TRACE	2022-09-20 12:40:16	Called: reset_stop_point
+TRACE	2022-09-20 12:40:45	Called: delete_geometry_points_all_line
+INFO	2022-09-20 12:40:46	delete all geochange points of all link
+TRACE	2022-09-20 12:40:56	Called: find_dangling_nodes
+INFO	2022-09-20 12:40:57	find_dangling_nodes result: [A119BS010236, A119BS010242, ]
+TRACE	2022-09-20 12:41:00	Called: delete_dangling_nodes
+INFO	2022-09-20 12:41:00	NODE (id: A119BS010236) deleted.
+INFO	2022-09-20 12:41:00	NODE (id: A119BS010242) deleted.
+TRACE	2022-09-20 12:41:00	Called: reset_start_point
+TRACE	2022-09-20 12:41:00	Called: reset_end_point
+TRACE	2022-09-20 12:41:00	Called: reset_stop_point
+INFO	2022-09-20 12:41:00	dangling nodes ([A119BS010236, A119BS010242, ]) deleted.
+TRACE	2022-09-20 12:41:02	Called: find_dangling_nodes
+INFO	2022-09-20 12:41:04	find_dangling_nodes result: [RB219BS010414E, RB219BS011346S, RB219BS011346E, RB219BS011348S, RB219BS011351S, RB219BS011352S, RB219BS011353S, RB219BS011353E, RC319BS010234E, RC319BS010560E, ]
+TRACE	2022-09-20 12:41:08	Called: delete_dangling_nodes
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS010414E) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011346S) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011346E) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011348S) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011351S) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011352S) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011353S) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RB219BS011353E) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RC319BS010234E) deleted.
+INFO	2022-09-20 12:41:08	LANE_NODE (id: RC319BS010560E) deleted.
+TRACE	2022-09-20 12:41:08	Called: reset_start_point
+TRACE	2022-09-20 12:41:08	Called: reset_end_point
+TRACE	2022-09-20 12:41:08	Called: reset_stop_point
+INFO	2022-09-20 12:41:08	dangling nodes ([RB219BS010414E, RB219BS011346S, RB219BS011346E, RB219BS011348S, RB219BS011351S, RB219BS011352S, RB219BS011353S, RB219BS011353E, RC319BS010234E, RC319BS010560E, ]) deleted.
+TRACE	2022-09-20 12:41:29	Called: delete_item
+INFO	2022-09-20 12:41:29	TRAFFIC_LIGHT (id: C119BS010019) deleted.
+TRACE	2022-09-20 12:41:29	Called: reset_start_point
+TRACE	2022-09-20 12:41:29	Called: reset_end_point
+TRACE	2022-09-20 12:41:29	Called: reset_stop_point
+TRACE	2022-09-20 12:41:30	Called: delete_item
+INFO	2022-09-20 12:41:30	TRAFFIC_LIGHT (id: C119BS010013) deleted.
+TRACE	2022-09-20 12:41:30	Called: reset_start_point
+TRACE	2022-09-20 12:41:30	Called: reset_end_point
+TRACE	2022-09-20 12:41:30	Called: reset_stop_point
+TRACE	2022-09-20 12:41:30	Called: delete_item
+INFO	2022-09-20 12:41:31	TRAFFIC_LIGHT (id: C119BS010021) deleted.
+TRACE	2022-09-20 12:41:31	Called: reset_start_point
+TRACE	2022-09-20 12:41:31	Called: reset_end_point
+TRACE	2022-09-20 12:41:31	Called: reset_stop_point
+TRACE	2022-09-20 12:41:31	Called: delete_item
+INFO	2022-09-20 12:41:31	TRAFFIC_LIGHT (id: C119BS010022) deleted.
+TRACE	2022-09-20 12:41:31	Called: reset_start_point
+TRACE	2022-09-20 12:41:31	Called: reset_end_point
+TRACE	2022-09-20 12:41:31	Called: reset_stop_point
+TRACE	2022-09-20 12:41:42	Called: delete_item
+INFO	2022-09-20 12:41:42	CROSSWALK (id: CW000012) deleted.
+TRACE	2022-09-20 12:41:42	Called: reset_start_point
+TRACE	2022-09-20 12:41:42	Called: reset_end_point
+TRACE	2022-09-20 12:41:42	Called: reset_stop_point
+TRACE	2022-09-20 12:41:46	Called: delete_item
+INFO	2022-09-20 12:41:46	SINGLECROSSWALK (id: B319BS010047) deleted.
+TRACE	2022-09-20 12:41:46	Called: reset_start_point
+TRACE	2022-09-20 12:41:46	Called: reset_end_point
+TRACE	2022-09-20 12:41:46	Called: reset_stop_point
+TRACE	2022-09-20 12:41:48	Called: delete_item
+INFO	2022-09-20 12:41:48	SINGLECROSSWALK (id: B319BS010046) deleted.
+TRACE	2022-09-20 12:41:48	Called: reset_start_point
+TRACE	2022-09-20 12:41:48	Called: reset_end_point
+TRACE	2022-09-20 12:41:48	Called: reset_stop_point
+TRACE	2022-09-20 12:41:49	Called: delete_item
+INFO	2022-09-20 12:41:49	SINGLECROSSWALK (id: B319BS010045) deleted.
+TRACE	2022-09-20 12:41:49	Called: reset_start_point
+TRACE	2022-09-20 12:41:49	Called: reset_end_point
+TRACE	2022-09-20 12:41:49	Called: reset_stop_point
+TRACE	2022-09-20 12:41:52	Called: delete_item
+INFO	2022-09-20 12:41:52	TRAFFIC_LIGHT (id: C119BS010014) deleted.
+TRACE	2022-09-20 12:41:52	Called: reset_start_point
+TRACE	2022-09-20 12:41:52	Called: reset_end_point
+TRACE	2022-09-20 12:41:52	Called: reset_stop_point
+TRACE	2022-09-20 12:41:55	Called: delete_item
+INFO	2022-09-20 12:41:55	TRAFFIC_SIGN (id: B119BS010168) deleted.
+TRACE	2022-09-20 12:41:55	Called: reset_start_point
+TRACE	2022-09-20 12:41:55	Called: reset_end_point
+TRACE	2022-09-20 12:41:55	Called: reset_stop_point
+TRACE	2022-09-20 12:42:32	init_save_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load
+TRACE	2022-09-20 12:42:44	save MGeo data into: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/6-real_intersection
+INFO	2022-09-20 12:42:44	Successfully exported to: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/6-real_intersection
+TRACE	2022-09-20 13:42:39	Called: delete_item
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010014) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010164) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010165) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010166) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010167) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010191) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010170) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010177) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010181) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010182) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010183) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010184) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010185) deleted.
+INFO	2022-09-20 13:42:39	TRAFFIC_SIGN (id: B119BS010186) deleted.
+INFO	2022-09-20 13:42:40	TRAFFIC_SIGN (id: B119BS010193) deleted.
+INFO	2022-09-20 13:42:40	TRAFFIC_SIGN (id: B119BS010192) deleted.
+TRACE	2022-09-20 13:42:40	Called: reset_start_point
+TRACE	2022-09-20 13:42:40	Called: reset_end_point
+TRACE	2022-09-20 13:42:40	Called: reset_stop_point
+TRACE	2022-09-20 13:42:58	Called: delete_objects_out_of_xy_range
+TRACE	2022-09-20 13:43:02	Called: reset_start_point
+TRACE	2022-09-20 13:43:02	Called: reset_end_point
+TRACE	2022-09-20 13:43:02	Called: reset_stop_point
+TRACE	2022-09-20 13:43:23	Called: delete_item
+INFO	2022-09-20 13:43:23	LINK (id: A219BS010384) deleted.
+TRACE	2022-09-20 13:43:23	Called: reset_start_point
+TRACE	2022-09-20 13:43:23	Called: reset_end_point
+TRACE	2022-09-20 13:43:23	Called: reset_stop_point
+TRACE	2022-09-20 13:43:29	Called: delete_item
+INFO	2022-09-20 13:43:29	LANE_BOUNDARY (id: B219BS011332) deleted.
+TRACE	2022-09-20 13:43:29	Called: reset_start_point
+TRACE	2022-09-20 13:43:29	Called: reset_end_point
+TRACE	2022-09-20 13:43:29	Called: reset_stop_point
+TRACE	2022-09-20 13:44:28	Called: delete_item
+INFO	2022-09-20 13:44:28	CROSSWALK (id: CW000018) deleted.
+TRACE	2022-09-20 13:44:28	Called: reset_start_point
+TRACE	2022-09-20 13:44:28	Called: reset_end_point
+TRACE	2022-09-20 13:44:28	Called: reset_stop_point
+TRACE	2022-09-20 13:44:29	Called: delete_item
+INFO	2022-09-20 13:44:29	CROSSWALK (id: CW000019) deleted.
+TRACE	2022-09-20 13:44:29	Called: reset_start_point
+TRACE	2022-09-20 13:44:29	Called: reset_end_point
+TRACE	2022-09-20 13:44:29	Called: reset_stop_point
+TRACE	2022-09-20 13:44:30	Called: delete_item
+INFO	2022-09-20 13:44:30	CROSSWALK (id: CW000020) deleted.
+TRACE	2022-09-20 13:44:30	Called: reset_start_point
+TRACE	2022-09-20 13:44:30	Called: reset_end_point
+TRACE	2022-09-20 13:44:30	Called: reset_stop_point
+TRACE	2022-09-20 13:44:35	Called: delete_item
+INFO	2022-09-20 13:44:35	NODE (id: A119BS010165) deleted.
+TRACE	2022-09-20 13:44:35	Called: reset_start_point
+TRACE	2022-09-20 13:44:35	Called: reset_end_point
+TRACE	2022-09-20 13:44:35	Called: reset_stop_point
+TRACE	2022-09-20 13:44:39	Called: delete_item
+INFO	2022-09-20 13:44:40	LANE_NODE (id: RB219BS011332E) deleted.
+TRACE	2022-09-20 13:44:40	Called: reset_start_point
+TRACE	2022-09-20 13:44:40	Called: reset_end_point
+TRACE	2022-09-20 13:44:40	Called: reset_stop_point
+TRACE	2022-09-20 13:45:02	init_save_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load
+TRACE	2022-09-20 13:45:12	save MGeo data into: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/5-traffic lights
+INFO	2022-09-20 13:45:12	Successfully exported to: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/5-traffic lights
+TRACE	2022-09-20 13:52:40	Called: load_mgeo
+TRACE	2022-09-20 13:52:40	Called: ask_save_current_data
+TRACE	2022-09-20 13:52:41	Save current MGeo data before load? -> No
+TRACE	2022-09-20 13:52:41	init_load_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-09-20 13:52:54	load MGeo data from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/4-traffic signs
+INFO	2022-09-20 13:52:54	MGeo data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/4-traffic signs
+INFO	2022-09-20 13:52:54	D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/4-traffic signs
+TRACE	2022-09-20 13:52:54	Called: reset_start_point
+TRACE	2022-09-20 13:52:54	Called: reset_end_point
+TRACE	2022-09-20 13:52:54	Called: reset_stop_point
+TRACE	2022-09-20 13:52:54	Called: reset_start_point
+TRACE	2022-09-20 13:52:54	Called: reset_end_point
+TRACE	2022-09-20 13:52:54	Called: reset_stop_point
+INFO	2022-09-20 13:52:54	Data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/4-traffic signs
+TRACE	2022-09-20 13:53:02	Called: delete_item
+INFO	2022-09-20 13:53:02	TRAFFIC_SIGN (id: SN000000) deleted.
+TRACE	2022-09-20 13:53:03	Called: reset_start_point
+TRACE	2022-09-20 13:53:03	Called: reset_end_point
+TRACE	2022-09-20 13:53:03	Called: reset_stop_point
+TRACE	2022-09-20 13:53:10	Called: add_new_mgeo_item MGeoItem.TRAFFIC_LIGHT 
+TRACE	2022-09-20 13:53:10	Called: reset_start_point
+TRACE	2022-09-20 13:53:10	Called: reset_end_point
+TRACE	2022-09-20 13:53:10	Called: reset_stop_point
+INFO	2022-09-20 13:53:10	add MGeoItem.TRAFFIC_LIGHT point: id: SN000000, point: [ 8.74401749e+00 -1.20360803e+00  1.93712975e-05] in Map: 4-traffic signs
+TRACE	2022-09-20 13:53:28	Called: reset_start_point
+TRACE	2022-09-20 13:53:28	Called: reset_end_point
+TRACE	2022-09-20 13:53:28	Called: reset_stop_point
+TRACE	2022-09-20 13:53:28	Called: reset_start_point
+TRACE	2022-09-20 13:53:28	Called: reset_end_point
+TRACE	2022-09-20 13:53:28	Called: reset_stop_point
+INFO	2022-09-20 13:53:28	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, link_id_list 
+		: [] → ['LN000000']
+TRACE	2022-09-20 13:53:42	Called: reset_start_point
+TRACE	2022-09-20 13:53:42	Called: reset_end_point
+TRACE	2022-09-20 13:53:42	Called: reset_stop_point
+TRACE	2022-09-20 13:53:42	Called: reset_start_point
+TRACE	2022-09-20 13:53:42	Called: reset_end_point
+TRACE	2022-09-20 13:53:42	Called: reset_stop_point
+INFO	2022-09-20 13:53:42	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, z_offset 
+		: 0.0 → 2.49
+TRACE	2022-09-20 13:55:41	Called: reset_start_point
+TRACE	2022-09-20 13:55:41	Called: reset_end_point
+TRACE	2022-09-20 13:55:41	Called: reset_stop_point
+TRACE	2022-09-20 13:55:41	Called: reset_start_point
+TRACE	2022-09-20 13:55:41	Called: reset_end_point
+TRACE	2022-09-20 13:55:41	Called: reset_stop_point
+INFO	2022-09-20 13:55:41	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, link_id_list 
+		: ['LN000000'] → ['LN000000', 'LN000001']
+INFO	2022-09-20 13:56:18	[Edit item properties] id: SN000000, type :  -> car
+INFO	2022-09-20 13:56:18	[Edit item properties] id: SN000000, sub_type :  -> ['red', 'yellow', 'straight']
+INFO	2022-09-20 13:56:18	[Edit item properties] id: SN000000, orientation : + -> horizontal
+TRACE	2022-09-20 13:56:34	Called: reset_start_point
+TRACE	2022-09-20 13:56:34	Called: reset_end_point
+TRACE	2022-09-20 13:56:34	Called: reset_stop_point
+TRACE	2022-09-20 13:56:34	Called: reset_start_point
+TRACE	2022-09-20 13:56:34	Called: reset_end_point
+TRACE	2022-09-20 13:56:34	Called: reset_stop_point
+INFO	2022-09-20 13:56:34	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, width 
+		: 0.0 → 0.6
+TRACE	2022-09-20 13:56:42	Called: reset_start_point
+TRACE	2022-09-20 13:56:42	Called: reset_end_point
+TRACE	2022-09-20 13:56:42	Called: reset_stop_point
+TRACE	2022-09-20 13:56:42	Called: reset_start_point
+TRACE	2022-09-20 13:56:42	Called: reset_end_point
+TRACE	2022-09-20 13:56:42	Called: reset_stop_point
+INFO	2022-09-20 13:56:42	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, height 
+		: 0.0 → 0.6
+TRACE	2022-09-20 13:56:55	Called: reset_start_point
+TRACE	2022-09-20 13:56:55	Called: reset_end_point
+TRACE	2022-09-20 13:56:55	Called: reset_stop_point
+TRACE	2022-09-20 13:56:55	Called: reset_start_point
+TRACE	2022-09-20 13:56:55	Called: reset_end_point
+TRACE	2022-09-20 13:56:55	Called: reset_stop_point
+INFO	2022-09-20 13:56:55	[Edit item properties] type: TRAFFIC_LIGHT, id: SN000000, heading 
+		: 0.0 → 270.0
+TRACE	2022-09-20 13:57:09	init_save_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load

@@ -1,0 +1,6 @@
+{
+    "vertex_distance" : "1.0",
+    "sidewalk_height" : "0.15",
+    "z_tolerance" : "0.1",
+    "traffic_direction" : "right"
+}

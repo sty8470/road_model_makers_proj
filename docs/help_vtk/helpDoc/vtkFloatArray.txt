@@ -1,0 +1,1476 @@
+help(vtk.vtkFloatArray)
+Help on class vtkFloatArray:
+class vtkFloatArray(vtkDataArray)
+ |  vtkFloatArray - dynamic, self-adjusting array of float
+ |
+ |  Superclass: vtkDataArray
+ |
+ |  vtkFloatArray is an array of values of type float.  It provides
+ |  methods for insertion and retrieval of values and will automatically
+ |  resize itself to hold new data.
+ |
+ |  Method resolution order:
+ |      vtkFloatArray
+ |      vtkDataArray
+ |      vtkAbstractArray
+ |      vtkObject
+ |      vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  FastDownCast(...)
+ |      V.FastDownCast(vtkAbstractArray) -> vtkFloatArray
+ |      C++: static vtkFloatArray *FastDownCast(vtkAbstractArray *source)
+ |
+ |      A faster alternative to SafeDownCast for downcasting
+ |      vtkAbstractArrays.
+ |
+ |  GetDataType(...)
+ |      V.GetDataType() -> int
+ |      C++: int GetDataType()
+ |
+ |      Return the underlying data type. An integer indicating data type
+ |      is returned as specified in vtkType.h.
+ |
+ |  GetDataTypeValueMax(...)
+ |      V.GetDataTypeValueMax() -> float
+ |      C++: static float GetDataTypeValueMax()
+ |
+ |      Get the maximum data value in its native type.
+ |
+ |  GetDataTypeValueMin(...)
+ |      V.GetDataTypeValueMin() -> float
+ |      C++: static float GetDataTypeValueMin()
+ |
+ |      Get the minimum data value in its native type.
+ |
+ |  GetPointer(...)
+ |      V.GetPointer(int) -> (float, ...)
+ |      C++: float *GetPointer(vtkIdType id)
+ |
+ |  GetTypedTuple(...)
+ |      V.GetTypedTuple(int, [float, ...])
+ |      C++: void GetTypedTuple(vtkIdType i, float *tuple)
+ |
+ |  GetValue(...)
+ |      V.GetValue(int) -> float
+ |      C++: float GetValue(vtkIdType id)
+ |
+ |  GetValueRange(...)
+ |      V.GetValueRange(int) -> (float, float)
+ |      C++: float *GetValueRange(int comp)
+ |      V.GetValueRange() -> (float, float)
+ |      C++: float *GetValueRange()
+ |
+ |  InsertNextTypedTuple(...)
+ |      V.InsertNextTypedTuple((float, ...)) -> int
+ |      C++: vtkIdType InsertNextTypedTuple(const float *tuple)
+ |
+ |  InsertNextValue(...)
+ |      V.InsertNextValue(float) -> int
+ |      C++: vtkIdType InsertNextValue(float f)
+ |
+ |  InsertTypedTuple(...)
+ |      V.InsertTypedTuple(int, (float, ...))
+ |      C++: void InsertTypedTuple(vtkIdType i, const float *tuple)
+ |
+ |  InsertValue(...)
+ |      V.InsertValue(int, float)
+ |      C++: void InsertValue(vtkIdType id, float f)
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkFloatArray
+ |      C++: vtkFloatArray *NewInstance()
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkFloatArray
+ |      C++: static vtkFloatArray *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetArray(...)
+ |      V.SetArray(float, int, int)
+ |      C++: void SetArray(float *array, vtkIdType size, int save)
+ |      V.SetArray(float, int, int, int)
+ |      C++: void SetArray(float *array, vtkIdType size, int save,
+ |          int deleteMethod)
+ |
+ |  SetNumberOfValues(...)
+ |      V.SetNumberOfValues(int)
+ |      C++: void SetNumberOfValues(vtkIdType number)
+ |
+ |      Specify the number of values (tuples * components) for this
+ |      object to hold. Does an allocation as well as setting the MaxId
+ |      ivar. Used in conjunction with SetValue() method for fast
+ |      insertion.
+ |
+ |  SetTypedTuple(...)
+ |      V.SetTypedTuple(int, (float, ...))
+ |      C++: void SetTypedTuple(vtkIdType i, const float *tuple)
+ |
+ |  SetValue(...)
+ |      V.SetValue(int, float)
+ |      C++: void SetValue(vtkIdType id, float value)
+ |
+ |  WritePointer(...)
+ |      V.WritePointer(int, int) -> (float, ...)
+ |      C++: float *WritePointer(vtkIdType id, vtkIdType number)
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __vtkname__ = 'vtkFloatArray'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkDataArray:
+ |
+ |  COMPONENT_RANGE(...)
+ |      V.COMPONENT_RANGE() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *COMPONENT_RANGE()
+ |
+ |      This key is used to hold tight bounds on the range of one
+ |      component over all tuples of the array. Two values (a minimum and
+ |      maximum) are stored for each component. When GetRange() is called
+ |      when no tuples are present in the array this value is set to {
+ |      VTK_DOUBLE_MAX, VTK_DOUBLE_MIN }.
+ |
+ |  CopyComponent(...)
+ |      V.CopyComponent(int, vtkDataArray, int)
+ |      C++: virtual void CopyComponent(int dstComponent,
+ |          vtkDataArray *src, int srcComponent)
+ |
+ |      Copy a component from one data array into a component on this
+ |      data array. This method copies the specified component
+ |      ("srcComponent") from the specified data array ("src") to the
+ |      specified component ("dstComponent") over all the tuples in this
+ |      data array.  This method can be used to extract a component
+ |      (column) from one data array and paste that data into a component
+ |      on this data array.
+ |
+ |  CopyInformation(...)
+ |      V.CopyInformation(vtkInformation, int) -> int
+ |      C++: int CopyInformation(vtkInformation *infoFrom, int deep=1)
+ |          override;
+ |
+ |      Copy information instance. Arrays use information objects in a
+ |      variety of ways. It is important to have flexibility in this
+ |      regard because certain keys should not be copied, while others
+ |      must be. NOTE: Up to the implmenter to make sure that keys not
+ |      inteneded to be coppied are excluded here.
+ |
+ |  CreateDataArray(...)
+ |      V.CreateDataArray(int) -> vtkDataArray
+ |      C++: static vtkDataArray *CreateDataArray(int dataType)
+ |
+ |      Creates an array for dataType where dataType is one of VTK_BIT,
+ |      VTK_CHAR, VTK_SIGNED_CHAR, VTK_UNSIGNED_CHAR, VTK_SHORT,
+ |      VTK_UNSIGNED_SHORT, VTK_INT, VTK_UNSIGNED_INT, VTK_LONG,
+ |      VTK_UNSIGNED_LONG, VTK_DOUBLE, VTK_DOUBLE, VTK_ID_TYPE. Note that
+ |      the data array returned has be deleted by the user.
+ |
+ |  CreateDefaultLookupTable(...)
+ |      V.CreateDefaultLookupTable()
+ |      C++: void CreateDefaultLookupTable()
+ |
+ |      Create default lookup table. Generally used to create one when
+ |      none is available.
+ |
+ |  DeepCopy(...)
+ |      V.DeepCopy(vtkAbstractArray)
+ |      C++: void DeepCopy(vtkAbstractArray *aa) override;
+ |      V.DeepCopy(vtkDataArray)
+ |      C++: virtual void DeepCopy(vtkDataArray *da)
+ |
+ |      Deep copy of data. Copies data from different data arrays even if
+ |      they are different types (using doubleing-point exchange).
+ |
+ |  Fill(...)
+ |      V.Fill(float)
+ |      C++: virtual void Fill(double value)
+ |
+ |      Fill all values of a data array with a specified value.
+ |
+ |  FillComponent(...)
+ |      V.FillComponent(int, float)
+ |      C++: virtual void FillComponent(int compIdx, double value)
+ |
+ |      Fill a component of a data array with a specified value. This
+ |      method sets the specified component to specified value for all
+ |      tuples in the data array.  This methods can be used to initialize
+ |      or reinitialize a single component of a multi-component array.
+ |
+ |  GetActualMemorySize(...)
+ |      V.GetActualMemorySize() -> int
+ |      C++: unsigned long GetActualMemorySize() override;
+ |
+ |      Return the memory in kibibytes (1024 bytes) consumed by this data
+ |      array. Used to support streaming and reading/writing data. The
+ |      value returned is guaranteed to be greater than or equal to the
+ |      memory required to actually represent the data represented by
+ |      this object. The information returned is valid only after the
+ |      pipeline has been updated.
+ |
+ |  GetArrayType(...)
+ |      V.GetArrayType() -> int
+ |      C++: int GetArrayType() override;
+ |
+ |      Method for type-checking in FastDownCast implementations.
+ |
+ |  GetComponent(...)
+ |      V.GetComponent(int, int) -> float
+ |      C++: virtual double GetComponent(vtkIdType tupleIdx, int compIdx)
+ |
+ |      Return the data component at the location specified by tupleIdx
+ |      and compIdx.
+ |
+ |  GetData(...)
+ |      V.GetData(int, int, int, int, vtkDoubleArray)
+ |      C++: virtual void GetData(vtkIdType tupleMin, vtkIdType tupleMax,
+ |          int compMin, int compMax, vtkDoubleArray *data)
+ |
+ |      Get the data as a double array in the range (tupleMin,tupleMax)
+ |      and (compMin, compMax). The resulting double array consists of
+ |      all data in the tuple range specified and only the component
+ |      range specified. This process typically requires casting the data
+ |      from native form into doubleing point values. This method is
+ |      provided as a convenience for data exchange, and is not very
+ |      fast.
+ |
+ |  GetDataTypeMax(...)
+ |      V.GetDataTypeMax() -> float
+ |      C++: double GetDataTypeMax()
+ |      V.GetDataTypeMax(int) -> float
+ |      C++: static double GetDataTypeMax(int type)
+ |
+ |      These methods return the Min and Max possible range of the native
+ |      data type. For example if a vtkScalars consists of unsigned char
+ |      data these will return (0,255).
+ |
+ |  GetDataTypeMin(...)
+ |      V.GetDataTypeMin() -> float
+ |      C++: double GetDataTypeMin()
+ |      V.GetDataTypeMin(int) -> float
+ |      C++: static double GetDataTypeMin(int type)
+ |
+ |      These methods return the Min and Max possible range of the native
+ |      data type. For example if a vtkScalars consists of unsigned char
+ |      data these will return (0,255).
+ |
+ |  GetDataTypeRange(...)
+ |      V.GetDataTypeRange([float, float])
+ |      C++: void GetDataTypeRange(double range[2])
+ |      V.GetDataTypeRange(int, [float, float])
+ |      C++: static void GetDataTypeRange(int type, double range[2])
+ |
+ |      These methods return the Min and Max possible range of the native
+ |      data type. For example if a vtkScalars consists of unsigned char
+ |      data these will return (0,255).
+ |
+ |  GetElementComponentSize(...)
+ |      V.GetElementComponentSize() -> int
+ |      C++: int GetElementComponentSize() override;
+ |
+ |      Return the size, in bytes, of the lowest-level element of an
+ |      array.  For vtkDataArray and subclasses this is the size of the
+ |      data type.
+ |
+ |  GetFiniteRange(...)
+ |      V.GetFiniteRange([float, float], int)
+ |      C++: void GetFiniteRange(double range[2], int comp)
+ |      V.GetFiniteRange(int) -> (float, ...)
+ |      C++: double *GetFiniteRange(int comp)
+ |      V.GetFiniteRange() -> (float, ...)
+ |      C++: double *GetFiniteRange()
+ |      V.GetFiniteRange([float, float])
+ |      C++: void GetFiniteRange(double range[2])
+ |
+ |      The range of the data array values for the given component will
+ |      be returned in the provided range array argument. If comp is -1,
+ |      the range of the magnitude (L2 norm) over all components will be
+ |      provided. The range is computed and then cached, and will not be
+ |      re-computed on subsequent calls to GetRange() unless the array is
+ |      modified or the requested component changes. THIS METHOD IS NOT
+ |      THREAD SAFE.
+ |
+ |  GetLookupTable(...)
+ |      V.GetLookupTable() -> vtkLookupTable
+ |      C++: virtual vtkLookupTable *GetLookupTable()
+ |
+ |      Set/get the lookup table associated with this scalar data, if
+ |      any.
+ |
+ |  GetMaxNorm(...)
+ |      V.GetMaxNorm() -> float
+ |      C++: virtual double GetMaxNorm()
+ |
+ |      Return the maximum norm for the tuples. Note that the max. is
+ |      computed every time GetMaxNorm is called.
+ |
+ |  GetRange(...)
+ |      V.GetRange([float, float], int)
+ |      C++: void GetRange(double range[2], int comp)
+ |      V.GetRange(int) -> (float, float)
+ |      C++: double *GetRange(int comp)
+ |      V.GetRange() -> (float, float)
+ |      C++: double *GetRange()
+ |      V.GetRange([float, float])
+ |      C++: void GetRange(double range[2])
+ |
+ |      The range of the data array values for the given component will
+ |      be returned in the provided range array argument. If comp is -1,
+ |      the range of the magnitude (L2 norm) over all components will be
+ |      provided. The range is computed and then cached, and will not be
+ |      re-computed on subsequent calls to GetRange() unless the array is
+ |      modified or the requested component changes. THIS METHOD IS NOT
+ |      THREAD SAFE.
+ |
+ |  GetTuple(...)
+ |      V.GetTuple(int) -> (float, ...)
+ |      C++: virtual double *GetTuple(vtkIdType tupleIdx)
+ |      V.GetTuple(int, [float, ...])
+ |      C++: virtual void GetTuple(vtkIdType tupleIdx, double *tuple)
+ |
+ |      Get the data tuple at tupleIdx. Return it as a pointer to an
+ |      array. Note: this method is not thread-safe, and the pointer is
+ |      only valid as long as another method invocation to a vtk object
+ |      is not performed.
+ |
+ |  GetTuple1(...)
+ |      V.GetTuple1(int) -> float
+ |      C++: double GetTuple1(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuple2(...)
+ |      V.GetTuple2(int) -> (float, float)
+ |      C++: double *GetTuple2(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuple3(...)
+ |      V.GetTuple3(int) -> (float, float, float)
+ |      C++: double *GetTuple3(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuple4(...)
+ |      V.GetTuple4(int) -> (float, float, float, float)
+ |      C++: double *GetTuple4(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuple6(...)
+ |      V.GetTuple6(int) -> (float, float, float, float, float, float)
+ |      C++: double *GetTuple6(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuple9(...)
+ |      V.GetTuple9(int) -> (float, float, float, float, float, float,
+ |          float, float, float)
+ |      C++: double *GetTuple9(vtkIdType tupleIdx)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  GetTuples(...)
+ |      V.GetTuples(vtkIdList, vtkAbstractArray)
+ |      C++: void GetTuples(vtkIdList *tupleIds, vtkAbstractArray *output)
+ |           override;
+ |      V.GetTuples(int, int, vtkAbstractArray)
+ |      C++: void GetTuples(vtkIdType p1, vtkIdType p2,
+ |          vtkAbstractArray *output) override;
+ |
+ |      Given a list of tuple ids, return an array of tuples. You must
+ |      insure that the output array has been previously allocated with
+ |      enough space to hold the data.
+ |
+ |  InsertComponent(...)
+ |      V.InsertComponent(int, int, float)
+ |      C++: virtual void InsertComponent(vtkIdType tupleIdx, int compIdx,
+ |           double value)
+ |
+ |      Insert value at the location specified by tupleIdx and compIdx.
+ |      Note that memory allocation is performed as necessary to hold the
+ |      data.
+ |
+ |  InsertNextTuple(...)
+ |      V.InsertNextTuple(int, vtkAbstractArray) -> int
+ |      C++: vtkIdType InsertNextTuple(vtkIdType srcTupleIdx,
+ |          vtkAbstractArray *source) override;
+ |      V.InsertNextTuple((float, ...)) -> int
+ |      C++: virtual vtkIdType InsertNextTuple(const double *tuple)
+ |
+ |      Insert the tuple from srcTupleIdx in the source array at the end
+ |      of this array. Note that memory allocation is performed as
+ |      necessary to hold the data. Returns the tuple index at which the
+ |      data was inserted.
+ |
+ |  InsertNextTuple1(...)
+ |      V.InsertNextTuple1(float)
+ |      C++: void InsertNextTuple1(double value)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertNextTuple2(...)
+ |      V.InsertNextTuple2(float, float)
+ |      C++: void InsertNextTuple2(double val0, double val1)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertNextTuple3(...)
+ |      V.InsertNextTuple3(float, float, float)
+ |      C++: void InsertNextTuple3(double val0, double val1, double val2)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertNextTuple4(...)
+ |      V.InsertNextTuple4(float, float, float, float)
+ |      C++: void InsertNextTuple4(double val0, double val1, double val2,
+ |          double val3)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertNextTuple6(...)
+ |      V.InsertNextTuple6(float, float, float, float, float, float)
+ |      C++: void InsertNextTuple6(double val0, double val1, double val2,
+ |          double val3, double val4, double val5)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertNextTuple9(...)
+ |      V.InsertNextTuple9(float, float, float, float, float, float,
+ |          float, float, float)
+ |      C++: void InsertNextTuple9(double val0, double val1, double val2,
+ |          double val3, double val4, double val5, double val6,
+ |          double val7, double val8)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple(...)
+ |      V.InsertTuple(int, int, vtkAbstractArray)
+ |      C++: void InsertTuple(vtkIdType dstTupleIdx,
+ |          vtkIdType srcTupleIdx, vtkAbstractArray *source) override;
+ |      V.InsertTuple(int, (float, ...))
+ |      C++: virtual void InsertTuple(vtkIdType tupleIdx,
+ |          const double *tuple)
+ |
+ |      Insert the tuple at srcTupleIdx in the source array into this
+ |      array at dstTupleIdx. Note that memory allocation is performed as
+ |      necessary to hold the data.
+ |
+ |  InsertTuple1(...)
+ |      V.InsertTuple1(int, float)
+ |      C++: void InsertTuple1(vtkIdType tupleIdx, double value)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple2(...)
+ |      V.InsertTuple2(int, float, float)
+ |      C++: void InsertTuple2(vtkIdType tupleIdx, double val0,
+ |          double val1)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple3(...)
+ |      V.InsertTuple3(int, float, float, float)
+ |      C++: void InsertTuple3(vtkIdType tupleIdx, double val0,
+ |          double val1, double val2)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple4(...)
+ |      V.InsertTuple4(int, float, float, float, float)
+ |      C++: void InsertTuple4(vtkIdType tupleIdx, double val0,
+ |          double val1, double val2, double val3)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple6(...)
+ |      V.InsertTuple6(int, float, float, float, float, float, float)
+ |      C++: void InsertTuple6(vtkIdType tupleIdx, double val0,
+ |          double val1, double val2, double val3, double val4,
+ |          double val5)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuple9(...)
+ |      V.InsertTuple9(int, float, float, float, float, float, float,
+ |          float, float, float)
+ |      C++: void InsertTuple9(vtkIdType tupleIdx, double val0,
+ |          double val1, double val2, double val3, double val4,
+ |          double val5, double val6, double val7, double val8)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      InsertTuple() which takes arrays can not be used from wrapped
+ |      languages. These methods can be used instead.
+ |
+ |  InsertTuples(...)
+ |      V.InsertTuples(vtkIdList, vtkIdList, vtkAbstractArray)
+ |      C++: void InsertTuples(vtkIdList *dstIds, vtkIdList *srcIds,
+ |          vtkAbstractArray *source) override;
+ |      V.InsertTuples(int, int, int, vtkAbstractArray)
+ |      C++: void InsertTuples(vtkIdType dstStart, vtkIdType n,
+ |          vtkIdType srcStart, vtkAbstractArray *source) override;
+ |
+ |      Copy the tuples indexed in srcIds from the source array to the
+ |      tuple locations indexed by dstIds in this array. Note that memory
+ |      allocation is performed as necessary to hold the data.
+ |
+ |  InterpolateTuple(...)
+ |      V.InterpolateTuple(int, vtkIdList, vtkAbstractArray, [float, ...])
+ |      C++: void InterpolateTuple(vtkIdType dstTupleIdx,
+ |          vtkIdList *ptIndices, vtkAbstractArray *source,
+ |          double *weights) override;
+ |      V.InterpolateTuple(int, int, vtkAbstractArray, int,
+ |          vtkAbstractArray, float)
+ |      C++: void InterpolateTuple(vtkIdType dstTupleIdx,
+ |          vtkIdType srcTupleIdx1, vtkAbstractArray *source1,
+ |          vtkIdType srcTupleIdx2, vtkAbstractArray *source2, double t)
+ |          override;
+ |
+ |      Set the tuple at dstTupleIdx in this array to the interpolated
+ |      tuple value, given the ptIndices in the source array and
+ |      associated interpolation weights. This method assumes that the
+ |      two arrays are of the same type and strcuture.
+ |
+ |  IsNumeric(...)
+ |      V.IsNumeric() -> int
+ |      C++: int IsNumeric() override;
+ |
+ |      This method is here to make backward compatibility easier.  It
+ |      must return true if and only if an array contains numeric data.
+ |      All vtkDataArray subclasses contain numeric data, hence this
+ |      method always returns 1(true).
+ |
+ |  L2_NORM_FINITE_RANGE(...)
+ |      V.L2_NORM_FINITE_RANGE() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *L2_NORM_FINITE_RANGE()
+ |
+ |      This key is used to hold tight bounds on the $L_2$ norm of tuples
+ |      in the array. Two values (a minimum and maximum) are stored for
+ |      each component. When GetFiniteRange() is called when no tuples
+ |      are present in the array this value is set to { VTK_DOUBLE_MAX,
+ |      VTK_DOUBLE_MIN }.
+ |
+ |  L2_NORM_RANGE(...)
+ |      V.L2_NORM_RANGE() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *L2_NORM_RANGE()
+ |
+ |      This key is used to hold tight bounds on the $L_2$ norm of tuples
+ |      in the array. Two values (a minimum and maximum) are stored for
+ |      each component. When GetRange() is called when no tuples are
+ |      present in the array this value is set to { VTK_DOUBLE_MAX,
+ |      VTK_DOUBLE_MIN }.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: void Modified() override;
+ |
+ |      Removes out-of-date L2_NORM_RANGE() and L2_NORM_FINITE_RANGE()
+ |      values.
+ |
+ |  RemoveFirstTuple(...)
+ |      V.RemoveFirstTuple()
+ |      C++: virtual void RemoveFirstTuple()
+ |
+ |      These methods remove tuples from the data array. They shift data
+ |      and resize array, so the data array is still valid after this
+ |      operation. Note, this operation is fairly slow.
+ |
+ |  RemoveLastTuple(...)
+ |      V.RemoveLastTuple()
+ |      C++: virtual void RemoveLastTuple()
+ |
+ |      These methods remove tuples from the data array. They shift data
+ |      and resize array, so the data array is still valid after this
+ |      operation. Note, this operation is fairly slow.
+ |
+ |  RemoveTuple(...)
+ |      V.RemoveTuple(int)
+ |      C++: virtual void RemoveTuple(vtkIdType tupleIdx)
+ |
+ |      These methods remove tuples from the data array. They shift data
+ |      and resize array, so the data array is still valid after this
+ |      operation. Note, this operation is fairly slow.
+ |
+ |  SetComponent(...)
+ |      V.SetComponent(int, int, float)
+ |      C++: virtual void SetComponent(vtkIdType tupleIdx, int compIdx,
+ |          double value)
+ |
+ |      Set the data component at the location specified by tupleIdx and
+ |      compIdx to value. Note that i is less than NumberOfTuples and j
+ |      is less than NumberOfComponents. Make sure enough memory has been
+ |      allocated (use SetNumberOfTuples() and SetNumberOfComponents()).
+ |
+ |  SetLookupTable(...)
+ |      V.SetLookupTable(vtkLookupTable)
+ |      C++: void SetLookupTable(vtkLookupTable *lut)
+ |
+ |      Set/get the lookup table associated with this scalar data, if
+ |      any.
+ |
+ |  SetTuple(...)
+ |      V.SetTuple(int, int, vtkAbstractArray)
+ |      C++: void SetTuple(vtkIdType dstTupleIdx, vtkIdType srcTupleIdx,
+ |          vtkAbstractArray *source) override;
+ |      V.SetTuple(int, (float, ...))
+ |      C++: virtual void SetTuple(vtkIdType tupleIdx,
+ |          const double *tuple)
+ |
+ |      Set the tuple at dstTupleIdx in this array to the tuple at
+ |      srcTupleIdx in the source array. This method assumes that the two
+ |      arrays have the same type and structure. Note that range checking
+ |      and memory allocation is not performed; use in conjunction with
+ |      SetNumberOfTuples() to allocate space.
+ |
+ |  SetTuple1(...)
+ |      V.SetTuple1(int, float)
+ |      C++: void SetTuple1(vtkIdType tupleIdx, double value)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  SetTuple2(...)
+ |      V.SetTuple2(int, float, float)
+ |      C++: void SetTuple2(vtkIdType tupleIdx, double val0, double val1)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  SetTuple3(...)
+ |      V.SetTuple3(int, float, float, float)
+ |      C++: void SetTuple3(vtkIdType tupleIdx, double val0, double val1,
+ |          double val2)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  SetTuple4(...)
+ |      V.SetTuple4(int, float, float, float, float)
+ |      C++: void SetTuple4(vtkIdType tupleIdx, double val0, double val1,
+ |          double val2, double val3)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  SetTuple6(...)
+ |      V.SetTuple6(int, float, float, float, float, float, float)
+ |      C++: void SetTuple6(vtkIdType tupleIdx, double val0, double val1,
+ |          double val2, double val3, double val4, double val5)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  SetTuple9(...)
+ |      V.SetTuple9(int, float, float, float, float, float, float, float,
+ |          float, float)
+ |      C++: void SetTuple9(vtkIdType tupleIdx, double val0, double val1,
+ |          double val2, double val3, double val4, double val5,
+ |          double val6, double val7, double val8)
+ |
+ |      These methods are included as convenience for the wrappers.
+ |      GetTuple() and SetTuple() which return/take arrays can not be
+ |      used from wrapped languages. These methods can be used instead.
+ |
+ |  ShallowCopy(...)
+ |      V.ShallowCopy(vtkDataArray)
+ |      C++: virtual void ShallowCopy(vtkDataArray *other)
+ |
+ |      Create a shallow copy of other into this, if possible. Shallow
+ |      copies are only possible: (a) if both arrays are the same data
+ |      type (b) if both arrays are the same array type (e.g. AOS vs.
+ |      SOA) (c) if both arrays support shallow copies (e.g. vtkBitArray
+ |      currently does not.) If a shallow copy is not possible, a deep
+ |      copy will be performed instead.
+ |
+ |  UNITS_LABEL(...)
+ |      V.UNITS_LABEL() -> vtkInformationStringKey
+ |      C++: static vtkInformationStringKey *UNITS_LABEL()
+ |
+ |      A human-readable string indicating the units for the array data.
+ |
+ |  WriteVoidPointer(...)
+ |      V.WriteVoidPointer(int, int) -> void
+ |      C++: virtual void *WriteVoidPointer(vtkIdType valueIdx,
+ |          vtkIdType numValues)
+ |
+ |      Get the address of a particular data index. Make sure data is
+ |      allocated for the number of items requested. If needed, increase
+ |      MaxId to mark any new value ranges as in-use.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkAbstractArray:
+ |
+ |  Allocate(...)
+ |      V.Allocate(int, int) -> int
+ |      C++: virtual int Allocate(vtkIdType numValues, vtkIdType ext=1000)
+ |
+ |      Allocate memory for this array. Delete old storage only if
+ |      necessary. Note that ext is no longer used. This method will
+ |      reset MaxId to -1 and resize the array capacity such that
+ |      this->Size >= numValues. If numValues is 0, all memory will be
+ |      freed. Return 1 on success, 0 on failure.
+ |
+ |  ClearLookup(...)
+ |      V.ClearLookup()
+ |      C++: virtual void ClearLookup()
+ |
+ |      Delete the associated fast lookup data structure on this array,
+ |      if it exists.  The lookup will be rebuilt on the next call to a
+ |      lookup function.
+ |
+ |  CopyComponentNames(...)
+ |      V.CopyComponentNames(vtkAbstractArray) -> int
+ |      C++: int CopyComponentNames(vtkAbstractArray *da)
+ |
+ |      Copies the component names from the inputed array to the current
+ |      array make sure that the current array has the same number of
+ |      components as the input array
+ |
+ |  CreateArray(...)
+ |      V.CreateArray(int) -> vtkAbstractArray
+ |      C++: static vtkAbstractArray *CreateArray(int dataType)
+ |
+ |      Creates an array for dataType where dataType is one of VTK_BIT,
+ |      VTK_CHAR, VTK_UNSIGNED_CHAR, VTK_SHORT, VTK_UNSIGNED_SHORT,
+ |      VTK_INT, VTK_UNSIGNED_INT, VTK_LONG, VTK_UNSIGNED_LONG,
+ |      VTK_DOUBLE, VTK_DOUBLE, VTK_ID_TYPE, VTK_STRING. Note that the
+ |      data array returned has to be deleted by the user.
+ |
+ |  DISCRETE_VALUES(...)
+ |      V.DISCRETE_VALUES() -> vtkInformationVariantVectorKey
+ |      C++: static vtkInformationVariantVectorKey *DISCRETE_VALUES()
+ |
+ |      A key used to hold discrete values taken on either by the tuples
+ |      of the array (when present in this->GetInformation()) or
+ |      individual components (when present in one entry of the
+ |      PER_COMPONENT() information vector).
+ |
+ |  DISCRETE_VALUE_SAMPLE_PARAMETERS(...)
+ |      V.DISCRETE_VALUE_SAMPLE_PARAMETERS()
+ |          -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *DISCRETE_VALUE_SAMPLE_PARAMETERS(
+ |          )
+ |
+ |      A key used to hold conditions under which cached discrete values
+ |      were generated; the value is a 2-vector of doubles. The first
+ |      entry corresponds to the maximum uncertainty that prominent
+ |      values exist but have not been detected. The second entry
+ |      corresponds to the smallest relative frequency a value is allowed
+ |      to have and still appear on the list.
+ |
+ |  DataChanged(...)
+ |      V.DataChanged()
+ |      C++: virtual void DataChanged()
+ |
+ |      Tell the array explicitly that the data has changed. This is only
+ |      necessary to call when you modify the array contents without
+ |      using the array's API (i.e. you retrieve a pointer to the data
+ |      and modify the array contents).  You need to call this so that
+ |      the fast lookup will know to rebuild itself.  Otherwise, the
+ |      lookup functions will give incorrect results.
+ |
+ |  ExportToVoidPointer(...)
+ |      V.ExportToVoidPointer(void)
+ |      C++: virtual void ExportToVoidPointer(void *out_ptr)
+ |
+ |      This method copies the array data to the void pointer specified
+ |      by the user.  It is up to the user to allocate enough memory for
+ |      the void pointer.
+ |
+ |  GUI_HIDE(...)
+ |      V.GUI_HIDE() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *GUI_HIDE()
+ |
+ |      This key is a hint to end user interface that this array is
+ |      internal and should not be shown to the end user.
+ |
+ |  GetComponentName(...)
+ |      V.GetComponentName(int) -> string
+ |      C++: const char *GetComponentName(vtkIdType component)
+ |
+ |      Get the component name for a given component. Note: will return
+ |      the actual string that is stored
+ |
+ |  GetDataSize(...)
+ |      V.GetDataSize() -> int
+ |      C++: virtual vtkIdType GetDataSize()
+ |
+ |      Returns the size of the data in DataTypeSize units. Thus, the
+ |      number of bytes for the data can be computed by GetDataSize() *
+ |      GetDataTypeSize(). Non-contiguous or variable- size arrays need
+ |      to override this method.
+ |
+ |  GetDataTypeAsString(...)
+ |      V.GetDataTypeAsString() -> string
+ |      C++: virtual const char *GetDataTypeAsString(void)
+ |
+ |      Get the name of a data type as a string.
+ |
+ |  GetDataTypeSize(...)
+ |      V.GetDataTypeSize() -> int
+ |      C++: virtual int GetDataTypeSize()
+ |      V.GetDataTypeSize(int) -> int
+ |      C++: static int GetDataTypeSize(int type)
+ |
+ |      Return the size of the underlying data type.  For a bit, 0 is
+ |      returned.  For string 0 is returned. Arrays with variable length
+ |      components return 0.
+ |
+ |  GetInformation(...)
+ |      V.GetInformation() -> vtkInformation
+ |      C++: vtkInformation *GetInformation()
+ |
+ |      Get an information object that can be used to annotate the array.
+ |      This will always return an instance of vtkInformation, if one is
+ |      not currently associated with the array it will be created.
+ |
+ |  GetMaxDiscreteValues(...)
+ |      V.GetMaxDiscreteValues() -> int
+ |      C++: virtual unsigned int GetMaxDiscreteValues()
+ |
+ |      Get/Set the maximum number of prominent values this array may
+ |      contain before it is considered continuous.  Default value is 32.
+ |
+ |  GetMaxId(...)
+ |      V.GetMaxId() -> int
+ |      C++: vtkIdType GetMaxId()
+ |
+ |      What is the maximum id currently in the array.
+ |
+ |  GetName(...)
+ |      V.GetName() -> string
+ |      C++: virtual char *GetName()
+ |
+ |      Set/get array's name
+ |
+ |  GetNumberOfComponents(...)
+ |      V.GetNumberOfComponents() -> int
+ |      C++: int GetNumberOfComponents()
+ |
+ |      Set/Get the dimension (n) of the components. Must be >= 1. Make
+ |      sure that this is set before allocation.
+ |
+ |  GetNumberOfComponentsMaxValue(...)
+ |      V.GetNumberOfComponentsMaxValue() -> int
+ |      C++: virtual int GetNumberOfComponentsMaxValue()
+ |
+ |      Set/Get the dimension (n) of the components. Must be >= 1. Make
+ |      sure that this is set before allocation.
+ |
+ |  GetNumberOfComponentsMinValue(...)
+ |      V.GetNumberOfComponentsMinValue() -> int
+ |      C++: virtual int GetNumberOfComponentsMinValue()
+ |
+ |      Set/Get the dimension (n) of the components. Must be >= 1. Make
+ |      sure that this is set before allocation.
+ |
+ |  GetNumberOfTuples(...)
+ |      V.GetNumberOfTuples() -> int
+ |      C++: vtkIdType GetNumberOfTuples()
+ |
+ |      Get the number of complete tuples (a component group) in the
+ |      array.
+ |
+ |  GetNumberOfValues(...)
+ |      V.GetNumberOfValues() -> int
+ |      C++: vtkIdType GetNumberOfValues()
+ |
+ |      Get the total number of values in the array. This is typically
+ |      equivalent to (numTuples * numComponents). The exception is
+ |      during incremental array construction for subclasses that support
+ |      component insertion, which may result in an incomplete trailing
+ |      tuple.
+ |
+ |  GetProminentComponentValues(...)
+ |      V.GetProminentComponentValues(int, vtkVariantArray, float, float)
+ |      C++: virtual void GetProminentComponentValues(int comp,
+ |          vtkVariantArray *values, double uncertainty=1.e-6,
+ |          double minimumProminence=1.e-3)
+ |
+ |      Populate the given vtkVariantArray with a set of distinct values
+ |      taken on by the requested component (or, when passed -1, by the
+ |      tuples as a whole). If the set of prominent values has more than
+ |      32 entries, then the array is assumed to be continuous in nature
+ |      and no values are returned.
+ |
+ |      * This method takes 2 parameters: uncertainty and
+ |        minimumProminence.
+ |      * Note that this set of returned values may not be complete if
+ |      * uncertainty and minimumProminence are both larger than 0.0;
+ |      * in order to perform interactively, a subsample of the array is
+ |      * used to determine the set of values.
+ |
+ |      * The first parameter ( uncertainty, U) is the maximum acceptable
+ |      * probability that a prominent value will not be detected.
+ |      * Setting this to 0 will cause every value in the array to be
+ |        examined.
+ |
+ |      * The second parameter ( minimumProminence, P) specifies the
+ |        smallest
+ |      * relative frequency (in [0,1]) with which a value in the array
+ |        may
+ |      * occur and still be considered prominent. Setting this to 0
+ |      * will force every value in the array to be traversed.
+ |      * Using numbers close to 0 for this parameter quickly causes
+ |      * the number of samples required to obtain the given uncertainty
+ |        to
+ |      * subsume the entire array, as rare occurrences require frequent
+ |      * sampling to detect.
+ |
+ |      * For an array with T tuples and given uncertainty U and
+ |        mininumum
+ |      * prominence P, we sample N values, with N = f(T; P, U).
+ |      * We want f to be sublinear in T in order to interactively handle
+ |      large
+ |      * arrays; in practice, we can make f independent of T:
+ |      * $ N >= \frac{5}{P}\mathrm{ln}\left(\frac{1}{PU}\right) $,
+ |      * but note that small values of P are costly to achieve.
+ |      * The default parameters will locate prominent values that occur
+ |        at least
+ |      * 1 out of every 1000 samples with a confidence ...
+ |       [Truncated]
+ |
+ |  GetSize(...)
+ |      V.GetSize() -> int
+ |      C++: vtkIdType GetSize()
+ |
+ |      Return the size of the data.
+ |
+ |  GetVariantValue(...)
+ |      V.GetVariantValue(int) -> vtkVariant
+ |      C++: virtual vtkVariant GetVariantValue(vtkIdType valueIdx)
+ |
+ |      Retrieve value from the array as a variant.
+ |
+ |  GetVoidPointer(...)
+ |      V.GetVoidPointer(int) -> void
+ |      C++: virtual void *GetVoidPointer(vtkIdType valueIdx)
+ |
+ |      Return a void pointer. For image pipeline interface and other
+ |      special pointer manipulation. Use of this method is discouraged,
+ |      as newer arrays require a deep-copy of the array data in order to
+ |      return a suitable pointer. See vtkArrayDispatch for a safer
+ |      alternative for fast data access.
+ |
+ |  HasAComponentName(...)
+ |      V.HasAComponentName() -> bool
+ |      C++: bool HasAComponentName()
+ |
+ |      Returns if any component has had a name assigned
+ |
+ |  HasInformation(...)
+ |      V.HasInformation() -> bool
+ |      C++: bool HasInformation()
+ |
+ |      Inquire if this array has an instance of vtkInformation already
+ |      associated with it.
+ |
+ |  HasStandardMemoryLayout(...)
+ |      V.HasStandardMemoryLayout() -> bool
+ |      C++: virtual bool HasStandardMemoryLayout()
+ |
+ |      Returns true if this array uses the standard memory layout
+ |      defined in the VTK user guide, e.g. a contiguous array: {t1c1,
+ |      t1c2, t1c3, ... t1cM, t2c1, ... tNcM} where t1c2 is the second
+ |      component of the first tuple.
+ |
+ |  Initialize(...)
+ |      V.Initialize()
+ |      C++: virtual void Initialize()
+ |
+ |      Release storage and reset array to initial state.
+ |
+ |  InsertVariantValue(...)
+ |      V.InsertVariantValue(int, vtkVariant)
+ |      C++: virtual void InsertVariantValue(vtkIdType valueIdx,
+ |          vtkVariant value)
+ |
+ |      Insert a value into the array from a variant.  This method does
+ |      bounds checking.
+ |
+ |  LookupValue(...)
+ |      V.LookupValue(vtkVariant) -> int
+ |      C++: virtual vtkIdType LookupValue(vtkVariant value)
+ |      V.LookupValue(vtkVariant, vtkIdList)
+ |      C++: virtual void LookupValue(vtkVariant value,
+ |          vtkIdList *valueIds)
+ |
+ |      Return the value indices where a specific value appears.
+ |
+ |  NewIterator(...)
+ |      V.NewIterator() -> vtkArrayIterator
+ |      C++: virtual vtkArrayIterator *NewIterator()
+ |
+ |      Subclasses must override this method and provide the right kind
+ |      of templated vtkArrayIteratorTemplate.
+ |
+ |  PER_COMPONENT(...)
+ |      V.PER_COMPONENT() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *PER_COMPONENT()
+ |
+ |      This key is used to hold a vector of COMPONENT_VALUES (and, for
+ |      vtkDataArray subclasses, COMPONENT_RANGE) keys -- one for each
+ |      component of the array.  You may add additional per-component
+ |      key-value pairs to information objects in this vector. However if
+ |      you do so, you must be sure to either (1) set COMPONENT_VALUES to
+ |      an invalid variant and set COMPONENT_RANGE to {VTK_DOUBLE_MAX,
+ |      VTK_DOUBLE_MIN} or (2) call ComputeUniqueValues(component) and
+ |      ComputeRange(component) beforemodifying the information object.
+ |      Otherwise it is possible for modifications to the array to take
+ |      place without the bounds on the component being updated.
+ |
+ |  PER_FINITE_COMPONENT(...)
+ |      V.PER_FINITE_COMPONENT() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *PER_FINITE_COMPONENT(
+ |          )
+ |
+ |      This key is used to hold a vector of COMPONENT_VALUES (and, for
+ |      vtkDataArray subclasses, COMPONENT_RANGE) keys -- one for each
+ |      component of the array.  You may add additional per-component
+ |      key-value pairs to information objects in this vector. However if
+ |      you do so, you must be sure to either (1) set COMPONENT_VALUES to
+ |      an invalid variant and set COMPONENT_RANGE to {VTK_DOUBLE_MAX,
+ |      VTK_DOUBLE_MIN} or (2) call ComputeUniqueValues(component) and
+ |      ComputeFiniteRange(component) beforemodifying the information
+ |      object. Otherwise it is possible for modifications to the array
+ |      to take place without the bounds on the component being updated.
+ |
+ |  Reset(...)
+ |      V.Reset()
+ |      C++: void Reset()
+ |
+ |      Reset to an empty state, without freeing any memory.
+ |
+ |  Resize(...)
+ |      V.Resize(int) -> int
+ |      C++: virtual int Resize(vtkIdType numTuples)
+ |
+ |      Resize the array to the requested number of tuples and preserve
+ |      data. Increasing the array size may allocate extra memory beyond
+ |      what was requested. MaxId will not be modified when increasing
+ |      array size. Decreasing the array size will trim memory to the
+ |      requested size and may update MaxId if the valid id range is
+ |      truncated. Requesting an array size of 0 will free all memory.
+ |      Returns 1 if resizing succeeded and 0 otherwise.
+ |
+ |  SetComponentName(...)
+ |      V.SetComponentName(int, string)
+ |      C++: void SetComponentName(vtkIdType component, const char *name)
+ |
+ |      Set the name for a component. Must be >= 1.
+ |
+ |  SetMaxDiscreteValues(...)
+ |      V.SetMaxDiscreteValues(int)
+ |      C++: virtual void SetMaxDiscreteValues(unsigned int _arg)
+ |
+ |      Get/Set the maximum number of prominent values this array may
+ |      contain before it is considered continuous.  Default value is 32.
+ |
+ |  SetName(...)
+ |      V.SetName(string)
+ |      C++: virtual void SetName(const char *_arg)
+ |
+ |      Set/get array's name
+ |
+ |  SetNumberOfComponents(...)
+ |      V.SetNumberOfComponents(int)
+ |      C++: virtual void SetNumberOfComponents(int _arg)
+ |
+ |      Set/Get the dimension (n) of the components. Must be >= 1. Make
+ |      sure that this is set before allocation.
+ |
+ |  SetNumberOfTuples(...)
+ |      V.SetNumberOfTuples(int)
+ |      C++: virtual void SetNumberOfTuples(vtkIdType numTuples)
+ |
+ |      Set the number of tuples (a component group) in the array. Note
+ |      that this may allocate space depending on the number of
+ |      components. Also note that if allocation is performed no copy is
+ |      performed so existing data will be lost (if data conservation is
+ |      sought, one may use the Resize method instead).
+ |
+ |  SetVariantValue(...)
+ |      V.SetVariantValue(int, vtkVariant)
+ |      C++: virtual void SetVariantValue(vtkIdType valueIdx,
+ |          vtkVariant value)
+ |
+ |      Set a value in the array from a variant.  This method does NOT do
+ |      bounds checking.
+ |
+ |  SetVoidArray(...)
+ |      V.SetVoidArray(void, int, int)
+ |      C++: virtual void SetVoidArray(void *array, vtkIdType size,
+ |          int save)
+ |      V.SetVoidArray(void, int, int, int)
+ |      C++: virtual void SetVoidArray(void *array, vtkIdType size,
+ |          int save, int deleteMethod)
+ |
+ |      This method lets the user specify data to be held by the array.
+ |      The array argument is a pointer to the data.  size is the size of
+ |      the array supplied by the user.  Set save to 1 to keep the class
+ |      from deleting the array when it cleans up or reallocates memory.
+ |      The class uses the actual array provided; it does not copy the
+ |      data from the supplied array. If specified, the delete method
+ |      determines how the data array will be deallocated. If the delete
+ |      method is VTK_DATA_ARRAY_FREE, free() will be used. If the delete
+ |      method is VTK_DATA_ARRAY_DELETE, delete[] will be used. If the
+ |      delete method is VTK_DATA_ARRAY_ALIGNED_FREE _aligned_free() will
+ |      be used on windows, while free() will be used everywhere else.The
+ |      default is FREE. (Note not all subclasses can support
+ |      deleteMethod.)
+ |
+ |  Squeeze(...)
+ |      V.Squeeze()
+ |      C++: virtual void Squeeze()
+ |
+ |      Free any unnecessary memory. Description: Resize object to just
+ |      fit data requirement. Reclaims extra memory.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from vtkAbstractArray:
+ |
+ |  AbstractArray = 0
+ |
+ |  AoSDataArrayTemplate = 2
+ |
+ |  DataArray = 1
+ |
+ |  DataArrayTemplate = 2
+ |
+ |  DeleteMethod = <class 'vtkCommonCorePython.vtkAbstractArray.DeleteMeth...
+ |      int(x=0) -> integer
+ |      int(x, base=10) -> integer
+ |
+ |      Convert a number or string to an integer, or return 0 if no arguments
+ |      are given.  If x is a number, return x.__int__().  For floating point
+ |      numbers, this truncates towards zero.
+ |
+ |      If x is not a number or if base is given, then x must be a string,
+ |      bytes, or bytearray instance representing an integer literal in the
+ |      given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |      by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |      Base 0 means to interpret the base from the string as an integer literal.
+ |      >>> int('0b100', base=0)
+ |      4
+ |
+ |  MAX_DISCRETE_VALUES = 32
+ |
+ |  MappedDataArray = 5
+ |
+ |  SoADataArrayTemplate = 3
+ |
+ |  TypedDataArray = 4
+ |
+ |  VTK_DATA_ARRAY_ALIGNED_FREE = 2
+ |
+ |  VTK_DATA_ARRAY_DELETE = 1
+ |
+ |  VTK_DATA_ARRAY_FREE = 0
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: virtual vtkMTimeType GetMTime()
+ |
+ |      Return this object's modified time.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).

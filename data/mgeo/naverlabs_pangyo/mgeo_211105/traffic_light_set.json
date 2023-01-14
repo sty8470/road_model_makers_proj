@@ -1,0 +1,6960 @@
+[
+  {
+    "idx": "C119AS305031",
+    "link_id_list": [
+      "4007",
+      "4010",
+      "4009",
+      "4008"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -117.3472256846726,
+      264.21508822822943,
+      7.4090241151875205
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305032",
+    "link_id_list": [
+      "4007",
+      "4010",
+      "4009",
+      "4008"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -113.41753790935036,
+      266.1896840846166,
+      7.482887193357243
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305033",
+    "link_id_list": [
+      "4015",
+      "4016",
+      "4017",
+      "4018"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -122.83728612260893,
+      261.8260233979672,
+      4.678048471795719
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305034",
+    "link_id_list": [
+      "4007",
+      "4010",
+      "4009",
+      "4008"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -123.25967061857227,
+      261.0034266607836,
+      4.7189034345934715
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305035",
+    "link_id_list": [
+      "4015",
+      "4016",
+      "4017",
+      "4018"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -122.94799379492179,
+      254.88497959356755,
+      7.693337271422706
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305036",
+    "link_id_list": [
+      "4068",
+      "4067",
+      "4065",
+      "4066"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -108.9999173534452,
+      239.0766876959242,
+      7.480876490627651
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305037",
+    "link_id_list": [
+      "4068",
+      "4067",
+      "4065",
+      "4066"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -108.93630734225735,
+      243.51389473117888,
+      7.508240553163986
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305038",
+    "link_id_list": [
+      "4007",
+      "4010",
+      "4009",
+      "4008"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -109.35590551199857,
+      232.98823111178353,
+      4.720922371680203
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305039",
+    "link_id_list": [
+      "4068",
+      "4067",
+      "4065",
+      "4066"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -108.65143043466378,
+      232.34575565857813,
+      4.662097147947932
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305040",
+    "link_id_list": [
+      "4007",
+      "4010",
+      "4009",
+      "4008"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -101.06662067666184,
+      236.24793131789193,
+      7.483631388148112
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305041",
+    "link_id_list": [
+      "4012",
+      "4011",
+      "4014",
+      "4013"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -81.90084823861253,
+      229.50376806221902,
+      7.698013741114821
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305042",
+    "link_id_list": [
+      "4012",
+      "4011",
+      "4014",
+      "4013"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -77.73530971509172,
+      230.871610655915,
+      7.747597443350841
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305043",
+    "link_id_list": [
+      "4068",
+      "4067",
+      "4065",
+      "4066"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -72.45903719926719,
+      241.4624879900366,
+      8.305541335472725
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305044",
+    "link_id_list": [
+      "4012",
+      "4011",
+      "4014",
+      "4013"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -71.50266784231644,
+      233.38654764927924,
+      5.107774495033794
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305045",
+    "link_id_list": [
+      "4068",
+      "4067",
+      "4065",
+      "4066"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -71.91373092349386,
+      232.59216189896688,
+      5.146457855375402
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305046",
+    "link_id_list": [
+      "4012",
+      "4011",
+      "4014",
+      "4013"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -79.0286944648833,
+      260.2844956032932,
+      4.94565218648917
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305047",
+    "link_id_list": [
+      "4015",
+      "4016",
+      "4017",
+      "4018"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -79.09408687136602,
+      254.23221786413342,
+      7.716014036084616
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305048",
+    "link_id_list": [
+      "4015",
+      "4016",
+      "4017",
+      "4018"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -78.91400282015093,
+      249.87404073495418,
+      7.696704454882067
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305049",
+    "link_id_list": [
+      "4015",
+      "4016",
+      "4017",
+      "4018"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -79.62576731579611,
+      260.99127426557243,
+      5.049272035962304
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305050",
+    "link_id_list": [
+      "4012",
+      "4011",
+      "4014",
+      "4013"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      -87.41106669534929,
+      257.5107942940667,
+      8.136923219275829
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305051",
+    "link_id_list": [
+      "3984",
+      "3985",
+      "3986",
+      "3987",
+      "3995"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      23.881990949623287,
+      -141.08045034576207,
+      4.642868873021868
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305052",
+    "link_id_list": [
+      "3990",
+      "3989",
+      "3988",
+      "4000",
+      "3999"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      44.11137851967942,
+      -143.19387966301292,
+      4.421700516842776
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305053",
+    "link_id_list": [
+      "3990",
+      "3989",
+      "3988",
+      "4000",
+      "3999"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      47.43646084400825,
+      -142.22379701118916,
+      4.458980002548643
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305054",
+    "link_id_list": [
+      "3993",
+      "3991"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      54.3040369488881,
+      -140.6664047879167,
+      1.6040127667335753
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305055",
+    "link_id_list": [
+      "3993",
+      "3991"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      53.951118313649204,
+      -131.76083006337285,
+      4.625853232173384
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305056",
+    "link_id_list": [
+      "3984",
+      "3985",
+      "3986",
+      "3987",
+      "3995"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      13.607519350596704,
+      -98.32236193213612,
+      4.791324666174631
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305057",
+    "link_id_list": [
+      "3984",
+      "3985",
+      "3986",
+      "3987",
+      "3995"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      10.221101084724069,
+      -99.40730423713103,
+      4.672643828651317
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305058",
+    "link_id_list": [
+      "3984",
+      "3985",
+      "3986",
+      "3987",
+      "3995"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      4.0209871992701665,
+      -108.10609464580193,
+      1.714866489545173
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305059",
+    "link_id_list": [
+      "3984",
+      "3985",
+      "3986",
+      "3987",
+      "3995"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      15.215094084502198,
+      -142.72490442264825,
+      1.4805427484055542
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305060",
+    "link_id_list": [
+      "3993",
+      "3991"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      15.82018661510665,
+      -143.55784003483132,
+      1.3536176061019347
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305061",
+    "link_id_list": [
+      "3983",
+      "3997"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      49.28188008029247,
+      -115.48641894804314,
+      1.3915014350758952
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305062",
+    "link_id_list": [
+      "3990",
+      "3989",
+      "3988",
+      "4000",
+      "3999"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      49.745501561439596,
+      -116.04135507438332,
+      1.3493650284465986
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305063",
+    "link_id_list": [
+      "3983",
+      "3997"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      3.080251148843672,
+      -101.79003271041438,
+      1.9486920662348126
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305064",
+    "link_id_list": [
+      "3990",
+      "3989",
+      "3988",
+      "4000",
+      "3999"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      54.51276497595245,
+      -139.7754343864508,
+      1.6520130004882532
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305065",
+    "link_id_list": [
+      "3990",
+      "3989",
+      "3988",
+      "4000",
+      "3999"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      38.86406821082346,
+      -118.41667895391583,
+      4.113184697500927
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305066",
+    "link_id_list": [
+      "3983",
+      "3997"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      49.12491635285551,
+      -123.30394497234374,
+      4.229087246122958
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305067",
+    "link_id_list": [
+      "3983",
+      "3997"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      49.119069124455564,
+      -126.36950616585091,
+      4.219919196649329
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305068",
+    "link_id_list": [
+      "3993",
+      "3991"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      16.087648486020043,
+      -135.80305460328236,
+      4.329843404991578
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305069",
+    "link_id_list": [
+      "3993",
+      "3991"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      16.126960803638212,
+      -132.42102441377938,
+      4.340805631701869
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305070",
+    "link_id_list": [
+      "5840",
+      "5841",
+      "5599",
+      "5823",
+      "5782"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      60.0432946998626,
+      -514.4652925906703,
+      7.667879718100281
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305071",
+    "link_id_list": [
+      "5840",
+      "5841",
+      "5599",
+      "5823",
+      "5782"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      63.02692288253456,
+      -515.0617336612195,
+      7.730986281290015
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305072",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      52.784324695472606,
+      -512.6705679227598,
+      4.718564621375464
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305073",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      51.50956717482768,
+      -518.5887737544253,
+      7.768176539758969
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305074",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      50.881414501112886,
+      -521.5943451090716,
+      7.757529351741667
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305075",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      44.081674084300175,
+      -546.583273193799,
+      4.994974836354615
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305076",
+    "link_id_list": [
+      "5840",
+      "5841",
+      "5599",
+      "5823",
+      "5782"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      49.25490897858981,
+      -548.499177864287,
+      7.795886017808087
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305077",
+    "link_id_list": [
+      "5840",
+      "5841",
+      "5599",
+      "5823",
+      "5782"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      52.231201974034775,
+      -549.2580842291936,
+      7.812541273741118
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305078",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      77.83731619117316,
+      -546.3382081212476,
+      4.944375578582509
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305079",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      78.59672391071217,
+      -545.9196820468642,
+      4.856730091390531
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305080",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      70.69376604736317,
+      -543.5812689885497,
+      7.661934713569082
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305081",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      67.83946878783172,
+      -542.34966422664,
+      7.648548268773226
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305082",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      84.24119597184472,
+      -526.902769556269,
+      7.2416715124785185
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305083",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      84.20499613042921,
+      -530.1120763784274,
+      7.268701770413642
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305084",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      79.47657642618287,
+      -518.0864444929175,
+      7.603233389203822
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305085",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      76.54210350918584,
+      -517.2247375259176,
+      7.634316379081241
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305086",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      296.64006558054825,
+      231.93685879325494,
+      15.304507967779344
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305087",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      296.9401010654401,
+      235.26002466864884,
+      15.34939931640183
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305088",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      296.8157442488009,
+      224.75737323705107,
+      12.51364145158928
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305089",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      308.30790251574945,
+      213.70904414122924,
+      12.063394066166524
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305090",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      315.24547228228766,
+      212.80775084951892,
+      14.875334265323858
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305091",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      318.8165219043731,
+      212.66492564603686,
+      14.937536255786569
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305092",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      329.05297043785686,
+      212.39959096955135,
+      14.812261382828638
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305093",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      332.39063698012615,
+      212.123881069012,
+      14.830953842069718
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305094",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      339.6519700186909,
+      211.95053502731025,
+      12.143244044276969
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305095",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      343.95757442933973,
+      220.58769179461524,
+      12.13694002861331
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305096",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      350.0932186524733,
+      255.2338167144917,
+      12.232587777760358
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305097",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      305.5203440426849,
+      255.63840919639915,
+      12.434547453908863
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305098",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      318.4290153559996,
+      265.41011079307646,
+      12.796382087767256
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305099",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      337.8239614428021,
+      257.9726239712909,
+      12.411512099060545
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305100",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      329.1196381417103,
+      257.56850518425927,
+      15.084093155992406
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305101",
+    "link_id_list": [
+      "4171",
+      "4168",
+      "4183",
+      "4182"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      332.5627616471611,
+      257.51961083570495,
+      15.008530095281714
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305102",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      324.978802171594,
+      265.748601202853,
+      15.644190484795686
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305103",
+    "link_id_list": [
+      "4172",
+      "4185"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      321.6992323662853,
+      266.02747331093997,
+      15.65329480075276
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305104",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      306.1352456579916,
+      250.94188263546675,
+      15.153511558309546
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305105",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      305.8488403100637,
+      247.14484915090725,
+      15.266483740043057
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305106",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      350.1605514048133,
+      244.705587470904,
+      14.985936175965634
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305107",
+    "link_id_list": [
+      "4179",
+      "4178",
+      "4177",
+      "4181"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      350.4977942452533,
+      248.01996923144907,
+      14.937696859170075
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305108",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      579.231774794287,
+      232.38082325598225,
+      9.627543948098719
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305109",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      579.435875669762,
+      227.0348996249959,
+      9.715158839519745
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305110",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      580.3791873873561,
+      219.84873908758163,
+      7.164513777605961
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305111",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      590.5504108580062,
+      216.8031012690626,
+      7.004433397066023
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305112",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      602.2325184506481,
+      210.1651818016544,
+      9.843772457840515
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305113",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      606.5768765162211,
+      210.44508497556672,
+      9.814895349658201
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305114",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      616.1545126519632,
+      212.24046752415597,
+      10.069686287912276
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305115",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      620.4981111034285,
+      212.36835222505033,
+      9.998812863162541
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305116",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      626.6407982392702,
+      213.2476218584925,
+      7.2201800113466845
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305117",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      626.2541277116397,
+      225.13344585476443,
+      10.191025232853306
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305118",
+    "link_id_list": [
+      "4165",
+      "4148",
+      "4149",
+      "4150"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      626.0874964209506,
+      229.49794528866187,
+      10.210068271471911
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305119",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      637.4660718480591,
+      236.82426919834688,
+      10.383415535695804
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305120",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      637.3402819671901,
+      240.11902774358168,
+      10.382844712532446
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305121",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      636.3364202476805,
+      247.36965629644692,
+      7.689560596660883
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305122",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      622.2263014125638,
+      247.97247014194727,
+      10.483472205357643
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305123",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      617.9983389374102,
+      248.52604896901175,
+      10.460993216477632
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305124",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      626.5165675067692,
+      248.15173168480396,
+      7.909854249139315
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305125",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      595.2445150773274,
+      259.4817356970161,
+      9.97624300048831
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305126",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      599.4371857332299,
+      260.09172357805073,
+      10.087640318036009
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305127",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      589.2576574260602,
+      258.27330618212,
+      7.1105788174170215
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305128",
+    "link_id_list": [
+      "4147",
+      "4146",
+      "4161",
+      "3607"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      590.718138027587,
+      248.80867073545232,
+      7.326804045282259
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305129",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      591.4016299457871,
+      244.58313048258424,
+      10.070446926733638
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305130",
+    "link_id_list": [
+      "4136",
+      "4144",
+      "4145",
+      "4162"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      591.4539489769959,
+      240.2162556340918,
+      10.080115770996045
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305131",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      599.7223110520281,
+      -117.40278465021402,
+      3.3599337092177706
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305132",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      605.0939907944994,
+      -117.24745132680982,
+      3.3775861929596545
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305133",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      592.5764223441947,
+      -118.57987929414958,
+      0.6828879825423115
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305134",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      588.7376907337457,
+      -134.57182798115537,
+      2.597842729148425
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305135",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      588.6598691331455,
+      -137.8897176985629,
+      2.4993689578432168
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305136",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      588.4104456676869,
+      -127.19388080062345,
+      0.0655506228575291
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305137",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      614.7413395176409,
+      -125.38685276778415,
+      2.8763522510353
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305138",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      620.094229122973,
+      -125.84045307384804,
+      2.8514338519189266
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305139",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      627.3178944202373,
+      -125.79104915913194,
+      0.10525539397397665
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305140",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      636.5969319328433,
+      -135.94379670871422,
+      2.7105808176733035
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305141",
+    "link_id_list": [
+      "4111",
+      "4112",
+      "4123"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      636.3483335244819,
+      -139.21671046921983,
+      2.7694374052777277
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305142",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      636.2327723982744,
+      -130.78449144773185,
+      -0.04148564017586409
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305143",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      626.9957199862693,
+      -142.89929426973686,
+      2.7046219648443923
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305144",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      626.707967766677,
+      -146.2950280145742,
+      2.609340335562081
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305145",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      626.6451844738331,
+      -153.5585322584957,
+      -0.30950702752476644
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305146",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      623.4420061203418,
+      -162.75489022303373,
+      -0.31858307662114527
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305147",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      616.2603470816393,
+      -163.02765039820224,
+      2.3918845821095545
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305148",
+    "link_id_list": [
+      "4117",
+      "4116",
+      "4126",
+      "4125"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      610.8876959818881,
+      -162.5486133559607,
+      2.3684122145748034
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305149",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      601.2021983576706,
+      -154.2078083353117,
+      2.5552204676415897
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305150",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      595.8730710789678,
+      -154.17584620369598,
+      2.4998052097917878
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305151",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      588.6728786053136,
+      -155.07077798759565,
+      -0.2891088423018857
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305152",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      578.7847106242552,
+      -145.71505932556465,
+      2.740047476509261
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305153",
+    "link_id_list": [
+      "4121",
+      "4110"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      578.8348772036261,
+      -142.3082228093408,
+      2.8965412133128012
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305154",
+    "link_id_list": [
+      "4113",
+      "4114",
+      "4115",
+      "4122"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      579.3523697712226,
+      -150.93255945295095,
+      -0.053366739247053374
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305155",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      599.0970801728545,
+      -288.35190668841824,
+      2.230222467518857
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305156",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      603.3599903727882,
+      -288.6070963223465,
+      2.2160250074720267
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305157",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      592.8073444975307,
+      -288.8121306751855,
+      -0.40943721922222664
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305158",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      588.9688390419469,
+      -303.58128382079303,
+      1.9713724018724577
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305159",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      588.8469857068849,
+      -306.9288312038407,
+      1.91559537293044
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305160",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      609.1117420959054,
+      -298.92502580489963,
+      2.0247884941408074
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305161",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      614.2865041595651,
+      -299.06316349236295,
+      1.961225642964294
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305162",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      621.5800883625634,
+      -298.6324756727554,
+      -0.8728166741977432
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305163",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      631.2019085148349,
+      -308.8557164594531,
+      1.9658302861039232
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305164",
+    "link_id_list": [
+      "6153",
+      "6154",
+      "6159"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      631.4691205623676,
+      -305.3940886044875,
+      2.0222504595371475
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305165",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      621.237777156115,
+      -311.67446010839194,
+      2.1798515710007536
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305166",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      621.3800975701306,
+      -315.1597660994157,
+      2.132135707812651
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305167",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      617.6391559182666,
+      -330.83485981449485,
+      -0.3764364731024088
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305168",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      607.010869902093,
+      -329.78353562019765,
+      2.3397330512837016
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305169",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      611.2342453382444,
+      -330.2394817378372,
+      2.3519592668931892
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305170",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      598.6216826980235,
+      -331.05526207154617,
+      1.9809703707152408
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305171",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      594.3681530752801,
+      -330.7084236824885,
+      2.028544924141343
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305172",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      585.6145419471432,
+      -322.21564429532737,
+      -0.7620618809857191
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305173",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      588.687704058073,
+      -298.5148585853167,
+      -0.956433854451582
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305174",
+    "link_id_list": [
+      "6145",
+      "6149",
+      "6150",
+      "6158"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      576.8053094876232,
+      -317.1022084434517,
+      -0.8271041624874087
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305175",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      622.0870607612887,
+      -319.95677867298946,
+      -0.9265580804379354
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305176",
+    "link_id_list": [
+      "6152",
+      "5356",
+      "5357",
+      "5358"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      631.3676111565437,
+      -302.2400838788599,
+      -1.0482882700302625
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305177",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      576.3167176714051,
+      -313.2928242534399,
+      2.2237174895449243
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305178",
+    "link_id_list": [
+      "6151",
+      "6157"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      576.3840095968917,
+      -310.248559972737,
+      2.2956966051299617
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305179",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      591.459220513585,
+      -518.6222131480463,
+      3.796614134276723
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305180",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      596.6713797989069,
+      -518.9475745018572,
+      3.8526176414509337
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305181",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      584.0736295739189,
+      -518.9310009172186,
+      0.9804409213350027
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305182",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      583.57836396317,
+      -518.3818475492299,
+      0.8082858648766518
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305183",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      572.4823961167131,
+      -535.4160615233704,
+      3.4995740453074404
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305184",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      572.3541397490189,
+      -540.0928527987562,
+      3.4368449747047407
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305185",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      572.2297601845348,
+      -545.163301222492,
+      3.9414596704915965
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305186",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      571.8013955167262,
+      -549.5509838447906,
+      3.846071244796562
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305187",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      572.1224278426962,
+      -555.7412062236108,
+      1.131965097226967
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305188",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      605.0714582175133,
+      -529.7220033323392,
+      3.7776304411570436
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305189",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      610.3145573771326,
+      -529.8931252975017,
+      3.6590452672905087
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305190",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      617.5192641172325,
+      -529.1875422936864,
+      0.849992224469517
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305191",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      625.0267274078797,
+      -539.7379060722888,
+      3.7427255145707505
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305192",
+    "link_id_list": [
+      "6140",
+      "6139",
+      "6132"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      624.6281863022596,
+      -543.0640912414528,
+      3.716067926109332
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305193",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      624.9550318706315,
+      -536.6027632495388,
+      0.9908617049688644
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305194",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      620.3303028827067,
+      -544.4305567294359,
+      3.6175951288714714
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305195",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      620.155883561587,
+      -549.7136453273706,
+      3.63311003921244
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305196",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      620.4891162102576,
+      -556.9798077140003,
+      0.9338834063997439
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305197",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      615.7813625136041,
+      -564.4685287615284,
+      1.3840503644623396
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305198",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      608.4601304584648,
+      -564.2372031416744,
+      4.1567584897583885
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305199",
+    "link_id_list": [
+      "6127",
+      "6126",
+      "6125",
+      "6138"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      603.21974606812,
+      -563.7007535425946,
+      4.142401506818288
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305200",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      595.8115470064804,
+      -567.2377593093552,
+      4.085874263336095
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305201",
+    "link_id_list": [
+      "6130",
+      "6129",
+      "6128",
+      "6134",
+      "6133"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      590.5140929148765,
+      -566.811846814584,
+      4.149415228838933
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305202",
+    "link_id_list": [
+      "6137",
+      "6124",
+      "6136"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      579.676385274739,
+      -559.4273051368073,
+      1.1668186651167929
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305203",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      584.6490365890204,
+      -792.6386949140579,
+      6.984218046198961
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305204",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      588.8788439116906,
+      -792.810067223385,
+      7.009279489568371
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305205",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      578.3622770050424,
+      -793.2148705213331,
+      4.072745812000534
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305206",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      575.005582340993,
+      -803.979612885043,
+      4.12088748394666
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305207",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      575.0012569801183,
+      -810.1652402989566,
+      6.790670108575483
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305208",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      574.751108868164,
+      -814.1940497537144,
+      6.816014099085848
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305209",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      567.542900830158,
+      -819.4928218219429,
+      6.924689053742199
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305210",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      567.2741531777428,
+      -823.1432768595405,
+      6.919713765782106
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305211",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      567.5490274589974,
+      -827.9082829509862,
+      4.4866810230688685
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305212",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      577.5540895117447,
+      -837.0244902349077,
+      4.748864585351697
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305213",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      582.750111722562,
+      -837.6264297100715,
+      7.451280774439255
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305214",
+    "link_id_list": [
+      "6118",
+      "6117",
+      "6116"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      585.9523939981591,
+      -837.6007649609819,
+      7.4448588854548206
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305215",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      599.0149654424167,
+      -838.0670365127735,
+      7.574497518681525
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305216",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      603.117482936068,
+      -838.010505491402,
+      7.558082569901316
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305217",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      609.5545102654723,
+      -837.1519642858766,
+      4.842417246911083
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305218",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      610.6999568013707,
+      -817.4241582253017,
+      7.1264589940635545
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305219",
+    "link_id_list": [
+      "6119",
+      "6120"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      610.3969411276048,
+      -820.7469693082385,
+      7.192202585440057
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305220",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      610.1398146296851,
+      -808.8118027080782,
+      7.289261509319076
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305221",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      609.9243432722287,
+      -812.1343229287304,
+      7.232885877921802
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305222",
+    "link_id_list": [],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      610.5150936178397,
+      -803.2422916782089,
+      4.229334080019953
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305223",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      605.307584759139,
+      -804.0097686178051,
+      7.0964671290809775
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305224",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      601.975213868136,
+      -804.2127498048358,
+      7.147217193369542
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305225",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      610.4839333727723,
+      -825.7643940853886,
+      4.31944016363687
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305226",
+    "link_id_list": [
+      "6122",
+      "6113",
+      "6114",
+      "6115"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      610.9784769134712,
+      -804.0645700679161,
+      4.068135010178452
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305227",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      335.87018033047207,
+      -529.706767599564,
+      5.287442459000587
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305228",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      335.8445375757874,
+      -533.0375382374041,
+      5.3143888843717235
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305229",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      335.2038439961616,
+      -522.5045035015792,
+      2.4669073116321414
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305230",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      318.0245375572704,
+      -513.161631852854,
+      5.315559898742208
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305231",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      314.6978060218971,
+      -513.1286077555269,
+      5.33244487939713
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305232",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      304.33753779903054,
+      -513.0078597450629,
+      5.330583613014042
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305233",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      300.9608047605725,
+      -512.8437351682223,
+      5.325763513300487
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305234",
+    "link_id_list": [
+      "6023",
+      "6022",
+      "6021",
+      "6020"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      458.92715526599204,
+      -531.0632624658756,
+      4.421058118131739
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305235",
+    "link_id_list": [
+      "6023",
+      "6022",
+      "6021",
+      "6020"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      458.65388774871826,
+      -535.7746120351367,
+      4.360192241261757
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305236",
+    "link_id_list": [
+      "6023",
+      "6022",
+      "6021",
+      "6020"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      458.354124146048,
+      -525.1850520004518,
+      1.7851034247256194
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305237",
+    "link_id_list": [
+      "6016"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      450.6958259224193,
+      -559.2217666711658,
+      1.8424371847176246
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305238",
+    "link_id_list": [
+      "6017",
+      "6018",
+      "6019"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      449.4327398213791,
+      -541.7462486410514,
+      4.727265245189855
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305239",
+    "link_id_list": [
+      "6017",
+      "6018",
+      "6019"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      449.6265476810513,
+      -545.4388217311352,
+      4.76179820471242
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305240",
+    "link_id_list": [
+      "6016"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      449.84344057703856,
+      -555.133874357678,
+      4.680145958899445
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305241",
+    "link_id_list": [
+      "6015"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      449.93120241345605,
+      -565.5032770079561,
+      4.80821004207715
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.73,
+    "width": 0.9,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305242",
+    "link_id_list": [
+      "6015"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      450.5205318838125,
+      -570.3008859921247,
+      2.1277071667287117
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305243",
+    "link_id_list": [
+      "6015"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      457.24857511383016,
+      -563.5047340230085,
+      1.8975007692171886
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305244",
+    "link_id_list": [
+      "6017",
+      "6018",
+      "6019"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "vertical",
+    "point": [
+      457.0346662363154,
+      -550.274709993042,
+      1.9722832032903739
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305245",
+    "link_id_list": [
+      "6016"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      457.1495899115689,
+      -550.6357090682723,
+      1.730919571939964
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305246",
+    "link_id_list": [
+      "6017",
+      "6018",
+      "6019"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      450.5858606341062,
+      -550.316947916057,
+      1.809189261015689
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305247",
+    "link_id_list": [
+      "6023",
+      "6022",
+      "6021",
+      "6020"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "vertical",
+    "point": [
+      449.4705767832929,
+      -525.2568985228427,
+      1.8882320224415992
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305248",
+    "link_id_list": [
+      "6016"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "vertical",
+    "point": [
+      457.19653022370767,
+      -559.3593043098226,
+      1.9937989032231087
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305249",
+    "link_id_list": [
+      "6015"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "vertical",
+    "point": [
+      456.8000239984831,
+      -570.0749953747727,
+      2.1476098551098914
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305250",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      293.9439932362875,
+      -513.349296818953,
+      2.6375265188203514
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305251",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      283.1176857560058,
+      -524.6073815021664,
+      2.8838918769169624
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305252",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      282.6888532364974,
+      -529.6018940471113,
+      5.70315975173601
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305253",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      282.6335580412997,
+      -532.983016283717,
+      5.741826181644825
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305254",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      282.03954258339945,
+      -544.2687232778408,
+      5.495401498701696
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305255",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      281.84553536155727,
+      -547.2188783101737,
+      5.452375957898781
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305256",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      282.4524883152335,
+      -552.6673006941564,
+      2.765712497365925
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305257",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      292.55179288284853,
+      -562.1026524133049,
+      2.7879024386441813
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305258",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      299.66378802765394,
+      -562.4292335435748,
+      5.622675231298885
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305259",
+    "link_id_list": [
+      "5622",
+      "5961",
+      "5962",
+      "5975"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      303.08505615452304,
+      -562.4024952766486,
+      5.6541453705240485
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305260",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      313.6422559489729,
+      -561.9608421423472,
+      5.515104121501253
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305261",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      316.98670816316735,
+      -562.007999856025,
+      5.530557225187806
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305262",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      323.98136992391665,
+      -561.4321355116554,
+      2.7196984809774705
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305263",
+    "link_id_list": [
+      "5379",
+      "5381",
+      "5382",
+      "5413"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      334.2737484954996,
+      -550.9641275703907,
+      2.4504817248912047
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305264",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      334.3876280641416,
+      -544.0463110273704,
+      5.168396075546042
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305265",
+    "link_id_list": [
+      "5945",
+      "5946",
+      "5943",
+      "5916"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      334.47348042740487,
+      -540.3956505344249,
+      5.198094181514904
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305266",
+    "link_id_list": [
+      "5970",
+      "5971",
+      "5976"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      325.24696281168144,
+      -513.7227815231308,
+      2.532290086525663
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305267",
+    "link_id_list": [
+      "5846",
+      "5845",
+      "5844",
+      "5843"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      85.27072497556219,
+      -519.4720943802968,
+      4.509713000488276
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305268",
+    "link_id_list": [
+      "5852",
+      "5851",
+      "5768"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      84.87484497460537,
+      -518.866654376965,
+      4.4719730004882905
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305270",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      343.98837996134534,
+      231.29114127438515,
+      15.000930824173878
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305271",
+    "link_id_list": [
+      "4175",
+      "4174",
+      "4173",
+      "4186"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      343.6726111478638,
+      227.80804044473916,
+      14.923987766287311
+    ],
+    "country": "KR",
+    "z_offset": 2.1,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305272",
+    "link_id_list": [
+      "4152",
+      "4153",
+      "4165"
+    ],
+    "road_id": null,
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      627.3782626448665,
+      220.8723406791687,
+      7.558615147812674
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305276",
+    "link_id_list": [
+      "4253",
+      "4254",
+      "4245"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -195.16278849850642,
+      420.58280624542385,
+      6.033434289227529
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305277",
+    "link_id_list": [
+      "4253",
+      "4254",
+      "4245"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -197.75070440536365,
+      418.16340210242197,
+      6.014158459663321
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  },
+  {
+    "idx": "C119AS305278",
+    "link_id_list": [
+      "4253",
+      "4254",
+      "4245"
+    ],
+    "road_id": null,
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      -200.0896117738448,
+      415.9767923457548,
+      6.000872835605605
+    ],
+    "country": "KR",
+    "z_offset": 0,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  }
+]

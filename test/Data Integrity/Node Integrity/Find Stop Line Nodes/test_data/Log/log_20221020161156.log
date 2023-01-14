@@ -1,0 +1,478 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221020161156.log
+		TRACE	2022-10-20 16:13:14	Called: load_mgeo
+TRACE	2022-10-20 16:13:14	Called: ask_save_current_data
+TRACE	2022-10-20 16:13:14	No MGeo data to save -> return
+TRACE	2022-10-20 16:13:14	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find End Nodes
+TRACE	2022-10-20 16:13:16	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find End Nodes/test_data
+INFO	2022-10-20 16:13:16	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find End Nodes/test_data
+INFO	2022-10-20 16:13:16	E:/road_model_maker/test/Data Integrity/Node Integrity/Find End Nodes/test_data
+TRACE	2022-10-20 16:13:16	Called: reset_start_point
+TRACE	2022-10-20 16:13:16	Called: reset_end_point
+TRACE	2022-10-20 16:13:16	Called: reset_stop_point
+TRACE	2022-10-20 16:13:17	Called: reset_start_point
+TRACE	2022-10-20 16:13:17	Called: reset_end_point
+TRACE	2022-10-20 16:13:17	Called: reset_stop_point
+INFO	2022-10-20 16:13:17	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find End Nodes/test_data
+TRACE	2022-10-20 16:13:24	Called: find_end_nodes
+INFO	2022-10-20 16:13:55	find_end_nodes result: [ND000026, ND000027, ND000112, ND000113, ]
+TRACE	2022-10-20 16:34:27	Called: load_mgeo
+TRACE	2022-10-20 16:34:27	Called: ask_save_current_data
+TRACE	2022-10-20 16:34:29	Save current MGeo data before load? -> No
+TRACE	2022-10-20 16:34:29	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find End Nodes
+TRACE	2022-10-20 16:34:56	load MGeo data from: E:/road_model_maker/data/mgeo_data/virtual_kict/mgeo_220719_90_500
+INFO	2022-10-20 16:34:56	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/virtual_kict/mgeo_220719_90_500
+INFO	2022-10-20 16:34:56	E:/road_model_maker/data/mgeo_data/virtual_kict/mgeo_220719_90_500
+TRACE	2022-10-20 16:34:56	Called: reset_start_point
+TRACE	2022-10-20 16:34:56	Called: reset_end_point
+TRACE	2022-10-20 16:34:56	Called: reset_stop_point
+TRACE	2022-10-20 16:34:56	Called: reset_start_point
+TRACE	2022-10-20 16:34:56	Called: reset_end_point
+TRACE	2022-10-20 16:34:56	Called: reset_stop_point
+INFO	2022-10-20 16:34:56	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/virtual_kict/mgeo_220719_90_500
+TRACE	2022-10-20 16:36:50	Called: load_mgeo
+TRACE	2022-10-20 16:36:50	Called: ask_save_current_data
+TRACE	2022-10-20 16:36:50	No MGeo data to save -> return
+TRACE	2022-10-20 16:36:50	init_load_path: E:\road_model_maker\data\mgeo_data\virtual_kict
+TRACE	2022-10-20 16:37:13	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:37:13	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:37:13	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:37:13	Called: reset_start_point
+TRACE	2022-10-20 16:37:13	Called: reset_end_point
+TRACE	2022-10-20 16:37:13	Called: reset_stop_point
+TRACE	2022-10-20 16:37:14	Called: reset_start_point
+TRACE	2022-10-20 16:37:14	Called: reset_end_point
+TRACE	2022-10-20 16:37:14	Called: reset_stop_point
+INFO	2022-10-20 16:37:14	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:38:07	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:38:09	Called: reset_start_point
+TRACE	2022-10-20 16:38:09	Called: reset_end_point
+TRACE	2022-10-20 16:38:09	Called: reset_stop_point
+TRACE	2022-10-20 16:38:36	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:38:39	Called: reset_start_point
+TRACE	2022-10-20 16:38:39	Called: reset_end_point
+TRACE	2022-10-20 16:38:39	Called: reset_stop_point
+TRACE	2022-10-20 16:38:50	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:38:52	Called: reset_start_point
+TRACE	2022-10-20 16:38:52	Called: reset_end_point
+TRACE	2022-10-20 16:38:52	Called: reset_stop_point
+TRACE	2022-10-20 16:38:57	Called: delete_objects_out_of_xy_range
+ERROR	2022-10-20 16:38:58	delete_objects_out_of_xy_range failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 5067, in delete_objects_out_of_xy_range
+		    edit_mgeo_planner_map.delete_objects_out_of_xy_range(self.mgeo_planner_map, self.xlim, self.ylim, hard)
+		  File "e:\road_model_maker\src\lib\mgeo\edit\funcs\edit_mgeo_planner_map.py", line 143, in delete_objects_out_of_xy_range
+		    cw_set.cw_remove_list_data(item)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk_set.py", line 36, in cw_remove_list_data
+		    self.data.pop(cw)
+		KeyError: 'CW000001'
+		
+TRACE	2022-10-20 16:39:11	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:39:13	Called: reset_start_point
+TRACE	2022-10-20 16:39:13	Called: reset_end_point
+TRACE	2022-10-20 16:39:13	Called: reset_stop_point
+TRACE	2022-10-20 16:39:54	Called: delete_object_inside_xy_range
+TRACE	2022-10-20 16:39:56	Called: reset_start_point
+TRACE	2022-10-20 16:39:56	Called: reset_end_point
+TRACE	2022-10-20 16:39:56	Called: reset_stop_point
+TRACE	2022-10-20 16:40:04	Called: delete_item
+INFO	2022-10-20 16:40:05	CROSSWALK (id: CW000003) deleted.
+INFO	2022-10-20 16:40:05	CROSSWALK (id: CW000004) deleted.
+TRACE	2022-10-20 16:40:05	Called: reset_start_point
+TRACE	2022-10-20 16:40:05	Called: reset_end_point
+TRACE	2022-10-20 16:40:05	Called: reset_stop_point
+TRACE	2022-10-20 16:40:10	Called: delete_item
+INFO	2022-10-20 16:40:10	CROSSWALK (id: CW000009) deleted.
+TRACE	2022-10-20 16:40:10	Called: reset_start_point
+TRACE	2022-10-20 16:40:10	Called: reset_end_point
+TRACE	2022-10-20 16:40:10	Called: reset_stop_point
+TRACE	2022-10-20 16:40:22	Called: load_mgeo
+TRACE	2022-10-20 16:40:22	Called: ask_save_current_data
+TRACE	2022-10-20 16:40:23	Save current MGeo data before load? -> No
+TRACE	2022-10-20 16:40:23	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-10-20 16:40:27	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:40:27	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:40:28	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:40:28	Called: reset_start_point
+TRACE	2022-10-20 16:40:28	Called: reset_end_point
+TRACE	2022-10-20 16:40:28	Called: reset_stop_point
+TRACE	2022-10-20 16:40:28	Called: reset_start_point
+TRACE	2022-10-20 16:40:28	Called: reset_end_point
+TRACE	2022-10-20 16:40:28	Called: reset_stop_point
+INFO	2022-10-20 16:40:28	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:40:59	Called: delete_object_inside_xy_range
+TRACE	2022-10-20 16:41:02	Called: reset_start_point
+TRACE	2022-10-20 16:41:02	Called: reset_end_point
+TRACE	2022-10-20 16:41:02	Called: reset_stop_point
+INFO	2022-10-20 16:41:05	Nothing to do undo
+INFO	2022-10-20 16:41:07	Nothing to do undo
+TRACE	2022-10-20 16:41:13	Called: load_mgeo
+TRACE	2022-10-20 16:41:13	Called: ask_save_current_data
+TRACE	2022-10-20 16:41:13	Save current MGeo data before load? -> Yes
+TRACE	2022-10-20 16:41:13	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find End Nodes
+ERROR	2022-10-20 16:51:25	invalid save_path (your input: )
+TRACE	2022-10-20 16:51:30	Called: load_mgeo
+TRACE	2022-10-20 16:51:30	Called: ask_save_current_data
+TRACE	2022-10-20 16:51:35	Save current MGeo data before load? -> No
+TRACE	2022-10-20 16:51:35	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-10-20 16:51:38	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:51:38	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:51:38	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:51:38	Called: reset_start_point
+TRACE	2022-10-20 16:51:38	Called: reset_end_point
+TRACE	2022-10-20 16:51:38	Called: reset_stop_point
+TRACE	2022-10-20 16:51:38	Called: reset_start_point
+TRACE	2022-10-20 16:51:38	Called: reset_end_point
+TRACE	2022-10-20 16:51:38	Called: reset_stop_point
+INFO	2022-10-20 16:51:38	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:52:01	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:52:04	Called: reset_start_point
+TRACE	2022-10-20 16:52:04	Called: reset_end_point
+TRACE	2022-10-20 16:52:04	Called: reset_stop_point
+TRACE	2022-10-20 16:52:05	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:52:07	Called: reset_start_point
+TRACE	2022-10-20 16:52:07	Called: reset_end_point
+TRACE	2022-10-20 16:52:07	Called: reset_stop_point
+TRACE	2022-10-20 16:52:19	Called: load_mgeo
+TRACE	2022-10-20 16:52:19	Called: ask_save_current_data
+TRACE	2022-10-20 16:52:21	Save current MGeo data before load? -> No
+TRACE	2022-10-20 16:52:21	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-10-20 16:52:23	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:52:23	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:52:23	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:52:23	Called: reset_start_point
+TRACE	2022-10-20 16:52:23	Called: reset_end_point
+TRACE	2022-10-20 16:52:23	Called: reset_stop_point
+TRACE	2022-10-20 16:52:24	Called: reset_start_point
+TRACE	2022-10-20 16:52:24	Called: reset_end_point
+TRACE	2022-10-20 16:52:24	Called: reset_stop_point
+INFO	2022-10-20 16:52:24	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:52:48	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:52:52	Called: reset_start_point
+TRACE	2022-10-20 16:52:52	Called: reset_end_point
+TRACE	2022-10-20 16:52:52	Called: reset_stop_point
+TRACE	2022-10-20 16:53:05	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:53:08	Called: reset_start_point
+TRACE	2022-10-20 16:53:08	Called: reset_end_point
+TRACE	2022-10-20 16:53:08	Called: reset_stop_point
+TRACE	2022-10-20 16:53:13	Called: load_mgeo
+TRACE	2022-10-20 16:53:13	Called: ask_save_current_data
+TRACE	2022-10-20 16:53:14	Save current MGeo data before load? -> No
+TRACE	2022-10-20 16:53:14	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-10-20 16:53:17	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:53:17	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-10-20 16:53:17	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:53:17	Called: reset_start_point
+TRACE	2022-10-20 16:53:17	Called: reset_end_point
+TRACE	2022-10-20 16:53:17	Called: reset_stop_point
+TRACE	2022-10-20 16:53:17	Called: reset_start_point
+TRACE	2022-10-20 16:53:17	Called: reset_end_point
+TRACE	2022-10-20 16:53:17	Called: reset_stop_point
+INFO	2022-10-20 16:53:17	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-10-20 16:53:56	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 16:53:58	Called: reset_start_point
+TRACE	2022-10-20 16:53:58	Called: reset_end_point
+TRACE	2022-10-20 16:53:58	Called: reset_stop_point
+TRACE	2022-10-20 16:54:08	Called: delete_objects_out_of_xy_range
+ERROR	2022-10-20 16:54:09	delete_objects_out_of_xy_range failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 5067, in delete_objects_out_of_xy_range
+		    edit_mgeo_planner_map.delete_objects_out_of_xy_range(self.mgeo_planner_map, self.xlim, self.ylim, hard)
+		  File "e:\road_model_maker\src\lib\mgeo\edit\funcs\edit_mgeo_planner_map.py", line 143, in delete_objects_out_of_xy_range
+		    cw_set.cw_remove_list_data(item)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk_set.py", line 36, in cw_remove_list_data
+		    self.data.pop(cw)
+		KeyError: 'CW000012'
+		
+TRACE	2022-10-20 16:54:37	Called: delete_item
+INFO	2022-10-20 16:54:38	LANE_BOUNDARY (id: C319BS010571) deleted.
+TRACE	2022-10-20 16:54:38	Called: reset_start_point
+TRACE	2022-10-20 16:54:38	Called: reset_end_point
+TRACE	2022-10-20 16:54:38	Called: reset_stop_point
+TRACE	2022-10-20 16:54:39	Called: delete_item
+INFO	2022-10-20 16:54:39	LANE_BOUNDARY (id: B219BS011363) deleted.
+TRACE	2022-10-20 16:54:39	Called: reset_start_point
+TRACE	2022-10-20 16:54:39	Called: reset_end_point
+TRACE	2022-10-20 16:54:39	Called: reset_stop_point
+TRACE	2022-10-20 16:54:40	Called: delete_item
+ERROR	2022-10-20 16:54:40	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:54:41	Called: delete_item
+INFO	2022-10-20 16:54:41	LANE_BOUNDARY (id: B219BS011360) deleted.
+TRACE	2022-10-20 16:54:41	Called: reset_start_point
+TRACE	2022-10-20 16:54:41	Called: reset_end_point
+TRACE	2022-10-20 16:54:41	Called: reset_stop_point
+TRACE	2022-10-20 16:54:43	Called: delete_item
+INFO	2022-10-20 16:54:43	LANE_BOUNDARY (id: B219BS011361) deleted.
+TRACE	2022-10-20 16:54:43	Called: reset_start_point
+TRACE	2022-10-20 16:54:43	Called: reset_end_point
+TRACE	2022-10-20 16:54:43	Called: reset_stop_point
+TRACE	2022-10-20 16:54:47	Called: delete_item
+INFO	2022-10-20 16:54:48	LANE_BOUNDARY (id: LM000209) deleted.
+INFO	2022-10-20 16:54:48	LANE_BOUNDARY (id: LM000045) deleted.
+INFO	2022-10-20 16:54:48	LANE_BOUNDARY (id: LM000062) deleted.
+TRACE	2022-10-20 16:54:48	Called: reset_start_point
+TRACE	2022-10-20 16:54:48	Called: reset_end_point
+TRACE	2022-10-20 16:54:48	Called: reset_stop_point
+TRACE	2022-10-20 16:54:50	Called: delete_item
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000156) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000221) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: B219BS010478) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000223) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000217) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000218) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000157) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: LM000222) deleted.
+INFO	2022-10-20 16:54:51	LANE_BOUNDARY (id: B219BS010169) deleted.
+TRACE	2022-10-20 16:54:51	Called: reset_start_point
+TRACE	2022-10-20 16:54:51	Called: reset_end_point
+TRACE	2022-10-20 16:54:51	Called: reset_stop_point
+TRACE	2022-10-20 16:55:01	Called: delete_item
+INFO	2022-10-20 16:55:02	LANE_BOUNDARY (id: C319BS010556) deleted.
+TRACE	2022-10-20 16:55:02	Called: reset_start_point
+TRACE	2022-10-20 16:55:02	Called: reset_end_point
+TRACE	2022-10-20 16:55:02	Called: reset_stop_point
+TRACE	2022-10-20 16:55:03	Called: delete_item
+INFO	2022-10-20 16:55:03	LANE_BOUNDARY (id: B219BS011305) deleted.
+TRACE	2022-10-20 16:55:03	Called: reset_start_point
+TRACE	2022-10-20 16:55:03	Called: reset_end_point
+TRACE	2022-10-20 16:55:03	Called: reset_stop_point
+TRACE	2022-10-20 16:55:04	Called: delete_item
+INFO	2022-10-20 16:55:04	LANE_BOUNDARY (id: B219BS011307) deleted.
+TRACE	2022-10-20 16:55:04	Called: reset_start_point
+TRACE	2022-10-20 16:55:04	Called: reset_end_point
+TRACE	2022-10-20 16:55:04	Called: reset_stop_point
+TRACE	2022-10-20 16:55:05	Called: delete_item
+INFO	2022-10-20 16:55:05	LANE_BOUNDARY (id: C319BS010553) deleted.
+TRACE	2022-10-20 16:55:05	Called: reset_start_point
+TRACE	2022-10-20 16:55:05	Called: reset_end_point
+TRACE	2022-10-20 16:55:05	Called: reset_stop_point
+TRACE	2022-10-20 16:55:05	Called: delete_item
+INFO	2022-10-20 16:55:06	LANE_BOUNDARY (id: B219BS011306) deleted.
+TRACE	2022-10-20 16:55:06	Called: reset_start_point
+TRACE	2022-10-20 16:55:06	Called: reset_end_point
+TRACE	2022-10-20 16:55:06	Called: reset_stop_point
+TRACE	2022-10-20 16:55:06	Called: delete_item
+INFO	2022-10-20 16:55:06	LANE_BOUNDARY (id: B219BS011309) deleted.
+TRACE	2022-10-20 16:55:06	Called: reset_start_point
+TRACE	2022-10-20 16:55:06	Called: reset_end_point
+TRACE	2022-10-20 16:55:06	Called: reset_stop_point
+TRACE	2022-10-20 16:55:13	Called: delete_item
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: B219BS011317) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000242) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: B219BS011350) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000207) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000240) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000239) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000256) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: B219BS010196) deleted.
+INFO	2022-10-20 16:55:14	LANE_BOUNDARY (id: LM000263) deleted.
+TRACE	2022-10-20 16:55:14	Called: reset_start_point
+TRACE	2022-10-20 16:55:14	Called: reset_end_point
+TRACE	2022-10-20 16:55:14	Called: reset_stop_point
+TRACE	2022-10-20 16:55:18	Called: delete_item
+INFO	2022-10-20 16:55:19	LANE_BOUNDARY (id: B219BS011315) deleted.
+TRACE	2022-10-20 16:55:19	Called: reset_start_point
+TRACE	2022-10-20 16:55:19	Called: reset_end_point
+TRACE	2022-10-20 16:55:19	Called: reset_stop_point
+TRACE	2022-10-20 16:55:19	Called: delete_item
+INFO	2022-10-20 16:55:20	LANE_BOUNDARY (id: LM000065) deleted.
+TRACE	2022-10-20 16:55:20	Called: reset_start_point
+TRACE	2022-10-20 16:55:20	Called: reset_end_point
+TRACE	2022-10-20 16:55:20	Called: reset_stop_point
+TRACE	2022-10-20 16:55:20	Called: delete_item
+INFO	2022-10-20 16:55:21	LANE_BOUNDARY (id: B219BS011380) deleted.
+TRACE	2022-10-20 16:55:21	Called: reset_start_point
+TRACE	2022-10-20 16:55:21	Called: reset_end_point
+TRACE	2022-10-20 16:55:21	Called: reset_stop_point
+TRACE	2022-10-20 16:55:22	Called: delete_item
+INFO	2022-10-20 16:55:22	LANE_BOUNDARY (id: LM000197) deleted.
+TRACE	2022-10-20 16:55:22	Called: reset_start_point
+TRACE	2022-10-20 16:55:22	Called: reset_end_point
+TRACE	2022-10-20 16:55:22	Called: reset_stop_point
+TRACE	2022-10-20 16:55:23	Called: delete_item
+INFO	2022-10-20 16:55:23	LANE_BOUNDARY (id: B219BS011311) deleted.
+TRACE	2022-10-20 16:55:23	Called: reset_start_point
+TRACE	2022-10-20 16:55:23	Called: reset_end_point
+TRACE	2022-10-20 16:55:23	Called: reset_stop_point
+TRACE	2022-10-20 16:55:24	Called: delete_item
+INFO	2022-10-20 16:55:25	LANE_BOUNDARY (id: C319BS010557) deleted.
+TRACE	2022-10-20 16:55:25	Called: reset_start_point
+TRACE	2022-10-20 16:55:25	Called: reset_end_point
+TRACE	2022-10-20 16:55:25	Called: reset_stop_point
+TRACE	2022-10-20 16:55:32	Called: delete_item
+INFO	2022-10-20 16:55:33	CROSSWALK (id: CW000020) deleted.
+TRACE	2022-10-20 16:55:33	Called: reset_start_point
+TRACE	2022-10-20 16:55:33	Called: reset_end_point
+TRACE	2022-10-20 16:55:33	Called: reset_stop_point
+TRACE	2022-10-20 16:55:33	Called: delete_item
+INFO	2022-10-20 16:55:34	CROSSWALK (id: CW000019) deleted.
+TRACE	2022-10-20 16:55:34	Called: reset_start_point
+TRACE	2022-10-20 16:55:34	Called: reset_end_point
+TRACE	2022-10-20 16:55:34	Called: reset_stop_point
+TRACE	2022-10-20 16:55:35	Called: delete_item
+INFO	2022-10-20 16:55:35	CROSSWALK (id: CW000018) deleted.
+TRACE	2022-10-20 16:55:35	Called: reset_start_point
+TRACE	2022-10-20 16:55:35	Called: reset_end_point
+TRACE	2022-10-20 16:55:35	Called: reset_stop_point
+TRACE	2022-10-20 16:56:09	Called: delete_item
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RB219BS010141S) deleted.
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RB219BS010141E) deleted.
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RB219BS010140S) deleted.
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RB219BS011359E) deleted.
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RB219BS011363S) deleted.
+INFO	2022-10-20 16:56:09	LANE_NODE (id: RC319BS010545E) deleted.
+TRACE	2022-10-20 16:56:09	Called: reset_start_point
+TRACE	2022-10-20 16:56:09	Called: reset_end_point
+TRACE	2022-10-20 16:56:09	Called: reset_stop_point
+TRACE	2022-10-20 16:56:13	Called: delete_item
+INFO	2022-10-20 16:56:13	LANE_NODE (id: RB219BS010178E) deleted.
+INFO	2022-10-20 16:56:13	LANE_NODE (id: RB219BS010007S) deleted.
+INFO	2022-10-20 16:56:13	LANE_NODE (id: RB219BS010007E) deleted.
+TRACE	2022-10-20 16:56:13	Called: reset_start_point
+TRACE	2022-10-20 16:56:13	Called: reset_end_point
+TRACE	2022-10-20 16:56:13	Called: reset_stop_point
+TRACE	2022-10-20 16:56:15	Called: delete_item
+INFO	2022-10-20 16:56:16	LANE_NODE (id: RB219BS010006S) deleted.
+INFO	2022-10-20 16:56:16	LANE_NODE (id: RB219BS010006E) deleted.
+TRACE	2022-10-20 16:56:18	Called: delete_item
+ERROR	2022-10-20 16:56:18	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:56:19	Called: delete_item
+ERROR	2022-10-20 16:56:19	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:56:20	Called: delete_item
+INFO	2022-10-20 16:56:21	LANE_NODE (id: RB219BS010136E) deleted.
+INFO	2022-10-20 16:56:21	LANE_NODE (id: RB219BS011304E) deleted.
+INFO	2022-10-20 16:56:21	LANE_NODE (id: RB219BS010136S) deleted.
+INFO	2022-10-20 16:56:21	LANE_NODE (id: RB219BS010481E) deleted.
+TRACE	2022-10-20 16:56:21	Called: reset_start_point
+TRACE	2022-10-20 16:56:21	Called: reset_end_point
+TRACE	2022-10-20 16:56:21	Called: reset_stop_point
+TRACE	2022-10-20 16:56:22	Called: delete_item
+ERROR	2022-10-20 16:56:22	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:56:27	Called: delete_item
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS010157E) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS010157S) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS011306S) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS011309S) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RC319BS010553S) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS010172E) deleted.
+INFO	2022-10-20 16:56:27	LANE_NODE (id: RB219BS010009E) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS010009S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS011395S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS011386S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS011351S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS011348S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS010139S) deleted.
+INFO	2022-10-20 16:56:28	LANE_NODE (id: RB219BS010139E) deleted.
+TRACE	2022-10-20 16:56:28	Called: reset_start_point
+TRACE	2022-10-20 16:56:28	Called: reset_end_point
+TRACE	2022-10-20 16:56:28	Called: reset_stop_point
+TRACE	2022-10-20 16:56:29	Called: delete_item
+ERROR	2022-10-20 16:56:29	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:56:58	Called: delete_item
+ERROR	2022-10-20 16:56:58	delete_item failed (traceback below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\opengl_canvas.py", line 4328, in delete_item
+		    'Delete items\n{}'.format(items[0]['type'].name),
+		IndexError: list index out of range
+		
+TRACE	2022-10-20 16:57:04	Called: delete_item
+INFO	2022-10-20 16:57:05	CROSSWALK (id: CW000003) deleted.
+TRACE	2022-10-20 16:57:05	Called: reset_start_point
+TRACE	2022-10-20 16:57:05	Called: reset_end_point
+TRACE	2022-10-20 16:57:05	Called: reset_stop_point
+TRACE	2022-10-20 16:57:06	Called: delete_item
+INFO	2022-10-20 16:57:07	CROSSWALK (id: CW000004) deleted.
+TRACE	2022-10-20 16:57:07	Called: reset_start_point
+TRACE	2022-10-20 16:57:07	Called: reset_end_point
+TRACE	2022-10-20 16:57:07	Called: reset_stop_point
+TRACE	2022-10-20 16:57:11	Called: delete_item
+INFO	2022-10-20 16:57:11	CROSSWALK (id: CW000009) deleted.
+TRACE	2022-10-20 16:57:11	Called: reset_start_point
+TRACE	2022-10-20 16:57:11	Called: reset_end_point
+TRACE	2022-10-20 16:57:11	Called: reset_stop_point
+TRACE	2022-10-20 16:57:21	Called: delete_item
+INFO	2022-10-20 16:57:22	LANE_BOUNDARY (id: B219BS011265) deleted.
+INFO	2022-10-20 16:57:22	LANE_BOUNDARY (id: LM000018) deleted.
+TRACE	2022-10-20 16:57:22	Called: reset_start_point
+TRACE	2022-10-20 16:57:22	Called: reset_end_point
+TRACE	2022-10-20 16:57:22	Called: reset_stop_point
+TRACE	2022-10-20 16:57:31	Called: delete_item
+INFO	2022-10-20 16:57:32	LINK (id: LN000009) deleted.
+TRACE	2022-10-20 16:57:32	Called: reset_start_point
+TRACE	2022-10-20 16:57:32	Called: reset_end_point
+TRACE	2022-10-20 16:57:32	Called: reset_stop_point
+TRACE	2022-10-20 16:57:43	Called: delete_item
+INFO	2022-10-20 16:57:43	LANE_BOUNDARY (id: C319BS010535) deleted.
+TRACE	2022-10-20 16:57:43	Called: reset_start_point
+TRACE	2022-10-20 16:57:43	Called: reset_end_point
+TRACE	2022-10-20 16:57:43	Called: reset_stop_point
+TRACE	2022-10-20 16:57:55	Called: delete_item
+INFO	2022-10-20 16:57:55	NODE (id: ND000009) deleted.
+TRACE	2022-10-20 16:57:55	Called: reset_start_point
+TRACE	2022-10-20 16:57:55	Called: reset_end_point
+TRACE	2022-10-20 16:57:55	Called: reset_stop_point
+TRACE	2022-10-20 16:57:59	Called: delete_item
+INFO	2022-10-20 16:57:59	NODE (id: ND000008) deleted.
+TRACE	2022-10-20 16:57:59	Called: reset_start_point
+TRACE	2022-10-20 16:57:59	Called: reset_end_point
+TRACE	2022-10-20 16:57:59	Called: reset_stop_point
+TRACE	2022-10-20 16:58:09	Called: delete_item
+INFO	2022-10-20 16:58:09	LANE_NODE (id: RB219BS010431S) deleted.
+INFO	2022-10-20 16:58:09	LANE_NODE (id: ND000010) deleted.
+TRACE	2022-10-20 16:58:09	Called: reset_start_point
+TRACE	2022-10-20 16:58:09	Called: reset_end_point
+TRACE	2022-10-20 16:58:09	Called: reset_stop_point
+TRACE	2022-10-20 16:58:11	Called: delete_item
+INFO	2022-10-20 16:58:11	LANE_NODE (id: RB219BS010033S) deleted.
+TRACE	2022-10-20 16:58:11	Called: reset_start_point
+TRACE	2022-10-20 16:58:11	Called: reset_end_point
+TRACE	2022-10-20 16:58:11	Called: reset_stop_point
+TRACE	2022-10-20 16:58:12	Called: delete_item
+INFO	2022-10-20 16:58:12	LANE_NODE (id: RC319BS010232E) deleted.
+INFO	2022-10-20 16:58:12	LANE_NODE (id: ND000009) deleted.
+INFO	2022-10-20 16:58:12	LANE_NODE (id: RB219BS011264E) deleted.
+TRACE	2022-10-20 16:58:12	Called: reset_start_point
+TRACE	2022-10-20 16:58:12	Called: reset_end_point
+TRACE	2022-10-20 16:58:12	Called: reset_stop_point
+TRACE	2022-10-20 16:58:17	Called: delete_item
+INFO	2022-10-20 16:58:18	LANE_NODE (id: RB219BS010477E) deleted.
+INFO	2022-10-20 16:58:18	LANE_NODE (id: RB219BS010004S) deleted.
+TRACE	2022-10-20 16:58:18	Called: reset_start_point
+TRACE	2022-10-20 16:58:18	Called: reset_end_point
+TRACE	2022-10-20 16:58:18	Called: reset_stop_point
+TRACE	2022-10-20 16:58:19	Called: delete_item
+TRACE	2022-10-20 16:58:27	Called: find_dangling_nodes
+INFO	2022-10-20 16:58:27	find_dangling_nodes result: []
+TRACE	2022-10-20 16:59:39	Called: delete_item
+INFO	2022-10-20 16:59:40	LANE_NODE (id: RB219BS010196S) deleted.
+TRACE	2022-10-20 16:59:40	Called: reset_start_point
+TRACE	2022-10-20 16:59:40	Called: reset_end_point
+TRACE	2022-10-20 16:59:40	Called: reset_stop_point
+TRACE	2022-10-20 16:59:40	Called: delete_item
+TRACE	2022-10-20 16:59:45	Called: delete_item
+TRACE	2022-10-20 16:59:51	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find End Nodes
+TRACE	2022-10-20 17:00:13	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Stop Line Nodes/backup

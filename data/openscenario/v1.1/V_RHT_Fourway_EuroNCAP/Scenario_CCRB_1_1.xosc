@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="1" date="2021-1-28T10:00:00" description="Scenario 1" author="ASAM e.V."/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+	<Map name="V_RHT_Fourway_EuroNCAP" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Genesis_DH" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+          <ParameterDeclarations />
+          <Properties />
+      </Vehicle>
+    </ScenarioObject>
+	<ScenarioObject name="Stop_Point">
+	  <MiscObject mass="0" miscObjectCategory="none" name="MiscObject1">
+		<Properties/>
+	  </MiscObject>
+	</ScenarioObject> 
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="16"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="9.796874998574655" y="-1.7500000006977179" z="0.0" h="0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="16"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="40.984374999779305" y="-1.7500000007320122" z="0.0" h="0.0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="Stop_Point">          
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="126.74999999881109" y="-1.7500000010435226" z="0.0" h="0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1" />
+          </Actors>
+          <Maneuver name="Maneuver1">
+            <Event name="Event1" priority="overwrite">
+              <Action name="Action1">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionDynamics dynamicsShape="linear" value="6" dynamicsDimension="rate" />
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed value="0" />
+                      </SpeedActionTarget>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="StartCondition1" delay="0" conditionEdge="rising">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="NPC_1" />
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition value="5.0" freespace="false" rule="lessThan">
+                          <Position>
+                            <RelativeObjectPosition entityRef="Stop_Point" dx="0" dy="0" />
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

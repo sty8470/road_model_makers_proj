@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_OpenSCENARIO"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionStart_Scenario"/>
+    <addaction name="actionStop_Scenario"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuRun"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_OpenSCENARIO">
+   <property name="text">
+    <string>Load OpenSCENARIO</string>
+   </property>
+  </action>
+  <action name="actionStart_Scenario">
+   <property name="text">
+    <string>Start Scenario</string>
+   </property>
+  </action>
+  <action name="actionStop_Scenario">
+   <property name="text">
+    <string>Stop Scenario</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

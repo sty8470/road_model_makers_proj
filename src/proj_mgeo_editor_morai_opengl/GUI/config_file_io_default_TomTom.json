@@ -1,0 +1,32 @@
+{	
+	"file_path":[
+		{
+			"TXT_IMPORT": "../../data/hdmap/",
+			"TOMTOM_IMPORT": "../../data/hdmap/",
+			"ROADRUNNER_GEOJSON_IMPORT": "../../data/hdmap/",
+			"MGEO_SAVE": "../../data/mgeo/",
+			"MGEO_LOAD": "../../data/mgeo/",
+			"EXPORT_ODR": "../../data/mgeo/",
+			"RUN_ESMINI": "../../",
+			"ODR_VIEWER": "../../util/",
+			"EXPORT_CSV": "../../data/mgeo/",
+			"EXPORT_GEOJSON": "../../data/mgeo/",
+			"EXPORT_OSM": "../../data/mgeo/",
+			"EXPORT_OICD": "../../data/mgeo"
+		}
+	],
+	
+	"world_setting":[
+		{
+			"spheroid": "WGS84",
+			"latitude_of_orign" : "0.0",
+			"central_meridian": "0.0",
+			"scale_factor" : "1.0",
+			"false_easting" : "0",
+			"false_northing" : "0",
+
+			"world_orign_latitude" : "0",
+			"world_orign_longitude": "0"
+		}
+	]
+}

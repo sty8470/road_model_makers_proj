@@ -1,0 +1,31 @@
+{
+   "egoVehicle":{
+      "index":0,
+      "UNIQUEID":-1,
+      "m_eobstacleObjType":1,      
+	  "initPosition": {
+		"initPositionMode": "absolute",
+		"pos":{
+			"x":1.260042, 
+			"y":-0.634000, 
+			"z":-1854.572998
+		},
+		"rot":{
+			"pitch":0,
+			"yaw":-143.659808,
+			"roll":0
+		}	  
+	  },
+      "currentVelocity":0.0,
+      "gear":0
+   },
+   "vehicleList":[
+		
+   ],
+   "pedestrianList":[
+      
+   ],
+   "objectList":[
+      
+   ]
+}

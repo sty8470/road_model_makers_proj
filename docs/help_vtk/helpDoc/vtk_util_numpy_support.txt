@@ -1,0 +1,94 @@
+C:\Users\user\Anaconda3\envs\conda_venv_vmtk_002\python.exe "C:\Program Files\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pydev\pydevconsole.py" 8670 8671
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['C:\\Users\\user\\workspace\\medi_projects\\vmtk_proj_001', 'C:/Users/user/workspace/medi_projects/vmtk_proj_001'])
+PyDev console: starting.
+Python 3.6.4 |Anaconda, Inc.| (default, Mar 12 2018, 20:20:50) [MSC v.1900 64 bit (AMD64)] on win32
+import vtk.util.numpy_support as vn
+help(vn)
+Help on module vtk.util.numpy_support in vtk.util:
+NAME
+    vtk.util.numpy_support
+DESCRIPTION
+    This module adds support to easily import and export NumPy
+    (http://numpy.scipy.org) arrays into/out of VTK arrays.  The code is
+    loosely based on TVTK (https://svn.enthought.com/enthought/wiki/TVTK).
+
+    This code depends on an addition to the VTK data arrays made by Berk
+    Geveci to make it support Python's buffer protocol (on Feb. 15, 2008).
+
+    The main functionality of this module is provided by the two functions:
+        numpy_to_vtk,
+        vtk_to_numpy.
+
+
+    Caveats:
+    --------
+
+     - Bit arrays in general do not have a numpy equivalent and are not
+       supported.  Char arrays are also not easy to handle and might not
+       work as you expect.  Patches welcome.
+
+     - You need to make sure you hold a reference to a Numpy array you want
+       to import into VTK.  If not you'll get a segfault (in the best case).
+       The same holds in reverse when you convert a VTK array to a numpy
+       array -- don't delete the VTK array.
+
+
+    Created by Prabhu Ramachandran in Feb. 2008.
+FUNCTIONS
+    create_vtk_array(vtk_arr_type)
+        Internal function used to create a VTK data array from another
+        VTK array given the VTK array type.
+
+    get_numpy_array_type(vtk_array_type)
+        Returns a numpy array typecode given a VTK array type.
+
+    get_vtk_array_type(numpy_array_type)
+        Returns a VTK typecode given a numpy array.
+
+    get_vtk_to_numpy_typemap()
+        Returns the VTK array type to numpy array type mapping.
+
+    numpy_to_vtk(num_array, deep=0, array_type=None)
+        Converts a real numpy Array to a VTK array object.
+
+        This function only works for real arrays.
+        Complex arrays are NOT handled.  It also works for multi-component
+        arrays.  However, only 1, and 2 dimensional arrays are supported.
+        This function is very efficient, so large arrays should not be a
+        problem.
+
+        If the second argument is set to 1, the array is deep-copied from
+        from numpy. This is not as efficient as the default behavior
+        (shallow copy) and uses more memory but detaches the two arrays
+        such that the numpy array can be released.
+
+        WARNING: You must maintain a reference to the passed numpy array, if
+        the numpy data is gc'd and VTK will point to garbage which will in
+        the best case give you a segfault.
+
+        Parameters:
+
+        num_array
+          a 1D or 2D, real numpy array.
+
+    numpy_to_vtkIdTypeArray(num_array, deep=0)
+
+    vtk_to_numpy(vtk_array)
+        Converts a VTK data array to a numpy array.
+
+        Given a subclass of vtkDataArray, this function returns an
+        appropriate numpy array containing the same data -- it actually
+        points to the same data.
+
+        WARNING: This does not work for bit arrays.
+
+        Parameters
+
+        vtk_array
+          The VTK data array to be converted.
+DATA
+    VTK_ID_TYPE_SIZE = 8
+    VTK_LONG_TYPE_SIZE = 4
+FILE
+    c:\users\user\anaconda3\envs\conda_venv_vmtk_002\lib\site-packages\vtk\util\numpy_support.py

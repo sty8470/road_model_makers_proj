@@ -1,0 +1,124 @@
+#=============================================================#
+#                                                             #
+#                 PROJECT FILE FOR RAPID LIDAR                #
+#                                                             #
+#=============================================================#
+
+#PROJECT_INFO
+	$PROJECT_NAME: 판교
+	$PRJ_WKT: PROJCS["korea_127_60",GEOGCS["Transverse_Mercator",DATUM["GRS_1980",SPHEROID["GRS_1980",6378137.000,298.2572220960423100]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["scale_factor",1.000000],PARAMETER["central_meridian",127.00000000],PARAMETER["latitude_of_origin",38.00000000],PARAMETER["false_easting",200000.000],PARAMETER["false_northing",600000.000],UNIT["Meter",1]]
+#END_PROJECT_INFO
+
+#LAS_LIST
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_C_20190414_063358 Profiler.zfs_0.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_C_20190414_063358 Profiler.zfs_1.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_D_20190414_063723 Profiler.zfs_0.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_D_20190414_063723 Profiler.zfs_1.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_E_20190414_064048 Profiler.zfs_0.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_E_20190414_064048 Profiler.zfs_1.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_E_20190414_064048 Profiler.zfs_2.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_E_20190414_064048 Profiler.zfs_3.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_F_20190414_064421 Profiler.zfs_0.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_F_20190414_064421 Profiler.zfs_1.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_F_20190414_064421 Profiler.zfs_2.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_F_20190414_064421 Profiler.zfs_3.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_G_20190414_065156 Profiler.zfs_0.las
+	#LAS_FILE_NAME: F:\3.MMS 표준자료\Track_G_20190414_065156 Profiler.zfs_1.las
+#END_LAS_LIST
+
+#SHP_LIST
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\A1_LANE.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 51 51 51 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\A2_STOP.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 53 79 73 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\A3_LINK.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 86 129 107 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B1_SIGN_POINT.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 118 129 86 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B1_SIGNAL_POINT.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 0 141 189 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B2_SURFSIGN_LINE.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 170 255 212 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B2_SURFSIGN_PLANE.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 0 189 141 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B2_SURFSIGN_POINT.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 104 69 86 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\B3_POST_POINT.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 0 46 189 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+	#LAYER_INFO
+		$LAYER_FILE_NAME: F:\5.정밀도로지도성과(구조화 편집)\1차,2차 통합_중부\C1_NODE.SHP
+		$LAYER_PT_SIZE: 4.00
+		$LAYER_LINE_SIZE: 2.00
+		$LAYER_COLOR: 129 96 0 128 0
+		$FILL_MODE: 0
+	#END_LAYER_INFO
+#END_SHP_LIST
+
+#DATA_LIST
+	#ROUTE_FILE_NAME: NONE
+	#PHOTO_EXPOSURE_FILE: NONE
+	#PHOTO_DIRECTORY: NONE
+#END_DATA_LIST
+
+#MODEL_LIST
+#END_MODEL_LIST
+
+#LAST_DATA
+	#LAS_COLOR_MODE: NONE
+	#CENTER_XYZ: NONE
+	#PAN_XY: NONE
+	#LOOK_XY: NONE
+	#ANGLE: NONE
+	#ZOOM: NONE
+	#PHOTO: NONE
+	#HEIGHT_CLIPPING_MODE: NONE
+	#CLIPPING_HEIGHT: NONE
+	#VECTOR_DISPLAY_MODE: NONE
+	#FIELD_LAYER: NONE
+	#EDIT_LAYER: NONE
+#END_LAST_DATA

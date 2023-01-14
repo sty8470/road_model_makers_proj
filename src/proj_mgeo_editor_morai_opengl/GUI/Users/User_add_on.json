@@ -1,0 +1,33 @@
+{
+	"User": "ADDON",
+	"exclude_file_actions": ["mscenario","openscenario"],
+	"exclude_file_submenu": [],
+	"import_actions": {
+		"42dot": 0,
+		"NGII_Shp_Ver1_Node_Link": 1,
+		"NGII_Shp_Ver1_Lane_Marking_Data": 1,
+		"NGII_Shp_Ver2": 1,
+		"NGII_Shp_Ver2_Lane_Marking_Data": 1,
+		"txt": 1,
+		"stryx_geojson": 0,
+		"naver_geojson": 0,
+		"roadrunner": 1,
+		"Stryx": 0,
+		"Naver": 0,
+		"DeepMap": 0,
+		"TomTom_avro": 1,
+		"TomTom_shp": 1,
+		"TomTom_geojson": 1,
+		"Civilmaps": 0,
+		"Mobiltech": 0,
+		"hyundai" : 0,
+		"openscenario" : 0,
+		"Kakaomobility": 0
+	},
+	"exclude_export_actions": ["oicd"],
+	"exclude_menu" : ["menuOpenScenario"],
+	"program_name": "MapEditor Add-On (v0.1)",
+	"program_key": "map_editor_for_add_on",
+	"config_file_io": "config_file_io_default_AddOn.json",
+	"user_manual_url": "https://help-morai-sim.scrollhelp.site/"
+}

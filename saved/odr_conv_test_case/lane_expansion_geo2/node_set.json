@@ -1,0 +1,101 @@
+[
+  {
+    "idx": "N10",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      0,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N11",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      50,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N12",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      100,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N13",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      150,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N21",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5.0,
+      50.0,
+      0.0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N22",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      100,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "N23",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      150,
+      0
+    ],
+    "on_stop_line": null
+  },
+  {
+    "idx": "ND000000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5.0,
+      140.0,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10.0,
+      140.0,
+      0.0
+    ],
+    "on_stop_line": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "idx": "CW000016",
+    "single_crosswalk_list": [
+      "B319BS010013",
+      "B319BS010012",
+      "B319BS010011"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010003",
+      "C119BS010002"
+    ]
+  },
+  {
+    "idx": "CW000017",
+    "single_crosswalk_list": [
+      "B319BS010014",
+      "B319BS010015",
+      "B319BS010016"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010006",
+      "C119BS010004"
+    ]
+  }
+]

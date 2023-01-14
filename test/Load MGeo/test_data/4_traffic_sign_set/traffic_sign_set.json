@@ -1,0 +1,26 @@
+[
+  {
+    "idx": "SN000000",
+    "link_id_list": [
+      "LN000000"
+    ],
+    "road_id": "2",
+    "type": "2",
+    "sub_type": "21",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      8.912812816484916,
+      -1.694848873317666,
+      1.9371297806217815e-05
+    ],
+    "value": 0,
+    "country": "KR",
+    "z_offset": 1.6,
+    "height": 30.0,
+    "width": 40.0,
+    "type_def": "mgeo",
+    "ref_crosswalk_id": "",
+    "heading": 0
+  }
+]

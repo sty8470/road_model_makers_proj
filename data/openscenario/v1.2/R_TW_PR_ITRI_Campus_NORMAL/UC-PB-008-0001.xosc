@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="2" date="2022-07-21T10:00:00" description="Scenario:ego makes judgement while turning left" author="MORAI:scenario-module-team"/>
+  <ParameterDeclarations/>
+  <VariableDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_TW_PR_ITRI_Campus_NORMAL" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+      </Vehicle>
+    </ScenarioObject>
+	<ScenarioObject name="Pedestrian_1">
+	  <Pedestrian mass="55" pedestrianCategory="pedestrian" name="Man1">
+		<Properties>
+			<Property name="activeDistance" value="11" />
+			<Property name="moveDistance" value="30" />
+		</Properties>
+	  </Pedestrian>
+	</ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2022-07-21T10:00:00" />
+              <Weather atmosphericPressure="80000" fractionalCloudCover="zeroOktas" temperature="170">
+                <Sun illuminance="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+				<Wind direction="0" speed="0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="dry"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" cruiseMode="on" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="2.5"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-225.87769999999998" y="306.421800000003" z="-3.5999999999999996" h="-43" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+		  <PrivateAction>
+				<RoutingAction>
+					<AssignRouteAction>
+						<Route name="Ego_Route" closed="false" afterCompletion="random">							
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000306" index="0"/>
+								</Position>
+							</Waypoint>
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000193"/>
+								</Position>
+							</Waypoint>
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000194"/>
+								</Position>
+							</Waypoint>
+						</Route>
+					</AssignRouteAction>
+				</RoutingAction>
+	      </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8.33333"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-206.14399999999998" y="291.78685000000297" z="-3.5999999999999996" h="138" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+		  <PrivateAction>
+				<RoutingAction>
+					<AssignRouteAction>
+						<Route name="NPC_Route" closed="false" afterCompletion="random">
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000312" index="0"/>
+								</Position>
+							</Waypoint>
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000180"/>
+								</Position>
+							</Waypoint>
+							<Waypoint routeStrategy="shortest">
+								<Position>
+									<LinkPosition id="LN000195"/>
+								</Position>
+							</Waypoint>
+						</Route>
+					</AssignRouteAction>
+				</RoutingAction>
+	      </PrivateAction>
+        </Private>	
+        <Private entityRef="Pedestrian_1">  
+		  <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="1.5"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-208.3397" y="300.26080000000366" z="-3.1876" h="138" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>				
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+			<EntityRef entityRef="NPC_1" />
+          </Actors>   
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger>
+      <ConditionGroup>
+        <Condition name="Time_out" delay="0" conditionEdge="none">
+          <ByValueCondition>
+            <SimulationTimeCondition value="30" rule="greaterThan" />
+          </ByValueCondition>
+        </Condition>
+      </ConditionGroup>
+    </StopTrigger>
+  </Storyboard>  
+</OpenSCENARIO>

@@ -1,0 +1,1339 @@
+[
+  {
+    "idx": "ND000000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000001",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000002",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000003",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000004",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000005",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000006",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000007",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000010",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000011",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000012",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000013",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000014",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000015",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000016",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      -12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000017",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      -12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000018",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -697.9,
+      -15.704932786027,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000019",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -691.238774388586,
+      -15.701512009772,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000020",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000021",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000022",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000023",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000026",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000027",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000028",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000029",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -565.683452606201,
+      -12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000031",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000032",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000033",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000034",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000035",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000036",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000037",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000038",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      573.614721298218,
+      -12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000039",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000040",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000041",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000042",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000043",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000044",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000045",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000046",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      -12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000048",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      697.9,
+      -15.630823947161,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000049",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000050",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000051",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000052",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000053",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000054",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000055",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000056",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000057",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000058",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000059",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000060",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000061",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -731.602148229945,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000062",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -757.059441838441,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000065",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000066",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000067",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000068",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000069",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000070",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000071",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -777.15064652084,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000073",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.446577002111,
+      -0.349921439255,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000074",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.479747871614,
+      -3.84976424907,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000075",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.512918741117,
+      -7.349607058885,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000078",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.413406132608,
+      3.14992137056,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000079",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.380235263105,
+      6.649764180376,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000080",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.347064393601,
+      10.149606990191,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000081",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -995.313893524098,
+      13.649449800007,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000082",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000083",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000084",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000085",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000086",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000087",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000088",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000089",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000090",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000091",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000092",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000093",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000094",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      753.137993531002,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000095",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      764.228593662362,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000096",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000097",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000098",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000099",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      12.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000100",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      -1.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000101",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      -5.25,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000102",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      792.405570721294,
+      -8.75,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000105",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.777949776079,
+      1.919998837707,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000106",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.773912868735,
+      5.419996509617,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000107",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.769875961391,
+      8.919994181527,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000108",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.765839054046,
+      12.419991853438,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000109",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.781986683424,
+      -1.579998834204,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000110",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.786023590769,
+      -5.079996506115,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000111",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      994.790060498113,
+      -8.579994178025,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000115",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -738.36440438255,
+      -16.780521275298,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000116",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -730.988953443878,
+      -15.191617219004,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000117",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -737.559578572714,
+      -20.14062767165,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000118",
+    "node_type": null,
+    "junction": [
+      "43"
+    ],
+    "point": [
+      -730.338853176382,
+      -18.585056362584,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000121",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -752.880352660145,
+      -20.573658283751,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000122",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -751.996661693111,
+      -23.91389028973,
+      6.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000124",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -773.543715709061,
+      -26.040352585882,
+      5.859737468271
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000125",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -772.660024742027,
+      -29.38058459186,
+      5.859737468271
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000129",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -1006.842368758513,
+      -87.761787489826,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000130",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -1005.958677791479,
+      -91.102019495804,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000131",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      752.773512302167,
+      -15.229499325014,
+      5.834102630911
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000132",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      767.491541455511,
+      -17.13309680245,
+      5.263815913342
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000133",
+    "node_type": null,
+    "junction": [
+      "26"
+    ],
+    "point": [
+      752.392974577021,
+      -18.58883878411,
+      5.834102630911
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000134",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      767.004875388924,
+      -20.478709855588,
+      5.263815913342
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000137",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      989.364907259988,
+      -87.16572174872,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000138",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      988.215414206191,
+      -90.345129913924,
+      0.0
+    ],
+    "on_stop_line": false
+  }
+]

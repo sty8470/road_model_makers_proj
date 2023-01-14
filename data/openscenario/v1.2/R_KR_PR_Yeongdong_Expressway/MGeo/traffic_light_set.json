@@ -1,0 +1,27 @@
+[
+  {
+    "idx": "6174",
+    "link_id_list": [],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      10794.343211718777,
+      -4713.395102603361,
+      120.90590826666873
+    ],
+    "country": "OpenDRIVE",
+    "z_offset": 2.22079800237867,
+    "height": 0,
+    "width": 0.400385613076565,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 337.3796867960803
+  }
+]

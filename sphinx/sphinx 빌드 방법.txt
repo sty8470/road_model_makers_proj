@@ -1,0 +1,21 @@
+
+# 빌드
+sphinx-build -b html ./rst ./html
+
+
+# 완전히 새로 빌드하고 싶을 때
+
+1) html 폴더 삭제 (빌드 정보)
+
+2) rst 폴더 내에서, 다음을 제외하고 삭제
+  - index.rst
+  - conf.py
+  - _static
+
+3) rst 파일 새로 생성 (release_script/sphinx_util/)
+  - create_rst_files.py 실행
+  - 실행 결과로 나온 메세지를 rst/index.rst 에 복사
+
+
+4) activate 된 command 창에서, 현재의 sphinx 폴더로 이동한 뒤 아래 입력
+  sphinx-build -b html ./rst ./html

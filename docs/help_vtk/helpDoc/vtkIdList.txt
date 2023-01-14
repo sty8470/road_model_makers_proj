@@ -1,0 +1,437 @@
+class vtkIdList(vtkObject)
+ |  vtkIdList - list of point or cell ids
+ |
+ |  Superclass: vtkObject
+ |
+ |  vtkIdList is used to represent and pass data id's between objects.
+ |  vtkIdList may represent any type of integer id, but usually
+ |  represents point and cell ids.
+ |
+ |  Method resolution order:
+ |      vtkIdList
+ |      vtkObject
+ |      vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  Allocate(...)
+ |      V.Allocate(int, int) -> int
+ |      C++: int Allocate(const vtkIdType sz, const int strategy=0)
+ |
+ |      Allocate a capacity for sz ids in the list and set the number of
+ |      stored ids in the list to 0. strategy is not used.
+ |
+ |  DeepCopy(...)
+ |      V.DeepCopy(vtkIdList)
+ |      C++: void DeepCopy(vtkIdList *ids)
+ |
+ |      Copy an id list by explicitly copying the internal array.
+ |
+ |  DeleteId(...)
+ |      V.DeleteId(int)
+ |      C++: void DeleteId(vtkIdType vtkid)
+ |
+ |      Delete specified id from list. Will remove all occurrences of id
+ |      in list.
+ |
+ |  GetId(...)
+ |      V.GetId(int) -> int
+ |      C++: vtkIdType GetId(const vtkIdType i)
+ |
+ |      Return the id at location i.
+ |
+ |  GetNumberOfIds(...)
+ |      V.GetNumberOfIds() -> int
+ |      C++: vtkIdType GetNumberOfIds()
+ |
+ |      Return the number of id's in the list.
+ |
+ |  GetPointer(...)
+ |      V.GetPointer(int) -> (int, ...)
+ |      C++: vtkIdType *GetPointer(const vtkIdType i)
+ |
+ |      Get a pointer to a particular data index.
+ |
+ |  Initialize(...)
+ |      V.Initialize()
+ |      C++: void Initialize()
+ |
+ |  InsertId(...)
+ |      V.InsertId(int, int)
+ |      C++: void InsertId(const vtkIdType i, const vtkIdType vtkid)
+ |
+ |      Set the id at location i. Does range checking and allocates
+ |      memory as necessary.
+ |
+ |  InsertNextId(...)
+ |      V.InsertNextId(int) -> int
+ |      C++: vtkIdType InsertNextId(const vtkIdType vtkid)
+ |
+ |      Add the id specified to the end of the list. Range checking is
+ |      performed.
+ |
+ |  InsertUniqueId(...)
+ |      V.InsertUniqueId(int) -> int
+ |      C++: vtkIdType InsertUniqueId(const vtkIdType vtkid)
+ |
+ |      If id is not already in list, insert it and return location in
+ |      list. Otherwise return just location in list.
+ |
+ |  IntersectWith(...)
+ |      V.IntersectWith(vtkIdList)
+ |      C++: void IntersectWith(vtkIdList *otherIds)
+ |      V.IntersectWith(vtkIdList)
+ |      C++: void IntersectWith(vtkIdList &otherIds)
+ |
+ |      Intersect this list with another vtkIdList. Updates current list
+ |      according to result of intersection operation.
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsId(...)
+ |      V.IsId(int) -> int
+ |      C++: vtkIdType IsId(vtkIdType vtkid)
+ |
+ |      Return -1 if id specified is not contained in the list; otherwise
+ |      return the position in the list.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkIdList
+ |      C++: vtkIdList *NewInstance()
+ |
+ |  Reset(...)
+ |      V.Reset()
+ |      C++: void Reset()
+ |
+ |      Reset to an empty state.
+ |
+ |  Resize(...)
+ |      V.Resize(int) -> (int, ...)
+ |      C++: vtkIdType *Resize(const vtkIdType sz)
+ |
+ |      Adjust the size of the id list while maintaining its content
+ |      (except when being truncated).
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkIdList
+ |      C++: static vtkIdList *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetArray(...)
+ |      V.SetArray([int, ...], int)
+ |      C++: void SetArray(vtkIdType *array, vtkIdType size)
+ |
+ |      Specify an array of vtkIdType to use as the id list. This
+ |      replaces the underlying array. This instance of vtkIdList takes
+ |      ownership of the array, meaning that it deletes it on destruction
+ |      (using delete[]).
+ |
+ |  SetId(...)
+ |      V.SetId(int, int)
+ |      C++: void SetId(const vtkIdType i, const vtkIdType vtkid)
+ |
+ |      Set the id at location i. Doesn't do range checking so it's a bit
+ |      faster than InsertId. Make sure you use SetNumberOfIds() to
+ |      allocate memory prior to using SetId().
+ |
+ |  SetNumberOfIds(...)
+ |      V.SetNumberOfIds(int)
+ |      C++: void SetNumberOfIds(const vtkIdType number)
+ |
+ |      Specify the number of ids for this object to hold. Does an
+ |      allocation as well as setting the number of ids.
+ |
+ |  Squeeze(...)
+ |      V.Squeeze()
+ |      C++: void Squeeze()
+ |
+ |      Free any unused memory.
+ |
+ |  WritePointer(...)
+ |      V.WritePointer(int, int) -> (int, ...)
+ |      C++: vtkIdType *WritePointer(const vtkIdType i,
+ |          const vtkIdType number)
+ |
+ |      Get a pointer to a particular data index. Make sure data is
+ |      allocated for the number of items requested. Set MaxId according
+ |      to the number of data values requested.
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __vtkname__ = 'vtkIdList'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: virtual vtkMTimeType GetMTime()
+ |
+ |      Return this object's modified time.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: virtual void Modified()
+ |
+ |      Update the modification time for this object. Many filters rely
+ |      on the modification time to determine if they need to recompute
+ |      their data. The modification time is a unique monotonically
+ |      increasing unsigned long integer.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).

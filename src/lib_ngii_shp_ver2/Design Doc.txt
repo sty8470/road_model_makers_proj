@@ -1,0 +1,26 @@
+필요한 동작
+
+Node/Line 편집
+
+  1) Load SHP files -> Create NodeSet & LineSet
+  2) Load Node-Line Set
+  3) Save Node-Line Set
+  4) Create New Line
+     - Choose a start node
+     - Choose a end node
+     - Connect & Register to the current LineSet
+  5) Create a New Node (Divide Line) 
+     - Choose a point
+     - Divide
+  6) Simplify Node-Line Set (Merge Lines, Delete Nodes)
+  
+
+Plane 편집
+
+  1) Load PlaneSet
+  2) Save PlaneSet
+  3) Create a New Plane
+     - Choose a node (multiple times)
+     - Create & Register to the current PlaneSet
+  4) Create Mesh from PlaneSet
+  

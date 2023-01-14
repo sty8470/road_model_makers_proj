@@ -1,0 +1,4050 @@
+[
+  {
+    "idx": "ND000000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8641.126330873347,
+      -3890.915262836963,
+      109.93429642
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9268.532057681878,
+      -4214.775655134581,
+      106.020668503
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000002",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8639.380995346757,
+      -3894.1307059759274,
+      109.93429642
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000003",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9266.88588246965,
+      -4218.091632782482,
+      106.020668503
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000004",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8637.661971308233,
+      -3897.2976753870025,
+      109.93429642
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000005",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9265.260030339705,
+      -4221.366672695149,
+      106.020668503
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000006",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8635.951717699936,
+      -3900.4484870797023,
+      109.93429642
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000007",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9263.662630548177,
+      -4224.584399674553,
+      106.020668503
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000008",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9909.819419198146,
+      -4543.434465276543,
+      112.741900549
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000009",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9908.34881121479,
+      -4546.797072400339,
+      112.741900549
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000010",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9906.878203185683,
+      -4550.1596797541715,
+      112.741900549
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000011",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9905.441102643788,
+      -4553.445670963265,
+      112.741900549
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000012",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10651.981266812363,
+      -4736.331432112027,
+      118.974756573
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000013",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10820.925677060906,
+      -4775.437893981114,
+      120.29921519
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000014",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10651.192545277125,
+      -4739.896294829901,
+      118.974756573
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000015",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10820.129240457725,
+      -4779.072983322199,
+      120.29921519
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000016",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10650.411871962307,
+      -4743.424781468231,
+      118.974756573
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000017",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10819.34462046891,
+      -4782.654139642604,
+      120.29921519
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000018",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10649.623150500178,
+      -4746.989644354675,
+      118.974756573373
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000019",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10818.562363837555,
+      -4786.224509416148,
+      120.29921519
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000020",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11239.581846501504,
+      -4872.570203840733,
+      123.408056821585
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000021",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11408.75007372466,
+      -4911.737373576965,
+      124.831273204
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000022",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11238.717319644114,
+      -4876.092035535723,
+      123.408056821585
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000023",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11407.990233775636,
+      -4915.253968227655,
+      124.831273204
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000024",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11237.865926330851,
+      -4879.560365210753,
+      123.408056821585
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000025",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11407.229214159714,
+      -4918.776022728533,
+      124.831273204
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000026",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11237.018429358664,
+      -4883.012822543737,
+      123.408056821585
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000027",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11406.441714224813,
+      -4922.420630346052,
+      124.831273204
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000029",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11605.164027528488,
+      -4951.2387661966495,
+      126.842841263
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000031",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11604.669733974908,
+      -4954.804882041179,
+      126.842841263
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000033",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11604.178163856384,
+      -4958.351349887904,
+      126.842841263
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000035",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11603.682508719095,
+      -4961.927289791405,
+      126.842841263
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000036",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      12087.896517751564,
+      -4959.049009371549,
+      129.885810895641
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000037",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11062.244251201046,
+      -4824.512419865932,
+      122.020509215
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000038",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      12087.617515449587,
+      -4955.476907885168,
+      129.885810895641
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000039",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11063.030351931928,
+      -4820.942080141511,
+      122.020509215
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000040",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      12087.337078741111,
+      -4951.886440828908,
+      129.885810895641
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000041",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11063.796551420295,
+      -4817.462128823623,
+      122.020509215
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000042",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      12087.059511006984,
+      -4948.33270488726,
+      129.885810895641
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000043",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      11064.56673121365,
+      -4813.964099880308,
+      122.020509215
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000044",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10893.003658090427,
+      -4785.3065477292985,
+      120.736133908
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000045",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10893.776332120004,
+      -4781.720737597905,
+      120.736133908
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000046",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10894.534741445503,
+      -4778.20112709282,
+      120.736133908
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000047",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10895.33356761589,
+      -4774.493951191194,
+      120.736133908
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000048",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10837.583394853864,
+      -4772.45833949279,
+      120.295090165
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000049",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10838.406502052094,
+      -4768.850641434547,
+      120.295090165
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000050",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10839.214277746214,
+      -4765.310141975526,
+      120.295090165
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000051",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10840.01322811225,
+      -4761.8083243756555,
+      120.295090165
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000052",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10325.204706428281,
+      -4653.762981169391,
+      116.298251714
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000053",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10121.733158375428,
+      -4606.51396986749,
+      114.343624345
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000054",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10325.98979110882,
+      -4650.195252044126,
+      116.298251714
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000055",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10122.589437517745,
+      -4602.931652005296,
+      114.343624345
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000056",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10326.770132117264,
+      -4646.649080272764,
+      116.298251714
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000057",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10123.4199639461,
+      -4599.457073089667,
+      114.343624345
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000058",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10327.56944803038,
+      -4643.0166794536635,
+      116.298251714
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000059",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10124.248344350723,
+      -4595.991472484544,
+      114.343624345
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000061",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9385.742654435686,
+      -4267.782975555398,
+      106.889839003
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000062",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9387.344613504887,
+      -4264.506720168516,
+      106.889839003
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000063",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9388.93293161405,
+      -4261.258362787776,
+      106.889839003
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000065",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9390.507739533088,
+      -4258.037635952234,
+      106.889839003
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000066",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9204.182977752236,
+      -4174.044533285312,
+      105.755426667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000067",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8492.624417389277,
+      -3806.7855120315216,
+      110.924093117
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000068",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9205.80319074192,
+      -4170.775969477836,
+      105.755426667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000069",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8494.235363131214,
+      -3803.5135734598152,
+      110.924093117
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000070",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9207.390672083187,
+      -4167.573437520303,
+      105.755426667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000071",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8495.87674711697,
+      -3800.179812895134,
+      110.924093117
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000072",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9208.969970461912,
+      -4164.387413715944,
+      105.755426667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000073",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8497.527792337933,
+      -3796.8264298397116,
+      110.924093117
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000074",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8363.336751513358,
+      -3740.1352323652245,
+      112.0901
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000075",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8365.001665253716,
+      -3736.7548260600306,
+      112.0901
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000076",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8366.62728891417,
+      -3733.4541936335154,
+      112.0901
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000077",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8368.321669994853,
+      -3730.0139577053487,
+      112.0901
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000078",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8461.808898541552,
+      -3774.6730944034643,
+      111.405270606437
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000079",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8370.089719738287,
+      -3726.424146602396,
+      112.0901
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000080",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8308.780221753696,
+      -3712.013254780788,
+      112.4498
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000081",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8310.422653328511,
+      -3708.715708464384,
+      112.4498
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000082",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8312.06757308467,
+      -3705.413166690152,
+      112.4498
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000083",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8313.704142917937,
+      -3702.1273893541656,
+      112.4498
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000085",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8025.163385682565,
+      -3565.6191247291863,
+      114.508026667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000087",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8026.76812823012,
+      -3562.3244510511868,
+      114.508026667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000089",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8028.368776977877,
+      -3559.038182415068,
+      114.508026667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000091",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8029.94486327417,
+      -3555.8023427096196,
+      114.508026667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000092",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7894.461159114842,
+      -3498.1567356670275,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000093",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7896.05856328673,
+      -3494.929752536118,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000094",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7897.645026263141,
+      -3491.724872281775,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000095",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7899.2916653516,
+      -3488.3984278659336,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000097",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7646.531426276779,
+      -3370.180719595868,
+      117.561933333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000099",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7648.1182888511685,
+      -3366.970818360802,
+      117.561933333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000101",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7649.6906332082,
+      -3363.790284641087,
+      117.561933333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000103",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7651.305822638969,
+      -3360.5230841450393,
+      117.561933333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000104",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7901.020361243107,
+      -3484.9062133305706,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000105",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7653.026969147788,
+      -3357.041554111056,
+      117.561933333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000106",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7902.694352983672,
+      -3481.5245129331015,
+      115.42468
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000107",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7691.047301876184,
+      -3373.0113316066563,
+      117.289707253555
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000108",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6902.367500976019,
+      -2851.154827003833,
+      140.397453333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000109",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6904.564732294821,
+      -2848.1600985242985,
+      140.397453333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000110",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6906.716323562432,
+      -2845.2275754846632,
+      140.397453333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000111",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6908.835314742464,
+      -2842.3394849891774,
+      140.397453333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000113",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6910.960825668939,
+      -2839.4425084474497,
+      140.397453333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000114",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6516.415911529737,
+      -2557.0915370956063,
+      150.779902282
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000115",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6518.5728160509025,
+      -2554.1484739193693,
+      150.779902282
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000116",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6520.703811590734,
+      -2551.2407632269897,
+      150.779902282
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000117",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6522.834806907398,
+      -2548.3330529159866,
+      150.779902282
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000118",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6524.959324806114,
+      -2545.434181017801,
+      150.779902282
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000119",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6416.520126655407,
+      -2481.009175486397,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000120",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6418.724669042334,
+      -2477.9812794602476,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000121",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6420.899115068081,
+      -2474.9947202824987,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000122",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6423.073560851102,
+      -2472.0081615163945,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000123",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6425.2329583390965,
+      -2469.042271372862,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000124",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6487.293957765738,
+      -2512.592811049428,
+      151.527468438538
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000125",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6427.399879625242,
+      -2466.0660475217737,
+      152.055878667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000126",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5616.121104939433,
+      -1768.785671270918,
+      159.141861639
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000127",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5047.192324507807,
+      -1067.9126760675572,
+      164.696968
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000128",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5618.699408426473,
+      -1766.2646799515933,
+      159.141861639
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000129",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5049.971798739047,
+      -1065.7412339635193,
+      164.696968
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000130",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4087.6547218679334,
+      -278.89139334252104,
+      161.608564270425
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000131",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4047.2301664755796,
+      -264.26312698889524,
+      161.106577805
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000132",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4088.8431890188367,
+      -275.4999106884934,
+      161.608564270425
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000133",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4048.397404956573,
+      -260.85653266403824,
+      161.106577805
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000134",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4090.0613689979073,
+      -272.0236413856037,
+      161.608564270425
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000135",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4049.593464155274,
+      -257.3658250295557,
+      161.106577805
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000136",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4091.2684059537714,
+      -268.57916712062433,
+      161.608564270425
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000137",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4050.764305241464,
+      -253.94871680717915,
+      161.106577805
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000138",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4092.456873111252,
+      -265.1876849285327,
+      161.608564270425
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000139",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4051.920735977881,
+      -250.57366546429694,
+      161.106577805
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000140",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3969.1813009288744,
+      -235.94602523185313,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000141",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3970.334423660126,
+      -232.53990112664178,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000142",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3971.5091404591803,
+      -229.0699920640327,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000143",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3972.675219644385,
+      -225.6255971849896,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000144",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3973.8326612123637,
+      -222.20671648951247,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000146",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3743.6229176166817,
+      -154.64757302077487,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000148",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3744.812339036551,
+      -151.13690751744434,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000150",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3745.9830823459197,
+      -147.68137201387435,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000152",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3747.1351475462434,
+      -144.28096649842337,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000154",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3748.2769325504196,
+      -140.9109038976021,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000155",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3975.0462445989833,
+      -218.62199376244098,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000156",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3749.439402081829,
+      -137.47978956624866,
+      158.214985958
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000157",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3976.176706564671,
+      -215.28280644025654,
+      160.399274013
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000158",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3810.5748445055797,
+      -156.3623101953417,
+      158.792048019204
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000159",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3535.000783061434,
+      -79.2001517363824,
+      156.142828675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000160",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3536.1707805680926,
+      -75.75505646597594,
+      156.142828675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000161",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3537.353246083425,
+      -72.2732489160262,
+      156.142828675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000162",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3538.505050170468,
+      -68.88172509567812,
+      156.142828675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000163",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3539.64392697491,
+      -65.52826622780412,
+      156.142828675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000165",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3578.303380792204,
+      -76.21960570244119,
+      156.505370180745
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000166",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2658.954134798434,
+      71.22362802037969,
+      150.505473739
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000167",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2658.607887121092,
+      74.85879787988961,
+      150.505473739
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000168",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2658.2584433687734,
+      78.52752316137776,
+      150.505473739
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000169",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2657.921784201695,
+      82.06202678661793,
+      150.505473739
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000171",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2657.5872558401315,
+      85.57416014419869,
+      150.505473739
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000172",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1754.8347860084032,
+      30.2010385976173,
+      140.080527122
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000173",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      870.8036031878437,
+      215.13270003674552,
+      123.569637603
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000174",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1755.2606765060336,
+      33.854139011818916,
+      140.080527122
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000175",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      871.5146985679748,
+      218.779315111693,
+      123.569637603
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000176",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1755.6774779304978,
+      37.42927689803764,
+      140.080527122
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000177",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      872.227929416229,
+      222.4368809228763,
+      123.569637603
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000178",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1756.0968763047713,
+      41.02668977109715,
+      140.080527122
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000179",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      872.9155352535308,
+      225.96303713368252,
+      123.569637603
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000180",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1756.5136467169505,
+      44.60156068392098,
+      140.080527122
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000181",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      873.590328603459,
+      229.42348852474242,
+      123.569637603
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000182",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -15.422538853890728,
+      379.78969511622563,
+      115.750989338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000183",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -15.324592931952793,
+      383.38730469346046,
+      115.750989338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000184",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -15.2272553165094,
+      386.9625688837841,
+      115.750989338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000185",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -15.129613464407157,
+      390.5490057854913,
+      115.750989338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000186",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -15.03108468366554,
+      394.16801791870967,
+      115.750989338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000187",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6325.41719364241,
+      -2397.1830944409594,
+      152.879780066
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000188",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6291.776819199265,
+      -2368.1665244563483,
+      153.30145881
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000189",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6327.698469230498,
+      -2394.42167942971,
+      152.879780066
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000190",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6294.0758989561,
+      -2365.4568928414956,
+      153.30145881
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000191",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6330.065444972832,
+      -2391.5565270511433,
+      152.879780066
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000192",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6296.4298371418845,
+      -2362.6826066765934,
+      153.30145881
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000193",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5642.741019790468,
+      -1738.3472268758342,
+      158.751572511
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000194",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5069.437215668906,
+      -1041.3227163706906,
+      164.47590969
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000195",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5645.2504762971075,
+      -1735.783403575886,
+      158.751572511
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000196",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5072.272049795487,
+      -1039.1396598904394,
+      164.47590969
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000197",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5647.744919392688,
+      -1733.234919003211,
+      158.751572511
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000198",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5075.1201284700655,
+      -1036.9464040570892,
+      164.47590969
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000199",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6283.50509232108,
+      -2379.0914890845306,
+      153.429831812
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000200",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5871.404184820072,
+      -2024.1624121405184,
+      156.738024172
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000201",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6285.724109738891,
+      -2376.129130111076,
+      153.429831812
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000202",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5873.833054952731,
+      -2021.4819246069528,
+      156.738024172
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000203",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5924.1355694170925,
+      -2015.4684466901235,
+      156.401023103
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000204",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5926.6348620928475,
+      -2012.8217541389167,
+      156.401023103
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000205",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5929.116828306054,
+      -2010.1934099681675,
+      156.401023103
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000206",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4947.196628448379,
+      -875.0226329294965,
+      165.741936133
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000207",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4950.006991567847,
+      -872.8482097755186,
+      165.741936133
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000208",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4952.8736602311255,
+      -870.6302221594378,
+      165.741936133
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000209",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -147.10678816278232,
+      374.5670605362393,
+      116.743253333333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000210",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      746.7986272024573,
+      235.09586131758988,
+      121.974421833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000211",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -146.93825802445645,
+      370.9251323565841,
+      116.743253333333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000212",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      746.0985462933313,
+      231.5288972859271,
+      121.974421833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000213",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -146.772829612426,
+      367.3502335557714,
+      116.743253333333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000214",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      745.3814937760471,
+      227.87546133762226,
+      121.974421833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000215",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -146.60791810887167,
+      363.78650633757934,
+      116.743253333333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000216",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      744.6856558776344,
+      224.3301151683554,
+      121.974421833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000217",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      -146.43628601700766,
+      360.0775488666259,
+      116.743253333333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000218",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      744.0025467699743,
+      220.8496228484437,
+      121.974421833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000219",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1632.495679361571,
+      45.08045306522399,
+      137.819566667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000220",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1631.8531686640345,
+      41.55578293884173,
+      137.819566667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000221",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1631.2140630594222,
+      38.04979208530858,
+      137.819566667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000222",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1630.5791034669965,
+      34.566545041278005,
+      137.819566667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000223",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1629.923497978074,
+      30.970038888044655,
+      137.819566667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000224",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1738.0504261124297,
+      26.11418626178056,
+      140.174654983
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000225",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1737.591851328616,
+      22.59201854467392,
+      140.174654983
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000226",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1737.1368285106146,
+      19.097131946589798,
+      140.174654983
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000227",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1736.6830592796905,
+      15.611873326357454,
+      140.174654983
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000228",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1736.187075978436,
+      11.802381264045835,
+      140.174654983
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000229",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1908.830790533626,
+      11.700019523501396,
+      143.383146933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000230",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1908.826329741918,
+      8.19010050361976,
+      143.383146933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000231",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1908.8218680091086,
+      4.679397771134973,
+      143.383146933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000232",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1908.8173806851846,
+      1.1485169250518084,
+      143.383146933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000233",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1908.812550923205,
+      -2.651861861348152,
+      143.383146933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000234",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2072.8138943940285,
+      16.994843530934304,
+      146.414811877
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000235",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2073.136389713909,
+      13.440650292206556,
+      146.414811877
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000236",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2073.4651025164058,
+      9.817935316823423,
+      146.414811877
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000237",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2073.7969980090857,
+      6.160144847352058,
+      146.414811877
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000238",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2074.128703487746,
+      2.5044491486623883,
+      146.414811877
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000239",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2245.4396332628676,
+      30.910772999748588,
+      148.408663636
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000240",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3141.4758934609126,
+      49.79847022984177,
+      152.348313592
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000241",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2245.6535090922844,
+      27.37656375253573,
+      148.408663636
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000242",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3140.666928027873,
+      46.31577116297558,
+      152.348313592
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000243",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2245.863693009538,
+      23.90336272260174,
+      148.408663636
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000244",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3139.8350972526823,
+      42.73463364504278,
+      152.348313592
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000245",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2246.0717545803054,
+      20.465233446564525,
+      148.408663636
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000246",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3139.028171630518,
+      39.26071574864909,
+      152.348313592
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000247",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      2246.294514390989,
+      16.784222926944494,
+      148.408663636
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000248",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3138.183888381871,
+      35.62596823228523,
+      152.348313592
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000249",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3352.0215896494337,
+      -20.31039135484025,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000250",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3350.84736767062,
+      -23.728106092195958,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000251",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3349.6687740433263,
+      -27.158545203041285,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000252",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3348.4705016469234,
+      -30.646261922083795,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000253",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3347.298530979373,
+      -34.05742444656789,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000254",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3171.5768567816704,
+      23.210934872739017,
+      152.625146680777
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000255",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3346.000525748881,
+      -37.83542601112276,
+      154.311033333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000256",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3466.41571489285,
+      -61.6109319687821,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000257",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3465.293239007413,
+      -64.958924645558,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000258",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3464.147948584112,
+      -68.37496609194204,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000259",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3462.9844065298676,
+      -71.84544658381492,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000260",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3461.761546650785,
+      -75.4928537029773,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000261",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3460.5249980550725,
+      -79.18109015980735,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000262",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3386.2680947686895,
+      -55.75335830170661,
+      154.686685029379
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000263",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3459.329515658261,
+      -82.74683922156692,
+      155.43365984
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000264",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3552.6666113288957,
+      -92.81558923795819,
+      156.15441089
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000265",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3551.542227203783,
+      -96.16529133729637,
+      156.15441089
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000266",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3550.400164085964,
+      -99.56766185350716,
+      156.15441089
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000267",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3549.2404219791642,
+      -103.02270080056041,
+      156.15441089
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000268",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3548.1054304791614,
+      -106.4040042925626,
+      156.15441089
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000270",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4081.1371361050988,
+      -284.80304897995666,
+      161.271972275
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000272",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4079.7633637991385,
+      -288.37985164811835,
+      161.271972275
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000274",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4078.316381044511,
+      -292.1472678347491,
+      161.271972275
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000276",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4076.989980174636,
+      -295.60073286667466,
+      161.271972275
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000278",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4075.702337759023,
+      -298.9532851339318,
+      161.271972275
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000279",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4290.225275230419,
+      -394.7331039933488,
+      163.104503333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000280",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4288.504475244961,
+      -397.8608092535287,
+      163.104503333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000281",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4286.776289744943,
+      -401.00193843245506,
+      163.104503333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000282",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6019.0964534714,
+      -2233.027565432247,
+      155.010171268
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000283",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6348.822100432939,
+      -2476.696634326596,
+      152.561497478
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000284",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6016.860592824814,
+      -2235.9135642987676,
+      155.010171268
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000285",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6346.8586595456,
+      -2479.7620725370944,
+      152.561497478
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000286",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6014.623839377426,
+      -2238.8007156453095,
+      155.010171268
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000287",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6344.915973688301,
+      -2482.795106874313,
+      152.561497478
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000288",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6481.440320883121,
+      -2563.156219601631,
+      151.016743412
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000289",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6479.557310470671,
+      -2566.2484019263647,
+      151.016743412
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000290",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6477.634865127329,
+      -2569.405342350714,
+      151.016743412
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000292",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6526.162139454216,
+      -2591.926567647606,
+      150.253460738
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000294",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6524.232051888888,
+      -2595.0037121474743,
+      150.253460738
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000296",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6522.256962112617,
+      -2598.1526039023884,
+      150.253460738
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000297",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6475.6581958574825,
+      -2572.6513246055692,
+      151.016743412
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000298",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6520.216869210999,
+      -2601.405130445026,
+      150.253460738
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000299",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6635.345884173177,
+      -2666.7664241003804,
+      148.039934667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000300",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6633.277331761492,
+      -2669.7601057137363,
+      148.039934667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000301",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6631.192167564004,
+      -2672.777828570921,
+      148.039934667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000302",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6591.602369961038,
+      -2648.881978320889,
+      148.970930262771
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000303",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6667.33834306692,
+      -2689.974757447373,
+      147.421433333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000304",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6665.229996754846,
+      -2692.9792596357875,
+      147.421433333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000305",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6663.167200929951,
+      -2695.9188501164317,
+      147.421433333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000306",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6671.650598871114,
+      -2683.8295676033013,
+      147.421433333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000307",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7392.94673350337,
+      -3228.4294414329343,
+      123.78488
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000308",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6669.4931428508135,
+      -2686.9040534840897,
+      147.421433333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000309",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7390.983571904537,
+      -3231.4724923321046,
+      123.78488
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000311",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7389.072994825488,
+      -3234.434033282567,
+      123.78488
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000313",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7387.144889358315,
+      -3237.422744661104,
+      123.78488
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000315",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7385.181727262505,
+      -3240.4657965935767,
+      123.78488
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000316",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7798.727041942591,
+      -3456.3961278358474,
+      116.103005833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000317",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7797.163114324736,
+      -3459.6140888794325,
+      116.103005833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000318",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7795.657667623775,
+      -3462.7117188186385,
+      116.103005833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000319",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7794.060033023532,
+      -3465.999036092777,
+      116.103005833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000320",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7792.392231965263,
+      -3469.430729059037,
+      116.103005833
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000321",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7898.961010154046,
+      -3508.092502053827,
+      115.440499879
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000322",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7897.358950906375,
+      -3511.3813518555835,
+      115.440499879
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000323",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7895.830648167757,
+      -3514.518787844572,
+      115.440499879
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000324",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7894.282058798533,
+      -3517.6978701488115,
+      115.440499879
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000326",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8053.814465743315,
+      -3587.8650915767066,
+      114.28851239
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000328",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8052.2814946366125,
+      -3591.222623329144,
+      114.28851239
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000330",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8050.823289671214,
+      -3594.4164015012793,
+      114.28851239
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000332",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8049.376377673296,
+      -3597.5854457938112,
+      114.28851239
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000333",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8173.2459660447785,
+      -3649.3815364562906,
+      113.285604667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000334",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8171.6755950099905,
+      -3652.586558079347,
+      113.285604667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000335",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8170.110282185604,
+      -3655.781256348826,
+      113.285604667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000336",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8168.472501109529,
+      -3659.1238575712778,
+      113.285604667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000338",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8381.984848552209,
+      -3757.150012518745,
+      111.720802667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000340",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8380.356021593732,
+      -3760.4580835080706,
+      111.720802667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000342",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8378.763475286134,
+      -3763.692470319569,
+      111.720802667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000344",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8377.179310719424,
+      -3766.9098343243822,
+      111.720802667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000345",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8166.752587844036,
+      -3662.634081448894,
+      113.285604667
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000346",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8333.906746083812,
+      -3748.231648239307,
+      112.124531608782
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000347",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4296.57797010598,
+      -382.634661114309,
+      163.681348083
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000348",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4294.892666970671,
+      -385.84472013032064,
+      163.681348083
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000349",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6192.4608036301215,
+      -2318.8617450725287,
+      154.165213094
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000350",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6534.691386186227,
+      -2579.4625887204893,
+      150.55123424
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000351",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6190.327920774289,
+      -2321.7736979131587,
+      154.165213094
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000352",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6532.540318255138,
+      -2582.410901325755,
+      150.55123424
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000353",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4866.963942528993,
+      -932.720443057362,
+      165.642547788
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000354",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5372.360034847516,
+      -1601.472818265669,
+      160.714751526
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000355",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4864.088306854363,
+      -934.9205253287219,
+      165.642547788
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000356",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5369.639969252807,
+      -1603.8460076339543,
+      160.714751526
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000357",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4861.290366933157,
+      -937.0611644210294,
+      165.642547788
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000358",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5366.920557679841,
+      -1606.218626434449,
+      160.714751526
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000362",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5884.895109099278,
+      -2120.598716992419,
+      156.062912769
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000363",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5882.5854620112805,
+      -2123.3509455495514,
+      156.062912769
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000364",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5880.244129579456,
+      -2126.140931160655,
+      156.062912769
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000365",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4912.966151458153,
+      -938.8691351190209,
+      165.58704
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000366",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5402.267620591505,
+      -1576.7407012311742,
+      160.59259976
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000367",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4910.070376739197,
+      -940.9343902417459,
+      165.58704
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000368",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5399.608829334669,
+      -1579.1109339934774,
+      160.59259976
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000371",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5862.794916140963,
+      -2045.9752457290888,
+      156.637503033
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000372",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5860.433004760474,
+      -2048.6575836148113,
+      156.637503033
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000374",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6380.328809579194,
+      -2426.6346547733992,
+      152.444876686246
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000375",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6336.084176762088,
+      -2384.7164213731885,
+      152.792382593
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000376",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6354.59649983939,
+      -2398.5746518531814,
+      152.617750209684
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000377",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6338.522091191378,
+      -2382.19295673538,
+      152.792382593
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000379",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6339.741130861803,
+      -2491.363562328741,
+      152.322872479
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000380",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3544.1354135391302,
+      -116.03148066205904,
+      155.74826675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000381",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3542.640557306877,
+      -119.27751742722467,
+      155.74826675
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000382",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4054.5291238515056,
+      -241.3909295508638,
+      160.851321734
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000383",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4055.3345736218616,
+      -237.928106110543,
+      160.851321734
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000384",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8318.678216237284,
+      -3693.494469942525,
+      112.120867915
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000385",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8033.845342622895,
+      -3546.692926717922,
+      114.254070933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000386",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8034.669757353899,
+      -3543.1749923010357,
+      114.254070933
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000387",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7888.213838173833,
+      -3527.3235529498197,
+      115.163215583
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000388",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8046.362565860676,
+      -3607.0309287835844,
+      114.200469338
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000390",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3590.501807954279,
+      -139.3270334363915,
+      154.889492609
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000392",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      3588.9017665121355,
+      -142.53042912995443,
+      154.889492609
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000393",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4104.352441784693,
+      -252.3946379632689,
+      162.461777755
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000394",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4104.950624102203,
+      -248.77852423815057,
+      162.461777755
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000395",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6294.763689138927,
+      -2466.4566432428546,
+      153.253611236
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000396",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6298.848597390752,
+      -2347.151191645302,
+      153.119839061
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000397",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      6301.351167967834,
+      -2344.5928391986527,
+      153.119839061
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000398",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8000.80368533876,
+      -3617.128399282228,
+      114.021379727
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000399",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8084.038223048847,
+      -3551.4876039680094,
+      112.854246064
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000400",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8083.806134253857,
+      -3547.9404748957604,
+      112.854246064
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000402",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      8282.671064475668,
+      -3656.883037075866,
+      111.682077336
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000403",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4936.786498975765,
+      -917.8313726498745,
+      165.611693333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000404",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4939.66067411477,
+      -915.6068830927834,
+      165.611693333
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000405",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4333.565814085654,
+      -363.8178050853312,
+      164.424863049
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000406",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4334.9017241711845,
+      -360.5394997703843,
+      164.424863049
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000407",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4336.246793496364,
+      -357.23871794110164,
+      164.424863049
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000408",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4327.5087363393395,
+      -377.0949933505617,
+      164.148512818
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000409",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4329.043772520672,
+      -373.8476562416181,
+      164.148512818
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000415",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10885.034249022778,
+      -4790.2750461990945,
+      120.734987995
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000416",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10884.27642915881,
+      -4793.849650140852,
+      120.734987995
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000417",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10883.530978534545,
+      -4797.36590918852,
+      120.734987995
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000418",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10882.787452266843,
+      -4800.873091376852,
+      120.734987995
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000420",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      7923.160336259811,
+      -3565.2130493614823,
+      115.067273173
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000422",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10506.51538479107,
+      -4695.751064117998,
+      117.810415188
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000424",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10507.277835833898,
+      -4692.213073653635,
+      117.810415188
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000426",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10508.03178474534,
+      -4688.7145357686095,
+      117.810415188
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000428",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10508.79396256496,
+      -4685.177813666407,
+      117.810415188
+    ],
+    "on_stop_line": false
+  }
+]

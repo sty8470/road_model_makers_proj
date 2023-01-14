@@ -1,0 +1,35 @@
+NGIIMap
+  - NGIIPointFileData    : B1_SIGN_POINT, B1_SIGNAL_POINT, B2_SURFSIGN_POINT, B3_POST_POINT 
+    - vector<NGIIPoint>    : elements
+      - NGIIPoint
+        - PointZRecord     : shape
+          - PointZData     : _data
+            - double x;
+            - double y;
+            - double z;
+            - double m;
+        - DBFRecord       : properties
+        
+  - NGIILineFileData     : A1_LANE, A2_STOP, A3_LINK, B2_BUFSIGN_LINE,
+    - vector<NGIILine>     : elements
+      - NGIILine
+        - PolyLineZRecord  : shape
+          - PolyLineZData  : _data
+            - BoundingBoxZ box;
+            - int num_parts;
+            - int num_points;
+            - vector<int> part_vector;
+            - vector<PointZData> point_vector;
+        - DBFRecord       : properties  
+        
+  - NGIIPlaneFileData   : B2_SURFSIGN_PLANE, B2_NOAUTONOMOUS_PLANE
+    - vector<NGIIPlane>   : elements
+      - NGIIPlane
+        - PolygonZRecord  : shape
+          - PolygonZData  : _data
+            - BoundingBoxZ box;
+            - int num_parts;
+            - int num_points;
+            - vector<int> part_vector;
+            - vector<PointZData> point_vector;        
+        - DBFRecord       : properties

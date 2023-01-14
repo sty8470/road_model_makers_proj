@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="0" date="2021-07-19T10:00:00" description="Scenario 2" author="ASAM e.V."/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="V_Extra_Scene,gwangju_acc" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2014_Kia_K7" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2015_Kia_K5" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+	  <ScenarioObject name="NPC_2">
+      <Vehicle name="2014_Kia_K7" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject> 	
+	  <ScenarioObject name="NPC_3">
+      <Vehicle name="2016_Hyundai_Sonata" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>  
+	  <ScenarioObject name="NPC_4">
+      <Vehicle name="2015_Kia_K5" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>	
+	  <ScenarioObject name="NPC_5">
+      <Vehicle name="2016_Hyundai_Sonata" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" intensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" cruiseMode="on" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="260.011276576825" y="126.413179883707" z="0.0" h="-42" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="11"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="303.212359554438" y="126.718815586789" z="0.0" h="-125" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="NPC_2">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="11"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="308.813503833206" y="133.407861740575" z="0.0" h="-125" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="NPC_3">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="11"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="307.644866765072" y="126.560651549338" z="0.0" h="-125" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="NPC_4">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="293.676057387038" y="82.403446186005" z="0.0" h="80" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="NPC_5">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="294.31554575478" y="68.158975000197" z="0.0" h="80" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1" />
+          </Actors>
+          <Maneuver name="Maneuver1">
+            <Event name="Event1" priority="overwrite">
+              <Action name="Action1">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionDynamics dynamicsShape="linear" value="10" dynamicsDimension="distance" />
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed value="14" />
+                      </SpeedActionTarget>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Event1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                    <SimulationTimeCondition value="8" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>         
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>	  
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

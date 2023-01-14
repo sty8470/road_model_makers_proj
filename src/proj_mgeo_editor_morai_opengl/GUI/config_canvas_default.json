@@ -1,0 +1,464 @@
+{
+  "STYLE": {
+    "NODE": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0,
+          0,
+          0
+        ],
+        "SIZE": 7
+      },
+      "START": {
+        "COLOR": [
+          1,
+          1,
+          0
+        ],
+        "SIZE": 10
+      },
+      "STOP": {
+        "COLOR": [
+          1,
+          1,
+          0
+        ],
+        "SIZE": 10
+      },
+      "END": {
+        "COLOR": [
+          0,
+          0,
+          1
+        ],
+        "SIZE": 10
+      }
+    },
+    "LINK": {
+      "VIEW": true,
+      "TEXT": false,
+      "LANE CHANGE LINK": false,
+      "GEO CHANGE": true,
+      "GEO STYLE": {
+        "POLY3 COLOR": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "POLY3 STYLE": "Dot",
+        "LINE COLOR": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "LINE STYLE": "Dash",
+        "PARAMPOLY3 COLOR": [
+          1.0,
+          0.5,
+          0.0
+        ],
+        "PARAMPOLY3 STYLE": "DashDot"
+      },
+      "NORMAL": {
+        "COLOR": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "WIDTH": 1
+      }
+    },
+    "LANE_NODE": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "SIZE": 7
+      }
+    },
+    "LANE_BOUNDARY": {
+      "VIEW": true,
+      "TEXT": false,
+      "GEO CHANGE": true,
+      "GEO STYLE": {
+        "POLY3 COLOR": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "POLY3 STYLE": "Dot",
+        "LINE COLOR": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "LINE STYLE": "Dash",
+        "PARAMPOLY3 COLOR": [
+          1.0,
+          0.5,
+          0.0
+        ],
+        "PARAMPOLY3 STYLE": "DashDot"
+      },
+      "NORMAL": {
+        "COLOR": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "SIZE": 7,
+        "WIDTH": 1
+      }
+    },
+    "TRAFFIC_SIGN": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.5,
+          0,
+          0.2
+        ],
+        "SIZE": 7
+      }
+    },
+    "TRAFFIC_LIGHT": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.6666666666666666,
+          0.6666666666666666,
+          1.0
+        ],
+        "SIZE": 7
+      }
+    },
+    "PEDESTRIAN_LIGHT": {
+      "VIEW": false,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.4980392156862745
+        ],
+        "SIZE": 7
+      }
+    },
+    "SYNCED_TRAFFIC_LIGHT": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          1,
+          0.5,
+          0.8
+        ],
+        "SIZE": 7
+      }
+    },
+    "INTERSECTION_CONTROLLER": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          1,
+          0.5,
+          0.2
+        ],
+        "SIZE": 7
+      }
+    },
+    "JUNCTION": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0,
+          0.5,
+          0.5
+        ],
+        "WIDTH": 15
+      }
+    },
+    "ROAD": {
+      "VIEW": true,
+      "TEXT": true,
+      "NORMAL": {
+        "COLOR": [
+          0,
+          0.5,
+          0.2
+        ],
+        "WIDTH": 7
+      }
+    },
+    "MScenario":{
+      "EGO_VEHICLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0,
+            0.2,
+            0.7
+          ],
+          "SIZE": 10,
+          "WIDTH": 8
+        }
+      },
+      "SURROUNDING_VEHICLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0,
+            0.5,
+            0.9
+          ],
+          "SIZE": 10,
+          "WIDTH": 8
+        }
+      },
+      "OBSTACLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.2,
+            0.5,
+            0.6
+          ],
+          "SIZE": 10,
+          "WIDTH": 8
+        }
+      },
+      "PEDESTRIAN": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.8,
+            0.5,
+            0.7
+          ],
+          "SIZE": 10,
+          "WIDTH": 8
+        }
+      }
+    },
+    "OpenSCENARIO":{
+      "EGO_VEHICLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            1,
+            0,
+            0
+          ],
+          "SIZE": 12,
+          "WIDTH": 8
+        }
+      },
+      "NPC_VEHICLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0,
+            0,
+            1
+          ],
+          "SIZE": 12,
+          "WIDTH": 8
+        }
+      },
+      "OBSTACLE": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.2,
+            0.5,
+            0.6
+          ],
+          "SIZE": 12,
+          "WIDTH": 8
+        }
+      },
+      "PEDESTRIAN": {
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.8,
+            0.5,
+            0.7
+          ],
+          "SIZE": 12,
+          "WIDTH": 8
+        }
+      },
+      "EGO_ROUTE":{
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            1,
+            0.27,
+            0
+          ],
+          "SIZE": 10,
+          "WIDTH": 10
+        }
+      },
+      "NPC_ROUTE":{
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.25,
+            0.41,
+            0.88
+          ],
+          "SIZE": 10,
+          "WIDTH": 10
+        }
+      },
+      "SPAWN_POINT":{
+        "VIEW": true,
+        "TEXT": true,
+        "NORMAL": {
+          "COLOR": [
+            0.2,
+            0.5,
+            0.6
+          ],
+          "SIZE": 12,
+          "WIDTH": 8
+        }
+      }
+    },
+    "CROSSWALK": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.8,
+          0.5,
+          0.7
+        ],
+        "SIZE": 10,
+        "WIDTH": 8
+      }
+    },
+    "SINGLECROSSWALK": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.8,
+          0.3,
+          0.3
+        ],
+        "SIZE": 10,
+        "WIDTH": 8
+      }
+    },
+    "ROADPOLYGON":{
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          1.0,
+          0.5,
+          0.15
+        ],
+        "SIZE": 10,
+        "WIDTH": 8
+      }
+    },
+    "PARKING_SPACE": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          0.3,
+          0.3,
+          0.3
+        ],
+        "SIZE": 10,
+        "WIDTH": 8
+      }
+    },
+    "SURFACE_MARKING": {
+      "VIEW": true,
+      "TEXT": false,
+      "NORMAL": {
+        "COLOR": [
+          1.0,
+          0.6,
+          0.4
+        ],
+        "SIZE": 10,
+        "WIDTH": 8
+      }
+    },
+    "SELECT": {
+      "COLOR": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "SIZE": 10,
+      "WIDTH": 2
+    },
+    "HIGHLIGHT1": {
+      "COLOR": [
+        0,
+        1,
+        0
+      ],
+      "SIZE": 10,
+      "WIDTH": 2
+    },
+    "HIGHLIGHT2": {
+      "COLOR": [
+        0,
+        1,
+        1
+      ],
+      "SIZE": 10,
+      "WIDTH": 2
+    },
+    "HIGHLIGHT3": {
+      "COLOR": [
+        0.6,
+        0,
+        1
+      ],
+      "SIZE": 10,
+      "WIDTH": 2
+    },
+    "ERROR": {
+      "COLOR": [
+        1,
+        0,
+        0
+      ],
+      "SIZE": 10,
+      "WIDTH": 2
+    },
+    "MAX ID DISPLAY": {
+      "SIZE": -300
+    }
+  }
+}

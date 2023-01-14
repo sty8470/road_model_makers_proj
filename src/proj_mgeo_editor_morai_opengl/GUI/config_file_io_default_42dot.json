@@ -1,0 +1,28 @@
+{	
+	"file_path":[
+		{
+			"MGEO_SAVE": "../../../MgeoData/",
+			"MGEO_LOAD": "../../../MgeoData/",
+			"EXPORT_ODR": "../../../MgeoData/",
+			"RUN_ESMINI": "../../",
+			"ODR_VIEWER": "../../util",
+			"EXPORT_CSV": "../../../MgeoData/",
+			"EXPORT_GEOJSON": "../../../MgeoData/",
+			"EXPORT_OICD": "../../MgeoData"
+		}
+	],
+	
+	"world_setting":[
+		{
+			"spheroid": "WGS84",
+			"latitude_of_orign" : "0.0",
+			"central_meridian": "0.0",
+			"scale_factor" : "1.0",
+			"false_easting" : "0",
+			"false_northing" : "0",
+
+			"world_orign_latitude" : "0",
+			"world_orign_longitude": "0"
+		}
+	]
+}

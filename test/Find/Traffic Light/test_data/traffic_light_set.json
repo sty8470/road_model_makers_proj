@@ -1,0 +1,31 @@
+[
+  {
+    "idx": "SN000000",
+    "link_id_list": [
+      "LN000000",
+      "LN000001"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      8.744017485734062,
+      -1.2036080325747134,
+      1.9371297522001337e-05
+    ],
+    "value": 0,
+    "country": "KR",
+    "z_offset": 2.49,
+    "height": 0.6,
+    "width": 0.6,
+    "type_def": "mgeo",
+    "ref_crosswalk_id": "",
+    "heading": 270.0
+  }
+]

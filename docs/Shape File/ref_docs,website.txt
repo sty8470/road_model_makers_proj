@@ -1,0 +1,5 @@
+예제 코드와 강의 제공
+  - http://endofcap.tistory.com/3?category=7285
+
+Shapefile C Library 라는 곳. 상세한 Documentation도 제공하는 것 같음
+  - http://shapelib.maptools.org/

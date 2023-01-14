@@ -1,0 +1,14 @@
+HDMap_UTM52N : 타원체고, ellipsoid height
+               (타원체 기준에서 계산한 높이, GPS측량에서 사용.)
+               
+HDMap_UTMK : 정표고, 표고라고도 함, orthometric height
+               (지오이드를 기준으로 계산한 높이, 
+               일반적으로 알고 있는 고도의 높이, 해발고도)
+               (타원체고 - 지오이드고)
+               
+             
+Geoid = Mean Sea Level (MSL)
+geoid height는 geoid와 타원체 사이의 차이
+             
+             
+              

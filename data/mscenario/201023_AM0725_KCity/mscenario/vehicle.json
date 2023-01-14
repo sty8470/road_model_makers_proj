@@ -1,0 +1,259 @@
+{
+   "egoVehicle":{
+      "index":0,
+      "UNIQUEID":-1,
+      "m_eobstacleObjType":1,      
+	  "initPosition": {
+		"initPositionMode": "absolute",
+		"pos":{
+			"x":381.63250268949196, 
+			"y":1920.971041765064, 
+			"z":-0.7310008713975549
+		},
+		"rot":{
+			"pitch":0,
+			"yaw":-143.659808,
+			"roll":0
+		}	  
+	  },
+      "currentVelocity":0.0,
+      "gear":0
+   },
+   "vehicleList":[
+		{
+            "index": 19,
+			"isRandomCreation": true,			
+			"modelIndexList": [19, 20, 25],
+            "initPosition": {
+                "initPositionMode": "absolute",
+                "pos":{
+					 "x":374.5873535851715,
+					 "y":1911.8460864112712,
+					 "z":-0.7380008390173316
+				},
+				"rot":{
+					 "pitch":356.870,
+					 "yaw":147.502,
+					 "roll":2.723
+				}
+            },
+            "pathGenerationMethod": "LinkPath",
+			"path": ["A219AS305904", "A219AS305142", "A219AS305132", "A219AS305149", "A219AS305907", "A219AS305153"],        
+            "respawnDistance": 120,
+			"desiredVelocitiyMode": "Static",
+            "desiredVelocity": 30,
+            "currentVelocity": 20,
+            "trakingPathName": "PathManager#1",
+            "isEgo": false,
+            "isNetworkConnected": false,
+            "isNetworkRunning": false,
+            "networkInfo": {
+                "netType": 1,
+                "EgoCmdUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "EgoCmdRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "EgoCmdSerialConfig": {
+                    "portName": "COM3",
+                    "baudRate": 19200,
+                    "parity": 0,
+                    "portDataBits": 8,
+                    "stopBits": 1,
+                    "handshake": 0,
+                    "readCount": 0
+                },
+                "ObjectUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "ObjectRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "StatusUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "StatusRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "MultiEgoUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "MultiEgoRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "SerialConfig": {
+                    "portName": "COM3",
+                    "baudRate": 19200,
+                    "parity": 0,
+                    "portDataBits": 8,
+                    "stopBits": 1,
+                    "handshake": 0,
+                    "readCount": 0
+                }
+            }
+        },
+		{
+            "index": 19,
+			"isRandomCreation": true,			
+			"modelIndexList": [19, 20, 25],
+            "initPosition": {
+                "initPositionMode": "absolute",
+                "pos":{
+					 "x":421.83468509686645,
+					 "y":1882.1663828303572,
+					 "z":-0.677999465726316
+				},
+				"rot":{
+					 "pitch":356.870,
+					 "yaw":147.502,
+					 "roll":2.723
+				}
+            },
+            "pathGenerationMethod": "LinkPath",
+			"path": ["A219AS305904", "A219AS305142", "A219AS305132", "A219AS305149", "A219AS305907", "A219AS305153"],        
+            "respawnDistance": 120,
+			"desiredVelocitiyMode": "Static",
+            "desiredVelocity": 30,
+            "currentVelocity": 20,
+            "trakingPathName": "PathManager#1",
+            "isEgo": false,
+            "isNetworkConnected": false,
+            "isNetworkRunning": false,
+            "networkInfo": {
+                "netType": 1,
+                "EgoCmdUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "EgoCmdRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "EgoCmdSerialConfig": {
+                    "portName": "COM3",
+                    "baudRate": 19200,
+                    "parity": 0,
+                    "portDataBits": 8,
+                    "stopBits": 1,
+                    "handshake": 0,
+                    "readCount": 0
+                },
+                "ObjectUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "ObjectRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "StatusUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "StatusRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "MultiEgoUdpConfig": {
+                    "hostIP": "127.0.0.1",
+                    "hostPort": 9091,
+                    "destinationIP": "127.0.0.1",
+                    "destinationPort": 9092,
+                    "receiveTimeout": 10,
+                    "isBufferThreadActivated": false,
+                    "receiveBufferSize": 0
+                },
+                "MultiEgoRosConfig": {
+                    "handlerType": 0,
+                    "ConnectionTimeout": 1000,
+                    "RosBridgeServerUrl": "ws://127.0.0.1:9090",
+                    "RosBridgeIP": "127.0.0.1",
+                    "RosBridgePort": 9090,
+                    "Topic": "/dafault_topic"
+                },
+                "SerialConfig": {
+                    "portName": "COM3",
+                    "baudRate": 19200,
+                    "parity": 0,
+                    "portDataBits": 8,
+                    "stopBits": 1,
+                    "handshake": 0,
+                    "readCount": 0
+                }
+            }
+        }
+   ]
+  
+}

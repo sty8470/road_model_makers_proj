@@ -1,0 +1,37 @@
+{
+  "SMOOTHING": {
+    "ROAD": 0
+  },
+  "SIGNAL": {
+    "STATE": 2
+  },
+  "MATCHING_ROAD": {
+    "STATE": 0
+  },
+  "DISABLE_LANE_LINK": {
+    "STATE": 0
+  },
+  "SUPERELEVATION": {
+    "STATE": 0
+  },
+  "VERSION": {
+    "TYPE": 1.4
+  },
+  "VIRTUAL": {
+    "SHOULDER": 0
+  },
+  "SHOULDER": {
+    "WIDTH": 0
+  }, 
+  "WIDTH": {
+    "THRESHOLD": 0
+  }, 
+  "DETECTION": {
+    "THRESHOLD": 0
+  }, 
+  "REFERENCE": {
+    "LINE": {
+      "FITTING": 0
+    }
+  }
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="0" date="2021-09-02T10:00:00" description="Scenario 1" author="ASAM e.V."/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+	<Map name="V_RHT_Fourway_EuroNCAP"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Genesis_DH" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>  
+	<ScenarioObject name="Stop_Point">
+	  <MiscObject mass="0" miscObjectCategory="none" name="MiscObject1">
+		<Properties/>
+	  </MiscObject>
+	</ScenarioObject>
+	<ScenarioObject name="Stop_Sign_1">
+	  <MiscObject mass="0" miscObjectCategory="obstacle" name="us_stopsign">
+		<Properties/>
+	  </MiscObject>
+	</ScenarioObject> 
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="6"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-55.0000000003422" y="-5.250000000319135" z="0.0" h="0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+		  <PrivateAction>
+			<RoutingAction>
+				<AssignRouteAction>
+					<Route name="Ego_Route" closed="false" afterCompletion="random">
+						<Waypoint routeStrategy="shortest">
+							<Position>
+								<LinkPosition id="_1_0_L2_" index="1950"/>
+							</Position>
+						</Waypoint>
+						<Waypoint routeStrategy="shortest">
+							<Position>
+								<LinkPosition id="_41_0_L1_"/>
+							</Position>
+						</Waypoint>									
+					</Route>
+				</AssignRouteAction>
+			</RoutingAction>
+		  </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-13.250000000303382" y="-40.00000000004161" z="0.0" h="90" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+		  <PrivateAction>
+			<RoutingAction>
+				<AssignRouteAction>
+					<Route name="NPC_1_Route" closed="false" afterCompletion="random">
+						<Waypoint routeStrategy="shortest">
+							<Position>
+								<LinkPosition id="_2_0_L1_" index="1950"/>
+							</Position>
+						</Waypoint>
+						<Waypoint routeStrategy="shortest">
+							<Position>
+								<LinkPosition id="_9_0_L1_"/>
+							</Position>
+						</Waypoint>
+						<Waypoint routeStrategy="shortest">
+							<Position>
+								<LinkPosition id="_1_0_R1_" index="-1" />
+							</Position>
+						</Waypoint>						
+					</Route>
+				</AssignRouteAction>
+			</RoutingAction>
+		  </PrivateAction>
+        </Private>
+		<Private entityRef="Stop_Point">          
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-35.67421150737314" y="-5.250000000205" z="0.0" h="0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="Stop_Sign_1">  		  
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="-35.67421150737305" y="-7.500000000814509" z="0.0" h="180" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="Ego" />
+          </Actors>          
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+</OpenSCENARIO>

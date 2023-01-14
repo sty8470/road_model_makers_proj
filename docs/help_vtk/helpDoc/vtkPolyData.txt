@@ -1,0 +1,1578 @@
+import vtk
+help(vtk.vtkPolyData)
+Help on class vtkPolyData:
+class vtkPolyData(vtkPointSet)
+ |  vtkPolyData - concrete dataset represents vertices, lines, polygons,
+ |  and triangle strips
+ |
+ |  Superclass: vtkPointSet
+ |
+ |  vtkPolyData is a data object that is a concrete implementation of
+ |  vtkDataSet. vtkPolyData represents a geometric structure consisting
+ |  of vertices, lines, polygons, and/or triangle strips. Point and cell
+ |  attribute values (e.g., scalars, vectors, etc.) also are represented.
+ |
+ |  The actual cell types (vtkCellType.h) supported by vtkPolyData are:
+ |  vtkVertex, vtkPolyVertex, vtkLine, vtkPolyLine, vtkTriangle, vtkQuad,
+ |  vtkPolygon, and vtkTriangleStrip.
+ |
+ |  One important feature of vtkPolyData objects is that special
+ |  traversal and data manipulation methods are available to process
+ |  data. These methods are generally more efficient than vtkDataSet
+ |  methods and should be used whenever possible. For example, traversing
+ |  the cells in a dataset we would use GetCell(). To traverse cells with
+ |  vtkPolyData we would retrieve the cell array object representing
+ |  polygons (for example using GetPolys()) and then use vtkCellArray's
+ |  InitTraversal() and GetNextCell() methods.
+ |
+ |  @warning
+ |  Because vtkPolyData is implemented with four separate instances of
+ |  vtkCellArray to represent 0D vertices, 1D lines, 2D polygons, and 2D
+ |  triangle strips, it is possible to create vtkPolyData instances that
+ |  consist of a mixture of cell types. Because of the design of the
+ |  class, there are certain limitations on how mixed cell types are
+ |  inserted into the vtkPolyData, and in turn the order in which they
+ |  are processed and rendered. To preserve the consistency of cell ids,
+ |  and to insure that cells with cell data are rendered properly, users
+ |  must insert mixed cells in the order of vertices (vtkVertex and
+ |  vtkPolyVertex), lines (vtkLine and vtkPolyLine), polygons
+ |  (vtkTriangle, vtkQuad, vtkPolygon), and triangle strips
+ |  (vtkTriangleStrip).
+ |
+ |  @warning
+ |  Some filters when processing vtkPolyData with mixed cell types may
+ |  process the cells in differing ways. Some will convert one type into
+ |  another (e.g., vtkTriangleStrip into vtkTriangles) or expect a
+ |  certain type (vtkDecimatePro expects triangles or triangle strips;
+ |  vtkTubeFilter expects lines). Read the documentation for each filter
+ |  carefully to understand how each part of vtkPolyData is processed.
+ |
+ |  Method resolution order:
+ |      vtkPolyData
+ |      vtkPointSet
+ |      vtkDataSet
+ |      vtkDataObject
+ |      vtkCommonCorePython.vtkObject
+ |      vtkCommonCorePython.vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  AddCellReference(...)
+ |      V.AddCellReference(int)
+ |      C++: void AddCellReference(vtkIdType cellId)
+ |
+ |      Add references to cell in cell structure. This means the links
+ |      from the cell's points to the cell are modified. Memory is not
+ |      extended. Use the method ResizeCellList() to resize the link list
+ |      from a point to its using cells. (This operator assumes
+ |      BuildLinks() has been called.)
+ |
+ |  AddReferenceToCell(...)
+ |      V.AddReferenceToCell(int, int)
+ |      C++: void AddReferenceToCell(vtkIdType ptId, vtkIdType cellId)
+ |
+ |      Add a reference to a cell in a particular point's link list. (You
+ |      may also consider using AddCellReference() to add the references
+ |      from all the cell's points to the cell.) This operator does not
+ |      realloc memory; use the operator ResizeCellList() to do this if
+ |      necessary.
+ |
+ |  Allocate(...)
+ |      V.Allocate(int, int)
+ |      C++: void Allocate(vtkIdType numCells=1000, int extSize=1000)
+ |      V.Allocate(vtkPolyData, int, int)
+ |      C++: void Allocate(vtkPolyData *inPolyData,
+ |          vtkIdType numCells=1000, int extSize=1000)
+ |
+ |      Method allocates initial storage for vertex, line, polygon, and
+ |      triangle strip arrays. Use this method before the method
+ |      PolyData::InsertNextCell(). (Or, provide vertex, line, polygon,
+ |      and triangle strip cell arrays.) The array capacity is doubled
+ |      when the inserting a cell exceeds the current capacity. extSize
+ |      is no longer used.
+ |
+ |  BuildCells(...)
+ |      V.BuildCells()
+ |      C++: void BuildCells()
+ |
+ |      Create data structure that allows random access of cells.
+ |      BuildCells is expensive but necessary to make use of the faster
+ |      non-virtual implementations of GetCell/GetCellPoints. One may
+ |      check if cells need to be built via NeedToBuilds before invoking.
+ |      Cells always need to be built/re-built after low level direct
+ |      modifications to verts, lines, polys or strips cell arrays.
+ |
+ |  BuildLinks(...)
+ |      V.BuildLinks(int)
+ |      C++: void BuildLinks(int initialSize=0)
+ |
+ |      Create upward links from points to cells that use each point.
+ |      Enables topologically complex queries. Normally the links array
+ |      is allocated based on the number of points in the vtkPolyData.
+ |      The optional initialSize parameter can be used to allocate a
+ |      larger size initially.
+ |
+ |  ComputeBounds(...)
+ |      V.ComputeBounds()
+ |      C++: void ComputeBounds() override;
+ |
+ |      Compute the (X, Y, Z)  bounds of the data.
+ |
+ |  CopyCells(...)
+ |      V.CopyCells(vtkPolyData, vtkIdList, vtkPointLocator)
+ |      C++: void CopyCells(vtkPolyData *pd, vtkIdList *idList,
+ |          vtkPointLocator *locator=nullptr)
+ |
+ |      Copy cells listed in idList from pd, including points, point
+ |      data, and cell data.  This method assumes that point and cell
+ |      data have been allocated.  If you pass in a point locator, then
+ |      the points won't be duplicated in the output.
+ |
+ |  CopyStructure(...)
+ |      V.CopyStructure(vtkDataSet)
+ |      C++: void CopyStructure(vtkDataSet *ds) override;
+ |
+ |      Copy the geometric and topological structure of an input poly
+ |      data object.
+ |
+ |  DeepCopy(...)
+ |      V.DeepCopy(vtkDataObject)
+ |      C++: void DeepCopy(vtkDataObject *src) override;
+ |
+ |      Shallow and Deep copy.
+ |
+ |  DeleteCell(...)
+ |      V.DeleteCell(int)
+ |      C++: void DeleteCell(vtkIdType cellId)
+ |
+ |      Mark a point/cell as deleted from this vtkPolyData.
+ |
+ |  DeleteCells(...)
+ |      V.DeleteCells()
+ |      C++: void DeleteCells()
+ |
+ |      Release data structure that allows random access of the cells.
+ |      This must be done before a 2nd call to BuildLinks(). DeleteCells
+ |      implicitly deletes the links as well since they are no longer
+ |      valid.
+ |
+ |  DeleteLinks(...)
+ |      V.DeleteLinks()
+ |      C++: void DeleteLinks()
+ |
+ |      Release the upward links from point to cells that use each point.
+ |
+ |  DeletePoint(...)
+ |      V.DeletePoint(int)
+ |      C++: void DeletePoint(vtkIdType ptId)
+ |
+ |      Mark a point/cell as deleted from this vtkPolyData.
+ |
+ |  GetActualMemorySize(...)
+ |      V.GetActualMemorySize() -> int
+ |      C++: unsigned long GetActualMemorySize() override;
+ |
+ |      Return the actual size of the data in kibibytes (1024 bytes).
+ |      This number is valid only after the pipeline has updated. The
+ |      memory size returned is guaranteed to be greater than or equal to
+ |      the memory required to represent the data (e.g., extra space in
+ |      arrays, etc. are not included in the return value). THIS METHOD
+ |      IS THREAD SAFE.
+ |
+ |  GetCell(...)
+ |      V.GetCell(int) -> vtkCell
+ |      C++: vtkCell *GetCell(vtkIdType cellId) override;
+ |      V.GetCell(int, vtkGenericCell)
+ |      C++: void GetCell(vtkIdType cellId, vtkGenericCell *cell)
+ |          override;
+ |      V.GetCell(int, [int, ...]) -> int
+ |      C++: unsigned char GetCell(vtkIdType cellId, vtkIdType *&pts)
+ |      V.GetCell(int, int, int) -> vtkCell
+ |      C++: virtual vtkCell *GetCell(int i, int j, int k)
+ |
+ |      Standard vtkDataSet interface.
+ |
+ |  GetCellBounds(...)
+ |      V.GetCellBounds(int, [float, float, float, float, float, float])
+ |      C++: void GetCellBounds(vtkIdType cellId, double bounds[6])
+ |          override;
+ |
+ |      Standard vtkDataSet interface.
+ |
+ |  GetCellEdgeNeighbors(...)
+ |      V.GetCellEdgeNeighbors(int, int, int, vtkIdList)
+ |      C++: void GetCellEdgeNeighbors(vtkIdType cellId, vtkIdType p1,
+ |          vtkIdType p2, vtkIdList *cellIds)
+ |
+ |      Get the neighbors at an edge. More efficient than the general
+ |      GetCellNeighbors(). Assumes links have been built (with
+ |      BuildLinks()), and looks specifically for edge neighbors.
+ |
+ |  GetCellNeighbors(...)
+ |      V.GetCellNeighbors(int, vtkIdList, vtkIdList)
+ |      C++: void GetCellNeighbors(vtkIdType cellId, vtkIdList *ptIds,
+ |          vtkIdList *cellIds) override;
+ |
+ |      Standard vtkDataSet interface.
+ |
+ |  GetCellPoints(...)
+ |      V.GetCellPoints(int, vtkIdList)
+ |      C++: void GetCellPoints(vtkIdType cellId, vtkIdList *ptIds)
+ |          override;
+ |      V.GetCellPoints(int, int, [int, ...]) -> int
+ |      C++: unsigned char GetCellPoints(vtkIdType cellId,
+ |          vtkIdType &npts, vtkIdType *&pts)
+ |
+ |      Copy a cells point ids into list provided. (Less efficient.)
+ |
+ |  GetCellType(...)
+ |      V.GetCellType(int) -> int
+ |      C++: int GetCellType(vtkIdType cellId) override;
+ |
+ |      Standard vtkDataSet interface.
+ |
+ |  GetData(...)
+ |      V.GetData(vtkInformation) -> vtkPolyData
+ |      C++: static vtkPolyData *GetData(vtkInformation *info)
+ |      V.GetData(vtkInformationVector, int) -> vtkPolyData
+ |      C++: static vtkPolyData *GetData(vtkInformationVector *v, int i=0)
+ |
+ |      Retrieve an instance of this class from an information object.
+ |
+ |  GetDataObjectType(...)
+ |      V.GetDataObjectType() -> int
+ |      C++: int GetDataObjectType() override;
+ |
+ |      Return what type of dataset this is.
+ |
+ |  GetGhostLevel(...)
+ |      V.GetGhostLevel() -> int
+ |      C++: virtual int GetGhostLevel()
+ |
+ |      Get the ghost level.
+ |
+ |  GetLines(...)
+ |      V.GetLines() -> vtkCellArray
+ |      C++: vtkCellArray *GetLines()
+ |
+ |      Get the cell array defining lines. If there are no lines, an
+ |      empty array will be returned (convenience to simplify traversal).
+ |
+ |  GetMaxCellSize(...)
+ |      V.GetMaxCellSize() -> int
+ |      C++: int GetMaxCellSize() override;
+ |
+ |      Return the maximum cell size in this poly data.
+ |
+ |  GetMeshMTime(...)
+ |      V.GetMeshMTime() -> int
+ |      C++: virtual vtkMTimeType GetMeshMTime()
+ |
+ |      Return the mesh (geometry/topology) modification time. This time
+ |      is different from the usual MTime which also takes into account
+ |      the modification of data arrays. This function can be used to
+ |      track the changes on the mesh separately from the data arrays
+ |      (eg. static mesh over time with transient data).
+ |
+ |  GetNumberOfCells(...)
+ |      V.GetNumberOfCells() -> int
+ |      C++: vtkIdType GetNumberOfCells() override;
+ |
+ |      Standard vtkDataSet interface.
+ |
+ |  GetNumberOfLines(...)
+ |      V.GetNumberOfLines() -> int
+ |      C++: vtkIdType GetNumberOfLines()
+ |
+ |      Return the number of primitives of a particular type held.
+ |
+ |  GetNumberOfPieces(...)
+ |      V.GetNumberOfPieces() -> int
+ |      C++: virtual int GetNumberOfPieces()
+ |
+ |      Get the piece and the number of pieces. Similar to extent in 3D.
+ |
+ |  GetNumberOfPolys(...)
+ |      V.GetNumberOfPolys() -> int
+ |      C++: vtkIdType GetNumberOfPolys()
+ |
+ |      Return the number of primitives of a particular type held.
+ |
+ |  GetNumberOfStrips(...)
+ |      V.GetNumberOfStrips() -> int
+ |      C++: vtkIdType GetNumberOfStrips()
+ |
+ |      Return the number of primitives of a particular type held.
+ |
+ |  GetNumberOfVerts(...)
+ |      V.GetNumberOfVerts() -> int
+ |      C++: vtkIdType GetNumberOfVerts()
+ |
+ |      Return the number of primitives of a particular type held.
+ |
+ |  GetPiece(...)
+ |      V.GetPiece() -> int
+ |      C++: virtual int GetPiece()
+ |
+ |      Get the piece and the number of pieces. Similar to extent in 3D.
+ |
+ |  GetPointCells(...)
+ |      V.GetPointCells(int, vtkIdList)
+ |      C++: void GetPointCells(vtkIdType ptId, vtkIdList *cellIds)
+ |          override;
+ |      V.GetPointCells(int, int, [int, ...])
+ |      C++: void GetPointCells(vtkIdType ptId, unsigned short &ncells,
+ |          vtkIdType *&cells)
+ |
+ |      Efficient method to obtain cells using a particular point. Make
+ |      sure that routine BuildLinks() has been called.
+ |
+ |  GetPolys(...)
+ |      V.GetPolys() -> vtkCellArray
+ |      C++: vtkCellArray *GetPolys()
+ |
+ |      Get the cell array defining polygons. If there are no polygons,
+ |      an empty array will be returned (convenience to simplify
+ |      traversal).
+ |
+ |  GetScalarFieldCriticalIndex(...)
+ |      V.GetScalarFieldCriticalIndex(int, vtkDataArray) -> int
+ |      C++: int GetScalarFieldCriticalIndex(vtkIdType pointId,
+ |          vtkDataArray *scalarField)
+ |      V.GetScalarFieldCriticalIndex(int, int) -> int
+ |      C++: int GetScalarFieldCriticalIndex(vtkIdType pointId,
+ |          int fieldId)
+ |      V.GetScalarFieldCriticalIndex(int, string) -> int
+ |      C++: int GetScalarFieldCriticalIndex(vtkIdType pointId,
+ |          const char *fieldName)
+ |
+ |  GetStrips(...)
+ |      V.GetStrips() -> vtkCellArray
+ |      C++: vtkCellArray *GetStrips()
+ |
+ |      Get the cell array defining triangle strips. If there are no
+ |      triangle strips, an empty array will be returned (convenience to
+ |      simplify traversal).
+ |
+ |  GetVerts(...)
+ |      V.GetVerts() -> vtkCellArray
+ |      C++: vtkCellArray *GetVerts()
+ |
+ |      Get the cell array defining vertices. If there are no vertices,
+ |      an empty array will be returned (convenience to simplify
+ |      traversal).
+ |
+ |  Initialize(...)
+ |      V.Initialize()
+ |      C++: void Initialize() override;
+ |
+ |      Restore object to initial state. Release memory back to system.
+ |
+ |  InsertNextCell(...)
+ |      V.InsertNextCell(int, int, [int, ...]) -> int
+ |      C++: vtkIdType InsertNextCell(int type, int npts, vtkIdType *pts)
+ |      V.InsertNextCell(int, vtkIdList) -> int
+ |      C++: vtkIdType InsertNextCell(int type, vtkIdList *pts)
+ |
+ |      Insert a cell of type VTK_VERTEX, VTK_POLY_VERTEX, VTK_LINE,
+ |      VTK_POLY_LINE, VTK_TRIANGLE, VTK_QUAD, VTK_POLYGON, or
+ |      VTK_TRIANGLE_STRIP.  Make sure that the PolyData::Allocate()
+ |      function has been called first or that vertex, line, polygon, and
+ |      triangle strip arrays have been supplied. Note: will also insert
+ |      VTK_PIXEL, but converts it to VTK_QUAD.
+ |
+ |  InsertNextLinkedCell(...)
+ |      V.InsertNextLinkedCell(int, int, [int, ...]) -> int
+ |      C++: vtkIdType InsertNextLinkedCell(int type, int npts,
+ |          vtkIdType *pts)
+ |
+ |      Add a new cell to the cell data structure (after cell pointers
+ |      have been built). This method adds the cell and then updates the
+ |      links from the points to the cells. (Memory is allocated as
+ |      necessary.)
+ |
+ |  InsertNextLinkedPoint(...)
+ |      V.InsertNextLinkedPoint(int) -> int
+ |      C++: vtkIdType InsertNextLinkedPoint(int numLinks)
+ |      V.InsertNextLinkedPoint([float, float, float], int) -> int
+ |      C++: vtkIdType InsertNextLinkedPoint(double x[3], int numLinks)
+ |
+ |      Add a point to the cell data structure (after cell pointers have
+ |      been built). This method adds the point and then allocates memory
+ |      for the links to the cells.  (To use this method, make sure
+ |      points are available and BuildLinks() has been invoked.) Of the
+ |      two methods below, one inserts a point coordinate and the other
+ |      just makes room for cell links.
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsEdge(...)
+ |      V.IsEdge(int, int) -> int
+ |      C++: int IsEdge(vtkIdType p1, vtkIdType p2)
+ |
+ |      Determine whether two points form an edge. If they do, return
+ |      non-zero. By definition PolyVertex and PolyLine have no edges
+ |      since 1-dimensional edges are only found on cells 2D and higher.
+ |      Edges are defined as 1-D boundary entities to cells. Make sure
+ |      BuildLinks() has been called first.
+ |
+ |  IsPointUsedByCell(...)
+ |      V.IsPointUsedByCell(int, int) -> int
+ |      C++: int IsPointUsedByCell(vtkIdType ptId, vtkIdType cellId)
+ |
+ |      Determine whether a point is used by a particular cell. If it is,
+ |      return non-zero. Make sure BuildCells() has been called first.
+ |
+ |  IsTriangle(...)
+ |      V.IsTriangle(int, int, int) -> int
+ |      C++: int IsTriangle(int v1, int v2, int v3)
+ |
+ |      Given three vertices, determine whether it's a triangle. Make
+ |      sure BuildLinks() has been called first.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  NeedToBuildCells(...)
+ |      V.NeedToBuildCells() -> bool
+ |      C++: bool NeedToBuildCells()
+ |
+ |      Check if BuildCells is needed.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkPolyData
+ |      C++: vtkPolyData *NewInstance()
+ |
+ |  RemoveCellReference(...)
+ |      V.RemoveCellReference(int)
+ |      C++: void RemoveCellReference(vtkIdType cellId)
+ |
+ |      Remove all references to cell in cell structure. This means the
+ |      links from the cell's points to the cell are deleted. Memory is
+ |      not reclaimed. Use the method ResizeCellList() to resize the link
+ |      list from a point to its using cells. (This operator assumes
+ |      BuildLinks() has been called.)
+ |
+ |  RemoveDeletedCells(...)
+ |      V.RemoveDeletedCells()
+ |      C++: void RemoveDeletedCells()
+ |
+ |      The cells marked by calls to DeleteCell are stored in the Cell
+ |      Array VTK_EMPTY_CELL, but they still exist in the cell arrays.
+ |      Calling RemoveDeletedCells will traverse the cell arrays and
+ |      remove/compact the cell arrays as well as any cell data thus
+ |      truly removing the cells from the polydata object.
+ |
+ |  RemoveGhostCells(...)
+ |      V.RemoveGhostCells()
+ |      C++: void RemoveGhostCells()
+ |
+ |      This method will remove any cell that is marked as ghost (has the
+ |      vtkDataSetAttributes::DUPLICATECELL bit set). It does not remove
+ |      unused points.
+ |
+ |  RemoveReferenceToCell(...)
+ |      V.RemoveReferenceToCell(int, int)
+ |      C++: void RemoveReferenceToCell(vtkIdType ptId, vtkIdType cellId)
+ |
+ |      Remove a reference to a cell in a particular point's link list.
+ |      You may also consider using RemoveCellReference() to remove the
+ |      references from all the cell's points to the cell. This operator
+ |      does not reallocate memory; use the operator ResizeCellList() to
+ |      do this if necessary.
+ |
+ |  ReplaceCell(...)
+ |      V.ReplaceCell(int, int, [int, ...])
+ |      C++: void ReplaceCell(vtkIdType cellId, int npts, vtkIdType *pts)
+ |
+ |      Replace the points defining cell "cellId" with a new set of
+ |      points. This operator is (typically) used when links from points
+ |      to cells have not been built (i.e., BuildLinks() has not been
+ |      executed). Use the operator ReplaceLinkedCell() to replace a cell
+ |      when cell structure has been built.
+ |
+ |  ReplaceCellPoint(...)
+ |      V.ReplaceCellPoint(int, int, int)
+ |      C++: void ReplaceCellPoint(vtkIdType cellId, vtkIdType oldPtId,
+ |          vtkIdType newPtId)
+ |
+ |      Replace a point in the cell connectivity list with a different
+ |      point.
+ |
+ |  ReplaceLinkedCell(...)
+ |      V.ReplaceLinkedCell(int, int, [int, ...])
+ |      C++: void ReplaceLinkedCell(vtkIdType cellId, int npts,
+ |          vtkIdType *pts)
+ |
+ |      Replace one cell with another in cell structure. This operator
+ |      updates the connectivity list and the point's link list. It does
+ |      not delete references to the old cell in the point's link list.
+ |      Use the operator RemoveCellReference() to delete all references
+ |      from points to (old) cell. You may also want to consider using
+ |      the operator ResizeCellList() if the link list is changing size.
+ |
+ |  Reset(...)
+ |      V.Reset()
+ |      C++: void Reset()
+ |
+ |      Begin inserting data all over again. Memory is not freed but
+ |      otherwise objects are returned to their initial state.
+ |
+ |  ResizeCellList(...)
+ |      V.ResizeCellList(int, int)
+ |      C++: void ResizeCellList(vtkIdType ptId, int size)
+ |
+ |      Resize the list of cells using a particular point. (This operator
+ |      assumes that BuildLinks() has been called.)
+ |
+ |  ReverseCell(...)
+ |      V.ReverseCell(int)
+ |      C++: void ReverseCell(vtkIdType cellId)
+ |
+ |      Reverse the order of point ids defining the cell.
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkPolyData
+ |      C++: static vtkPolyData *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetLines(...)
+ |      V.SetLines(vtkCellArray)
+ |      C++: void SetLines(vtkCellArray *l)
+ |
+ |      Set the cell array defining lines.
+ |
+ |  SetPolys(...)
+ |      V.SetPolys(vtkCellArray)
+ |      C++: void SetPolys(vtkCellArray *p)
+ |
+ |      Set the cell array defining polygons.
+ |
+ |  SetStrips(...)
+ |      V.SetStrips(vtkCellArray)
+ |      C++: void SetStrips(vtkCellArray *s)
+ |
+ |      Set the cell array defining triangle strips.
+ |
+ |  SetVerts(...)
+ |      V.SetVerts(vtkCellArray)
+ |      C++: void SetVerts(vtkCellArray *v)
+ |
+ |      Set the cell array defining vertices.
+ |
+ |  ShallowCopy(...)
+ |      V.ShallowCopy(vtkDataObject)
+ |      C++: void ShallowCopy(vtkDataObject *src) override;
+ |
+ |      Shallow and Deep copy.
+ |
+ |  Squeeze(...)
+ |      V.Squeeze()
+ |      C++: void Squeeze() override;
+ |
+ |      Recover extra allocated memory when creating data whose initial
+ |      size is unknown. Examples include using the InsertNextCell()
+ |      method, or when using the CellArray::EstimateSize() method to
+ |      create vertices, lines, polygons, or triangle strips.
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  ERR_INCORRECT_FIELD = -3
+ |
+ |  ERR_NON_MANIFOLD_STAR = -2
+ |
+ |  ERR_NO_SUCH_FIELD = -4
+ |
+ |  MAXIMUM = 2
+ |
+ |  MINIMUM = 0
+ |
+ |  REGULAR_POINT = -1
+ |
+ |  SADDLE = 1
+ |
+ |  __vtkname__ = 'vtkPolyData'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkPointSet:
+ |
+ |  FindCell(...)
+ |      V.FindCell([float, float, float], vtkCell, int, float, int,
+ |          [float, float, float], [float, ...]) -> int
+ |      C++: vtkIdType FindCell(double x[3], vtkCell *cell,
+ |          vtkIdType cellId, double tol2, int &subId, double pcoords[3],
+ |          double *weights) override;
+ |      V.FindCell([float, float, float], vtkCell, vtkGenericCell, int,
+ |          float, int, [float, float, float], [float, ...]) -> int
+ |      C++: vtkIdType FindCell(double x[3], vtkCell *cell,
+ |          vtkGenericCell *gencell, vtkIdType cellId, double tol2,
+ |          int &subId, double pcoords[3], double *weights) override;
+ |
+ |      See vtkDataSet for additional information.
+ |
+ |  FindPoint(...)
+ |      V.FindPoint([float, float, float]) -> int
+ |      C++: vtkIdType FindPoint(double x[3]) override;
+ |      V.FindPoint(float, float, float) -> int
+ |      C++: vtkIdType FindPoint(double x, double y, double z)
+ |
+ |      See vtkDataSet for additional information.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: vtkMTimeType GetMTime() override;
+ |
+ |      Get MTime which also considers its vtkPoints MTime.
+ |
+ |  GetNumberOfPoints(...)
+ |      V.GetNumberOfPoints() -> int
+ |      C++: vtkIdType GetNumberOfPoints() override;
+ |
+ |      See vtkDataSet for additional information.
+ |
+ |  GetPoint(...)
+ |      V.GetPoint(int, [float, float, float])
+ |      C++: void GetPoint(vtkIdType ptId, double x[3]) override;
+ |      V.GetPoint(int) -> (float, float, float)
+ |      C++: double *GetPoint(vtkIdType ptId) override;
+ |
+ |      See vtkDataSet for additional information.
+ |
+ |  GetPoints(...)
+ |      V.GetPoints() -> vtkPoints
+ |      C++: virtual vtkPoints *GetPoints()
+ |
+ |      Specify point array to define point coordinates.
+ |
+ |  NewCellIterator(...)
+ |      V.NewCellIterator() -> vtkCellIterator
+ |      C++: vtkCellIterator *NewCellIterator() override;
+ |
+ |      Return an iterator that traverses the cells in this data set.
+ |
+ |  SetPoints(...)
+ |      V.SetPoints(vtkPoints)
+ |      C++: virtual void SetPoints(vtkPoints *)
+ |
+ |      Specify point array to define point coordinates.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkDataSet:
+ |
+ |  AllocateCellGhostArray(...)
+ |      V.AllocateCellGhostArray() -> vtkUnsignedCharArray
+ |      C++: vtkUnsignedCharArray *AllocateCellGhostArray()
+ |
+ |      Allocate ghost array for cells.
+ |
+ |  AllocatePointGhostArray(...)
+ |      V.AllocatePointGhostArray() -> vtkUnsignedCharArray
+ |      C++: vtkUnsignedCharArray *AllocatePointGhostArray()
+ |
+ |      Allocate ghost array for points.
+ |
+ |  CheckAttributes(...)
+ |      V.CheckAttributes() -> int
+ |      C++: int CheckAttributes()
+ |
+ |      This method checks to see if the cell and point attributes match
+ |      the geometry.  Many filters will crash if the number of tupples
+ |      in an array is less than the number of points/cells. This method
+ |      returns 1 if there is a mismatch, and 0 if everything is ok.  It
+ |      prints an error if an array is too short, and a warning if an
+ |      array is too long.
+ |
+ |  CopyAttributes(...)
+ |      V.CopyAttributes(vtkDataSet)
+ |      C++: virtual void CopyAttributes(vtkDataSet *ds)
+ |
+ |      Copy the attributes associated with the specified dataset to this
+ |      instance of vtkDataSet. THIS METHOD IS NOT THREAD SAFE.
+ |
+ |  FindAndGetCell(...)
+ |      V.FindAndGetCell([float, float, float], vtkCell, int, float, int,
+ |          [float, float, float], [float, ...]) -> vtkCell
+ |      C++: virtual vtkCell *FindAndGetCell(double x[3], vtkCell *cell,
+ |          vtkIdType cellId, double tol2, int &subId, double pcoords[3],
+ |          double *weights)
+ |
+ |      Locate the cell that contains a point and return the cell. Also
+ |      returns the subcell id, parametric coordinates and weights for
+ |      subsequent interpolation. This method combines the derived class
+ |      methods int FindCell and vtkCell *GetCell. Derived classes may
+ |      provide a more efficient implementation. See for example
+ |      vtkStructuredPoints. THIS METHOD IS NOT THREAD SAFE.
+ |
+ |  GenerateGhostArray(...)
+ |      V.GenerateGhostArray([int, int, int, int, int, int])
+ |      C++: virtual void GenerateGhostArray(int zeroExt[6])
+ |      V.GenerateGhostArray([int, int, int, int, int, int], bool)
+ |      C++: virtual void GenerateGhostArray(int zeroExt[6],
+ |          bool cellOnly)
+ |
+ |      Normally called by pipeline executives or algorithms only. This
+ |      method computes the ghost arrays for a given dataset. The zeroExt
+ |      argument specifies the extent of the region which ghost type = 0.
+ |
+ |  GetAttributesAsFieldData(...)
+ |      V.GetAttributesAsFieldData(int) -> vtkFieldData
+ |      C++: vtkFieldData *GetAttributesAsFieldData(int type) override;
+ |
+ |      Returns the attributes of the data object as a vtkFieldData. This
+ |      returns non-null values in all the same cases as GetAttributes,
+ |      in addition to the case of FIELD, which will return the field
+ |      data for any vtkDataObject subclass.
+ |
+ |  GetBounds(...)
+ |      V.GetBounds() -> (float, float, float, float, float, float)
+ |      C++: double *GetBounds()
+ |      V.GetBounds([float, float, float, float, float, float])
+ |      C++: void GetBounds(double bounds[6])
+ |
+ |      Return a pointer to the geometry bounding box in the form
+ |      (xmin,xmax, ymin,ymax, zmin,zmax). THIS METHOD IS NOT THREAD
+ |      SAFE.
+ |
+ |  GetCellData(...)
+ |      V.GetCellData() -> vtkCellData
+ |      C++: vtkCellData *GetCellData()
+ |
+ |      Return a pointer to this dataset's cell data. THIS METHOD IS
+ |      THREAD SAFE
+ |
+ |  GetCellGhostArray(...)
+ |      V.GetCellGhostArray() -> vtkUnsignedCharArray
+ |      C++: vtkUnsignedCharArray *GetCellGhostArray()
+ |
+ |      Get the array that defines the ghost type of each cell. We cache
+ |      the pointer to the array to save a lookup involving string
+ |      comparisons
+ |
+ |  GetCellTypes(...)
+ |      V.GetCellTypes(vtkCellTypes)
+ |      C++: virtual void GetCellTypes(vtkCellTypes *types)
+ |
+ |      Get a list of types of cells in a dataset. The list consists of
+ |      an array of types (not necessarily in any order), with a single
+ |      entry per type. For example a dataset 5 triangles, 3 lines, and
+ |      100 hexahedra would result a list of three entries, corresponding
+ |      to the types VTK_TRIANGLE, VTK_LINE, and VTK_HEXAHEDRON. THIS
+ |      METHOD IS THREAD SAFE IF FIRST CALLED FROM A SINGLE THREAD AND
+ |      THE DATASET IS NOT MODIFIED
+ |
+ |  GetCenter(...)
+ |      V.GetCenter() -> (float, float, float)
+ |      C++: double *GetCenter()
+ |      V.GetCenter([float, float, float])
+ |      C++: void GetCenter(double center[3])
+ |
+ |      Get the center of the bounding box. THIS METHOD IS NOT THREAD
+ |      SAFE.
+ |
+ |  GetLength(...)
+ |      V.GetLength() -> float
+ |      C++: double GetLength()
+ |
+ |      Return the length of the diagonal of the bounding box. THIS
+ |      METHOD IS THREAD SAFE IF FIRST CALLED FROM A SINGLE THREAD AND
+ |      THE DATASET IS NOT MODIFIED
+ |
+ |  GetNumberOfElements(...)
+ |      V.GetNumberOfElements(int) -> int
+ |      C++: vtkIdType GetNumberOfElements(int type) override;
+ |
+ |      Get the number of elements for a specific attribute type (POINT,
+ |      CELL, etc.).
+ |
+ |  GetPointData(...)
+ |      V.GetPointData() -> vtkPointData
+ |      C++: vtkPointData *GetPointData()
+ |
+ |      Return a pointer to this dataset's point data. THIS METHOD IS
+ |      THREAD SAFE
+ |
+ |  GetPointGhostArray(...)
+ |      V.GetPointGhostArray() -> vtkUnsignedCharArray
+ |      C++: vtkUnsignedCharArray *GetPointGhostArray()
+ |
+ |      Gets the array that defines the ghost type of each point. We
+ |      cache the pointer to the array to save a lookup involving string
+ |      comparisons
+ |
+ |  GetScalarRange(...)
+ |      V.GetScalarRange([float, float])
+ |      C++: virtual void GetScalarRange(double range[2])
+ |      V.GetScalarRange() -> (float, float)
+ |      C++: double *GetScalarRange()
+ |
+ |      Convenience method to get the range of the first component (and
+ |      only the first component) of any scalars in the data set.  If the
+ |      data has both point data and cell data, it returns the (min/max)
+ |      range of combined point and cell data.  If there are no point or
+ |      cell scalars the method will return (0,1).  Note: It might be
+ |      necessary to call Update to create or refresh the scalars before
+ |      calling this method. THIS METHOD IS THREAD SAFE IF FIRST CALLED
+ |      FROM A SINGLE THREAD AND THE DATASET IS NOT MODIFIED
+ |
+ |  HasAnyBlankCells(...)
+ |      V.HasAnyBlankCells() -> bool
+ |      C++: virtual bool HasAnyBlankCells()
+ |
+ |      Returns 1 if there are any blanking cells 0 otherwise. Blanking
+ |      is supported only for vtkStructuredGrid and vtkUniformGrid
+ |
+ |  HasAnyBlankPoints(...)
+ |      V.HasAnyBlankPoints() -> bool
+ |      C++: virtual bool HasAnyBlankPoints()
+ |
+ |      Returns 1 if there are any blanking points 0 otherwise. Blanking
+ |      is supported only for vtkStructuredGrid and vtkUniformGrid
+ |
+ |  HasAnyGhostCells(...)
+ |      V.HasAnyGhostCells() -> bool
+ |      C++: bool HasAnyGhostCells()
+ |
+ |      Returns 1 if there are any ghost cells 0 otherwise.
+ |
+ |  HasAnyGhostPoints(...)
+ |      V.HasAnyGhostPoints() -> bool
+ |      C++: bool HasAnyGhostPoints()
+ |
+ |      Returns 1 if there are any ghost points 0 otherwise.
+ |
+ |  UpdateCellGhostArrayCache(...)
+ |      V.UpdateCellGhostArrayCache()
+ |      C++: void UpdateCellGhostArrayCache()
+ |
+ |      Updates the pointer to the cell ghost array.
+ |
+ |  UpdatePointGhostArrayCache(...)
+ |      V.UpdatePointGhostArrayCache()
+ |      C++: void UpdatePointGhostArrayCache()
+ |
+ |      Updates the pointer to the point ghost array.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from vtkDataSet:
+ |
+ |  CELL_DATA_FIELD = 2
+ |
+ |  DATA_OBJECT_FIELD = 0
+ |
+ |  FieldDataType = <class 'vtkCommonDataModelPython.vtkDataSet.FieldDataT...
+ |      int(x=0) -> integer
+ |      int(x, base=10) -> integer
+ |
+ |      Convert a number or string to an integer, or return 0 if no arguments
+ |      are given.  If x is a number, return x.__int__().  For floating point
+ |      numbers, this truncates towards zero.
+ |
+ |      If x is not a number or if base is given, then x must be a string,
+ |      bytes, or bytearray instance representing an integer literal in the
+ |      given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |      by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |      Base 0 means to interpret the base from the string as an integer literal.
+ |      >>> int('0b100', base=0)
+ |      4
+ |
+ |  POINT_DATA_FIELD = 1
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkDataObject:
+ |
+ |  ALL_PIECES_EXTENT(...)
+ |      V.ALL_PIECES_EXTENT() -> vtkInformationIntegerVectorKey
+ |      C++: static vtkInformationIntegerVectorKey *ALL_PIECES_EXTENT()
+ |
+ |  BOUNDING_BOX(...)
+ |      V.BOUNDING_BOX() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *BOUNDING_BOX()
+ |
+ |  CELL_DATA_VECTOR(...)
+ |      V.CELL_DATA_VECTOR() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *CELL_DATA_VECTOR()
+ |
+ |  CopyInformationFromPipeline(...)
+ |      V.CopyInformationFromPipeline(vtkInformation)
+ |      C++: virtual void CopyInformationFromPipeline(
+ |          vtkInformation *info)
+ |
+ |      Copy from the pipeline information to the data object's own
+ |      information. Called right before the main execution pass.
+ |
+ |  CopyInformationToPipeline(...)
+ |      V.CopyInformationToPipeline(vtkInformation)
+ |      C++: virtual void CopyInformationToPipeline(vtkInformation *info)
+ |
+ |      Copy information from this data object to the pipeline
+ |      information. This is used by the vtkTrivialProducer that is
+ |      created when someone calls SetInputData() to connect a data
+ |      object to a pipeline.
+ |
+ |  Crop(...)
+ |      V.Crop((int, ...))
+ |      C++: virtual void Crop(const int *updateExtent)
+ |
+ |      This method crops the data object (if necessary) so that the
+ |      extent matches the update extent.
+ |
+ |  DATA_EXTENT(...)
+ |      V.DATA_EXTENT() -> vtkInformationIntegerPointerKey
+ |      C++: static vtkInformationIntegerPointerKey *DATA_EXTENT()
+ |
+ |  DATA_EXTENT_TYPE(...)
+ |      V.DATA_EXTENT_TYPE() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *DATA_EXTENT_TYPE()
+ |
+ |  DATA_NUMBER_OF_GHOST_LEVELS(...)
+ |      V.DATA_NUMBER_OF_GHOST_LEVELS() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *DATA_NUMBER_OF_GHOST_LEVELS(
+ |          )
+ |
+ |  DATA_NUMBER_OF_PIECES(...)
+ |      V.DATA_NUMBER_OF_PIECES() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *DATA_NUMBER_OF_PIECES()
+ |
+ |  DATA_OBJECT(...)
+ |      V.DATA_OBJECT() -> vtkInformationDataObjectKey
+ |      C++: static vtkInformationDataObjectKey *DATA_OBJECT()
+ |
+ |  DATA_PIECE_NUMBER(...)
+ |      V.DATA_PIECE_NUMBER() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *DATA_PIECE_NUMBER()
+ |
+ |  DATA_TIME_STEP(...)
+ |      V.DATA_TIME_STEP() -> vtkInformationDoubleKey
+ |      C++: static vtkInformationDoubleKey *DATA_TIME_STEP()
+ |
+ |  DATA_TYPE_NAME(...)
+ |      V.DATA_TYPE_NAME() -> vtkInformationStringKey
+ |      C++: static vtkInformationStringKey *DATA_TYPE_NAME()
+ |
+ |  DataHasBeenGenerated(...)
+ |      V.DataHasBeenGenerated()
+ |      C++: void DataHasBeenGenerated()
+ |
+ |      This method is called by the source when it executes to generate
+ |      data. It is sort of the opposite of ReleaseData. It sets the
+ |      DataReleased flag to 0, and sets a new UpdateTime.
+ |
+ |  EDGE_DATA_VECTOR(...)
+ |      V.EDGE_DATA_VECTOR() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *EDGE_DATA_VECTOR()
+ |
+ |  FIELD_ACTIVE_ATTRIBUTE(...)
+ |      V.FIELD_ACTIVE_ATTRIBUTE() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_ACTIVE_ATTRIBUTE()
+ |
+ |  FIELD_ARRAY_TYPE(...)
+ |      V.FIELD_ARRAY_TYPE() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_ARRAY_TYPE()
+ |
+ |  FIELD_ASSOCIATION(...)
+ |      V.FIELD_ASSOCIATION() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_ASSOCIATION()
+ |
+ |  FIELD_ATTRIBUTE_TYPE(...)
+ |      V.FIELD_ATTRIBUTE_TYPE() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_ATTRIBUTE_TYPE()
+ |
+ |  FIELD_NAME(...)
+ |      V.FIELD_NAME() -> vtkInformationStringKey
+ |      C++: static vtkInformationStringKey *FIELD_NAME()
+ |
+ |  FIELD_NUMBER_OF_COMPONENTS(...)
+ |      V.FIELD_NUMBER_OF_COMPONENTS() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_NUMBER_OF_COMPONENTS()
+ |
+ |  FIELD_NUMBER_OF_TUPLES(...)
+ |      V.FIELD_NUMBER_OF_TUPLES() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_NUMBER_OF_TUPLES()
+ |
+ |  FIELD_OPERATION(...)
+ |      V.FIELD_OPERATION() -> vtkInformationIntegerKey
+ |      C++: static vtkInformationIntegerKey *FIELD_OPERATION()
+ |
+ |  FIELD_RANGE(...)
+ |      V.FIELD_RANGE() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *FIELD_RANGE()
+ |
+ |  GetActiveFieldInformation(...)
+ |      V.GetActiveFieldInformation(vtkInformation, int, int)
+ |          -> vtkInformation
+ |      C++: static vtkInformation *GetActiveFieldInformation(
+ |          vtkInformation *info, int fieldAssociation, int attributeType)
+ |
+ |      Return the information object within the input information
+ |      object's field data corresponding to the specified association
+ |      (FIELD_ASSOCIATION_POINTS or FIELD_ASSOCIATION_CELLS) and
+ |      attribute (SCALARS, VECTORS, NORMALS, TCOORDS, or TENSORS)
+ |
+ |  GetAssociationTypeAsString(...)
+ |      V.GetAssociationTypeAsString(int) -> string
+ |      C++: static const char *GetAssociationTypeAsString(
+ |          int associationType)
+ |
+ |      Given an integer association type, this static method returns a
+ |      string type for the attribute (i.e. type = 0: returns "Points").
+ |
+ |  GetAssociationTypeFromString(...)
+ |      V.GetAssociationTypeFromString(string) -> int
+ |      C++: static int GetAssociationTypeFromString(
+ |          const char *associationType)
+ |
+ |      Given an integer association type, this static method returns a
+ |      string type for the attribute (i.e. type = 0: returns "Points").
+ |
+ |  GetAttributeTypeForArray(...)
+ |      V.GetAttributeTypeForArray(vtkAbstractArray) -> int
+ |      C++: virtual int GetAttributeTypeForArray(vtkAbstractArray *arr)
+ |
+ |      Retrieves the attribute type that an array came from. This is
+ |      useful for obtaining which attribute type a input array to an
+ |      algorithm came from (retrieved from
+ |      GetInputAbstractArrayToProcesss).
+ |
+ |  GetAttributes(...)
+ |      V.GetAttributes(int) -> vtkDataSetAttributes
+ |      C++: virtual vtkDataSetAttributes *GetAttributes(int type)
+ |
+ |      Returns the attributes of the data object of the specified
+ |      attribute type. The type may be:  POINT  - Defined in vtkDataSet
+ |      subclasses. CELL   - Defined in vtkDataSet subclasses. VERTEX -
+ |      Defined in vtkGraph subclasses. EDGE   - Defined in vtkGraph
+ |      subclasses. ROW    - Defined in vtkTable.  The other attribute
+ |      type, FIELD, will return nullptr since field data is stored as a
+ |      vtkFieldData instance, not a vtkDataSetAttributes instance. To
+ |      retrieve field data, use GetAttributesAsFieldData.
+ |
+ |  GetDataReleased(...)
+ |      V.GetDataReleased() -> int
+ |      C++: virtual int GetDataReleased()
+ |
+ |      Get the flag indicating the data has been released.
+ |
+ |  GetExtentType(...)
+ |      V.GetExtentType() -> int
+ |      C++: virtual int GetExtentType()
+ |
+ |      The ExtentType will be left as VTK_PIECES_EXTENT for data objects
+ |      such as vtkPolyData and vtkUnstructuredGrid. The ExtentType will
+ |      be changed to VTK_3D_EXTENT for data objects with 3D structure
+ |      such as vtkImageData (and its subclass vtkStructuredPoints),
+ |      vtkRectilinearGrid, and vtkStructuredGrid. The default is the
+ |      have an extent in pieces, with only one piece (no streaming
+ |      possible).
+ |
+ |  GetFieldData(...)
+ |      V.GetFieldData() -> vtkFieldData
+ |      C++: virtual vtkFieldData *GetFieldData()
+ |
+ |      Assign or retrieve a general field data to this data object.
+ |
+ |  GetGlobalReleaseDataFlag(...)
+ |      V.GetGlobalReleaseDataFlag() -> int
+ |      C++: static int GetGlobalReleaseDataFlag()
+ |
+ |      Turn on/off flag to control whether every object releases its
+ |      data after being used by a filter.
+ |
+ |  GetInformation(...)
+ |      V.GetInformation() -> vtkInformation
+ |      C++: virtual vtkInformation *GetInformation()
+ |
+ |      Set/Get the information object associated with this data object.
+ |
+ |  GetNamedFieldInformation(...)
+ |      V.GetNamedFieldInformation(vtkInformation, int, string)
+ |          -> vtkInformation
+ |      C++: static vtkInformation *GetNamedFieldInformation(
+ |          vtkInformation *info, int fieldAssociation, const char *name)
+ |
+ |      Return the information object within the input information
+ |      object's field data corresponding to the specified association
+ |      (FIELD_ASSOCIATION_POINTS or FIELD_ASSOCIATION_CELLS) and name.
+ |
+ |  GetUpdateTime(...)
+ |      V.GetUpdateTime() -> int
+ |      C++: vtkMTimeType GetUpdateTime()
+ |
+ |      Used by Threaded ports to determine if they should initiate an
+ |      asynchronous update (still in development).
+ |
+ |  GlobalReleaseDataFlagOff(...)
+ |      V.GlobalReleaseDataFlagOff()
+ |      C++: void GlobalReleaseDataFlagOff()
+ |
+ |      Turn on/off flag to control whether every object releases its
+ |      data after being used by a filter.
+ |
+ |  GlobalReleaseDataFlagOn(...)
+ |      V.GlobalReleaseDataFlagOn()
+ |      C++: void GlobalReleaseDataFlagOn()
+ |
+ |      Turn on/off flag to control whether every object releases its
+ |      data after being used by a filter.
+ |
+ |  ORIGIN(...)
+ |      V.ORIGIN() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *ORIGIN()
+ |
+ |  PIECE_EXTENT(...)
+ |      V.PIECE_EXTENT() -> vtkInformationIntegerVectorKey
+ |      C++: static vtkInformationIntegerVectorKey *PIECE_EXTENT()
+ |
+ |  POINT_DATA_VECTOR(...)
+ |      V.POINT_DATA_VECTOR() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *POINT_DATA_VECTOR(
+ |          )
+ |
+ |  PrepareForNewData(...)
+ |      V.PrepareForNewData()
+ |      C++: virtual void PrepareForNewData()
+ |
+ |      make the output data ready for new data to be inserted. For most
+ |      objects we just call Initialize. But for vtkImageData we leave
+ |      the old data in case the memory can be reused.
+ |
+ |  ReleaseData(...)
+ |      V.ReleaseData()
+ |      C++: void ReleaseData()
+ |
+ |      Release data back to system to conserve memory resource. Used
+ |      during visualization network execution.  Releasing this data does
+ |      not make down-stream data invalid.
+ |
+ |  RemoveNamedFieldInformation(...)
+ |      V.RemoveNamedFieldInformation(vtkInformation, int, string)
+ |      C++: static void RemoveNamedFieldInformation(vtkInformation *info,
+ |           int fieldAssociation, const char *name)
+ |
+ |      Remove the info associated with an array
+ |
+ |  SIL(...)
+ |      V.SIL() -> vtkInformationDataObjectKey
+ |      C++: static vtkInformationDataObjectKey *SIL()
+ |
+ |  SPACING(...)
+ |      V.SPACING() -> vtkInformationDoubleVectorKey
+ |      C++: static vtkInformationDoubleVectorKey *SPACING()
+ |
+ |  SetActiveAttribute(...)
+ |      V.SetActiveAttribute(vtkInformation, int, string, int)
+ |          -> vtkInformation
+ |      C++: static vtkInformation *SetActiveAttribute(
+ |          vtkInformation *info, int fieldAssociation,
+ |          const char *attributeName, int attributeType)
+ |
+ |      Set the named array to be the active field for the specified type
+ |      (SCALARS, VECTORS, NORMALS, TCOORDS, or TENSORS) and association
+ |      (FIELD_ASSOCIATION_POINTS or FIELD_ASSOCIATION_CELLS).  Returns
+ |      the active field information object and creates on entry if one
+ |      not found.
+ |
+ |  SetActiveAttributeInfo(...)
+ |      V.SetActiveAttributeInfo(vtkInformation, int, int, string, int,
+ |          int, int)
+ |      C++: static void SetActiveAttributeInfo(vtkInformation *info,
+ |          int fieldAssociation, int attributeType, const char *name,
+ |          int arrayType, int numComponents, int numTuples)
+ |
+ |      Set the name, array type, number of components, and number of
+ |      tuples within the passed information object for the active
+ |      attribute of type attributeType (in specified association,
+ |      FIELD_ASSOCIATION_POINTS or FIELD_ASSOCIATION_CELLS).  If there
+ |      is not an active attribute of the specified type, an entry in the
+ |      information object is created.  If arrayType, numComponents, or
+ |      numTuples equal to -1, or name=nullptr the value is not changed.
+ |
+ |  SetFieldData(...)
+ |      V.SetFieldData(vtkFieldData)
+ |      C++: virtual void SetFieldData(vtkFieldData *)
+ |
+ |      Assign or retrieve a general field data to this data object.
+ |
+ |  SetGlobalReleaseDataFlag(...)
+ |      V.SetGlobalReleaseDataFlag(int)
+ |      C++: static void SetGlobalReleaseDataFlag(int val)
+ |
+ |      Turn on/off flag to control whether every object releases its
+ |      data after being used by a filter.
+ |
+ |  SetInformation(...)
+ |      V.SetInformation(vtkInformation)
+ |      C++: virtual void SetInformation(vtkInformation *)
+ |
+ |      Set/Get the information object associated with this data object.
+ |
+ |  SetPointDataActiveScalarInfo(...)
+ |      V.SetPointDataActiveScalarInfo(vtkInformation, int, int)
+ |      C++: static void SetPointDataActiveScalarInfo(
+ |          vtkInformation *info, int arrayType, int numComponents)
+ |
+ |      Convenience version of previous method for use (primarily) by the
+ |      Imaging filters. If arrayType or numComponents == -1, the value
+ |      is not changed.
+ |
+ |  VERTEX_DATA_VECTOR(...)
+ |      V.VERTEX_DATA_VECTOR() -> vtkInformationInformationVectorKey
+ |      C++: static vtkInformationInformationVectorKey *VERTEX_DATA_VECTOR(
+ |          )
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from vtkDataObject:
+ |
+ |  AttributeTypes = <class 'vtkCommonDataModelPython.vtkDataObject.Attrib...
+ |      int(x=0) -> integer
+ |      int(x, base=10) -> integer
+ |
+ |      Convert a number or string to an integer, or return 0 if no arguments
+ |      are given.  If x is a number, return x.__int__().  For floating point
+ |      numbers, this truncates towards zero.
+ |
+ |      If x is not a number or if base is given, then x must be a string,
+ |      bytes, or bytearray instance representing an integer literal in the
+ |      given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |      by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |      Base 0 means to interpret the base from the string as an integer literal.
+ |      >>> int('0b100', base=0)
+ |      4
+ |
+ |  CELL = 1
+ |
+ |  EDGE = 5
+ |
+ |  FIELD = 2
+ |
+ |  FIELD_ASSOCIATION_CELLS = 1
+ |
+ |  FIELD_ASSOCIATION_EDGES = 5
+ |
+ |  FIELD_ASSOCIATION_NONE = 2
+ |
+ |  FIELD_ASSOCIATION_POINTS = 0
+ |
+ |  FIELD_ASSOCIATION_POINTS_THEN_CELLS = 3
+ |
+ |  FIELD_ASSOCIATION_ROWS = 6
+ |
+ |  FIELD_ASSOCIATION_VERTICES = 4
+ |
+ |  FIELD_OPERATION_MODIFIED = 2
+ |
+ |  FIELD_OPERATION_PRESERVED = 0
+ |
+ |  FIELD_OPERATION_REINTERPOLATED = 1
+ |
+ |  FIELD_OPERATION_REMOVED = 3
+ |
+ |  FieldAssociations = <class 'vtkCommonDataModelPython.vtkDataObject.Fie...
+ |      int(x=0) -> integer
+ |      int(x, base=10) -> integer
+ |
+ |      Convert a number or string to an integer, or return 0 if no arguments
+ |      are given.  If x is a number, return x.__int__().  For floating point
+ |      numbers, this truncates towards zero.
+ |
+ |      If x is not a number or if base is given, then x must be a string,
+ |      bytes, or bytearray instance representing an integer literal in the
+ |      given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |      by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |      Base 0 means to interpret the base from the string as an integer literal.
+ |      >>> int('0b100', base=0)
+ |      4
+ |
+ |  FieldOperations = <class 'vtkCommonDataModelPython.vtkDataObject.Field...
+ |      int(x=0) -> integer
+ |      int(x, base=10) -> integer
+ |
+ |      Convert a number or string to an integer, or return 0 if no arguments
+ |      are given.  If x is a number, return x.__int__().  For floating point
+ |      numbers, this truncates towards zero.
+ |
+ |      If x is not a number or if base is given, then x must be a string,
+ |      bytes, or bytearray instance representing an integer literal in the
+ |      given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |      by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |      Base 0 means to interpret the base from the string as an integer literal.
+ |      >>> int('0b100', base=0)
+ |      4
+ |
+ |  NUMBER_OF_ASSOCIATIONS = 7
+ |
+ |  NUMBER_OF_ATTRIBUTE_TYPES = 7
+ |
+ |  POINT = 0
+ |
+ |  POINT_THEN_CELL = 3
+ |
+ |  ROW = 6
+ |
+ |  VERTEX = 4
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: virtual void Modified()
+ |
+ |      Update the modification time for this object. Many filters rely
+ |      on the modification time to determine if they need to recompute
+ |      their data. The modification time is a unique monotonically
+ |      increasing unsigned long integer.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).

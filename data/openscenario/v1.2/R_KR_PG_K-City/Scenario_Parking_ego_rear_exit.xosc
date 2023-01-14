@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="2" date="2022-07-21T10:00:00" description="Scenario: Ego vehicle exit out from parking space" author="MORAI:scenario-module-team" />
+  <ParameterDeclarations />
+  <VariableDeclarations/>
+  <CatalogLocations />
+  <RoadNetwork>
+    <LogicFile filepath="MGeo" />
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2022-07-21T10:00:00" />
+              <Weather atmosphericPressure="80000" fractionalCloudCover="zeroOktas" temperature="170">
+                <Sun illuminance="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+				<Wind direction="0" speed="0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="dry"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="0" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="18.47530174255371" y="1095.2047119140625" z="-0.39541059732437134" h="151.0964050293" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="5.0" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="A219BS010380" index="270" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations />
+      <Act name="MyAct">
+        <ManeuverGroup maximumExecutionCount="1" name="Start_ManeuverGroup">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="Ego" />
+          </Actors>
+          <Maneuver name="Exit_Maneuver">
+            <Event name="Exit_Event" priority="overwrite">
+              <Action name="Exit_Action">
+                <PrivateAction>
+                  <ParkingAction name="P000090" type="rear" action="exit" />
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <SimulationTimeCondition value="0" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+            <Event name="Accel_Event" priority="overwrite">
+              <Action name="Accel_Action">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionDynamics dynamicsShape="linear" value="6" dynamicsDimension="time" />
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed value="5" />
+                      </SpeedActionTarget>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Accel_Event_StartCondition" delay="0" conditionEdge="rising">
+                    <ByValueCondition>
+                      <StoryboardElementStateCondition storyboardElementType="event" storyboardElementRef="Exit_Event" state="completeState"/>
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="MyAct_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

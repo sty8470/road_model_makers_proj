@@ -1,0 +1,62 @@
+[
+  {
+    "idx": "N12",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      100,
+      0
+    ]
+  },
+  {
+    "idx": "N13",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5,
+      150,
+      0
+    ]
+  },
+  {
+    "idx": "N20",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      0,
+      0
+    ]
+  },
+  {
+    "idx": "N21",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      50,
+      0
+    ]
+  },
+  {
+    "idx": "N22",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      100,
+      0
+    ]
+  },
+  {
+    "idx": "N23",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10,
+      150,
+      0
+    ]
+  }
+]

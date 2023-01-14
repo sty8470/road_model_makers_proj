@@ -1,0 +1,93 @@
+{
+	"select" : {
+		"guardrail" : 0,
+		"soundbarrier" : 0,
+		"central_reservation" : 0
+	},
+	"structure": {
+		"guardrail": [
+			{
+				"width": 0.03,
+				"gap": 0.07,
+				"height": 0.5,
+				"curv_depth": 0.1
+			},
+			{
+				"width": 0.03,
+				"gap": 0.07,
+				"height": 1,
+				"curv_depth": 0.1
+			},
+			{
+				"width": 0.05,
+				"gap": 0.12,
+				"height": 1.5,
+				"curv_depth": 0.12
+			}
+		],
+		"soundbarrier": [
+			{
+				"length" : 4,
+				"height" : 7,
+				"top_width" : 0.2,
+				"bottom_width" : 0.2,
+				"head_angle" : 45,
+				"head_length" : 1
+			},
+			{
+				"length" : 4,
+				"height" : 2.5,
+				"top_width" : 0.2,
+				"bottom_width" : 0.2,
+				"head_angle" : 45,
+				"head_length" : 0.5
+			},
+			{
+				"length" : 4,
+				"height" : 10,
+				"top_width" : 0.3,
+				"bottom_width" : 0.3,
+				"head_angle" : 45,
+				"head_length" : 1.5
+			}
+		],
+		"central_reservation" : [
+			{
+				"length" : 3,
+				"height" : 1.27,
+				"top_width" : 0.25,
+				"bottom_width" : 0.61,
+				"center_width" : 0.43,
+				"bottom_height" : 0.15,
+				"center_height" : 0.4
+			},
+			{
+				"length" : 3,
+				"height" : 0.815,
+				"top_width" : 0.25,
+				"bottom_width" : 0.61,
+				"center_width" : 0.43,
+				"bottom_height" : 0.12,
+				"center_height" : 0.25
+			}
+		],
+		"tunnel" : [
+            {
+                "from_link_idx" : "LANE_LINK.99230_2_3",
+                "to_link_idx" : "LANE_LINK.99232_2_3"
+            },
+            {
+                "from_link_idx" : "LANE_LINK.99234_2_3",
+                "to_link_idx" : "LANE_LINK.126475_2_3"
+            },
+            {
+                "from_link_idx" : "LANE_LINK.98972_2_3",
+                "to_link_idx" : "LANE_LINK.126082_2_3"
+            },
+            {
+                "from_link_idx" : "LANE_LINK.98976_2_3",
+                "to_link_idx" : "LANE_LINK.98977_2_3"
+            }
+        ]
+	}
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="0" date="2021-1-28T10:00:00" description="SpawnPoint Staight(StartLink to TargetLink)" author="morai-core-team"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="V_RHT_Suburb_02" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Genesis_DH" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" intensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <GlobalAction>
+          <TrafficAction>
+            <TrafficSourceAction radius="10" count="5" rate="5"
+                                 closedLoop="false" discretionaryLaneChange="false" >
+              <Position>
+                <LinkPosition id="_2_0_R1_" index="2"/>
+              </Position>
+              <InitSpeed>
+                <AbsoluteTargetSpeed type="link" value="0.05" range="0.05"/>
+              </InitSpeed>
+              <DesiredSpeed>
+                <AbsoluteTargetSpeed type="link" value="0.8" range="0.2"/>
+              </DesiredSpeed>
+              <Waypoint routeStrategy="random">
+                <Position>
+                  <LinkPosition id="_3_0_R1_" index="45"/>
+                </Position>
+              </Waypoint>
+              <TrafficDefinition name="TrafficDefinition_1">
+                <VehicleCategoryDistribution>
+                  <VehicleCategoryDistributionEntry model="2016_Hyundai_Ioniq" weight="1" />
+                </VehicleCategoryDistribution>
+              </TrafficDefinition>
+            </TrafficSourceAction>
+          </TrafficAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="10.00"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="_3_0_L1_" index="3"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false" />
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

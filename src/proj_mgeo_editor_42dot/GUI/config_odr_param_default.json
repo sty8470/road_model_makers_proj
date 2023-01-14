@@ -1,0 +1,14 @@
+{
+  "SIGNAL": {
+    "STATE": 2
+  },
+  "MATCHING_ROAD": {
+    "STATE": 0
+  },
+  "DISABLE_LANE_LINK": {
+    "STATE": 0
+  },
+  "SUPERELEVATION": {
+    "STATE": 0
+  }
+}

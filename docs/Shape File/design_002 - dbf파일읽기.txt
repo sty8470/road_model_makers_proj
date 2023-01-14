@@ -1,0 +1,251 @@
+set1/(B110)정밀도로지도_B1_SIGN_POINT 부터 보도록 한다.
+
+LibreOffice로 열면 되고, EUC-KR로 열어야한다.
+열어보면,
+row #1 -> column A ~ H 까지 (8개)
+row #2~180 -> 179개의 데이터
+
+이 파일에 연결되는 shp 파일은 총 0xB3 = 179개의 point가 원래 있으므로,
+각각이 연결된다고 할 수 있다.
+
+Column의 정보는 다음과 같다.
+LINKID,C,10
+SIGNTYPE,C,3
+CODE,C,1
+DATE,C,8
+REMARK,C,30
+HDUFID,C,14
+HISTTYPE,C,30
+HISTREMARK,C,30
+
+일단 DBF 파일의 헤더부터 직접 읽어보도록 한다.
+
+참고 자료
+http://www.dbase.com/Knowledgebase/INT/db7_file_fmt.htm
+위는 DB7 기준이므로, http://www.manmrk.net/tutorials/database/xbase/dbf.html
+이를 참고해야한다.
+
+0x0부터 1바이트 : Version No.
+  >> 0x 03
+  >> File without DBT
+
+
+0x1부터 3바이트 : Last Update Date
+  >> 0x 76 05 09 >> YY, MM, DD
+  YY = 0x76 = 118 -> 1900 + 118 = 2018
+  MM = 0x5  = 5월
+  DD = 0x9  = 9일
+
+0x4부터 4바이트 : Record 수
+  >>  0x B3 00 00 00, Little Endian
+  0xB3 = 179개
+
+0x8부터 2바이트 : 헤더 구조체의 길이
+  >> 0x 21 01, Little Endian
+  0x0121 = 289
+
+0xA부터 2바이트 : 각 레코드의 길이
+  >> 0x 7F 00, Little Endian
+  0x007F = 127
+  모든 필드의 길이의 합 + 1 (deletion flag)
+
+0xC부터 2바이트 : reserved
+  >> 0x 00 00
+
+0xE부터 1바이트 : Flag indicating incomplete dBASE IV transaction.
+  >> 0x 00
+
+0xF부터 1바이트 : dBASE IV encryption flag.
+  >> 0x 00
+
+0x10부터 4바이트 : Free record thread(reserved for LAN only)
+  >> 0x 00 00 00 00
+
+0x14부터 8바이트 : reserved for multi-user dBase
+  >> 0x 00 00 00 00 00 00 00 00
+
+0x1C부터 1바이트 : Production MDX Flag
+  >> 0x00
+    - 0x0 : no .mdx file
+    - 0x1 : mdx file이 있음)
+
+0x1D부터 1바이트 : Language Driver ID
+  >> 0x4E
+  0x4E : EUC-KR이란 뜻일까???
+
+0x1E부터 2바이트 : reserved
+  >> 0x 00 00
+
+---
+
+위 link에 따르면 여기 이후로도 데이터가 있어야하는데,
+코드를 보거나, LibreOffice로 열어본 결과를 보면,
+여기까지가 헤더이다. (32 byte)
+
+---
+
+32byte가 Field Descriptor Array인데,
+
+11바이트
+0x20 + 0x00 ~ 0x0A : Field Name, ASCII (0x00으로 끝남)
+  >> 'LINKID'
+
+1바이트
+0x20 + 0x0B        : Field Type, ASCII
+  >> 'C'
+
+4바이트
+0x20 + 0x0C ~ 0x0F : Field Data Address (in memory?)
+  >> 0x00 00 00 00
+
+1바이트
+0x20 + 0x10        : Field Length
+  >> 0x0A
+
+1바이트
+0x20 + 0x11        : Decimal count
+  >> 0x00
+
+2바이트
+0x20 + 0x12 ~ 0x13 : Reserved
+  >> 0x00 00
+
+1바이트
+0x20 + 0x14        : work area ID
+  >> 0x00
+
+2바이트
+0x20 + 0x15 ~ 0x16 : reserved for multi-user dBASE
+  >> 0x00 00
+
+1바이트
+0x20 + 0x17        : flag for set fields
+  >> 0x00
+
+7바이트
+0x20 + 0x18 ~ 0x1E : reserved
+  >> 0x00
+
+1바이트
+0x20 + 0x1F        : index field flag
+  >> 0x00
+
+----------
+
+LINKID, 0x0A
+SIGNTYPE, 0x03
+CODE, 0x01
+DATE, 0x08
+REMARK, 0x1E
+HDUFID, 0x0E
+HISTTYPE, 0x1E
+HISTREMARK, 0x1E
+
+----------
+
+0x120에서 0x0D 나왔음 >> Terminator
+
+----------
+
+여기부터 Database Container 시작임 >> 이 파일엔 없는 듯 함
+
+m ~ m+263 : Database Container (DBC) 263 bytes for backlist.
+(Visual FoxPro) Included in header structure.
+
+0x121 + 263 = 0x228
+
+----------
+0x121부터, 127바이트씩 읽어야 함.
+시작은 0x20 1바이트 임.
+
+----------
+
+0x121부터 시작함.
+
+Record #1
+
+20
+
+LINKID, 0x0A -> 10자리
+32 33 33 41 30 31 37 30 30 31
+>> 233A017001
+
+SIGNTYPE, 0x03 -> 3자리
+32 32 31
+>> 221
+
+CODE, 0x01 -> 1자리
+32
+>> 2
+
+DATE, 0x08 -> 8자리
+32 30 31 37 30 31 32 36
+>> 20170126
+
+REMARK, 0x1E -> 30자리
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+>> 공백
+
+HDUFID, 0x0E -> 14자리
+42 31 53 49 31 37 43 41 30 37 30 30 30 31
+>> B1SI17CA070001
+
+HISTTYPE, 0x1E -> 30자리
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+>> 공백
+
+HISTREMARK, 0x1E -> 30자리
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+>> 공백
+
+----------
+
+Record #2
+
+0x121 + 0x7F = 0x1A0 부터 시작
+
+----------
+
+Record #3
+
+0x1A0 + 0x7F = 0x21F 부터 시작
+
+----------
+
+Record #4
+
+0x21F + 0x7F = 0x29E 부터 시작
+
+20
+
+LINKID, 0x0A -> 10자리
+32 33 33 41 30 31 35 35 30 31
+>> 233A015501
+
+SIGNTYPE, 0x03 -> 3자리
+32 32 33
+>> 223
+
+CODE, 0x01 -> 1자리
+32
+>> 2
+
+DATE, 0x08 -> 8자리
+32 30 31 38 30 33 30 37
+>> 20180307
+
+REMARK, 0x1E -> 30자리
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+>> 공백
+
+HDUFID, 0x0E -> 14자리
+42 31 53 49 31 37 43 41 30 37 30 30 30 34
+>> B1SI17CA070004
+
+HISTTYPE, 0x1E -> 30자리
+BC F6 C1 A4 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+>> 수정
+
+HISTREMARK, 0x1E -> 30자리
+B1 B3 C5 EB BE C8 C0 FC C7 A5 C1 F6 20 BC D3 BC BA BC F6 C1 A4 20 20 20 20 20 20 20 20 20
+>> 교통안전표지 속성수정

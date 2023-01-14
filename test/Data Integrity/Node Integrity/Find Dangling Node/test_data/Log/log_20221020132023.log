@@ -1,0 +1,80 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221020132023.log
+		TRACE	2022-10-20 13:20:24	Called: load_mgeo
+TRACE	2022-10-20 13:20:24	Called: ask_save_current_data
+TRACE	2022-10-20 13:20:24	No MGeo data to save -> return
+TRACE	2022-10-20 13:20:24	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:20:27	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:20:27	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:20:27	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:20:27	Called: reset_start_point
+TRACE	2022-10-20 13:20:27	Called: reset_end_point
+TRACE	2022-10-20 13:20:27	Called: reset_stop_point
+TRACE	2022-10-20 13:20:27	Called: reset_start_point
+TRACE	2022-10-20 13:20:27	Called: reset_end_point
+TRACE	2022-10-20 13:20:27	Called: reset_stop_point
+INFO	2022-10-20 13:20:27	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:21:06	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:21:25	Called: reset_start_point
+TRACE	2022-10-20 13:21:25	Called: reset_end_point
+TRACE	2022-10-20 13:21:25	Called: reset_stop_point
+INFO	2022-10-20 13:21:27	Nothing to do undo
+TRACE	2022-10-20 13:21:29	Called: load_mgeo
+TRACE	2022-10-20 13:21:29	Called: ask_save_current_data
+TRACE	2022-10-20 13:21:30	Save current MGeo data before load? -> No
+TRACE	2022-10-20 13:21:30	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:21:32	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:21:32	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:21:32	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:21:32	Called: reset_start_point
+TRACE	2022-10-20 13:21:32	Called: reset_end_point
+TRACE	2022-10-20 13:21:32	Called: reset_stop_point
+TRACE	2022-10-20 13:21:32	Called: reset_start_point
+TRACE	2022-10-20 13:21:32	Called: reset_end_point
+TRACE	2022-10-20 13:21:32	Called: reset_stop_point
+INFO	2022-10-20 13:21:32	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:22:44	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:23:04	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:23:06	Called: reset_start_point
+TRACE	2022-10-20 13:23:06	Called: reset_end_point
+TRACE	2022-10-20 13:23:06	Called: reset_stop_point
+INFO	2022-10-20 13:23:08	Nothing to do undo
+TRACE	2022-10-20 13:23:10	Called: load_mgeo
+TRACE	2022-10-20 13:23:10	Called: ask_save_current_data
+TRACE	2022-10-20 13:23:10	No MGeo data to save -> return
+TRACE	2022-10-20 13:23:10	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:23:12	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:23:12	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:23:12	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:23:12	Called: reset_start_point
+TRACE	2022-10-20 13:23:12	Called: reset_end_point
+TRACE	2022-10-20 13:23:12	Called: reset_stop_point
+TRACE	2022-10-20 13:23:12	Called: reset_start_point
+TRACE	2022-10-20 13:23:12	Called: reset_end_point
+TRACE	2022-10-20 13:23:12	Called: reset_stop_point
+INFO	2022-10-20 13:23:12	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:23:30	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:23:31	Called: reset_start_point
+TRACE	2022-10-20 13:23:31	Called: reset_end_point
+TRACE	2022-10-20 13:23:31	Called: reset_stop_point
+TRACE	2022-10-20 13:23:33	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:23:34	Called: reset_start_point
+TRACE	2022-10-20 13:23:34	Called: reset_end_point
+TRACE	2022-10-20 13:23:34	Called: reset_stop_point
+TRACE	2022-10-20 13:23:57	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:23:59	Called: reset_start_point
+TRACE	2022-10-20 13:23:59	Called: reset_end_point
+TRACE	2022-10-20 13:23:59	Called: reset_stop_point
+TRACE	2022-10-20 13:24:20	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:24:22	Called: reset_start_point
+TRACE	2022-10-20 13:24:22	Called: reset_end_point
+TRACE	2022-10-20 13:24:22	Called: reset_stop_point
+TRACE	2022-10-20 13:24:38	Called: add_new_mgeo_item MGeoItem.NODE 
+TRACE	2022-10-20 13:24:38	Called: reset_start_point
+TRACE	2022-10-20 13:24:38	Called: reset_end_point
+TRACE	2022-10-20 13:24:38	Called: reset_stop_point
+INFO	2022-10-20 13:24:38	add MGeoItem.NODE point: id: ND000000, point: [-1.05571337e+01  1.00149762e+03 -6.53907126e-01] in Map: test_data
+TRACE	2022-10-20 13:24:44	Called: load_mgeo
+TRACE	2022-10-20 13:24:44	Called: ask_save_current_data
+TRACE	2022-10-20 13:24:46	Save current MGeo data before load? -> Yes
+TRACE	2022-10-20 13:24:46	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:24:56	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data

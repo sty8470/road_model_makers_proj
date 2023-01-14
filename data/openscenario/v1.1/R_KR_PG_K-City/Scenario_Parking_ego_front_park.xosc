@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="1" date="2021-1-28T10:00:00" description="Scenario 1" author="ASAM e.V." />
+  <ParameterDeclarations />
+  <CatalogLocations />
+  <RoadNetwork>
+    <LogicFile filepath="MGeo" />
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="3" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="A219BS010380" index="50" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="10" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="A219BS010380" index="273" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations />
+      <Act name="MyAct">
+        <ManeuverGroup maximumExecutionCount="1" name="Parking_ManeuverGroup">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="Ego" />
+          </Actors>
+          <Maneuver name="Parking_Maneuver">
+            <Event name="Parking_Event" priority="overwrite">
+              <Action name="Parking_Action">
+                <PrivateAction>
+                  <ParkingAction name="P000350" type="front" action="park" />
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="MyAct_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <SimulationTimeCondition value="0" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="MyAct_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

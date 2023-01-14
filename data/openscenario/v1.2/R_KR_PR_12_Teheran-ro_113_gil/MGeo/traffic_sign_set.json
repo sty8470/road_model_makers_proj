@@ -1,0 +1,650 @@
+[
+  {
+    "idx": "174",
+    "link_id_list": [
+      "_1376_0_R1_",
+      "_1376_0_R2_",
+      "_1376_0_R3_",
+      "_1376_0_R4_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -107.2212569785188,
+      636.8454048237763,
+      47.211666666666645
+    ],
+    "country": "KOR",
+    "z_offset": 5.86353154302346,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 201.35033730407548
+  },
+  {
+    "idx": "177",
+    "link_id_list": [
+      "_1357_0_R1_",
+      "_1357_0_R2_",
+      "_1357_0_R3_",
+      "_1357_0_R4_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      140.3743478594115,
+      702.2893629567698,
+      53.14200657501539
+    ],
+    "country": "KOR",
+    "z_offset": 8.12125652848089,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 192.49319943358935
+  },
+  {
+    "idx": "235",
+    "link_id_list": [
+      "_771_0_R1_",
+      "_771_0_R2_",
+      "_771_0_R3_",
+      "_771_0_R4_",
+      "_771_0_R5_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -247.98939394176705,
+      608.7026592907496,
+      47.448153524002635
+    ],
+    "country": "KOR",
+    "z_offset": 6.23653262287083,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 293.58482781006757
+  },
+  {
+    "idx": "630",
+    "link_id_list": [
+      "_799_0_R1_",
+      "_799_0_R2_",
+      "_799_0_R3_",
+      "_799_0_R4_",
+      "_799_0_R5_",
+      "_799_0_R6_",
+      "_799_0_R7_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -333.18173175497213,
+      716.4878699500114,
+      45.94112182885212
+    ],
+    "country": "KOR",
+    "z_offset": 5.18285026462085,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 113.51631330812361
+  },
+  {
+    "idx": "179",
+    "link_id_list": [
+      "_1363_0_R1_",
+      "_1363_0_R2_",
+      "_1363_0_R3_",
+      "_1363_0_R4_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      18.15658671298297,
+      688.5631033447571,
+      51.30364789876741
+    ],
+    "country": "KOR",
+    "z_offset": 8.1397236684446,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 20.961989209292273
+  },
+  {
+    "idx": "727",
+    "link_id_list": [
+      "_1384_0_R1_",
+      "_1384_0_R2_",
+      "_1384_0_R3_",
+      "_1384_0_R4_",
+      "_1384_0_R5_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -329.1596707003191,
+      583.4089242895134,
+      44.4995626448952
+    ],
+    "country": "KOR",
+    "z_offset": 3.32385629964369,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 20.90033231788625
+  },
+  {
+    "idx": "698",
+    "link_id_list": [
+      "_5601_0_R1_",
+      "_5601_0_R2_",
+      "_5601_0_R3_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -533.9219752286444,
+      1169.5617766240612,
+      47.55191267204346
+    ],
+    "country": "KOR",
+    "z_offset": 5.72763916457869,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 194.3715402179635
+  },
+  {
+    "idx": "1018",
+    "link_id_list": [
+      "_19734_0_R1_",
+      "_19734_0_R2_",
+      "_19734_0_R3_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      159.42625171947293,
+      476.0324359270744,
+      46.34226648289558
+    ],
+    "country": "KOR",
+    "z_offset": 3.23396948220687,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 276.14258549972624
+  },
+  {
+    "idx": "431",
+    "link_id_list": [
+      "_14229_0_R1_",
+      "_14229_0_R2_",
+      "_14229_0_R3_",
+      "_14229_0_R4_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -162.44721809739713,
+      599.9467281745747,
+      46.530224383304244
+    ],
+    "country": "KOR",
+    "z_offset": 5.30214823151284,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 200.67629243959314
+  },
+  {
+    "idx": "1019",
+    "link_id_list": [
+      "_19742_0_R1_",
+      "_19742_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      132.28837504907278,
+      604.5478726266883,
+      47.13459860495441
+    ],
+    "country": "KOR",
+    "z_offset": 3.26364925600596,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 277.10215547277414
+  },
+  {
+    "idx": "1021",
+    "link_id_list": [
+      "_19759_0_R1_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      81.03708579560043,
+      534.6754394499585,
+      44.77436669770908
+    ],
+    "country": "KOR",
+    "z_offset": 3.24204105846551,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 106.02688888610487
+  },
+  {
+    "idx": "1020",
+    "link_id_list": [
+      "_19781_0_R1_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      47.74453712970717,
+      661.0909220930189,
+      45.79493327124848
+    ],
+    "country": "KOR",
+    "z_offset": 3.31943376659602,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 105.97487748838306
+  },
+  {
+    "idx": "1023",
+    "link_id_list": [
+      "_19791_0_R1_",
+      "_19791_0_R2_",
+      "_19791_0_R3_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      29.267322642204817,
+      775.4521736162715,
+      42.58039801328614
+    ],
+    "country": "KOR",
+    "z_offset": 2.63598398686081,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 105.33814740864815
+  },
+  {
+    "idx": "1022",
+    "link_id_list": [
+      "_19802_0_R1_",
+      "_19802_0_R2_",
+      "_19802_0_R3_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      10.336024389660452,
+      807.1274257716723,
+      43.08583954802262
+    ],
+    "country": "KOR",
+    "z_offset": 3.24045408802262,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 104.98679307491011
+  },
+  {
+    "idx": "1024",
+    "link_id_list": [
+      "_19805_0_R1_",
+      "_19805_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      118.50525969191222,
+      739.2772362981923,
+      47.27279591854468
+    ],
+    "country": "KOR",
+    "z_offset": 3.2182695065819,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 276.77128000226446
+  },
+  {
+    "idx": "1026",
+    "link_id_list": [
+      "_19811_0_R1_",
+      "_19811_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      94.34389318182366,
+      980.7508676829748,
+      46.55082681815361
+    ],
+    "country": "KOR",
+    "z_offset": 3.31342334764874,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 276.8537615884428
+  },
+  {
+    "idx": "1025",
+    "link_id_list": [
+      "_19818_0_R1_",
+      "_19818_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      78.22313272434985,
+      1141.1745653846301,
+      46.39522225988704
+    ],
+    "country": "KOR",
+    "z_offset": 3.06773451809614,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 276.9996662774091
+  },
+  {
+    "idx": "1027",
+    "link_id_list": [
+      "_19834_0_R1_",
+      "_19834_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      14.788254349958152,
+      1279.4511129371822,
+      49.92500782889424
+    ],
+    "country": "KOR",
+    "z_offset": 6.38154750758433,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 82.73508476686922
+  },
+  {
+    "idx": "1029",
+    "link_id_list": [
+      "_19842_0_R1_",
+      "_19842_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -17.940143887593877,
+      1089.2508343942463,
+      43.520757198733506
+    ],
+    "country": "KOR",
+    "z_offset": 3.05488050603756,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 82.63574998267542
+  },
+  {
+    "idx": "1031",
+    "link_id_list": [
+      "_19846_0_R1_",
+      "_19846_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "30",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -23.10921028716257,
+      966.3811247912236,
+      45.86379647420378
+    ],
+    "country": "KOR",
+    "z_offset": 6.24920841491624,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 97.64974442709624
+  },
+  {
+    "idx": "1028",
+    "link_id_list": [
+      "_19879_0_R1_",
+      "_19879_0_R2_",
+      "_19879_0_R3_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -3.558391260157805,
+      1290.510593034327,
+      49.65950309803189
+    ],
+    "country": "KOR",
+    "z_offset": 6.26920900998094,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 12.915248337212049
+  },
+  {
+    "idx": "1033",
+    "link_id_list": [
+      "_19894_0_R1_",
+      "_19894_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      425.0603997273138,
+      788.4878055662848,
+      50.35611791146702
+    ],
+    "country": "KOR",
+    "z_offset": 5.87336061670041,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 279.446255293608
+  },
+  {
+    "idx": "1032",
+    "link_id_list": [
+      "_19896_0_R1_",
+      "_19896_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      413.02299519843655,
+      745.5051569100469,
+      50.69145348606201
+    ],
+    "country": "KOR",
+    "z_offset": 6.16129011829946,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 94.25084065367442
+  },
+  {
+    "idx": "1034",
+    "link_id_list": [
+      "_19900_0_R1_",
+      "_19900_0_R2_",
+      "_19900_0_R3_",
+      "_19900_0_R4_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      381.3167909759213,
+      776.5539928278886,
+      50.69022293785311
+    ],
+    "country": "KOR",
+    "z_offset": 5.69366593668625,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 12.210852884962458
+  },
+  {
+    "idx": "1040",
+    "link_id_list": [
+      "_19902_0_R1_",
+      "_19902_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      424.8439544393914,
+      706.5101301474497,
+      50.4079026957224
+    ],
+    "country": "KOR",
+    "z_offset": 5.98550989313327,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 272.1743591412245
+  },
+  {
+    "idx": "1035",
+    "link_id_list": [
+      "_19919_0_R1_",
+      "_19919_0_R2_"
+    ],
+    "road_id": "",
+    "type": "1",
+    "sub_type": "50",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      105.80957098823274,
+      1303.4524751901627,
+      49.18390238095242
+    ],
+    "country": "KOR",
+    "z_offset": 3.8806433634246,
+    "height": 0,
+    "width": 0,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 186.82850172064747
+  }
+]

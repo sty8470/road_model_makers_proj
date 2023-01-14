@@ -1,0 +1,31 @@
+{
+	"User": "MORAI",
+	"exclude_file_actions": [],
+	"exclude_file_submenu": [],
+	"import_actions": {
+		"42dot": 1,
+		"NGII_Shp_Ver1_Node_Link": 1,
+		"NGII_Shp_Ver1_Lane_Marking_Data": 1,
+		"NGII_Shp_Ver2": 1,
+		"NGII_Shp_Ver2_Lane_Marking_Data": 1,
+		"txt": 1,
+		"stryx_geojson": 1,
+		"naver_geojson": 1,
+		"roadrunner": 1,
+		"Stryx": 1,
+		"Naver": 1,
+		"DeepMap": 1,
+		"TomTom_avro": 1,
+		"TomTom_shp": 1,
+		"TomTom_geojson": 1,
+		"Civilmaps": 1,
+		"Mobiltech": 1,
+		"Kakaomobility": 1
+	},
+	"exclude_export_actions": [],
+	"program_name": "MapEditor (v0.2)",
+	"program_key": "master",
+	"enable_simulation_tab": "true",
+	"config_file_io": "config_file_io_default_MORAI.json",
+	"user_manual_url": "https://help-morai-sim.scrollhelp.site/"
+}

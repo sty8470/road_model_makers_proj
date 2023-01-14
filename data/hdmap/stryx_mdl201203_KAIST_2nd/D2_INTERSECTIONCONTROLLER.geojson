@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "D2_INTERSECTIONCONTROLLER",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32652" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": "D2200910050100001" }, "geometry": { "type": "Point", "coordinates": [ 353563.941548428265378, 4026549.622069381643087, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100002" }, "geometry": { "type": "Point", "coordinates": [ 353543.89015055942582, 4026610.673122685402632, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100003" }, "geometry": { "type": "Point", "coordinates": [ 353524.135635611135513, 4026662.96054000640288, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100004" }, "geometry": { "type": "Point", "coordinates": [ 353011.012948340852745, 4026977.389364493545145, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100005" }, "geometry": { "type": "Point", "coordinates": [ 353422.965017041191459, 4026813.55936977872625, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100006" }, "geometry": { "type": "Point", "coordinates": [ 353487.712200581212528, 4026739.869830469600856, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100007" }, "geometry": { "type": "Point", "coordinates": [ 352658.789779141545296, 4027242.547192188445479, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100008" }, "geometry": { "type": "Point", "coordinates": [ 352472.053546302660834, 4027632.972284462768584, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100009" }, "geometry": { "type": "Point", "coordinates": [ 352391.934477957256604, 4027956.922652449458838, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100010" }, "geometry": { "type": "Point", "coordinates": [ 352824.486117731197737, 4027925.521493232809007, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100011" }, "geometry": { "type": "Point", "coordinates": [ 352925.485569109732751, 4027898.946460282895714, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100012" }, "geometry": { "type": "Point", "coordinates": [ 353258.712127842707559, 4027824.522041859570891, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100013" }, "geometry": { "type": "Point", "coordinates": [ 353571.237380583654158, 4027776.457763937767595, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100014" }, "geometry": { "type": "Point", "coordinates": [ 354022.5115250411327, 4027927.885310189798474, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100015" }, "geometry": { "type": "Point", "coordinates": [ 354142.994558529579081, 4027943.429197387304157, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100016" }, "geometry": { "type": "Point", "coordinates": [ 354405.593132114154287, 4027951.953264561481774, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100017" }, "geometry": { "type": "Point", "coordinates": [ 354578.080138440069277, 4027949.804340064525604, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100018" }, "geometry": { "type": "Point", "coordinates": [ 354602.434616077458486, 4027006.35485488222912, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100019" }, "geometry": { "type": "Point", "coordinates": [ 354562.966036141850054, 4027202.265138232149184, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100020" }, "geometry": { "type": "Point", "coordinates": [ 354563.574898082821164, 4027249.183323091827333, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100021" }, "geometry": { "type": "Point", "coordinates": [ 354570.164933208143339, 4027564.573808497283608, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100022" }, "geometry": { "type": "Point", "coordinates": [ 354585.852082039171364, 4028268.704735485836864, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100023" }, "geometry": { "type": "Point", "coordinates": [ 355608.167096276883967, 4028441.263372627086937, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100024" }, "geometry": { "type": "Point", "coordinates": [ 355832.872967890114523, 4028490.975159334484488, 0.0 ] } },
+{ "type": "Feature", "properties": { "ID": "D2200910050100025" }, "geometry": { "type": "Point", "coordinates": [ 356191.671728142071515, 4028452.795934096910059, 0.0 ] } }
+]
+}

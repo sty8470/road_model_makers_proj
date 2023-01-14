@@ -1,0 +1,1741 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959224.768807,
+          1941504.729836,
+          44.475
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000306",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          435990101,
+          435990102,
+          435990103,
+          435990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959217.642726,
+          1941505.211159,
+          47.21
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000305",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          435990101,
+          435990102,
+          435990103,
+          435990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959214.615904,
+          1941505.367885,
+          47.145
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000304",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          435990101,
+          435990102,
+          435990103,
+          435990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959226.307171,
+          1941688.968243,
+          47.555
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000303",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          478990101,
+          478990102,
+          478990103,
+          478990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959208.253298,
+          1941690.405184,
+          48.12
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000302",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          478990101,
+          478990102,
+          478990103,
+          478990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959241.215608,
+          1941704.857306,
+          47.775
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000301",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          316990101,
+          316990102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959220.214109,
+          1941733.166271,
+          50.71
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000300",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          64990101,
+          64990102,
+          64990103,
+          64990104,
+          64990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959217.106669,
+          1941733.676631,
+          50.86
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000299",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          64990101,
+          64990102,
+          64990103,
+          64990104,
+          64990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959194.365054,
+          1942179.55466,
+          46.895
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000298",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          513990301,
+          513990302,
+          513990303,
+          513990304,
+          513990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959197.870673,
+          1942179.780487,
+          46.94
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000297",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          513990301,
+          513990302,
+          513990303,
+          513990304,
+          513990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959200.903986,
+          1942179.843822,
+          46.955
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000296",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          513990301,
+          513990302,
+          513990303,
+          513990304,
+          513990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959211.84514,
+          1942179.618267,
+          47.135
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000295",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          518990101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959214.396512,
+          1942178.869101,
+          44.3
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000294",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959214.374929,
+          1942178.968735,
+          44.125
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000293",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          518990101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959229.660919,
+          1942169.909405,
+          43.525
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000292",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959194.128531,
+          1941674.588597,
+          50.31
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000291",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          474990101,
+          474990102,
+          474990103,
+          474990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959197.165588,
+          1941674.417039,
+          50.245
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000290",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          474990101,
+          474990102,
+          474990103,
+          474990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959189.144275,
+          1941673.984295,
+          47.385
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000289",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          474990101,
+          474990102,
+          474990103,
+          474990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959205.766902,
+          1941665.116201,
+          47.545
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000288",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          474990101,
+          474990102,
+          474990103,
+          474990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959205.596662,
+          1941663.878764,
+          47.84
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000287",
+        "signType": "510",
+        "code": "5",
+        "refLaneIds": [
+          435990301,
+          435990302,
+          435990303,
+          435990304,
+          435990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959198.004373,
+          1941492.206082,
+          47.315
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000286",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          65990101,
+          65990102,
+          65990103,
+          65990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959194.967078,
+          1941492.392635,
+          47.205
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000285",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          65990101,
+          65990102,
+          65990103,
+          65990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959187.896112,
+          1941493.179768,
+          44.52
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000284",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          481990101,
+          481990102,
+          481990103,
+          481990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959216.457344,
+          1941301.007843,
+          45.35
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000283",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          483990101,
+          483990102,
+          483990103,
+          483990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959207.709282,
+          1941263.986694,
+          46.515
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000282",
+        "signType": "510",
+        "code": "5",
+        "refLaneIds": [
+          486990101,
+          486990102,
+          486990103,
+          486990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959207.558258,
+          1941263.739342,
+          45.74
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000281",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          489990101,
+          489990102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959217.251996,
+          1941251.446569,
+          46.39
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000280",
+        "signType": "510",
+        "code": "5",
+        "refLaneIds": [
+          488990201,
+          488990202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959217.67321,
+          1941251.67823,
+          45.61
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000279",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          488990201,
+          488990202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959239.053916,
+          1941243.490787,
+          48.085
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000278",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          494990101,
+          494990102,
+          494990103,
+          494990104,
+          494990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959242.094921,
+          1941244.953923,
+          48.245
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000277",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          494990101,
+          494990102,
+          494990103,
+          494990104,
+          494990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959244.897712,
+          1941246.308287,
+          48.405
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000276",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          494990101,
+          494990102,
+          494990103,
+          494990104,
+          494990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959222.861883,
+          1941314.751842,
+          48.805
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000270",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          483990101,
+          483990102,
+          483990103,
+          483990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959225.974325,
+          1941315.496277,
+          48.775
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000269",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          483990101,
+          483990102,
+          483990103,
+          483990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959241.667746,
+          1941319.140563,
+          48.66
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000268",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          436990101,
+          436990102,
+          436990103,
+          436990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959238.812711,
+          1941318.555194,
+          48.665
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000267",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          436990101,
+          436990102,
+          436990103,
+          436990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959235.810217,
+          1941317.81251,
+          48.755
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000266",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          436990101,
+          436990102,
+          436990103,
+          436990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959248.943979,
+          1941320.216281,
+          45.03
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000265",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          436990101,
+          436990102,
+          436990103,
+          436990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959271.260857,
+          1941253.271865,
+          47.87
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000264",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          521990401,
+          521990402,
+          521990403,
+          521990404,
+          521990405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959268.40831,
+          1941252.216641,
+          47.895
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000263",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          521990401,
+          521990402,
+          521990403,
+          521990404,
+          521990405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959265.545926,
+          1941251.151263,
+          47.9
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000262",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          521990401,
+          521990402,
+          521990403,
+          521990404,
+          521990405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959310.486782,
+          1941173.599742,
+          49.66
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000261",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          67990101,
+          67990102,
+          67990103,
+          67990104,
+          67990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959307.674074,
+          1941172.240221,
+          49.765
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000260",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          67990101,
+          67990102,
+          67990103,
+          67990104,
+          67990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959304.94967,
+          1941170.672155,
+          49.895
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000259",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          67990101,
+          67990102,
+          67990103,
+          67990104,
+          67990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959004.292822,
+          1942700.85838,
+          54.89
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000209",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          509990201,
+          509990202,
+          509990203,
+          509990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958985.863328,
+          1942711.122297,
+          57.73
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000208",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          2947990101,
+          2947990102,
+          2947990103,
+          2947990104,
+          2947990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958983.037828,
+          1942708.997731,
+          57.82
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000207",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          2947990101,
+          2947990102,
+          2947990103,
+          2947990104,
+          2947990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959042.605035,
+          1942654.07458,
+          53.48
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000206",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          508990101,
+          508990102,
+          508990103,
+          508990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959024.358594,
+          1942651.284339,
+          54.12
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000205",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          420990101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959024.678799,
+          1942651.894307,
+          54.07
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000204",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          509990101,
+          509990102,
+          509990103,
+          509990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959023.255863,
+          1942661.194544,
+          56.86
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000203",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          509990101,
+          509990102,
+          509990103,
+          509990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959025.962117,
+          1942663.587149,
+          56.885
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000202",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          509990101,
+          509990102,
+          509990103,
+          509990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959022.130675,
+          1942650.244056,
+          56.855
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000201",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          420990101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959219.055999,
+          1942223.693371,
+          47.065
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000200",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959215.849939,
+          1942223.177383,
+          47.03
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000199",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959226.079521,
+          1942225.569904,
+          44.19
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000198",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959206.785796,
+          1942220.113589,
+          47.635
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000197",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          505990201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959203.858627,
+          1942219.976962,
+          44.81
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000196",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          513990301,
+          513990302,
+          513990303,
+          513990304,
+          513990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959204.349648,
+          1942220.219734,
+          44.66
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000195",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          514990201,
+          514990202,
+          514990203,
+          514990204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959185.093341,
+          1942227.786109,
+          44.315
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000194",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          513990301,
+          513990302,
+          513990303,
+          513990304,
+          513990305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959006.438965,
+          1942635.202281,
+          53.555
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000193",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          503990101,
+          503990102,
+          503990103,
+          503990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959024.692727,
+          1942624.045758,
+          56.065
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000192",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          422990101,
+          422990102,
+          422990103,
+          422990104,
+          422990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          959027.58694,
+          1942625.936471,
+          56.24
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000191",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          422990101,
+          422990102,
+          422990103,
+          422990104,
+          422990105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958967.072781,
+          1942682.564147,
+          55.025
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000190",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          501990401,
+          501990402,
+          501990403,
+          501990404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958986.691304,
+          1942674.853612,
+          57.565
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000189",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          539990101,
+          539990102,
+          539990103,
+          539990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958983.802588,
+          1942672.618064,
+          57.37
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000188",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          539990101,
+          539990102,
+          539990103,
+          539990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958988.822127,
+          1942684.495422,
+          58.03
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000187",
+        "signType": "502",
+        "code": "5",
+        "refLaneIds": [
+          419990101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958986.496268,
+          1942683.013677,
+          55.465
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000186",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          539990101,
+          539990102,
+          539990103,
+          539990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958986.633413,
+          1942683.190824,
+          55.175
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000185",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          539990101,
+          539990102,
+          539990103,
+          539990104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958835.905113,
+          1942907.892664,
+          58.03
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000184",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          405990201,
+          405990202,
+          405990203,
+          405990204,
+          405990205,
+          405990206,
+          405990207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958827.214021,
+          1942903.065195,
+          60.805
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000183",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          405990201,
+          405990202,
+          405990203,
+          405990204,
+          405990205,
+          405990206,
+          405990207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958798.608646,
+          1942890.631964,
+          57.77
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000182",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          402990101,
+          402990102,
+          402990103,
+          402990104,
+          402990105,
+          402990106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958796.12399,
+          1942904.759184,
+          59.92
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000181",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          402990101,
+          402990102,
+          402990103,
+          402990104,
+          402990105,
+          402990106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958799.024055,
+          1942905.655216,
+          59.99
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000180",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          402990101,
+          402990102,
+          402990103,
+          402990104,
+          402990105,
+          402990106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958780.847314,
+          1942925.466,
+          57.62
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000123",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          402990101,
+          402990102,
+          402990103,
+          402990104,
+          402990105,
+          402990106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958790.046452,
+          1942928.526964,
+          60.32
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000122",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          402990101,
+          402990102,
+          402990103,
+          402990104,
+          402990105,
+          402990106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958817.483754,
+          1942923.60547,
+          61.135
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000047",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          405990201,
+          405990202,
+          405990203,
+          405990204,
+          405990205,
+          405990206,
+          405990207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958814.651048,
+          1942922.560546,
+          61.285
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000045",
+        "signType": "505",
+        "code": "5",
+        "refLaneIds": [
+          405990201,
+          405990202,
+          405990203,
+          405990204,
+          405990205,
+          405990206,
+          405990207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          958816.944041,
+          1942938.963421,
+          58.525
+        ]
+      },
+      "properties": {
+        "featureId": "B1SA18CK000043",
+        "signType": "508",
+        "code": "5",
+        "refLaneIds": [
+          405990201,
+          405990202,
+          405990203,
+          405990204,
+          405990205,
+          405990206,
+          405990207
+        ]
+      }
+    }
+  ]
+}

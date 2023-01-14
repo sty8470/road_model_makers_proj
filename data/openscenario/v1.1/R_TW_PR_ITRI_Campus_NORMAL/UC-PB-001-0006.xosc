@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OpenScenario.xsd">
+  <FileHeader author="MORAI Inc." date="2021-1-28T10:00:00" description="Stop to maintain the safe distance" revMajor="1" revMinor="1"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_TW_PR_ITRI_Campus_NORMAL"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car"/>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00"/>
+              <Weather cloudState="free">
+                <Sun azimuth="0.0" elevation="1.571" intensity="1.0"/>
+                <Fog visualRange="100000.0"/>
+                <Precipitation precipitationIntensity="0.0" precipitationType="dry"/>
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="8.33333"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000313" index="70"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="0"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-42" p="0" r="0" x="-149.7191511687451" y="236.63815337359426" z="0.4623853211009177"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1"/>
+          </Actors>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="0" name="Act1_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="0"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+  <Evaluation>
+    <SuccessConditionGroup>
+      <Condition conditionEdge="none" delay="0" name="Time_out">
+        <ByValueCondition>
+          <SimulationTimeCondition rule="greaterThan" value="30"/>
+        </ByValueCondition>
+      </Condition>
+    </SuccessConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="once" delay="0" name="Collision_occured">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <CollisionCondition>
+              <ByType type="vehicle"/>
+            </CollisionCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </FailureConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="rising" delay="0" name="Ego_position">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <DistanceCondition freespace="false" rule="lessThan" value="4.4">
+              <Position>
+                <RelativeObjectPosition dx="0" dy="0" entityRef="NPC_1"/>
+              </Position>
+            </DistanceCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </FailureConditionGroup>
+  </Evaluation>
+</OpenSCENARIO>

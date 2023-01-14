@@ -1,0 +1,497 @@
+[
+  {
+    "idx": "L000",
+    "from_node_idx": "N000",
+    "to_node_idx": "N100",
+    "points": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.5,
+        0.0
+      ],
+      [
+        0.0,
+        5.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.5,
+        0.0
+      ],
+      [
+        0.0,
+        10.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": "L001",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "000",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L001",
+    "from_node_idx": "N001",
+    "to_node_idx": "N101",
+    "points": [
+      [
+        4.0,
+        0.0,
+        0.0
+      ],
+      [
+        4.0,
+        2.5,
+        0.0
+      ],
+      [
+        4.0,
+        5.0,
+        0.0
+      ],
+      [
+        4.0,
+        7.5,
+        0.0
+      ],
+      [
+        4.0,
+        10.0,
+        0.0
+      ],
+      [
+        4.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L000",
+    "right_lane_change_dst_link_idx": "L002",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "000",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L002",
+    "from_node_idx": "N002",
+    "to_node_idx": "N102",
+    "points": [
+      [
+        9.0,
+        0.0,
+        0.0
+      ],
+      [
+        9.0,
+        2.5,
+        0.0
+      ],
+      [
+        9.0,
+        5.0,
+        0.0
+      ],
+      [
+        9.0,
+        7.5,
+        0.0
+      ],
+      [
+        9.0,
+        10.0,
+        0.0
+      ],
+      [
+        9.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L001",
+    "right_lane_change_dst_link_idx": "L003",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "000",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L003",
+    "from_node_idx": "N003",
+    "to_node_idx": "N103",
+    "points": [
+      [
+        15.0,
+        0.0,
+        0.0
+      ],
+      [
+        15.0,
+        2.5,
+        0.0
+      ],
+      [
+        15.0,
+        5.0,
+        0.0
+      ],
+      [
+        15.0,
+        7.5,
+        0.0
+      ],
+      [
+        15.0,
+        10.0,
+        0.0
+      ],
+      [
+        15.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L002",
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "000",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L101",
+    "from_node_idx": "N101",
+    "to_node_idx": "N201",
+    "points": [
+      [
+        4.0,
+        10.0,
+        0.0
+      ],
+      [
+        4.0,
+        12.5,
+        0.0
+      ],
+      [
+        4.0,
+        15.0,
+        0.0
+      ],
+      [
+        4.0,
+        17.5,
+        0.0
+      ],
+      [
+        4.0,
+        20.0,
+        0.0
+      ],
+      [
+        4.0,
+        20.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "100",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L201",
+    "from_node_idx": "N201",
+    "to_node_idx": "N301",
+    "points": [
+      [
+        4.0,
+        20.0,
+        0.0
+      ],
+      [
+        4.0,
+        22.5,
+        0.0
+      ],
+      [
+        4.0,
+        25.0,
+        0.0
+      ],
+      [
+        4.0,
+        27.5,
+        0.0
+      ],
+      [
+        4.0,
+        30.0,
+        0.0
+      ],
+      [
+        4.0,
+        30.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "200",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L301",
+    "from_node_idx": "N301",
+    "to_node_idx": "N401",
+    "points": [
+      [
+        4.0,
+        30.0,
+        0.0
+      ],
+      [
+        4.0,
+        32.5,
+        0.0
+      ],
+      [
+        4.0,
+        35.0,
+        0.0
+      ],
+      [
+        4.0,
+        37.5,
+        0.0
+      ],
+      [
+        4.0,
+        40.0,
+        0.0
+      ],
+      [
+        4.0,
+        40.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "300",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L401",
+    "from_node_idx": "N401",
+    "to_node_idx": "N501",
+    "points": [
+      [
+        4.0,
+        40.0,
+        0.0
+      ],
+      [
+        4.0,
+        42.5,
+        0.0
+      ],
+      [
+        4.0,
+        45.0,
+        0.0
+      ],
+      [
+        4.0,
+        47.5,
+        0.0
+      ],
+      [
+        4.0,
+        50.0,
+        0.0
+      ],
+      [
+        4.0,
+        50.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": "L402",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "400",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L402",
+    "from_node_idx": "N402",
+    "to_node_idx": "N502",
+    "points": [
+      [
+        9.0,
+        40.0,
+        0.0
+      ],
+      [
+        9.0,
+        42.5,
+        0.0
+      ],
+      [
+        9.0,
+        45.0,
+        0.0
+      ],
+      [
+        9.0,
+        47.5,
+        0.0
+      ],
+      [
+        9.0,
+        50.0,
+        0.0
+      ],
+      [
+        9.0,
+        50.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L401",
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "400",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  }
+]

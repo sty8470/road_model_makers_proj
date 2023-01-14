@@ -1,0 +1,20 @@
+[
+  {
+    "idx": "SSN000000",
+    "link_id_list": [
+      "LN000226",
+      "LN000222"
+    ],
+    "point": [
+      [
+        -112.85922870388555,
+        428.3488277265227,
+        3.18
+      ]
+    ],
+    "intersection_controller_id": "IntTL1",
+    "signal_id_list": [
+      "SN000001"
+    ]
+  }
+]

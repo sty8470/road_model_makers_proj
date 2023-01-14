@@ -1,0 +1,1413 @@
+[
+    {
+        "entity": {
+            "id": "e5135478f90a40e6ac5d6a159fe0520b"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.44882192341647 37.716391234082145 80.20672033569751, -122.44877785594498 37.71646999950362 80.08645338617764, -122.4487489410682 37.71652436922582 80.00884894880761, -122.44869234138571 37.71663789432461 79.9079370793634, -122.44866914498063 37.71668700261288 79.85426117548202, -122.44863096908198 37.716771434577694 79.74569822110045, -122.44860143740566 37.71684042323329 79.65897960499957, -122.44856610139382 37.71692695464935 79.5611739422975, -122.44852813350293 37.71702723806388 79.41628478441153, -122.44849341692152 37.71712650732876 79.2709676972851, -122.44847674363297 37.717176751143334 79.19607723212783, -122.44844530446808 37.717277576859814 79.06076294240876, -122.44838810462642 37.717478421203296 78.81242571961927)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 12684,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "9c75c4c1f142415d893e9935adb492ea"
+        }
+    },
+    {
+        "entity": {
+            "id": "b4db004c6daa459dbf3f381611e5409c"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39068925556097 37.78639436953715 41.675314126231584, -122.39074618756352 37.78634243898515 41.51763962799503, -122.39081807128926 37.78627857202233 41.28458210867772)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 1714,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "87b1e468cc6c44b6b510b2976ecfbada"
+        }
+    },
+    {
+        "entity": {
+            "id": "e0f414a3034645128cc703847e3e43ab"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40549041377635 37.77429753240218 5.977075986837808, -122.40545010099869 37.77430907115535 5.882895402783396)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 377,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "99941b1cb17048a69dbbd9a5bc7f1e01",
+            "right": "b6eb3eef6167474f8f829ab129eb5625"
+        }
+    },
+    {
+        "entity": {
+            "id": "db10ca17bab344109e0359fd52b92df2"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.44773861899817 37.72147226061929 73.07729979818096, -122.4477278143617 37.7215606254039 72.43849312853743, -122.44765118613479 37.722136230200675 67.68544478189301)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 7408,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "c255c176a8304ab89705472e0d36ebe8",
+            "right": "9deb2be8737146e9a3af44c7cf9aaf7b"
+        }
+    },
+    {
+        "entity": {
+            "id": "ad45b0f45805490f95abb9330471357b"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40700637068902 37.73532132985716 12.609988088706569, -122.40698495446357 37.73528400199857 12.601429966927373)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 454,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "d41cd41c05264fc2a061f2ec3ff1d350",
+            "right": "ebb0ac832afe4d518c7f9f1b32bed5e8"
+        }
+    },
+    {
+        "entity": {
+            "id": "a905043653f64e4d8938038c8137ae3c"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43342630763408 37.73240202533268 50.81321762852935, -122.43333010747558 37.73246384978975 51.31287162052471, -122.43328098389563 37.73249425998257 51.5528069646168, -122.43319343796696 37.7325465164676 51.97568676929236, -122.4331047721467 37.732597516625276 52.39418035159153)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 3570,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "c7a6cdc449844aefaeaa38c5b7a0e1d5",
+            "right": "b6ab8bfe0be745c58d7fddd7767af398"
+        }
+    },
+    {
+        "entity": {
+            "id": "cc89b415a42a464d9b7e9b74f92ae071"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40808952881395 37.739330262751814 13.068206676684525, -122.40808143119837 37.73945788223752 13.161445984520022, -122.40806929487509 37.7395835460963 13.274943053339925)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 2816,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "d85c72e7dd2d4973bd4c0f6225586738",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "b96e570ae401484cb443c1de50ddad22"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40524642018872 37.7487874747673 11.267995771398368, -122.40518272113697 37.74876877705934 11.685091514961815, -122.40514095103327 37.748755018583005 11.97588377264082, -122.40507942536003 37.74873252724232 12.400033711800365, -122.40503922985985 37.748716481444724 12.658888908210798)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 1990,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "808a8c221f234dbdadd0051d7b1f6aba",
+            "right": "9f37b3bf02ba4473850872c29056b744"
+        }
+    },
+    {
+        "entity": {
+            "id": "8c275e32c416460ab9eedbd7e30b6643"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39730695810518 37.78161087503186 16.52683597181498, -122.39739714350237 37.78154224505606 16.118607638166345, -122.39749671022764 37.78146329164459 15.677928808016961)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 2340,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "916e537942c84a0e9fdbdbaaa77423cf"
+        }
+    },
+    {
+        "entity": {
+            "id": "c9f085bc4f8c42049970310685a671a2"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40736128809893 37.73573474737664 12.115887637513193, -122.40734177989367 37.735707647715245 12.163375212876801)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 346,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "94e8004019b644b1a64b06ddb151f6cc"
+        }
+    },
+    {
+        "entity": {
+            "id": "80acf5c53fc54cbfa86ee0ac2f861af6"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40978038783605 37.734821784192356 9.152723795444775, -122.40987811467838 37.7347529344524 8.670420654079852, -122.40996115999089 37.734696967126155 8.35815335699921, -122.4100460158291 37.734642705547465 8.063739610442639, -122.41015031158307 37.734578980482176 7.860746587589769, -122.4102390612246 37.73452760396928 7.700046331474433, -122.41031100650204 37.73448767954328 7.612235903192375, -122.41040340213551 37.73443906093467 7.5639771951626775, -122.41051526732006 37.73438211922828 7.599281833809759)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 8122,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "e99aaf2e67214dad8e8b2b64017b47b4",
+            "right": "ed02b02512a8464a83bf626a4c34f100"
+        }
+    },
+    {
+        "entity": {
+            "id": "8ec7eb070d7e4331a25aaf765f034e6c"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40011269498419 37.719661950657766 39.64649651227394, -122.40008207928004 37.719481154311524 39.65211652691853)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 2024,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "846c150cae714352a2ce9d1c6a23a6b7",
+            "right": "92607f1cb1174e418dc2646e41f05d3f"
+        }
+    },
+    {
+        "entity": {
+            "id": "e2d7e03a0a434e6cbc61fe65548453a2"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40268658037989 37.728356084476516 23.05636010164075, -122.40270297942908 37.7283944894164 23.029085396462577, -122.4027214525756 37.72843237363084 23.017935762248772, -122.40280022759045 37.72857789981593 22.988964031852266, -122.40283023400582 37.728636390573556 22.968325873444034, -122.40285996516103 37.728699627558896 22.943661056889017, -122.40289173840867 37.728773339732584 22.924721339623822)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 4973,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "e5c012e6ecef408da42bdb8155efd109",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "f0df2bf1cb82466a9316ef543a8016e0"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.44827532262644 37.720531802479904 71.00589797323944, -122.4482803812633 37.72049096906761 71.14542034326477)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 455,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "a9680bc6940e459d887adbc9c4d201b6",
+            "right": "8c951c99cc244b3fa6ee359f54de4b54"
+        }
+    },
+    {
+        "entity": {
+            "id": "a9f54b10b8ad45a888b89f4b9e3d346f"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40089906430525 37.722841468167374 30.08534611187714, -122.4007037810678 37.72236490927746 32.36322181884587, -122.40063167538155 37.7221847001002 33.177737790506995)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 7661,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "c8fc652565ac48efafc09c18a7dfbedf",
+            "right": "b6b1ea89ecb74d779092875463aa8b6f"
+        }
+    },
+    {
+        "entity": {
+            "id": "e268b51bc9af4e6586b0b224b04bc9a0"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.44821815302095 37.72279500703951 65.60568767391504, -122.448265047292 37.72261184752304 66.32438510779508)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 2074,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "ce36c1e20b324764a354f62908f39cd1",
+            "right": "88b3292231234ec1ad87c522d47f7cea"
+        }
+    },
+    {
+        "entity": {
+            "id": "e9004c5afbb54cdf80daacd2033f246d"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40598043600555 37.77404341719519 8.631546185464533, -122.40589606401221 37.77411040276417 7.953968448141938)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 1051,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "ae1d11b2d03f4fcf9d625b59cb6fbab5",
+            "right": "928f854f32294b64b0d2ddac7048d603"
+        }
+    },
+    {
+        "entity": {
+            "id": "f894597f63474d1e9ec30f6e6168046d"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40335821376307 37.751506806053364 15.748721624025695, -122.4034080622156 37.75137584974349 15.369379791811035, -122.40347106106113 37.751221165526395 14.730498292629608)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 3322,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "c7571f87d6964dec96ebc8608ec96106",
+            "right": "940c455128ef436db423d4bc289dedee"
+        }
+    },
+    {
+        "entity": {
+            "id": "de5e165d12364ddcbffe166ad1d4f4c1"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43539511227247 37.7310207274909 48.42687023777189, -122.43533597960734 37.7310432820915 48.231844209856234, -122.43525803558663 37.7310747528877 47.94672597029367)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 1349,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "b2a018b8157849b5900bb64b0ba9a527",
+            "right": "e641a9d6177f4a3fa1934a4ba8e082de"
+        }
+    },
+    {
+        "entity": {
+            "id": "fed8ad7068a64118b440e5f64b473b84"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40618209187225 37.76143710522363 32.44550192118885, -122.40615099637003 37.76150228812402 32.41825953435902, -122.40610861946753 37.76158643905261 32.349374634607564, -122.40604787806969 37.761699089882576 32.276570765887854, -122.40602211871317 37.76174445633154 32.248103491460725)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 3692,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "ddb56c2527ac425db7828ddd7a56910e",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "d301b3e911b04b56b07e4e5f3ce074cb"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40525088885664 37.73253991694895 15.568335861730151, -122.40517835467847 37.73241729208017 16.097097512622245)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 1503,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "d50379addd124b259f82bb34cfa6a8a1",
+            "right": "92213a8522d74e82b1d9a3eb75ed6e99"
+        }
+    },
+    {
+        "entity": {
+            "id": "a2df63b9b8454d15ad21b328bc5fda08"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.41810854895104 37.76972412796014 14.400603639104006, -122.41789749463308 37.769689447517706 14.334913062525079, -122.41765352050774 37.76965336234552 14.383033395126539, -122.41742167869458 37.769622268412874 14.375443714056924, -122.41733829495102 37.76961201806907 14.33849291910046, -122.41723320941318 37.76960035103065 14.270547779774006)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 7834,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "833930f6979e4db7a2ff7b3819e1add6",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "b9100bd3d7464a8dae0e9e610213d4e9"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39493988848012 37.70834680823505 10.400171445313504, -122.39519279646265 37.70947400075722 14.533223113023649, -122.39535026593488 37.71016530493474 17.02974092555979)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 20505,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "bad2fded243f49f09134fa4e791d4b87",
+            "right": "801c4ea0cfbd458abbd651d9a91a4416"
+        }
+    },
+    {
+        "entity": {
+            "id": "8b06bad0e9cd41898d831c1034eada12"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.3927725828083 37.74921115019223 3.414500619816506, -122.39272243253892 37.74926069265712 3.2686155131079753)",
+            "color": "UNDEFINED",
+            "type": "GUARDRAIL",
+            "width": null,
+            "length": 705,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "e4189542c80d4616b06bee001ffafcd5"
+        }
+    },
+    {
+        "entity": {
+            "id": "f97dbfc2bc114946a421ab886b5ea0dc"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40917669947167 37.73539066597954 12.627507455871132, -122.40921635224291 37.73535014961522 12.383067222506142, -122.40927056359105 37.735296712870294 11.992368332373093, -122.40936098094167 37.735211898011606 11.44008566837153)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 2565,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "85da39671575420ea9e662ec698bb8b0",
+            "right": "80dfd31238bf4232a61a51540896acbc"
+        }
+    },
+    {
+        "entity": {
+            "id": "fe30d2642ace492d8017eb57072f7636"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40492615787248 37.76567856674409 19.719190662864648, -122.40494706770023 37.76585802225562 18.780392972386515, -122.40497546824035 37.76608289489921 17.577893804625607)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 4508,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "f3e1dc763e204def9c77c94758d1c697"
+        }
+    },
+    {
+        "entity": {
+            "id": "e40bde6c70cd4aa38ac4bf717a6ddc68"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40343841999169 37.7511188067303 14.324748284461819, -122.40345856114573 37.75106475537427 14.055306123079404, -122.40347725096835 37.751010342598214 13.780915357499042, -122.40354142268548 37.75081251645042 12.809254767595995)",
+            "color": "UNDEFINED",
+            "type": "ROAD_BORDER",
+            "width": null,
+            "length": 3519,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "bbdab91be22f4a2bbe55a255823f4893",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "f1bc17a17cbc461f99abe1387939fa94"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39845300955608 37.71567986503524 38.593432691253575, -122.39849840263253 37.71575870867522 38.89043715472135, -122.39855116930487 37.71585389542873 39.24592993954614)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 2116,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "8fae41502e904a73a61fe4c259b1ee33",
+            "right": "b700083ee13e4605851c1a93db399e87"
+        }
+    },
+    {
+        "entity": {
+            "id": "8a0bd676a8aa449f925e0422784da493"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43603128959388 37.73157415758714 51.308097335141476, -122.43617126714504 37.731514597574446 51.770631686743066, -122.43629853020785 37.73146252459039 52.10199175853215, -122.43642790187384 37.73141052780866 52.399400297583846, -122.43666107362361 37.73131841181675 52.72447888709831)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 6236,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "978f84e9770744938a3af4fe95c7b79a",
+            "right": "ae47dca741f44cfa873b992d7b41acc3"
+        }
+    },
+    {
+        "entity": {
+            "id": "9d333add6d734c5b9b4e7108855b5dcf"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40558823973906 37.775752815546646 11.416676294876417, -122.40566673802084 37.77568948928211 11.498210348168715, -122.4057278482675 37.775637482993176 11.539042883222546, -122.40580262327482 37.77557125355834 11.602824561979972, -122.40586138775318 37.7755174992964 11.649540344965214, -122.4059546349388 37.77542604144096 11.716342229684852, -122.4060062765564 37.77537274533804 11.722321114977792, -122.40604408269884 37.77533222719941 11.74737137438603)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 6164,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "aad7ee4bac2a42dcac438b38a036e53e",
+            "right": "fc719a2f83cc4123bd3aa07f751360d3"
+        }
+    },
+    {
+        "entity": {
+            "id": "e8c74a8f51ac451ab87291be2d926247"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39228459823902 37.74985222906786 3.4130044034177427, -122.39227364762752 37.749898150681275 3.4708923511139425, -122.39226782801204 37.749910601813035 3.4919396978781343)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 666,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "9ab4db0719da408aa56c96d6a5019dba",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "d692f49bda6249d5ad39465bd000d199"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39220070272616 37.78529685306513 32.82383431906573, -122.39218108523811 37.7853003959978 32.89295043971192, -122.39214271742134 37.785309112883084 33.05110842193315, -122.39210309532011 37.78531715453537 33.213540769997614, -122.39207488562052 37.785324206464296 33.33394318127444)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 1149,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "9c8bc8c2da1a42d9b904e2fbccdbe8f1"
+        }
+    },
+    {
+        "entity": {
+            "id": "bcf469e2c6fd454fbd9f4205a60fd2c8"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39559396498886 37.71106185857054 20.96794897955228, -122.39562431418365 37.71119172189151 21.592739393246962, -122.39564853380102 37.71128850982286 22.02184805764874)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 2560,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "bde3843ad7374276b877386e8aa52f45",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "bcd102fd2523404c99d7af6a2f24aeb4"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40426697165704 37.73031646034807 23.378106207975613, -122.40419551721399 37.73018907919006 23.53312772050629, -122.40412307777984 37.73005286529176 23.642324346579965, -122.40408309949952 37.72996791985444 23.685696274898653, -122.40403650089124 37.729876078718235 23.727761749124753, -122.4040003281121 37.72980037037514 23.767856792219742, -122.40391899654817 37.72963732613747 23.820069710037593, -122.40385839993291 37.72950819941526 23.86348498123023, -122.40370206441783 37.729170355407746 23.90801282426845, -122.40359698175196 37.72892839649884 23.936145558398927, -122.40354464728419 37.72880005110397 23.99904357360317)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 18002,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "ae4b4ae0bbe84fcda1e8121b06086b50"
+        }
+    },
+    {
+        "entity": {
+            "id": "f54be3a8546d440582bee3ebc37b5d8c"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40458021706911 37.745697812827345 14.785900499303533, -122.40451036217043 37.74579626685615 14.058021902589932)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 1254,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "e339eab188874273be10240cd8c01080",
+            "right": "aa1f6541fc6b49f6a0c466d0bb9ff344"
+        }
+    },
+    {
+        "entity": {
+            "id": "d6595da623784cc1803118aa232d6f59"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40297815375612 37.75297473038283 18.321972406978603, -122.40297511565953 37.752870478265926 18.160180849587107, -122.40297414833961 37.75276618354051 18.043989293126213, -122.4029752660559 37.75266190838974 17.929943516217087, -122.40297823817848 37.7525459054848 17.795399695589794)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 4759,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "ad67222f5b6140cab3200f3b37500d6d",
+            "right": "f438c94c86524e93aa251f37ba829c2e"
+        }
+    },
+    {
+        "entity": {
+            "id": "bc88676cf1be45c1a3bb9ac633cbd35c"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.42719105547351 37.7316027826407 30.13192125708765, -122.42691049667008 37.731546898527476 29.848858103688137, -122.42680003443158 37.73152663279819 29.735486036647245, -122.426669343259 37.73150370853119 29.587626541930724, -122.42656043997133 37.731486044748046 29.480751384446503, -122.4264102860445 37.73146314266371 29.355519065128245, -122.42616389013517 37.73142939423183 29.20639830884888, -122.42603565555054 37.73141348083653 29.082829245449865, -122.4258226596625 37.731389286080606 28.920414736248258, -122.42555785876604 37.73136354280286 28.699564993407087, -122.42530891390183 37.731344512117516 28.48120630949744, -122.42508755048264 37.73133186241842 28.305000725804852)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 18814,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "f0e0405cc8834ca6acf5173e9b372331",
+            "right": "f773511c00404706bed12ba6a82a04f2"
+        }
+    },
+    {
+        "entity": {
+            "id": "ec03d1eff47042bea0cec086ca6f2553"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39358917634628 37.70573163626433 2.335534434294912, -122.39353696268367 37.70565596746615 2.2304698645567385)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 957,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "c623c3f305e64756bd02f1c793446d07",
+            "right": "97b2ae7c183646a2a08f133505e0accf"
+        }
+    },
+    {
+        "entity": {
+            "id": "ec830ad66d034bbc9a7afdbf55eece19"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40979177495437 37.73491011379779 9.405335375480366, -122.40984095030345 37.734873818691554 9.15282861777759)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 591,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "e5d6a2e078e446aba9da8ac2a85cc5ae",
+            "right": "cb400a34f89e4e84a2fd868e04e9ed8b"
+        }
+    },
+    {
+        "entity": {
+            "id": "de731a25a07a49ef8ac2d4331a2dc16f"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43127767589328 37.732221824287045 45.15304195485606, -122.4310955042246 37.732232596672304 44.359831426002124, -122.43100413901938 37.7322366408665 43.950648035473066, -122.43091278171359 37.73223966505539 43.542700262041286)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 3223,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "9a708be10ef74f9d904532e6ed21b591",
+            "right": "e47d212ab02b4d888ad9dfa5e837b7f2"
+        }
+    },
+    {
+        "entity": {
+            "id": "e394d256eb1544d8bc78cb84da95561a"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39252609371486 37.74940534517811 14.885498757766968, -122.3926804785442 37.749091588687925 15.89540202287609, -122.39292723095161 37.74858491494053 17.733760098973583)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 9767,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "d9c8305b7e514028b9fe7f5b737f4a9a",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "91e094c3d6304b579a6af279bd666547"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39267691577906 37.78520498154915 35.66137886797418, -122.39275830677184 37.78517691684404 35.396864733738404, -122.39284081471096 37.785151462316726 35.10189308687277, -122.39288256001817 37.785139985582845 34.94827522510681, -122.39292462915286 37.7851293854975 34.7965294116804, -122.3929883781917 37.785115434132955 34.56868060099247)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 2922,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "81aa7200c3cc4b32809c8dc2e7148dc8",
+            "right": "bdedd919a4f142f8b98d350af040d821"
+        }
+    },
+    {
+        "entity": {
+            "id": "d5aece72d5794716aa4a94c7d3f167ac"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.4387176221816 37.730208926996916 44.90500946675533, -122.43838132354574 37.73032127135476 45.58952284160225, -122.43824058850063 37.73036721896481 45.957262726478625, -122.43805900488665 37.73042537082901 46.4451550646951, -122.4377872588645 37.730509380098745 47.19473216693401, -122.43745652546014 37.7306102646041 48.16510295186313, -122.43697951351969 37.73075408124602 49.53502450712125)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 16475,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "810640887d60483e9b07be993901372b",
+            "right": "a6e1599bdffe43e297cbc1eae28c0730"
+        }
+    },
+    {
+        "entity": {
+            "id": "ce2bce23cebd4f4493566c710a2dca98"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.3932457806485 37.763902167419225 11.132844323445386, -122.39323762687367 37.76386032577916 11.273480170547074, -122.39320408844567 37.76368286161344 12.443482415405388, -122.3931634579403 37.76346122520444 14.011482680146415)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 4948,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "dd3206120edd4c3d90c5f4c2d33c3eeb",
+            "right": "8b536a38d1cb4b8a929e280c1b444b68"
+        }
+    },
+    {
+        "entity": {
+            "id": "f33009f2742347c3802c27d7c1700b15"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39706292653511 37.77407764236391 1.2291479009909554, -122.39712324035492 37.77403006709432 1.3754432891918817)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 748,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "a1d6783e74da45a7b6ba8b35b55b9645",
+            "right": "89e8774f3cc141f290100dee60fe02fb"
+        }
+    },
+    {
+        "entity": {
+            "id": "ae8ad349e75347828cb6b6005a035aec"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40377315768326 37.73064111806568 25.801375997864042, -122.40386238742869 37.73080660986004 26.613226728476704)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 1998,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "e03e24907fd64d8fa5d7666d9eaf02f7",
+            "right": "854749572ee74d09adeda9055cf1f597"
+        }
+    },
+    {
+        "entity": {
+            "id": "b3851bb6c7594d3fb4d2e5f3364dd501"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40179270703929 37.777670276706246 10.597331195142306, -122.40170062610335 37.777718925198215 10.618669716877235, -122.4015184917144 37.777817314128825 10.630808768685455, -122.40133700653608 37.77791726122234 10.636203155379068, -122.40121267704333 37.77798792836483 10.64363821104983, -122.40105627180553 37.77808208819812 10.587599207477265, -122.40096462099459 37.778139382152304 10.576574568487207, -122.40084688878282 37.778215414726844 10.569164007317742)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 10302,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "a04785923a1847148f068a9555a42ccc",
+            "right": "c3c7d078ef5f42e78c7a9e10217cf256"
+        }
+    },
+    {
+        "entity": {
+            "id": "8a11d84a2a1248babc37e30154dcd117"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39173803189405 37.78518539568874 32.465761327803165, -122.39172124794499 37.785198226146875 32.53862853540428)",
+            "color": "UNDEFINED",
+            "type": "GUARDRAIL",
+            "width": null,
+            "length": 205,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "c0aeffaf539d4189a4816b7572a57e1a"
+        }
+    },
+    {
+        "entity": {
+            "id": "fbde2a0bd1404fb991000560cea879f5"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39669667042655 37.77450195053033 0.8981080283951943, -122.39677286601423 37.77444120156738 0.9454929352389232, -122.3968202957417 37.774402337747354 0.9657131868368022, -122.39691249425606 37.77432917124713 0.9945992952965502, -122.3970436402247 37.7742229570744 1.086167995859105, -122.39711369529844 37.774163769245035 1.1841477483863247)",
+            "color": "UNDEFINED",
+            "type": "ROAD_BORDER",
+            "width": null,
+            "length": 5252,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "f0c01b519dab4a458d59d5f56c817272"
+        }
+    },
+    {
+        "entity": {
+            "id": "8f9b79aaf7ca4a37a6857780b4c578b7"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39164329742896 37.78634028965284 20.727259412256583, -122.39165425310902 37.78638370255017 20.622212992969978, -122.39165999877028 37.78641582178797 20.510398871874074)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 851,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "a4b54e6e368f4c86841681f6c08b209a"
+        }
+    },
+    {
+        "entity": {
+            "id": "ff8c65db2a1149f2bae24980d60e578d"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43541274599248 37.731050719216924 48.42649710117567, -122.43535436363481 37.731073120148835 48.231404969762735, -122.43527748021792 37.73110434158809 47.94627431040033)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 1332,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "e641a9d6177f4a3fa1934a4ba8e082de",
+            "right": "91f361c9a74a41cb996d970ed1681e7f"
+        }
+    },
+    {
+        "entity": {
+            "id": "ba0a3135d0bb473280a9c5987598a599"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39247911131989 37.763356620722384 13.439840082066151, -122.39248910969434 37.763432697289794 13.026569689298718)",
+            "color": "UNDEFINED",
+            "type": "LEFT_CURB",
+            "width": null,
+            "length": 849,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "b8d426db8d554bdaac3a0a01b9d15416",
+            "right": "8426847c62c94eafb9767f35427110b9"
+        }
+    },
+    {
+        "entity": {
+            "id": "fb47b005d9e3416fb90d29393d8c8ae0"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40864820372285 37.770688783129756 5.1187031793909625, -122.40864764475343 37.77071488554819 4.878350157814662, -122.4086443064098 37.77074988733314 4.5663080992572285)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 679,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "9a91b434f15c4a8cbdfb935f16ad62e0",
+            "right": "9668755fe19e45f0b4e9445b2d6e5821"
+        }
+    },
+    {
+        "entity": {
+            "id": "f728a38a2bd547299222510f9c47e169"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.3991790756122 37.717463339413456 43.25923890232091, -122.39926259046902 37.71777412152717 43.38494246875832)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 3527,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "9349c7eb480c408d92d4769a5754796e",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "c95a27e4eca247a896469cfb94b3f49e"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40223215450285 37.726655784900665 20.796445601448447, -122.40241843259206 37.727143098979916 22.127716371384548)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 5652,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "d12a901e56e24e30beb3b3de7cef4675",
+            "right": "c10df1f42f384386a9b3496163196b80"
+        }
+    },
+    {
+        "entity": {
+            "id": "8ec18365b36647e6b032edc6ce0e8b7b"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40036580441664 37.72076377727106 37.49933625689085, -122.40033681667612 37.72065990814517 37.76236710060142, -122.40031032148478 37.72055199273548 38.027266035244146, -122.40029101552774 37.720461844015624 38.2369276381285, -122.40026252382721 37.72031518155832 38.602165485962466)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 5063,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "ed40e8c77db142ecbd17e3d57c732bef"
+        }
+    },
+    {
+        "entity": {
+            "id": "b8573a437c7c4125b565655fdc462b9a"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40601788143175 37.75923203733823 34.22831584378354, -122.40604505818003 37.75927529120571 34.169181868101774, -122.40608146485337 37.75933689642633 34.062371220295965, -122.40611671527374 37.759400324166556 33.97174930244721, -122.4061501384528 37.759464425246826 33.89535866287431, -122.40617422336238 37.75951353106489 33.82550707583832, -122.40620517887659 37.759581330812445 33.73307314158632, -122.4062269641965 37.7596326170179 33.67908191989336, -122.40625398836808 37.75970151107455 33.613585574374426, -122.40627273361477 37.7597535333499 33.52819632279917, -122.40629568378522 37.75982337857201 33.48177704127422, -122.40631624148428 37.759893653913345 33.435966099021556, -122.40633007315613 37.759946545724034 33.392012065531766, -122.40634670820064 37.760017340302205 33.34799748230223, -122.40636117663497 37.760088452208166 33.31695716653662, -122.40636751606081 37.76012453425548 33.302611716175164, -122.40637819668726 37.76019769345748 33.27430303851297, -122.40638469418437 37.76025268162909 33.24511474006715, -122.40639121761677 37.760326190323944 33.21253961796981, -122.4063945549664 37.760380307791024 33.182144466234405, -122.40639690984938 37.76045174118919 33.158955986895, -122.4063970242246 37.760505338755344 33.13376412394131, -122.4063950951525 37.76057677322611 33.13480836169733, -122.40639072673503 37.760647611671644 33.11255062079135, -122.4063861472698 37.760699570247404 33.10356552968499, -122.40637809672592 37.760768660093454 33.07184897891634, -122.40637063913272 37.76082036639996 33.02784848470789, -122.4063593426245 37.760887608215306 32.982257190955266, -122.40634984658739 37.7609367434731 32.94886038753671, -122.4063355593002 37.76099827850914 32.89838946175828, -122.4063186973093 37.76106400220738 32.83704279738022, -122.40629947416296 37.76113067317424 32.74947216066801, -122.40627832981359 37.76119690992507 32.661994110999885)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 22428,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "9636256c45134c4d8c30b26390947ea7",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "82423cd75f58439eb99c39b6f029e096"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.4018545400102 37.72475706700183 21.095269202873755, -122.40183654365623 37.72470960794297 21.270931941648513)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 550,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "c74030a6a7b94705be86b895e89e77d6",
+            "right": "a92c67dd6079457cb40f51662f68398c"
+        }
+    },
+    {
+        "entity": {
+            "id": "d142f1f405774bd8acacd252ad2ee122"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39531935354518 37.70842239805022 10.224408799357079, -122.39530137830212 37.70831799288453 9.680737434200374, -122.39528151713684 37.708213783633745 9.254915498401434)",
+            "color": "UNDEFINED",
+            "type": "ROAD_BORDER",
+            "width": null,
+            "length": 2339,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "999482e6f6c84de6b7b2ae325f1300f0",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "a0df382b95ce4558867ab832eaf10ec0"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39767067723434 37.7814391435803 15.220219896242913, -122.39789402186614 37.78128034423846 14.25865924418318, -122.39800764879597 37.78119755010116 13.771179056453802, -122.39818611902425 37.78106358656042 12.949282513357396, -122.39836227348076 37.78092788095588 12.164446791313562)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 8326,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "f8d9cd358c4c45b3bdba285e3e166a5b",
+            "right": "df4d2b42aff643b38f595b052f9a31de"
+        }
+    },
+    {
+        "entity": {
+            "id": "b7b7643ce0af48bf80b726baf4670343"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39933124953433 37.71809586824689 43.18036393372869, -122.39935126263536 37.71817069984461 43.18923280051616)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 848,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "85b951918f2447d8aa31ef711fee9584",
+            "right": "b7c0f197e3114253bab670e64acbc707"
+        }
+    },
+    {
+        "entity": {
+            "id": "cd8dd25677cd42fa954a41ed554a34cf"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39028388557134 37.78646725781376 42.27404745769936, -122.39032946468345 37.78642501376861 42.16154515100297)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 617,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "d652a6d016194f5eb60d8d0cffa09da8",
+            "right": "8d52d767980b418b833786c967f0e76d"
+        }
+    },
+    {
+        "entity": {
+            "id": "bdbcd60cb1094be4bbf20f3c4ff22278"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40563850046676 37.774268139110426 6.3951437952623325, -122.40560806691329 37.774289169702286 6.2798823848328995, -122.4055821187787 37.77430991216988 6.186766467295258)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 680,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "e401ca5d7f874d9d9f048f77490d1cc1",
+            "right": "be1464a37b5144a0a94dacfba7ad70e4"
+        }
+    },
+    {
+        "entity": {
+            "id": "b0ca7412a42d4fa2bd35f320714bd001"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40311423464422 37.75615642324552 27.58552268792776, -122.40313778306707 37.756262119767335 28.16781041920308, -122.40315108379222 37.75631482702972 28.44902592552429, -122.4031703996671 37.756384878441246 28.826704728772288)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 2584,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "86b2d91db8bc43f2bcf74df953704fe1",
+            "right": "8b26fb1dc46b47c0a1e2af32b3dc2e41"
+        }
+    },
+    {
+        "entity": {
+            "id": "984cfc5143f842ddb948abc824332434"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39292109447898 37.76490508169774 22.09791668475678, -122.39295623868817 37.76496950270899 21.992214690608616, -122.39299809011352 37.765043319042995 21.844827562523694, -122.39304129415528 37.76511671673259 21.700110746845212, -122.39308943131648 37.76519578411358 21.523903145936302, -122.39312913707215 37.765258701609824 21.369571842414015, -122.39316996694899 37.76532118634977 21.200940697162387, -122.39320981219261 37.76538043004836 21.03257203897193, -122.39326825274632 37.76546433957238 20.794920013275934)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 6923,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "f4762beefe75463a9ac55dd7beddb464"
+        }
+    },
+    {
+        "entity": {
+            "id": "e23d85e836404c9c9d8d56915e713378"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39547988655403 37.708920096744826 12.380195159341799, -122.39547866572786 37.70890658369257 12.3309619662171, -122.3954804189513 37.70888808482632 12.263159085783766)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 356,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "b8672a967f78434984843c083063d91b",
+            "right": "bed9888fcc8b485ea99ce752695e4abd"
+        }
+    },
+    {
+        "entity": {
+            "id": "a4df591d39534d96b63e824e01da3e0b"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.42820113415553 37.73207564396401 31.967406765611823, -122.42846343572543 37.73212964381376 32.853382401976205)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 2388,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "b194db3f907a4107959abfede90187f5",
+            "right": "f2718745746f40548e47049f8eb171c3"
+        }
+    },
+    {
+        "entity": {
+            "id": "abf8ab6146da45d59e042d19ce61cc1d"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40478826686855 37.746867722237695 15.118108044180353, -122.40484627525592 37.74668404211412 15.155714455117709, -122.40500636398728 37.74615843737385 15.336245613984499, -122.40505495487538 37.74600560105374 15.50916595037495, -122.40522810099495 37.74543699381883 16.445756487608964, -122.40525986573032 37.74533758045171 16.638558783486328, -122.40530915613857 37.745197709512446 16.996989984467266, -122.40536283016888 37.745057344105355 17.284227631523645, -122.40540257478347 37.744963754942745 17.681459761431135, -122.40543700707285 37.74488634950103 18.000925336922393, -122.40551176521268 37.74473224242683 18.763098376282247, -122.40555164926045 37.744653839300625 19.161726361426737, -122.40559303317923 37.744576046324774 19.406768108939428, -122.40564480477062 37.74448360186424 19.701760629786925, -122.40568192691973 37.744420887596064 19.939583460488596, -122.40574046877462 37.74432678893704 20.226497298528244, -122.40579802957005 37.74423762753364 20.479513318490337, -122.40584696339562 37.74416461627672 20.67790505790993, -122.40589890548797 37.74409094005392 20.86036113081258, -122.40595474108684 37.744015960191334 21.044162049015327, -122.40601222337871 37.743941468515885 21.179783593175312, -122.40613003165467 37.743794171834466 21.475975840290182, -122.4062147739889 37.743692983367836 21.699979858951597, -122.40647467193445 37.74338714731935 22.053449691251085, -122.4066113428902 37.743222638749735 22.172013403531892)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 43969,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "a6cde353c2744c6680884ef6ce3b8456"
+        }
+    },
+    {
+        "entity": {
+            "id": "f8557478e19c4fc59a7fe160a6ddaaa6"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.43369457261564 37.73214097813054 49.11321672320908, -122.43348222132875 37.732286752435726 50.2549356016432, -122.43343458541447 37.732318501323256 50.482029975211944, -122.43337739178446 37.732354451771386 50.81299857647125)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 3665,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "bc428aa0db8145b18c40a37f7c3101bf"
+        }
+    },
+    {
+        "entity": {
+            "id": "cab823605f5947c292c6302c0e205a37"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40585523521341 37.77027205470769 14.136612065947693, -122.40584054621559 37.77020899806361 13.977977933929036)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 712,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "c1ec071702ba491594f3b0849428995c",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "dc7eed1eb2e14d8185ffd37a5af5c2a8"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.4003472950125 37.778331466308295 2.463209662578932, -122.40034863279733 37.77841479478015 2.51543807744659)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 924,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "d109648615314d64b5c93dff3c2549bb",
+            "right": "dbceb5ffdbcc4959b179326f465e5074"
+        }
+    },
+    {
+        "entity": {
+            "id": "a75323ba5e59438183fb650341ee6e90"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.44812151188562 37.7228131981791 65.51006194258953, -122.4481304059118 37.72278015549132 65.60565413926086)",
+            "color": "UNDEFINED",
+            "type": "LEFT_CURB",
+            "width": null,
+            "length": 374,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "dec323eab11b47a587b484399416f0fe",
+            "right": "ef5ab2bb25db4e6081de33552f42fee5"
+        }
+    },
+    {
+        "entity": {
+            "id": "8c40313a37774efa901e0ef5761949b2"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39804311133146 37.71513502897673 36.5238714184804, -122.39814686153565 37.71528020517077 36.97901763645304, -122.39823819273566 37.715415547976214 37.42941882800268)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 3557,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "ee544bf2b54e4599ad92ff5cc810647b",
+            "right": "d082292075c2438096a4f38a7f2a78dd"
+        }
+    },
+    {
+        "entity": {
+            "id": "d44f508db98544b2a9dca9604c7a4514"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.41085952235163 37.73415723841218 7.818797235313718, -122.41101033583787 37.73408601903708 7.988085778626101)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 1546,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "8727b7fd4232440eac88ffe0ccab090d",
+            "right": "9e3c4cac328144cbad18b91f569f6a1a"
+        }
+    },
+    {
+        "entity": {
+            "id": "c44b43fad71645b1b69a183a3a5ec081"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40292919982504 37.752462662216566 17.677598106912992, -122.40293817243911 37.75233241805229 17.497356815065682)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 1448,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "dee2eb34545745eb8d48e997ae70d7b7",
+            "right": null
+        }
+    },
+    {
+        "entity": {
+            "id": "f561d308feed4bb08f32b358dfd6f162"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.41802908956264 37.769184145711385 4.523381864344827, -122.41804307239819 37.76915945710093 4.4424656716684625, -122.41805862428839 37.76913543637285 4.377287521324586)",
+            "color": "UNDEFINED",
+            "type": "RIGHT_CURB",
+            "width": null,
+            "length": 599,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "83aa2d5416954c078fde1d9912e6b40b"
+        }
+    },
+    {
+        "entity": {
+            "id": "c1178bf6269943aa94644786f0b3097e"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.4433374315989 37.72831386788887 56.37387060572311, -122.44325178885566 37.72836051328697 56.08806778084403, -122.44313074088696 37.728424508156465 55.705384512520816)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 2197,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "a636ea9aa2d94d66b10f47a1db8c2e3b",
+            "right": "acb8e2e99ba64de789ef5cd16949bd48"
+        }
+    },
+    {
+        "entity": {
+            "id": "92718389a2a14e6980dd2859743c0449"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40285647755208 37.728893291045786 22.89524226710358, -122.40291384296347 37.72902733623315 22.83307189797453, -122.40298814438468 37.729194129783025 22.751813591502298, -122.4030341616286 37.729293418850474 22.710444855153685, -122.40309748672958 37.72942473877482 22.705456838450672, -122.40323821698239 37.72970623509922 22.901094308533924, -122.40333107445362 37.72988660444189 23.09681109924256, -122.40342936038685 37.730077223993206 23.54546781206542, -122.4035975656352 37.7304069341237 24.66262748226503)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 18029,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "90069b7009044a9596d7e8a58da51282",
+            "right": "cefb88e07db44dea9287520c71b49b01"
+        }
+    },
+    {
+        "entity": {
+            "id": "9fd064c93d6b499f9e0dbeac3913bf7b"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40370915429665 37.73648625964309 32.39684984172748, -122.40378742618304 37.73642948912185 32.37459286694938, -122.40384924039601 37.736382444989346 32.35001529384326)",
+            "color": "UNDEFINED",
+            "type": "UNKNOWN_BARRIER",
+            "width": null,
+            "length": 1689,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": null,
+            "right": "8625b7c82d4146999773542f422e6777"
+        }
+    },
+    {
+        "entity": {
+            "id": "ed6d2c41cf9e455aa374872ce6fc0a40"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.39912244657425 37.779719523769636 10.957694031176537, -122.39879353183909 37.77999444907506 11.79828873639622, -122.39862524263594 37.780135211766584 12.526636877052582)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 6361,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "e6c1f4bd5bc742f3b043d7389db70575",
+            "right": "d5bbc472ad184338bdffb3705c2fd05e"
+        }
+    },
+    {
+        "entity": {
+            "id": "e85ec3219f494bd7a6dd391bfded1aa4"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40869671251629 37.77074977548673 4.566286078459481, -122.40869709044854 37.77079982377169 4.19203769107269, -122.40869521420105 37.770833090352525 3.982763284600858)",
+            "color": "WHITE",
+            "type": "SINGLE_SOLID_LINE",
+            "width": null,
+            "length": 924,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "8043bb7115f547eab6c2ea17edb6fcaf",
+            "right": "f0ad42f3be514930b7422962db80ca0c"
+        }
+    },
+    {
+        "entity": {
+            "id": "a6566909cb5041c8a9cf39994b0ccf5f"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.40651025754406 37.73487618574445 12.077609886239514, -122.40659881846781 37.7350184044253 11.853715550339935)",
+            "color": "WHITE",
+            "type": "LONG_DASHED_LINE",
+            "width": null,
+            "length": 1760,
+            "pass_restrict": "allowed"
+        },
+        "associations": {
+            "left": "f1eb5bb42df74a4e84e76df4cea856fa",
+            "right": "e332cbdb1aa948a0bc3584a26c4598e8"
+        }
+    },
+    {
+        "entity": {
+            "id": "8771f8c626764980b6b69e6bdd15d31a"
+        },
+        "attributes": {
+            "detail_geo": "LINESTRING (-122.41623437871657 37.73216043348931 10.933970368999255, -122.4163324593594 37.732158053496285 10.973574949281023, -122.41644578879453 37.732156891749696 11.075195003548131, -122.41667202719688 37.73215793175212 11.179546277605542)",
+            "color": "WHITE",
+            "type": "SHADED_AREA_MARKING",
+            "width": null,
+            "length": 3857,
+            "pass_restrict": "notallowed"
+        },
+        "associations": {
+            "left": "eaec567bdc1948f0b7d9757f14b30dae",
+            "right": null
+        }
+    }
+]

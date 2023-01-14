@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<OpenSCENARIO>
+  <FileHeader revMajor="1" revMinor="0" date="2022-03-03T10:00:00" description="A Npc checks the TL throug an assigned route" author="morai-core-team"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+            <Properties />
+         </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+            <Properties>
+              <Property name="check_tl" value="true"/>
+            </Properties>
+         </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <Private entityRef="Ego">
+        <PrivateAction>
+          <LongitudinalAction>
+          <SpeedAction>
+            <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+            <SpeedActionTarget>
+            <AbsoluteTargetSpeed value="6"/>
+            </SpeedActionTarget>
+          </SpeedAction>
+          </LongitudinalAction>
+        </PrivateAction>
+        <PrivateAction>
+          <TeleportAction>
+          <Position>
+            <LinkPosition id="A219BS010670"/>
+          </Position>
+          </TeleportAction>
+        </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="A219BS010381" index="3"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+          <PrivateAction>
+            <RoutingAction>
+              <AssignRouteAction>
+                <Route name="NPC_1_Route" closed="false" afterCompletion="stop">
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="A219BS010381" index="3"/>
+                    </Position>
+                  </Waypoint> 
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="A219BS010661"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="A219BS010637"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="A219BS010680"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="A219BS010649"/>
+                    </Position>
+                  </Waypoint>
+                </Route>
+              </AssignRouteAction>
+            </RoutingAction>
+          </PrivateAction>              
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0.0" dynamicsDimension="time" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="10"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="Story">
+        <ParameterDeclarations/>
+        <Act name="AquirePosition act">
+            <ManeuverGroup maximumExecutionCount="1" name="AquirePosition maneuver group">
+               <Actors selectTriggeringEntities="false">
+                  <EntityRef entityRef="NPC_1"/>
+               </Actors>
+               <!-- <Maneuver name="AquirePosition maneuver">     
+               </Maneuver> -->
+            </ManeuverGroup>
+            <StartTrigger>
+               <ConditionGroup>
+                  <Condition name="AquirePosition act start condition" delay="0" conditionEdge="risingOrFalling">
+                     <ByValueCondition>
+                        <SimulationTimeCondition value="0" rule="greaterThan"/>
+                     </ByValueCondition>
+                  </Condition>
+               </ConditionGroup>
+            </StartTrigger>
+        </Act>
+      </Story>
+      <StopTrigger />
+   </Storyboard>
+</OpenSCENARIO>

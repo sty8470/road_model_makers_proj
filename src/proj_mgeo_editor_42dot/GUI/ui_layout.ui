@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1358</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="main_widget_layout" stretch="1,8,1">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_1">
+          <layout class="QVBoxLayout" name="data_layout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QTreeWidget" name="treeWidget_data">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <column>
+              <property name="text">
+               <string>MGeo Data</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTreeWidget" name="treeWidget_style">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <column>
+              <property name="text">
+               <string>MGeo Style</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <layout class="QVBoxLayout" name="verticalLayout_mainwidget" stretch="0,0,10,0,0">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="sizeConstraint">
+            <enum>QLayout::SetMinimumSize</enum>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_toolbar">
+             <item>
+              <widget class="QPushButton" name="btn_create_junction">
+               <property name="text">
+                <string>Create Junction</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_add_line">
+               <property name="text">
+                <string>Add Line</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_add_poly3">
+               <property name="text">
+                <string>Add Poly3</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_merge_links">
+               <property name="text">
+                <string>Merge Links</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_connect_nodes">
+               <property name="text">
+                <string>Connect Nodes</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_divide_a_link">
+               <property name="text">
+                <string>Divide a Link</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_toolbar">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_veiwbar">
+             <item>
+              <widget class="QRadioButton" name="rbtn_view_select">
+               <property name="text">
+                <string>Select</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="rbtn_view_trans">
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Translate</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="rbtn_view_rotate">
+               <property name="text">
+                <string>Rotate</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_view_xy">
+               <property name="text">
+                <string>XY</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_view_yz">
+               <property name="text">
+                <string>YZ</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_view_zx">
+               <property name="text">
+                <string>ZX</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_viewbar">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_opengl"/>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_rotation">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_rotation_x" stretch="1,7,1,1">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_x">
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="text">
+                  <string>X-axis</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="slider_x">
+                 <property name="minimum">
+                  <number>-180</number>
+                 </property>
+                 <property name="maximum">
+                  <number>180</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="edit_xRot">
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="reset_xRot">
+                 <property name="text">
+                  <string>Reset</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_rotation_y" stretch="1,7,1,1">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_y">
+                 <property name="text">
+                  <string>Y-axis</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="slider_y">
+                 <property name="minimum">
+                  <number>-180</number>
+                 </property>
+                 <property name="maximum">
+                  <number>180</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="edit_yRot">
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="reset_yRot">
+                 <property name="text">
+                  <string>Reset</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_rotation_z" stretch="1,7,1,1">
+               <property name="spacing">
+                <number>10</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_z">
+                 <property name="text">
+                  <string>Z-axis</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="slider_z">
+                 <property name="minimum">
+                  <number>-180</number>
+                 </property>
+                 <property name="maximum">
+                  <number>180</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="edit_zRot">
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="reset_zRot">
+                 <property name="text">
+                  <string>Reset</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_log">
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_range_x">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_1">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_range_y">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_zoom">
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_3">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <layout class="QVBoxLayout" name="attri_layout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QTreeWidget" name="treeWidget_attr">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>310</width>
+               <height>0</height>
+              </size>
+             </property>
+             <column>
+              <property name="text">
+               <string>MGeo Attribute</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_log">
+        <layout class="QVBoxLayout" name="log_widget_layout">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1358</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFiles">
+    <property name="title">
+     <string>Files</string>
+    </property>
+    <addaction name="action_load_mgeo"/>
+    <addaction name="action_save_mgeo"/>
+    <addaction name="separator"/>
+    <addaction name="actionMerge_MGeo"/>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menuImport">
+    <property name="title">
+     <string>Import</string>
+    </property>
+    <addaction name="action_import_42dot"/>
+    <addaction name="action_import_42dot_legacy"/>
+   </widget>
+   <widget class="QMenu" name="menuFind">
+    <property name="title">
+     <string>Find</string>
+    </property>
+    <addaction name="actionFind"/>
+    <addaction name="action_node"/>
+    <addaction name="action_link"/>
+    <addaction name="action_ts"/>
+    <addaction name="action_tl"/>
+    <addaction name="action_jct"/>
+    <addaction name="action_road"/>
+   </widget>
+   <widget class="QMenu" name="menuData_Integrity">
+    <property name="title">
+     <string>Data Integrity</string>
+    </property>
+    <addaction name="action_find_overlapped_node"/>
+    <addaction name="action_repair_overlapped_node"/>
+    <addaction name="separator"/>
+    <addaction name="action_find_dangling_nodes"/>
+    <addaction name="action_delete_dangling_nodes"/>
+    <addaction name="separator"/>
+    <addaction name="action_find_closed_loop_link"/>
+    <addaction name="separator"/>
+    <addaction name="action_clear"/>
+   </widget>
+   <widget class="QMenu" name="menuData_Trimming">
+    <property name="title">
+     <string>Data Trimming</string>
+    </property>
+    <addaction name="action_delete_Objects_out_of_XY_Range_soft"/>
+    <addaction name="action_delete_Objects_out_of_XY_Range_hard"/>
+    <addaction name="action_delete_Objects_inside_this_Screen"/>
+   </widget>
+   <widget class="QMenu" name="menuOpenDRIVE_Conversion">
+    <property name="title">
+     <string>OpenDRIVE Conversion</string>
+    </property>
+    <addaction name="action_create_junction"/>
+    <addaction name="separator"/>
+    <addaction name="action_create_preliminary_odr_roads"/>
+    <addaction name="action_create_odr_roads"/>
+    <addaction name="separator"/>
+    <addaction name="action_clear_odr_roads"/>
+    <addaction name="separator"/>
+    <addaction name="action_create_opendrive"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuBasic_Editing">
+    <property name="title">
+     <string>Basic Editing</string>
+    </property>
+    <addaction name="action_divide_a_link_smart"/>
+    <addaction name="action_divide_a_link_keep_front"/>
+    <addaction name="action_divide_a_link_keep_rear"/>
+    <addaction name="separator"/>
+    <addaction name="action_set_new_road_id"/>
+    <addaction name="separator"/>
+    <addaction name="action_add_link_point"/>
+    <addaction name="separator"/>
+    <addaction name="action_merge_links"/>
+    <addaction name="separator"/>
+    <addaction name="action_connect_nodes"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuMisc">
+    <property name="title">
+     <string>Misc</string>
+    </property>
+    <addaction name="action_get_position_in_carla"/>
+    <addaction name="separator"/>
+    <addaction name="action_change_ids_to_string"/>
+    <addaction name="separator"/>
+    <addaction name="action_change_node_link_height_to_0"/>
+   </widget>
+   <widget class="QMenu" name="menuCurve_Fitting">
+    <property name="title">
+     <string>Curve Fitting</string>
+    </property>
+    <addaction name="action_add_line"/>
+    <addaction name="action_add_poly3"/>
+    <addaction name="separator"/>
+    <addaction name="action_auto_generate_geometry_points"/>
+    <addaction name="separator"/>
+    <addaction name="action_delete_current_point"/>
+    <addaction name="action_delete_all_points"/>
+    <addaction name="action_reset_all_points"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuExport">
+    <property name="title">
+     <string>Export</string>
+    </property>
+    <addaction name="action_export_odr_2"/>
+   </widget>
+   <addaction name="menuFiles"/>
+   <addaction name="menuImport"/>
+   <addaction name="menuExport"/>
+   <addaction name="menuFind"/>
+   <addaction name="menuBasic_Editing"/>
+   <addaction name="menuCurve_Fitting"/>
+   <addaction name="menuOpenDRIVE_Conversion"/>
+   <addaction name="menuData_Trimming"/>
+   <addaction name="menuData_Integrity"/>
+   <addaction name="menuMisc"/>
+  </widget>
+  <action name="action_load_mgeo">
+   <property name="text">
+    <string>Load MGeo</string>
+   </property>
+  </action>
+  <action name="action_save_mgeo">
+   <property name="text">
+    <string>Save MGeo</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="action_import_42dot">
+   <property name="text">
+    <string>42dot HDMap (sdx, latest)</string>
+   </property>
+  </action>
+  <action name="action_export_odr_2">
+   <property name="text">
+    <string>Save OpenDRIVE as File </string>
+   </property>
+  </action>
+  <action name="actionXY">
+   <property name="text">
+    <string>XY</string>
+   </property>
+  </action>
+  <action name="actionYZ">
+   <property name="text">
+    <string>YZ</string>
+   </property>
+  </action>
+  <action name="actionZX">
+   <property name="text">
+    <string>ZX</string>
+   </property>
+  </action>
+  <action name="actionSoftware_Information">
+   <property name="text">
+    <string>Software Information</string>
+   </property>
+  </action>
+  <action name="action_node">
+   <property name="text">
+    <string>Node</string>
+   </property>
+  </action>
+  <action name="action_link">
+   <property name="text">
+    <string>Link</string>
+   </property>
+  </action>
+  <action name="action_find_overlapped_node">
+   <property name="text">
+    <string>Find Overlapped Node</string>
+   </property>
+  </action>
+  <action name="action_repair_overlapped_node">
+   <property name="text">
+    <string>Repair Overlapped Node</string>
+   </property>
+  </action>
+  <action name="action_find_dangling_nodes">
+   <property name="text">
+    <string>Find Dangling Nodes</string>
+   </property>
+  </action>
+  <action name="action_delete_dangling_nodes">
+   <property name="text">
+    <string>Delete Dangling Node</string>
+   </property>
+  </action>
+  <action name="action_clear">
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="action_delete_Objects_out_of_XY_Range_soft">
+   <property name="text">
+    <string>Delete Objects out of XY Range (soft)</string>
+   </property>
+  </action>
+  <action name="action_delete_Objects_inside_this_Screen">
+   <property name="text">
+    <string>Delete Objects inside this Screen</string>
+   </property>
+  </action>
+  <action name="action_add_poly3">
+   <property name="text">
+    <string>Add Poly3 Geometry Point</string>
+   </property>
+  </action>
+  <action name="action_ts">
+   <property name="text">
+    <string>Traffic Sign</string>
+   </property>
+  </action>
+  <action name="action_tl">
+   <property name="text">
+    <string>Traffic Light</string>
+   </property>
+  </action>
+  <action name="action_jct">
+   <property name="text">
+    <string>Junction</string>
+   </property>
+  </action>
+  <action name="action_add_line">
+   <property name="text">
+    <string>Add Line Geometry Point</string>
+   </property>
+  </action>
+  <action name="action_delete_current_point">
+   <property name="text">
+    <string>Delete Current Point</string>
+   </property>
+  </action>
+  <action name="action_delete_all_points">
+   <property name="text">
+    <string>Delete All Points</string>
+   </property>
+  </action>
+  <action name="actionMerge_Selected">
+   <property name="text">
+    <string>Merge Selected Links</string>
+   </property>
+  </action>
+  <action name="actionCreate_Junction">
+   <property name="text">
+    <string>Create Junction</string>
+   </property>
+  </action>
+  <action name="actionDelete_Current_Junction">
+   <property name="text">
+    <string>Delete Current Junction</string>
+   </property>
+  </action>
+  <action name="action_create_preliminary_odr_roads">
+   <property name="text">
+    <string>Create Road (Preliminary)</string>
+   </property>
+  </action>
+  <action name="action_create_junction">
+   <property name="text">
+    <string>Create Junction</string>
+   </property>
+  </action>
+  <action name="action_delete_Objects_out_of_XY_Range_hard">
+   <property name="text">
+    <string>Delete Objects out of XY Range (hard)</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="text">
+    <string>Find</string>
+   </property>
+  </action>
+  <action name="action_export_odr">
+   <property name="text">
+    <string>OpenDRIVE (with signal)</string>
+   </property>
+  </action>
+  <action name="action_export_odr_signal_fix">
+   <property name="text">
+    <string>OpenDRIVE (find all matching roads for signals)</string>
+   </property>
+  </action>
+  <action name="action_create_odr_roads">
+   <property name="text">
+    <string>Create Road (incl. Ref Lines, Lane Sections, ...)</string>
+   </property>
+  </action>
+  <action name="action_create_road_objects_legacy">
+   <property name="text">
+    <string>Create Road (Legacy)</string>
+   </property>
+  </action>
+  <action name="action_export_odr_legacy">
+   <property name="text">
+    <string>OpenDRIVE (legacy)</string>
+   </property>
+  </action>
+  <action name="action_create_opendrive">
+   <property name="text">
+    <string>Create OpenDRIVE</string>
+   </property>
+  </action>
+  <action name="action_create_opendrive_no_signal">
+   <property name="text">
+    <string>Create OpenDRIVE (no signal)</string>
+   </property>
+  </action>
+  <action name="action_create_opendrive_fix_all_signal_road_id">
+   <property name="text">
+    <string>Create OpenDRIVE (include signal, do search for matching road)</string>
+   </property>
+  </action>
+  <action name="action_create_opendrive_legacy">
+   <property name="text">
+    <string>Create OpenDRIVE (legacy)</string>
+   </property>
+  </action>
+  <action name="action_road">
+   <property name="text">
+    <string>Road</string>
+   </property>
+  </action>
+  <action name="action_change_ids_to_string">
+   <property name="text">
+    <string>Change IDs to string</string>
+   </property>
+  </action>
+  <action name="action_find_closed_loop_link">
+   <property name="text">
+    <string>Find Closed-loop Link</string>
+   </property>
+  </action>
+  <action name="action_auto_generate_geometry_points">
+   <property name="text">
+    <string>Auto-generate Geometry Points</string>
+   </property>
+  </action>
+  <action name="action_merge_links">
+   <property name="text">
+    <string>Merge Links</string>
+   </property>
+  </action>
+  <action name="action_connect_nodes">
+   <property name="text">
+    <string>Connect Nodes</string>
+   </property>
+  </action>
+  <action name="action_divide_a_link_smart">
+   <property name="text">
+    <string>Divide a Link (Smart)</string>
+   </property>
+  </action>
+  <action name="action_divide_a_link_keep_front">
+   <property name="text">
+    <string>Divide a Link (Keep Front)</string>
+   </property>
+  </action>
+  <action name="action_divide_a_link_keep_rear">
+   <property name="text">
+    <string>Divide a Link (Keep Rear)</string>
+   </property>
+  </action>
+  <action name="action_add_link_point">
+   <property name="text">
+    <string>Add Link Point</string>
+   </property>
+  </action>
+  <action name="action_set_new_road_id">
+   <property name="text">
+    <string>Set New Road ID</string>
+   </property>
+  </action>
+  <action name="action_clear_odr_roads">
+   <property name="text">
+    <string>Clear Road</string>
+   </property>
+  </action>
+  <action name="action_get_position_in_carla">
+   <property name="text">
+    <string>Get Position in CARLA</string>
+   </property>
+  </action>
+  <action name="action_change_node_link_height_to_0">
+   <property name="text">
+    <string>Change Node / Link Height to 0</string>
+   </property>
+  </action>
+  <action name="action_import_42dot_legacy">
+   <property name="text">
+    <string>42dot HDMap (sdx, legacy)</string>
+   </property>
+  </action>
+  <action name="actionMerge_MGeo">
+   <property name="text">
+    <string>Merge MGeo</string>
+   </property>
+  </action>
+  <action name="action_reset_all_points">
+   <property name="text">
+    <string>Reset All Points</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

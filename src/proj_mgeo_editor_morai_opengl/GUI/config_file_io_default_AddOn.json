@@ -1,0 +1,54 @@
+{	
+	"file_path":[
+		{
+			"TXT_IMPORT": "../../data/hdmap/",
+			"TOMTOM_IMPORT": "../../data/hdmap/",
+			"SHP1_MAP_IMPORT": "../../data/hdmap/",
+			"SHP2_MAP_IMPORT": "../../data/hdmap/",
+			"ROADRUNNER_GEOJSON_IMPORT": "../../data/hdmap/",
+			"OpenDRIVE_IMPORT": "../../data/hdmap/",
+			"MGEO_SAVE": "../../../MgeoData/",
+			"MGEO_LOAD": "../../../MgeoData/",
+			"EXPORT_ODR": "../../../MgeoData/",
+			"ODR_VIEWER": "../../",
+			"XODR": "../../",
+			"EXPORT_CSV": "../../../MgeoData/",
+			"EXPORT_OICD": "../../data/mgeo",
+			"EXPORT_OBJ": "../../../MgeoData/",
+			"EXPORT_GEOJSON": "../../../MgeoData/",
+			"OpenScenario_SAVE": "../../data/openscenario"
+		}
+	],
+	
+	"world_setting":[
+		{
+			"spheroid": "WGS84",
+			"latitude_of_orign" : "0.0",
+			"central_meridian": "0.0",
+			"scale_factor" : "1.0",
+			"false_easting" : "0",
+			"false_northing" : "0",
+
+			"world_orign_latitude" : "0",
+			"world_orign_longitude": "0"
+		}
+	],
+
+	"odr_import":[
+		{
+			"vertex_distance": "2.0",
+			"sidewalk_height" : "0.0",
+			"lanemarking_height" : "0.03",
+			"z_tolerance": "0.5",
+			"traffic_direction" : "right",
+			"generate_mesh" : "True",
+			"union_junction" : "True",
+			"clean_link" : "False"
+		}
+	],
+	
+	"open_scenario_setting": {
+		"ip": "localhost",
+		"port" : "7789"
+	}	
+}

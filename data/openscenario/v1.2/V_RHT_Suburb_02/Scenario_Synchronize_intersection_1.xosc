@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="2" date="2022-07-21T10:00:00" description="Scenario: synchronize action" author="MORAI:scenario-module-team"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="V_RHT_Suburb_02" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties>
+          <Property name="check_tl" value="false"/>
+        </Properties>
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2022-07-21T10:00:00" />
+              <Weather atmosphericPressure="80000" fractionalCloudCover="zeroOktas" temperature="170">
+                <Sun illuminance="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+				<Wind direction="0" speed="0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="dry"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="13.88"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="_16_0_L1_" index="10"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+          <PrivateAction>
+            <RoutingAction>
+              <AssignRouteAction>
+                <Route name="Ego_Route" closed="false" afterCompletion="random">
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="_16_0_L1_" index="10"/>
+                    </Position>
+                  </Waypoint> 
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="_15_0_L1_" />
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="_13_0_L1_" index="5"/>
+                    </Position>
+                  </Waypoint>
+                </Route>
+              </AssignRouteAction>
+            </RoutingAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="10"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="_3_0_L1_" index="10"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1" />
+          </Actors>
+          <Maneuver name="Sync_Maneuver">
+            <Event name="Sync_Event" priority="overwrite">
+              <Action name="Sync_Action">
+                <PrivateAction>
+                  <SynchronizeAction masterEntityRef="Ego" targetToleranceMaster="0.5" targetTolerance="0.5">
+                    <TargetPositionMaster>
+                      <LinkPosition id="_15_0_L1_" index="135"/>
+                    </TargetPositionMaster>
+                    <TargetPosition>
+                      <LinkPosition id="_2_0_L1_" index="115"/>
+                    </TargetPosition>
+                    <FinalSpeed>
+                      <AbsoluteSpeed value="15" />
+                    </FinalSpeed>
+                  </SynchronizeAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Act1NPC_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <SimulationTimeCondition value="0" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+            <Event name="Change_To_Green_Event" priority="overwrite">
+              <Action name="Change_To_Green_Action">
+                <GlobalAction>
+                  <InfrastructureAction>
+                    <TrafficSignalAction>
+                      <TrafficSignalStateAction name="534" state="SG" impulse="false" setSibling="true"/>
+                    </TrafficSignalAction>
+                  </InfrastructureAction>
+                </GlobalAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Change_To_Green_Condition" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <StoryboardElementStateCondition storyboardElementType="event" storyboardElementRef="Sync_Event" state="runningState"/>
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

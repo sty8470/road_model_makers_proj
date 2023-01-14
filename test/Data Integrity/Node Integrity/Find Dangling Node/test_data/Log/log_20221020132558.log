@@ -1,0 +1,200 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221020132558.log
+		TRACE	2022-10-20 13:26:00	Called: load_mgeo
+TRACE	2022-10-20 13:26:00	Called: ask_save_current_data
+TRACE	2022-10-20 13:26:00	No MGeo data to save -> return
+TRACE	2022-10-20 13:26:00	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:27:15	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:27:15	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:27:15	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:27:15	Called: reset_start_point
+TRACE	2022-10-20 13:27:15	Called: reset_end_point
+TRACE	2022-10-20 13:27:15	Called: reset_stop_point
+TRACE	2022-10-20 13:27:15	Called: reset_start_point
+TRACE	2022-10-20 13:27:15	Called: reset_end_point
+TRACE	2022-10-20 13:27:15	Called: reset_stop_point
+INFO	2022-10-20 13:27:15	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:27:22	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:27:24	Called: reset_start_point
+TRACE	2022-10-20 13:27:24	Called: reset_end_point
+TRACE	2022-10-20 13:27:24	Called: reset_stop_point
+TRACE	2022-10-20 13:27:29	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:27:31	Called: reset_start_point
+TRACE	2022-10-20 13:27:31	Called: reset_end_point
+TRACE	2022-10-20 13:27:31	Called: reset_stop_point
+TRACE	2022-10-20 13:27:37	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:27:39	Called: reset_start_point
+TRACE	2022-10-20 13:27:39	Called: reset_end_point
+TRACE	2022-10-20 13:27:39	Called: reset_stop_point
+TRACE	2022-10-20 13:27:56	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:27:59	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:27:59	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:27:59	Successfully exported to: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:28:01	Called: load_mgeo
+TRACE	2022-10-20 13:28:01	Called: ask_save_current_data
+TRACE	2022-10-20 13:28:01	No MGeo data to save -> return
+TRACE	2022-10-20 13:28:01	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:28:04	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:28:04	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:28:04	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:28:04	Called: reset_start_point
+TRACE	2022-10-20 13:28:04	Called: reset_end_point
+TRACE	2022-10-20 13:28:04	Called: reset_stop_point
+TRACE	2022-10-20 13:28:04	Called: reset_start_point
+TRACE	2022-10-20 13:28:04	Called: reset_end_point
+TRACE	2022-10-20 13:28:04	Called: reset_stop_point
+INFO	2022-10-20 13:28:04	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:28:39	Called: load_mgeo
+TRACE	2022-10-20 13:28:39	Called: ask_save_current_data
+TRACE	2022-10-20 13:28:39	No MGeo data to save -> return
+TRACE	2022-10-20 13:28:39	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:28:41	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:28:41	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+WARNING	2022-10-20 13:28:41	Changes detail info {'Changed': ['node_set.json']}
+INFO	2022-10-20 13:28:42	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:28:42	Called: reset_start_point
+TRACE	2022-10-20 13:28:42	Called: reset_end_point
+TRACE	2022-10-20 13:28:42	Called: reset_stop_point
+TRACE	2022-10-20 13:28:42	Called: reset_start_point
+TRACE	2022-10-20 13:28:42	Called: reset_end_point
+TRACE	2022-10-20 13:28:42	Called: reset_stop_point
+INFO	2022-10-20 13:28:42	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:29:01	Called: reset_start_point
+TRACE	2022-10-20 13:29:01	Called: reset_end_point
+TRACE	2022-10-20 13:29:01	Called: reset_stop_point
+TRACE	2022-10-20 13:29:01	Called: reset_start_point
+TRACE	2022-10-20 13:29:01	Called: reset_end_point
+TRACE	2022-10-20 13:29:01	Called: reset_stop_point
+INFO	2022-10-20 13:29:01	[Edit item properties] type: NODE, id: Node1, point 
+		: [1.0, 1.0, 1.0] ¡æ [0.0, 0.0, 0.0]
+TRACE	2022-10-20 13:29:08	Called: reset_start_point
+TRACE	2022-10-20 13:29:08	Called: reset_end_point
+TRACE	2022-10-20 13:29:08	Called: reset_stop_point
+TRACE	2022-10-20 13:29:08	Called: reset_start_point
+TRACE	2022-10-20 13:29:08	Called: reset_end_point
+TRACE	2022-10-20 13:29:08	Called: reset_stop_point
+INFO	2022-10-20 13:29:08	[Edit item properties] type: NODE, id: Node2, point 
+		: [2.0, 2.0, 2.0] ¡æ [0.0, 1.0, 0.0]
+TRACE	2022-10-20 13:29:17	Called: reset_start_point
+TRACE	2022-10-20 13:29:17	Called: reset_end_point
+TRACE	2022-10-20 13:29:17	Called: reset_stop_point
+TRACE	2022-10-20 13:29:17	Called: reset_start_point
+TRACE	2022-10-20 13:29:17	Called: reset_end_point
+TRACE	2022-10-20 13:29:17	Called: reset_stop_point
+INFO	2022-10-20 13:29:17	[Edit item properties] type: NODE, id: Node2, point 
+		: [0.0, 1.0, 0.0] ¡æ [1.0, 0.0, 0.0]
+TRACE	2022-10-20 13:29:20	Called: load_mgeo
+TRACE	2022-10-20 13:29:20	Called: ask_save_current_data
+TRACE	2022-10-20 13:29:21	Save current MGeo data before load? -> Yes
+TRACE	2022-10-20 13:29:21	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:29:27	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:29:27	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:29:27	Successfully exported to: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:29:27	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:29:31	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:29:31	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:29:31	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:29:31	Called: reset_start_point
+TRACE	2022-10-20 13:29:31	Called: reset_end_point
+TRACE	2022-10-20 13:29:31	Called: reset_stop_point
+TRACE	2022-10-20 13:29:31	Called: reset_start_point
+TRACE	2022-10-20 13:29:31	Called: reset_end_point
+TRACE	2022-10-20 13:29:31	Called: reset_stop_point
+INFO	2022-10-20 13:29:31	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:29:33	Called: load_mgeo
+TRACE	2022-10-20 13:29:33	Called: ask_save_current_data
+TRACE	2022-10-20 13:29:33	No MGeo data to save -> return
+TRACE	2022-10-20 13:29:33	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:29:39	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:39	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:39	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:29:39	Called: reset_start_point
+TRACE	2022-10-20 13:29:39	Called: reset_end_point
+TRACE	2022-10-20 13:29:39	Called: reset_stop_point
+TRACE	2022-10-20 13:29:39	Called: reset_start_point
+TRACE	2022-10-20 13:29:39	Called: reset_end_point
+TRACE	2022-10-20 13:29:39	Called: reset_stop_point
+INFO	2022-10-20 13:29:39	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:29:44	Called: load_mgeo
+TRACE	2022-10-20 13:29:44	Called: ask_save_current_data
+TRACE	2022-10-20 13:29:44	No MGeo data to save -> return
+TRACE	2022-10-20 13:29:44	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:29:48	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:48	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:48	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:29:48	Called: reset_start_point
+TRACE	2022-10-20 13:29:48	Called: reset_end_point
+TRACE	2022-10-20 13:29:48	Called: reset_stop_point
+TRACE	2022-10-20 13:29:48	Called: reset_start_point
+TRACE	2022-10-20 13:29:48	Called: reset_end_point
+TRACE	2022-10-20 13:29:48	Called: reset_stop_point
+INFO	2022-10-20 13:29:48	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:29:50	Called: load_mgeo
+TRACE	2022-10-20 13:29:50	Called: ask_save_current_data
+TRACE	2022-10-20 13:29:50	No MGeo data to save -> return
+TRACE	2022-10-20 13:29:50	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:29:56	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:56	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:29:56	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:29:56	Called: reset_start_point
+TRACE	2022-10-20 13:29:56	Called: reset_end_point
+TRACE	2022-10-20 13:29:56	Called: reset_stop_point
+TRACE	2022-10-20 13:29:56	Called: reset_start_point
+TRACE	2022-10-20 13:29:56	Called: reset_end_point
+TRACE	2022-10-20 13:29:56	Called: reset_stop_point
+INFO	2022-10-20 13:29:56	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:32:34	Called: load_mgeo
+TRACE	2022-10-20 13:32:34	Called: ask_save_current_data
+TRACE	2022-10-20 13:32:34	No MGeo data to save -> return
+TRACE	2022-10-20 13:32:34	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:32:41	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:32:41	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+WARNING	2022-10-20 13:32:41	Changes detail info {'Changed': ['node_set.json']}
+INFO	2022-10-20 13:32:42	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:32:42	Called: reset_start_point
+TRACE	2022-10-20 13:32:42	Called: reset_end_point
+TRACE	2022-10-20 13:32:42	Called: reset_stop_point
+TRACE	2022-10-20 13:32:42	Called: reset_start_point
+TRACE	2022-10-20 13:32:42	Called: reset_end_point
+TRACE	2022-10-20 13:32:42	Called: reset_stop_point
+INFO	2022-10-20 13:32:42	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:33:20	Called: load_mgeo
+TRACE	2022-10-20 13:33:20	Called: ask_save_current_data
+TRACE	2022-10-20 13:33:24	Save current MGeo data before load? -> No
+TRACE	2022-10-20 13:33:24	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:33:28	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:33:28	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+WARNING	2022-10-20 13:33:28	Changes detail info {'Changed': ['node_set.json']}
+INFO	2022-10-20 13:33:29	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:33:29	Called: reset_start_point
+TRACE	2022-10-20 13:33:29	Called: reset_end_point
+TRACE	2022-10-20 13:33:29	Called: reset_stop_point
+TRACE	2022-10-20 13:33:29	Called: reset_start_point
+TRACE	2022-10-20 13:33:29	Called: reset_end_point
+TRACE	2022-10-20 13:33:29	Called: reset_stop_point
+INFO	2022-10-20 13:33:29	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:33:47	Called: load_mgeo
+TRACE	2022-10-20 13:33:47	Called: ask_save_current_data
+TRACE	2022-10-20 13:33:47	No MGeo data to save -> return
+TRACE	2022-10-20 13:33:47	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:34:31	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:34:31	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+WARNING	2022-10-20 13:34:31	Changes detail info {'Added': ['intersection_controller_data.json']}
+INFO	2022-10-20 13:34:32	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:34:32	Called: reset_start_point
+TRACE	2022-10-20 13:34:32	Called: reset_end_point
+TRACE	2022-10-20 13:34:32	Called: reset_stop_point
+TRACE	2022-10-20 13:34:32	Called: reset_start_point
+TRACE	2022-10-20 13:34:32	Called: reset_end_point
+TRACE	2022-10-20 13:34:32	Called: reset_stop_point
+INFO	2022-10-20 13:34:32	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:34:57	Called: delete_objects_out_of_xy_range
+TRACE	2022-10-20 13:35:00	Called: reset_start_point
+TRACE	2022-10-20 13:35:00	Called: reset_end_point
+TRACE	2022-10-20 13:35:00	Called: reset_stop_point
+TRACE	2022-10-20 13:35:10	Called: add_new_mgeo_item MGeoItem.NODE 
+TRACE	2022-10-20 13:35:10	Called: reset_start_point
+TRACE	2022-10-20 13:35:10	Called: reset_end_point
+TRACE	2022-10-20 13:35:10	Called: reset_stop_point
+INFO	2022-10-20 13:35:10	add MGeoItem.NODE point: id: ND000000, point: [-9.24319627e+00  1.00731096e+03 -6.53907126e-01] in Map: test_data
+TRACE	2022-10-20 13:35:13	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:35:20	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data

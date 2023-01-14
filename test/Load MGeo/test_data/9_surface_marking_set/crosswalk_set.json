@@ -1,0 +1,72 @@
+[
+  {
+    "idx": "CW000003",
+    "single_crosswalk_list": [
+      "B319BS010002"
+    ],
+    "ref_traffic_light_list": []
+  },
+  {
+    "idx": "CW000004",
+    "single_crosswalk_list": [
+      "B319BS010007"
+    ],
+    "ref_traffic_light_list": []
+  },
+  {
+    "idx": "CW000009",
+    "single_crosswalk_list": [
+      "B319BS010057",
+      "B319BS010056"
+    ],
+    "ref_traffic_light_list": []
+  },
+  {
+    "idx": "CW000014",
+    "single_crosswalk_list": [
+      "B319BS010028",
+      "B319BS010030",
+      "B319BS010029"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010011",
+      "C119BS010010"
+    ]
+  },
+  {
+    "idx": "CW000015",
+    "single_crosswalk_list": [
+      "B319BS010033",
+      "B319BS010032",
+      "B319BS010031"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010008",
+      "C119BS010009"
+    ]
+  },
+  {
+    "idx": "CW000016",
+    "single_crosswalk_list": [
+      "B319BS010013",
+      "B319BS010012",
+      "B319BS010011"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010003",
+      "C119BS010002"
+    ]
+  },
+  {
+    "idx": "CW000017",
+    "single_crosswalk_list": [
+      "B319BS010014",
+      "B319BS010015",
+      "B319BS010016"
+    ],
+    "ref_traffic_light_list": [
+      "C119BS010006",
+      "C119BS010004"
+    ]
+  }
+]

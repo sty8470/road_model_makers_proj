@@ -1,0 +1,31 @@
+{
+	"User": "TomTom",
+	"exclude_file_actions": ["mscenario"],
+	"exclude_file_submenu": [],
+	"import_actions": {
+		"42dot": 0,
+		"NGII_Shp_Ver1_Node_Link": 0,
+		"NGII_Shp_Ver1_Lane_Marking_Data": 0,
+		"NGII_Shp_Ver2": 0,
+		"NGII_Shp_Ver2_Lane_Marking_Data": 0,
+		"txt": 1,
+		"stryx_geojson": 0,
+		"naver_geojson": 0,
+		"roadrunner": 1,
+		"Stryx": 0,
+		"Naver": 0,
+		"DeepMap": 0,
+		"TomTom_avro": 1,
+		"TomTom_shp": 1,
+		"TomTom_geojson": 1,
+		"Civilmaps": 0,
+		"Mobiltech": 0,
+		"Kakaomobility": 0
+	},
+	"exclude_export_actions": ["sim_build_data"],
+	"exclude_menu": ["menuImport", "menuExport", "menuMap_Creation", "menuMisc", "menuLanelet2_Conversion", "menuOpenScenario"],
+	"program_name": "OpenDRIVE Converter for TomTom (v0.3)",
+	"program_key": "map_editor_for_tomtom",
+	"config_file_io": "config_file_io_default_TomTom.json",
+	"user_manual_url": "https://help-morai-sim.atlassian.net/wiki/external/1605818/ZWRhMzUxZWIxYjNkNGEwMTliMjNkMzI1ODliYWZlNGE?atlOrigin=eyJpIjoiMzk4OTdkZTJiY2ZjNDg4M2JjMTU0OGY3MDE5ZGM1NzIiLCJwIjoiYyJ9"
+}

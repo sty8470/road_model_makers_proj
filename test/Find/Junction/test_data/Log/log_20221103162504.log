@@ -1,0 +1,21 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221103162504.log
+		TRACE	2022-11-03 16:25:06	Called: load_mgeo
+TRACE	2022-11-03 16:25:06	Called: ask_save_current_data
+TRACE	2022-11-03 16:25:06	No MGeo data to save -> return
+TRACE	2022-11-03 16:25:06	init_load_path: E:\road_model_maker\test\Find\Traffic Light
+TRACE	2022-11-03 16:26:31	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:26:31	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:26:31	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:26:32	Called: reset_start_point
+TRACE	2022-11-03 16:26:32	Called: reset_end_point
+TRACE	2022-11-03 16:26:32	Called: reset_stop_point
+TRACE	2022-11-03 16:26:32	Called: reset_start_point
+TRACE	2022-11-03 16:26:32	Called: reset_end_point
+TRACE	2022-11-03 16:26:32	Called: reset_stop_point
+INFO	2022-11-03 16:26:32	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:29:37	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:29:40	Called: reset_start_point
+TRACE	2022-11-03 16:29:40	Called: reset_end_point
+TRACE	2022-11-03 16:29:40	Called: reset_stop_point
+TRACE	2022-11-03 16:29:46	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Stop Line Nodes
+TRACE	2022-11-03 16:30:10	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data

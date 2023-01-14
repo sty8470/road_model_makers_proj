@@ -1,0 +1,90 @@
+[
+  {
+    "idx": "OBJ_67",
+    "link_id_list": [],
+    "road_id": "",
+    "type": "2",
+    "sub_type": "224",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -673.6270751953125,
+      -19.5494441986084,
+      6.0
+    ],
+    "value": "40",
+    "country": "OpenDRIVE",
+    "z_offset": 0.0,
+    "height": 0.0,
+    "width": 0.0,
+    "type_def": "OpenDRIVE",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000025044782
+  },
+  {
+    "idx": "OBJ_68",
+    "link_id_list": [],
+    "road_id": "",
+    "type": "2",
+    "sub_type": "224",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      -649.397705078125,
+      15.720861434936523,
+      6.0
+    ],
+    "value": "40",
+    "country": "OpenDRIVE",
+    "z_offset": 0.0,
+    "height": 0.0,
+    "width": 0.0,
+    "type_def": "OpenDRIVE",
+    "ref_crosswalk_id": "",
+    "heading": 79.99999266378704
+  },
+  {
+    "idx": "OBJ_69",
+    "link_id_list": [],
+    "road_id": "",
+    "type": "2",
+    "sub_type": "224",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      688.4859008789064,
+      -19.162372589111328,
+      6.000000953674316
+    ],
+    "value": "40",
+    "country": "OpenDRIVE",
+    "z_offset": 9.5367431640625e-07,
+    "height": 0.0,
+    "width": 0.0,
+    "type_def": "OpenDRIVE",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000025044782
+  },
+  {
+    "idx": "OBJ_70",
+    "link_id_list": [],
+    "road_id": "",
+    "type": "2",
+    "sub_type": "224",
+    "dynamic": false,
+    "orientation": "+",
+    "point": [
+      688.7472534179689,
+      15.944863319396973,
+      6.0
+    ],
+    "value": "40",
+    "country": "OpenDRIVE",
+    "z_offset": 0.0,
+    "height": 0.0,
+    "width": 0.0,
+    "type_def": "OpenDRIVE",
+    "ref_crosswalk_id": "",
+    "heading": 79.99999266378704
+  }
+]

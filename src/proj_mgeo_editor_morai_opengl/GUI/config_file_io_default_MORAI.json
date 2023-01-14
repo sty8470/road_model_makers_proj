@@ -1,0 +1,72 @@
+{	
+	"file_path":[
+		{
+			"TXT_IMPORT": "../../data/hdmap/",
+			"TOMTOM_IMPORT": "../../data/hdmap/",
+			"42dot_MAP_IMPORT": "../../data/hdmap/",
+			"Stryx_MAP_IMPORT": "../../data/hdmap/",
+			"Naver_MAP_IMPORT": "../../data/hdmap/",
+			"SHP1_MAP_IMPORT": "../../data/hdmap/",
+			"SHP2_MAP_IMPORT": "../../data/hdmap/",
+			"DM_MAP_IMPORT": "../../data/hdmap/",
+			"CM_MAP_IMPORT": "../../data/hdmap/",
+			"OpenScenario_IMPORT": "../../data/mgeo/",
+			"MOBILTECH_MAP_IMPORT": "../../data/hdmap/",
+			"ROADRUNNER_GEOJSON_IMPORT": "../../data/hdmap/",
+			"OpenDRIVE_IMPORT": "../../data/hdmap/",
+			"Lanelet2_IMPORT": "../../data/hdmap/",
+			"RAD_R_IMPORT": "../../data/hdmap/",
+			"KAKAOMOBILITY_MAP_IMPORT": "../../data/hdmap/",
+			"MGEO_SAVE": "../../data/mgeo_data/",
+			"MGEO_LOAD": "../../data/mgeo_data/",
+			"MGEO_ADD": "../../data/mgeo_data/",
+			"EXPORT_ODR": "../../data/mgeo_data/",
+			"ODR_VIEWER": "../../",
+			"XODR": "../../",
+			"RUN_ESMINI": "../../",
+			"EXPORT_CSV": "../../data/mgeo_data/",
+			"EXPORT_OBJ": "../../data/mgeo_data/",
+			"EXPORT_GEOJSON": "../../data/mgeo_data/",
+			"MScenario_LOAD": "../../data/mscenario/",
+			"MScenario_SAVE": "../../data/mscenario/",
+			"EXPORT_OSM": "../../data/mgeo_data/",
+			"EXPORT_PATH_CSV": "../../data/mgeo_data",
+			"EXPORT_OICD": "../../data/mgeo_data",
+			"EXPORT_APOLLO": "../../data/mgeo_data",
+			"OpenScenario_SAVE": "../../data/openscenario",
+			"OpenScenario_NEW": "../../data/openscenario"
+		}
+	],
+	
+	"world_setting":[
+		{
+			"spheroid": "WGS84",
+			"latitude_of_orign" : "0.0",
+			"central_meridian": "0.0",
+			"scale_factor" : "1.0",
+			"false_easting" : "0",
+			"false_northing" : "0",
+
+			"world_orign_latitude" : "0",
+			"world_orign_longitude": "0"
+		}
+	],
+
+	"odr_import":[
+		{
+			"vertex_distance": "2.0",
+			"sidewalk_height" : "0.0",
+			"lanemarking_height" : "0.03",
+			"z_tolerance": "0.5",
+			"traffic_direction" : "right",
+			"generate_mesh" : "True",
+			"union_junction" : "True",
+			"clean_link" : "False"
+		}
+	],
+	
+	"open_scenario_setting": {
+		"ip": "localhost",
+		"port" : "7789"
+	}	
+}

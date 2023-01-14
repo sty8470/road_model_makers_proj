@@ -1,0 +1,170 @@
+[
+  {
+    "idx": "177",
+    "from_node_idx": "60S",
+    "to_node_idx": "22S",
+    "points": [
+      [
+        -5.401758193969727,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -4.901758193969727,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -4.401758193969727,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -3.9017581939697266,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -3.4017581939697266,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -2.9017581939697266,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -2.4017581939697266,
+        0.46586714684963226,
+        0.0
+      ],
+      [
+        -2.379664421081543,
+        0.46586714684963226,
+        0.0
+      ]
+    ],
+    "max_speed": 30,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": true,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": null,
+    "link_type_def": "morai",
+    "road_type": null,
+    "road_id": "",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [],
+    "lane_mark_right": [],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "179",
+    "from_node_idx": "12S",
+    "to_node_idx": "94E",
+    "points": [
+      [
+        -2.379664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -2.879664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -3.379664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -3.879664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -4.379664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -4.879664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -5.379664421081543,
+        0.8158755451440811,
+        0.0
+      ],
+      [
+        -5.401755332946777,
+        0.8158755451440811,
+        0.0
+      ]
+    ],
+    "max_speed": 30,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": true,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": null,
+    "link_type_def": "morai",
+    "road_type": null,
+    "road_id": "",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [],
+    "lane_mark_right": [],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  }
+]

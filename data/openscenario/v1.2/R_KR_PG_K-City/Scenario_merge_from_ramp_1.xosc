@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OpenScenario.xsd">
+  <FileHeader author="MORAI:scenario-module-team" date="2022-07-21T10:00:00" description="Scenario: Cut-in" revMajor="1" revMinor="2"/>
+  <ParameterDeclarations/>
+  <VariableDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2021_Hyundai_G80" vehicleCategory="car">
+        <ParameterDeclarations/>
+        <Properties/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2015_Kia_K5" vehicleCategory="car">
+        <ParameterDeclarations/>
+        <Properties/>
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2022-07-21T10:00:00"/>
+              <Weather atmosphericPressure="80000" fractionalCloudCover="zeroOktas" temperature="170">
+                <Sun azimuth="0.0" elevation="1.571" illuminance="1.0"/>
+                <Fog visualRange="100000.0"/>
+                <Precipitation precipitationIntensity="0.0" precipitationType="dry"/>
+                <Wind direction="0" speed="0"/>
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="dry"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="15.66"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="distance" dynamicsShape="step" followingMode="follow" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-90.0" p="0" r="0" x="200.77" y="1818" z="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="17.33"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="distance" dynamicsShape="step" followingMode="follow" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-75.0" p="0" r="0" x="192.4" y="1806.8719482421875" z="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="Ego"/>
+          </Actors>
+          <Maneuver name="Maneuver1">
+            <Event maximumExecutionCount="1" name="Event1" priority="overwrite">
+              <Action name="Ego_Speed_Down">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed range="0" type="custom" value="14"/>
+                      </SpeedActionTarget>
+                      <SpeedActionDynamics dynamicsDimension="rate" dynamicsShape="linear" followingMode="follow" value="0.5"/>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition conditionEdge="none" delay="0" name="StartCondition1">
+                    <ByValueCondition>
+                      <SimulationTimeCondition rule="greaterThan" value="1"/>
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+            <Event maximumExecutionCount="1" name="Event3" priority="overwrite">
+              <Action name="Ego_Speed_Up">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed range="0" type="custom" value="16.33"/>
+                      </SpeedActionTarget>
+                      <SpeedActionDynamics dynamicsDimension="rate" dynamicsShape="linear" followingMode="follow" value="2"/>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition conditionEdge="rising" delay="0.33" name="StartCondition4">
+                    <ByValueCondition>
+                      <StoryboardElementStateCondition state="runningState" storyboardElementRef="Npc_Lane_Change" storyboardElementType="action"/>
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence2">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1"/>
+          </Actors>
+          <Maneuver name="Maneuver2">
+            <Event maximumExecutionCount="1" name="Event2" priority="overwrite">
+              <Action name="Npc_Lane_Change">
+                <PrivateAction>
+                  <LateralAction>
+                    <LaneChangeAction targetLaneOffset="0">
+                      <LaneChangeActionDynamics dynamicsDimension="rate" dynamicsShape="linear" followingMode="follow" value="0.5"/>
+                      <LaneChangeTarget>
+                        <RelativeTargetLane entityRef="NPC_1" value="1"/>
+                      </LaneChangeTarget>
+                    </LaneChangeAction>
+                  </LateralAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition conditionEdge="once" delay="0" name="StartCondition2">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="all">
+                        <EntityRef entityRef="Ego"/>
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <AccelerationCondition rule="greaterThan" value="0.3"/>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                  <Condition conditionEdge="none" delay="2" name="StartCondition3">
+                    <ByValueCondition>
+                      <StoryboardElementStateCondition state="completeState" storyboardElementRef="Ego_Speed_Down" storyboardElementType="action"/>
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="1" name="Act1_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="0"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+  <Evaluation>
+    <SuccessConditionGroup>
+      <Condition conditionEdge="rising" delay="5" name="Event3_End_Condition">
+        <ByValueCondition>
+          <StoryboardElementStateCondition state="completeState" storyboardElementRef="Event3" storyboardElementType="event"/>
+        </ByValueCondition>
+      </Condition>
+    </SuccessConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="rising" delay="1.5" name="Ego_Collision_Condition">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="all">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <CollisionCondition>
+              <ByType type="vehicle"/>
+            </CollisionCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </FailureConditionGroup>
+  </Evaluation>
+</OpenSCENARIO>

@@ -1,0 +1,43 @@
+{	
+	"file_path":[
+		{
+			"TXT_IMPORT": "../../data/hdmap/",
+			"TOMTOM_IMPORT": "../../data/hdmap/",
+			"42dot_MAP_IMPORT": "../../data/hdmap/",
+			"Stryx_MAP_IMPORT": "../../data/hdmap/",
+			"Naver_MAP_IMPORT": "../../data/hdmap/",
+			"RAD_R_IMPORT": "../../data/hdmap/",
+			"ROADRUNNER_GEOJSON_IMPORT": "../../data/hdmap/",
+			"OpenScenario_IMPORT": "../../data/mgeo/",
+			"MGEO_SAVE": "../../../MgeoData/",
+			"MGEO_LOAD": "../../../MgeoData/",
+			"EXPORT_ODR": "../../../MgeoData/",
+			"RUN_ESMINI": "../../",
+			"ODR_VIEWER": "../../util",
+			"EXPORT_CSV": "../../../MgeoData/",
+			"EXPORT_OICD": "../../data/mgeo",
+			"EXPORT_GEOJSON": "../../../MgeoData/",
+			"MScenario_LOAD": "../../data/mscenario/",
+			"MScenario_SAVE": "../../data/mscenario/"
+		}
+	],
+	
+	"world_setting":[
+		{
+			"spheroid": "WGS84",
+			"latitude_of_orign" : "0.0",
+			"central_meridian": "0.0",
+			"scale_factor" : "1.0",
+			"false_easting" : "0",
+			"false_northing" : "0",
+
+			"world_orign_latitude" : "0",
+			"world_orign_longitude": "0"
+		}
+	],
+	
+	"open_scenario_setting": {
+		"ip": "localhost",
+		"port" : "7789"
+	}	
+}

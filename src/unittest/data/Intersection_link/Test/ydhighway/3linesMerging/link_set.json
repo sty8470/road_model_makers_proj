@@ -1,0 +1,316 @@
+[
+  {
+    "idx": "LANE_LINK.19339_3_4",
+    "from_node_idx": "LANE_LINK.19332_3_4E",
+    "to_node_idx": "LANE_LINK.19339_3_4E",
+    "points": [
+      [
+        -303.3194082251284,
+        159.58082380890846,
+        -2.7299999999999898
+      ],
+      [
+        -323.03217735909857,
+        163.8018079563044,
+        -2.809999999999988
+      ],
+      [
+        -331.23839053011034,
+        165.18788893986493,
+        -2.8299999999999983
+      ],
+      [
+        -336.67483213648666,
+        165.7516156118363,
+        -2.839999999999989
+      ],
+      [
+        -343.04982303327415,
+        166.20950655732304,
+        -2.8499999999999943
+      ],
+      [
+        -360.31721550325165,
+        166.74700224865228,
+        -2.9499999999999886
+      ]
+    ],
+    "max_speed": 30,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "NORMAL",
+    "link_type_def": "Hyundai AutoEver",
+    "road_type": "highway",
+    "road_id": "19339",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LANE_SIDE.19339_3"
+    ],
+    "lane_mark_right": [
+      "LANE_SIDE.19339_4"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "km/h",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "LANE_LINK.19340_1_2",
+    "from_node_idx": "LANE_LINK.19333_1_2E",
+    "to_node_idx": "LANE_LINK.19339_3_4E",
+    "points": [
+      [
+        -282.5425244427752,
+        176.7674108282663,
+        -2.4799999999999898
+      ],
+      [
+        -299.1342447978095,
+        180.49859347334132,
+        -2.6099999999999994
+      ],
+      [
+        -303.06430336798076,
+        181.21922952169552,
+        -2.6199999999999903
+      ],
+      [
+        -305.4037843659753,
+        181.32446099352092,
+        -2.6199999999999903
+      ],
+      [
+        -307.689440723625,
+        180.34961585933343,
+        -2.6499999999999915
+      ],
+      [
+        -317.9975754255429,
+        174.7454295246862,
+        -2.759999999999991
+      ],
+      [
+        -324.19219420530135,
+        171.65441512176767,
+        -2.809999999999988
+      ],
+      [
+        -329.31359570554923,
+        169.28335158340633,
+        -2.839999999999989
+      ],
+      [
+        -333.43224762543105,
+        167.81853393558413,
+        -2.839999999999989
+      ],
+      [
+        -336.72406043228693,
+        167.07825330737978,
+        -2.8499999999999943
+      ],
+      [
+        -341.73653236415703,
+        166.58584151789546,
+        -2.8599999999999994
+      ],
+      [
+        -348.2943249270902,
+        166.49218886019662,
+        -2.8799999999999955
+      ],
+      [
+        -360.31721550325165,
+        166.74700224865228,
+        -2.9499999999999886
+      ]
+    ],
+    "max_speed": 30,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "NORMAL",
+    "link_type_def": "Hyundai AutoEver",
+    "road_type": "highway",
+    "road_id": "19340",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LANE_SIDE.19340_1"
+    ],
+    "lane_mark_right": [
+      "LANE_SIDE.19340_2"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "km/h",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "LANE_LINK.19341_1_2",
+    "from_node_idx": "LANE_LINK.19334_1_2E",
+    "to_node_idx": "LANE_LINK.19339_3_4E",
+    "points": [
+      [
+        -270.6796124740504,
+        193.07177393184975,
+        -2.3900000000000006
+      ],
+      [
+        -273.43277395528276,
+        193.4621756770648,
+        -2.3599999999999994
+      ],
+      [
+        -277.0843868504744,
+        193.25269395811483,
+        -2.3699999999999903
+      ],
+      [
+        -280.74633015773725,
+        192.4884535013698,
+        -2.3999999999999915
+      ],
+      [
+        -285.3353822118952,
+        190.90904978243634,
+        -2.4199999999999875
+      ],
+      [
+        -293.1119852500269,
+        187.56999647477642,
+        -2.4799999999999898
+      ],
+      [
+        -303.23270989838056,
+        182.7639012793079,
+        -2.589999999999989
+      ],
+      [
+        -317.94657684181584,
+        174.83697178214788,
+        -2.7299999999999898
+      ],
+      [
+        -325.1622702010209,
+        171.17919255793095,
+        -2.789999999999992
+      ],
+      [
+        -329.6356150105712,
+        169.1968576083891,
+        -2.809999999999988
+      ],
+      [
+        -333.43109944311436,
+        167.8801739681512,
+        -2.8299999999999983
+      ],
+      [
+        -337.51478068577126,
+        166.96965970564634,
+        -2.8499999999999943
+      ],
+      [
+        -340.6501530818641,
+        166.6889271675609,
+        -2.8499999999999943
+      ],
+      [
+        -349.8952368834289,
+        166.552843070589,
+        -2.8699999999999903
+      ],
+      [
+        -360.31721550325165,
+        166.74700224865228,
+        -2.9499999999999886
+      ]
+    ],
+    "max_speed": 30,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "NORMAL",
+    "link_type_def": "Hyundai AutoEver",
+    "road_type": "highway",
+    "road_id": "19341",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LANE_SIDE.19341_1"
+    ],
+    "lane_mark_right": [
+      "LANE_SIDE.19341_2"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "km/h",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  }
+]

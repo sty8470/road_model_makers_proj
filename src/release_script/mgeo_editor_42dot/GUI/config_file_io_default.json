@@ -1,0 +1,6 @@
+{
+    "42dot_MAP_IMPORT": "../data/42dot_hdmap/",
+    "MGEO_SAVE": "../data/mgeo/",
+    "MGEO_LOAD": "../data/mgeo/",
+    "EXPORT_ODR": "../data"
+}

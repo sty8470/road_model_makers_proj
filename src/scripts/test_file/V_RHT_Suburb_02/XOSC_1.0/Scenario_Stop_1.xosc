@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="0" date="2021-09-02T10:00:00" description="Scenario 1" author="ASAM e.V."/>
+  <ParameterDeclarations/>
+  <CatalogLocations>
+    <VehicleCatalog>
+      <Directory path="Catalogs/Vehicles"/>
+    </VehicleCatalog>
+  </CatalogLocations>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="V_RHT_Suburb_02" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <CatalogReference catalogName="VehicleCatalog" entryName="2014_Kia_K7"/>
+    </ScenarioObject>
+    <ScenarioObject name="1">
+      <CatalogReference catalogName="VehicleCatalog" entryName="2015_Kia_K5"/>
+    </ScenarioObject>  
+	<ScenarioObject name="2">
+	  <MiscObject mass="0" miscObjectCategory="none" name="MiscObject1">
+		<BoundingBox/>
+		<Properties/>
+	  </MiscObject>
+	</ScenarioObject>  
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" cruiseMode="on" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="474.190078915309" y="202.4999999994631" z="0.1" h="180" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="8"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="455.84065025314254" y="202.5000000006042" z="0.1" h="180" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+		<Private entityRef="2">          
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="198.99920365397395" y="202.49999999978215" z="0.0" h="0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>   
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="1" />
+          </Actors>
+          <Maneuver name="Maneuver1">
+            <Event name="Event1" priority="overwrite">
+              <Action name="Action1">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionDynamics dynamicsShape="linear" value="50" dynamicsDimension="distance" />
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed value="0" />
+                      </SpeedActionTarget>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="StartCondition1" delay="0" conditionEdge="rising">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="1" />
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition value="50.0" freespace="false" rule="lessThan">
+                          <Position>
+                            <RelativeObjectPosition entityRef="2" dx="0" dy="0" />
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="" delay="0" conditionEdge="rising">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+</OpenSCENARIO>

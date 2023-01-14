@@ -1,0 +1,35 @@
+9개 종류: Shp + Dbf
+
+PolyLine
+PolyLine
+PolyLine
+PolyLine
+PolyLine
+Polygon  : RoadMark
+PolyLine
+Point    : Traffic Sign
+PolyLine : Traffic Light
+
+1 ROAD_NODE         3_PART참조            : 
+2 ROAD_LINK                             : 
+3 LANE_LINK         1_LANE_LINK_ATTR 참조 : 차로의 중심선
+4 LANE_SIDE         2_LANE_SIDE_ATTR 참조 : 도로에 그려진 차선 및 도로 표면 경계
+
+(Localization model)
+5 ROAD_EDGE                             : 도로 경계 
+6 ROAD_MARK                             : 노면 마킹
+7 ROAD_SIGN                             : 도로 표지판
+8 TRAFFIC_SIGN                          : 속도 표지판
+9 TRAFFIC_LIGHT                         : 신호등
+
+3개 종류: DBF + 
+DBF 폴더 내 위치
+
+LANE_LINK_ATTR    (LANE_LINK의 속성 정보)        DBF
+LANE_SIDE_ATTR    (LANE_SIDE의 속성 정보)        DBF
+PART              (ROAD_NODE의 PART 속성 정보)   DBF
+
+1개가 더 있는데(?)
+LANE_LINK_INOUT
+
+----------

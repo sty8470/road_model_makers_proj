@@ -1,0 +1,137 @@
+[
+  {
+    "idx": "L02",
+    "from_node_idx": "N02",
+    "to_node_idx": "N03",
+    "points": [
+      [
+        0.0,
+        100.0,
+        0.0
+      ],
+      [
+        0.0,
+        120.0,
+        0.0
+      ],
+      [
+        0.0,
+        140.0,
+        0.0
+      ],
+      [
+        0.0,
+        150.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": "L12",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "R0",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L12",
+    "from_node_idx": "N12",
+    "to_node_idx": "N13",
+    "points": [
+      [
+        5.0,
+        100.0,
+        0.0
+      ],
+      [
+        5.0,
+        120.0,
+        0.0
+      ],
+      [
+        5.0,
+        140.0,
+        0.0
+      ],
+      [
+        5.0,
+        150.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L02",
+    "right_lane_change_dst_link_idx": "L22",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "R0",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  },
+  {
+    "idx": "L22",
+    "from_node_idx": "N22",
+    "to_node_idx": "N23",
+    "points": [
+      [
+        10.0,
+        100.0,
+        0.0
+      ],
+      [
+        10.0,
+        120.0,
+        0.0
+      ],
+      [
+        10.0,
+        140.0,
+        0.0
+      ],
+      [
+        10.0,
+        150.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "left_lane_change_dst_link_idx": "L12",
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "road_id": "R0",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "width": 3.5,
+    "offset": 1.75
+  }
+]

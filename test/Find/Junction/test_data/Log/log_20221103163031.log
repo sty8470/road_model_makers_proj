@@ -1,0 +1,352 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221103163031.log
+		TRACE	2022-11-03 16:30:35	Called: load_mgeo
+TRACE	2022-11-03 16:30:35	Called: ask_save_current_data
+TRACE	2022-11-03 16:30:35	No MGeo data to save -> return
+TRACE	2022-11-03 16:30:35	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-11-03 16:31:23	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:31:23	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:31:23	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+INFO	2022-11-03 16:31:23	E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:31:23	Called: reset_start_point
+TRACE	2022-11-03 16:31:23	Called: reset_end_point
+TRACE	2022-11-03 16:31:23	Called: reset_stop_point
+TRACE	2022-11-03 16:31:23	Called: reset_start_point
+TRACE	2022-11-03 16:31:23	Called: reset_end_point
+TRACE	2022-11-03 16:31:23	Called: reset_stop_point
+INFO	2022-11-03 16:31:23	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:31:23	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+TRACE	2022-11-03 16:31:34	Called: load_mgeo
+TRACE	2022-11-03 16:31:34	Called: ask_save_current_data
+TRACE	2022-11-03 16:31:34	No MGeo data to save -> return
+TRACE	2022-11-03 16:31:34	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:31:36	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_code
+INFO	2022-11-03 16:31:36	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_code
+ERROR	2022-11-03 16:31:36	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 952, in create_instance_from_json
+		    global_info, node_set, link_set, junction_set = MGeo.load_node_and_link(folder_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 478, in load_node_and_link
+		    with open(filename, 'r') as f:
+		FileNotFoundError: [Errno 2] No such file or directory: 'E:/road_model_maker/test/Find/Junction/test_code\\node_set.json'
+		
+INFO	2022-11-03 16:31:36	E:/road_model_maker/test/Find/Junction/test_code
+TRACE	2022-11-03 16:31:36	Called: reset_start_point
+TRACE	2022-11-03 16:31:36	Called: reset_end_point
+TRACE	2022-11-03 16:31:36	Called: reset_stop_point
+TRACE	2022-11-03 16:31:36	Called: reset_start_point
+TRACE	2022-11-03 16:31:36	Called: reset_end_point
+TRACE	2022-11-03 16:31:36	Called: reset_stop_point
+INFO	2022-11-03 16:31:36	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_code
+ERROR	2022-11-03 16:31:36	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 952, in create_instance_from_json
+		    global_info, node_set, link_set, junction_set = MGeo.load_node_and_link(folder_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 478, in load_node_and_link
+		    with open(filename, 'r') as f:
+		FileNotFoundError: [Errno 2] No such file or directory: 'E:/road_model_maker/test/Find/Junction/test_code\\node_set.json'
+		
+TRACE	2022-11-03 16:31:38	Called: load_mgeo
+TRACE	2022-11-03 16:31:38	Called: ask_save_current_data
+TRACE	2022-11-03 16:31:38	No MGeo data to save -> return
+TRACE	2022-11-03 16:31:38	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:31:40	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:31:40	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:31:40	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+INFO	2022-11-03 16:31:40	E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:31:40	Called: reset_start_point
+TRACE	2022-11-03 16:31:40	Called: reset_end_point
+TRACE	2022-11-03 16:31:40	Called: reset_stop_point
+TRACE	2022-11-03 16:31:40	Called: reset_start_point
+TRACE	2022-11-03 16:31:40	Called: reset_end_point
+TRACE	2022-11-03 16:31:40	Called: reset_stop_point
+INFO	2022-11-03 16:31:40	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:31:40	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+TRACE	2022-11-03 16:31:42	Called: load_mgeo
+TRACE	2022-11-03 16:31:42	Called: ask_save_current_data
+TRACE	2022-11-03 16:31:42	No MGeo data to save -> return
+TRACE	2022-11-03 16:31:42	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:32:04	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:32:04	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:32:04	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:32:05	Called: reset_start_point
+TRACE	2022-11-03 16:32:05	Called: reset_end_point
+TRACE	2022-11-03 16:32:05	Called: reset_stop_point
+TRACE	2022-11-03 16:32:05	Called: reset_start_point
+TRACE	2022-11-03 16:32:05	Called: reset_end_point
+TRACE	2022-11-03 16:32:05	Called: reset_stop_point
+INFO	2022-11-03 16:32:05	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:32:17	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:32:19	Called: reset_start_point
+TRACE	2022-11-03 16:32:19	Called: reset_end_point
+TRACE	2022-11-03 16:32:19	Called: reset_stop_point
+TRACE	2022-11-03 16:32:24	init_save_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:32:28	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:32:28	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:32:28	Successfully exported to: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:32:30	Called: load_mgeo
+TRACE	2022-11-03 16:32:30	Called: ask_save_current_data
+TRACE	2022-11-03 16:32:33	Save current MGeo data before load? -> No
+TRACE	2022-11-03 16:32:33	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-11-03 16:32:47	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:32:47	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:32:47	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+INFO	2022-11-03 16:32:48	E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:32:48	Called: reset_start_point
+TRACE	2022-11-03 16:32:48	Called: reset_end_point
+TRACE	2022-11-03 16:32:48	Called: reset_stop_point
+TRACE	2022-11-03 16:32:48	Called: reset_start_point
+TRACE	2022-11-03 16:32:48	Called: reset_end_point
+TRACE	2022-11-03 16:32:48	Called: reset_stop_point
+INFO	2022-11-03 16:32:48	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:32:48	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+TRACE	2022-11-03 16:32:55	Called: load_mgeo
+TRACE	2022-11-03 16:32:55	Called: ask_save_current_data
+TRACE	2022-11-03 16:32:55	No MGeo data to save -> return
+TRACE	2022-11-03 16:32:55	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:33:08	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:33:08	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:33:08	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:33:09	Called: reset_start_point
+TRACE	2022-11-03 16:33:09	Called: reset_end_point
+TRACE	2022-11-03 16:33:09	Called: reset_stop_point
+TRACE	2022-11-03 16:33:09	Called: reset_start_point
+TRACE	2022-11-03 16:33:09	Called: reset_end_point
+TRACE	2022-11-03 16:33:09	Called: reset_stop_point
+INFO	2022-11-03 16:33:09	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:33:18	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:33:20	Called: reset_start_point
+TRACE	2022-11-03 16:33:20	Called: reset_end_point
+TRACE	2022-11-03 16:33:20	Called: reset_stop_point
+TRACE	2022-11-03 16:33:27	init_save_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:33:31	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:33:31	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:33:31	Successfully exported to: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:33:33	Called: load_mgeo
+TRACE	2022-11-03 16:33:33	Called: ask_save_current_data
+TRACE	2022-11-03 16:33:34	Save current MGeo data before load? -> Yes
+TRACE	2022-11-03 16:33:34	init_save_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:33:37	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:33:37	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:33:37	Successfully exported to: E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:33:37	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-11-03 16:33:53	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:33:53	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:33:53	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+INFO	2022-11-03 16:33:53	E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:33:53	Called: reset_start_point
+TRACE	2022-11-03 16:33:53	Called: reset_end_point
+TRACE	2022-11-03 16:33:53	Called: reset_stop_point
+TRACE	2022-11-03 16:33:53	Called: reset_start_point
+TRACE	2022-11-03 16:33:53	Called: reset_end_point
+TRACE	2022-11-03 16:33:53	Called: reset_stop_point
+INFO	2022-11-03 16:33:53	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:33:53	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+TRACE	2022-11-03 16:34:06	Called: load_mgeo
+TRACE	2022-11-03 16:34:06	Called: ask_save_current_data
+TRACE	2022-11-03 16:34:06	No MGeo data to save -> return
+TRACE	2022-11-03 16:34:06	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:34:08	load MGeo data from: E:/road_model_maker/test/Find/Junction/test_data
+INFO	2022-11-03 16:34:08	MGeo data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:34:09	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+INFO	2022-11-03 16:34:09	E:/road_model_maker/test/Find/Junction/test_data
+TRACE	2022-11-03 16:34:09	Called: reset_start_point
+TRACE	2022-11-03 16:34:09	Called: reset_end_point
+TRACE	2022-11-03 16:34:09	Called: reset_stop_point
+TRACE	2022-11-03 16:34:09	Called: reset_start_point
+TRACE	2022-11-03 16:34:09	Called: reset_end_point
+TRACE	2022-11-03 16:34:09	Called: reset_stop_point
+INFO	2022-11-03 16:34:09	Data successfully loaded from: E:/road_model_maker/test/Find/Junction/test_data
+ERROR	2022-11-03 16:34:09	load_mgeo failed (traceback is down below) 
+		Traceback (most recent call last):
+		  File "e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\GUI\pyqt5_file_io_funcs.py", line 83, in run
+		    self.mgeo_planner_map = MGeo.create_instance_from_json(self.input_path)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 977, in create_instance_from_json
+		    cw_set = MGeo.load_crosswalk(folder_path, scw_set, light_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 830, in load_crosswalk
+		    return MGeo.load_crosswalk_data(saved_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\mgeo.py", line 845, in load_crosswalk_data
+		    cw = Crosswalk.from_dict(each_info, scw_set, tl_set)
+		  File "e:\road_model_maker\src\lib\mgeo\class_defs\crosswalk.py", line 88, in from_dict
+		    single_crosswalk_list.append(scw_set.data[scw_id])
+		KeyError: 'B319BS010002'
+		
+TRACE	2022-11-03 16:34:10	Called: load_mgeo
+TRACE	2022-11-03 16:34:10	Called: ask_save_current_data
+TRACE	2022-11-03 16:34:10	No MGeo data to save -> return
+TRACE	2022-11-03 16:34:10	init_load_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:34:37	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:34:37	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:34:37	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:34:37	Called: reset_start_point
+TRACE	2022-11-03 16:34:37	Called: reset_end_point
+TRACE	2022-11-03 16:34:37	Called: reset_stop_point
+TRACE	2022-11-03 16:34:37	Called: reset_start_point
+TRACE	2022-11-03 16:34:37	Called: reset_end_point
+TRACE	2022-11-03 16:34:37	Called: reset_stop_point
+INFO	2022-11-03 16:34:37	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:35:00	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:35:01	Called: reset_start_point
+TRACE	2022-11-03 16:35:01	Called: reset_end_point
+TRACE	2022-11-03 16:35:01	Called: reset_stop_point
+TRACE	2022-11-03 16:36:11	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:36:12	Called: reset_start_point
+TRACE	2022-11-03 16:36:12	Called: reset_end_point
+TRACE	2022-11-03 16:36:12	Called: reset_stop_point
+TRACE	2022-11-03 16:36:32	Called: load_mgeo
+TRACE	2022-11-03 16:36:32	Called: ask_save_current_data
+TRACE	2022-11-03 16:36:33	Save current MGeo data before load? -> No
+TRACE	2022-11-03 16:36:33	init_load_path: E:\road_model_maker\data\mgeo_data\ngii_shp2_kcity-katri
+TRACE	2022-11-03 16:36:36	load MGeo data from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:36:36	MGeo data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+INFO	2022-11-03 16:36:36	E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:36:36	Called: reset_start_point
+TRACE	2022-11-03 16:36:36	Called: reset_end_point
+TRACE	2022-11-03 16:36:36	Called: reset_stop_point
+TRACE	2022-11-03 16:36:36	Called: reset_start_point
+TRACE	2022-11-03 16:36:36	Called: reset_end_point
+TRACE	2022-11-03 16:36:36	Called: reset_stop_point
+INFO	2022-11-03 16:36:36	Data successfully loaded from: E:/road_model_maker/data/mgeo_data/ngii_shp2_kcity-katri/mgeo_220809_sim_kcity
+TRACE	2022-11-03 16:36:48	Called: delete_objects_out_of_xy_range
+TRACE	2022-11-03 16:36:50	Called: reset_start_point
+TRACE	2022-11-03 16:36:50	Called: reset_end_point
+TRACE	2022-11-03 16:36:50	Called: reset_stop_point
+TRACE	2022-11-03 16:37:11	init_save_path: E:\road_model_maker\test\Find\Junction
+ERROR	2022-11-03 16:37:12	invalid save_path (your input: )
+TRACE	2022-11-03 16:37:23	Called: delete_item
+INFO	2022-11-03 16:37:23	JUNCTION (id: 1000063) deleted.
+TRACE	2022-11-03 16:37:23	Called: reset_start_point
+TRACE	2022-11-03 16:37:23	Called: reset_end_point
+TRACE	2022-11-03 16:37:23	Called: reset_stop_point
+TRACE	2022-11-03 16:37:26	Called: delete_item
+INFO	2022-11-03 16:37:26	JUNCTION (id: 1000059) deleted.
+TRACE	2022-11-03 16:37:26	Called: reset_start_point
+TRACE	2022-11-03 16:37:26	Called: reset_end_point
+TRACE	2022-11-03 16:37:26	Called: reset_stop_point
+TRACE	2022-11-03 16:37:35	Called: delete_item
+INFO	2022-11-03 16:37:35	JUNCTION (id: 1000071) deleted.
+TRACE	2022-11-03 16:37:35	Called: reset_start_point
+TRACE	2022-11-03 16:37:35	Called: reset_end_point
+TRACE	2022-11-03 16:37:35	Called: reset_stop_point
+TRACE	2022-11-03 16:37:39	init_save_path: E:\road_model_maker\test\Find\Junction
+TRACE	2022-11-03 16:37:41	save MGeo data into: E:/road_model_maker/test/Find/Junction/test_data

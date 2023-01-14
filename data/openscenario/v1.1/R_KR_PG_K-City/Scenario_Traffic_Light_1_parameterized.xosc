@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="1" date="2021-1-28T10:00:00" description="Scenario 1" author="ASAM e.V." />
+  <ParameterDeclarations>
+    <ParameterDeclaration name="Genesis" parameterType="string" value="2016_Hyundai_Genesis_DH" />
+    <ParameterDeclaration name="Ioniq" parameterType="string" value="2016_Hyundai_Ioniq" />
+    <ParameterDeclaration name="StopPoint_name" parameterType="string" value="certain_stop_point" />
+    <ParameterDeclaration name="StopPoint_mass" parameterType="double" value="0.1" />
+    <ParameterDeclaration name="Teleport_time" parameterType="double" value="0.0" />
+    <ParameterDeclaration name="Scenario_link" parameterType="string" value="A219BS010436" />
+    <ParameterDeclaration name="Ego_init_speed" parameterType="double" value="13.88888889" />
+    <ParameterDeclaration name="Ego_init_link_index" parameterType="integer" value="300" />
+    <ParameterDeclaration name="NPC_init_link_index" parameterType="integer" value="350" />
+    <ParameterDeclaration name="stop_point_x" parameterType="double" value="130.41817111805415" />
+    <ParameterDeclaration name="stop_point_y" parameterType="double" value="1644.0541558934724" />
+    <ParameterDeclaration name="stop_point_z" parameterType="double" value="0.0" />
+    <ParameterDeclaration name="stop_point_h" parameterType="double" value="0.0" />
+    <ParameterDeclaration name="stop_point_p" parameterType="double" value="0.0" />
+    <ParameterDeclaration name="stop_point_r" parameterType="double" value="0.0" />
+    <ParameterDeclaration name="max_execution" parameterType="integer" value="100" />
+    <ParameterDeclaration name="FALSE" parameterType="boolean" value="false" />
+  </ParameterDeclarations>
+  <CatalogLocations />
+  <RoadNetwork>
+    <LogicFile filepath="MGeo" />
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="$Genesis" vehicleCategory="car">
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="$Ioniq" vehicleCategory="car">
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="Stop_Point">
+      <MiscObject mass="$StopPoint_mass" miscObjectCategory="none" name="$StopPoint_name">
+        <Properties />
+      </MiscObject>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="$Teleport_time" dynamicsDimension="time" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="$Ego_init_speed" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="$Scenario_link" index="$Ego_init_link_index" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="$Teleport_time" dynamicsDimension="time" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="$Ego_init_speed" />
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="$Scenario_link" index="$NPC_init_link_index" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="Stop_Point">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="$stop_point_x" y="$stop_point_y" z="$stop_point_z"
+                               h="$stop_point_h" p="$stop_point_p" r="$stop_point_r" />
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations>
+        <ParameterDeclaration name="max_execution" parameterType="integer" value="1" />
+        <ParameterDeclaration name="distance_condition_value" parameterType="double" value="5.0" />
+        <ParameterDeclaration name="distance_condition_target" parameterType="string" value="Stop_Point" />
+        <ParameterDeclaration name="distance_condition_delay" parameterType="double" value="0.0" />
+        <ParameterDeclaration name="distance_condition_freespace" parameterType="boolean" value="$FALSE" />
+        <ParameterDeclaration name="SimTime_condision_value" parameterType="double" value="0.2" />
+      </ParameterDeclarations>
+      <Act name="MyAct">
+        <ManeuverGroup maximumExecutionCount="$max_execution" name="Control_NPC_Vehicle_ManeuverGroup">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1" />
+          </Actors>
+          <Maneuver name="Stop_Maneuver">
+            <ParameterDeclarations>
+              <ParameterDeclaration name="Target_speed" parameterType="double" value="0.0" />
+              <ParameterDeclaration name="Target_speed_time" parameterType="double" value="6.0" />
+            </ParameterDeclarations>
+            <Event name="Arriving_intersection_Event" priority="overwrite">
+              <Action name="Stop_Action">
+                <PrivateAction>
+                  <LongitudinalAction>
+                    <SpeedAction>
+                      <SpeedActionDynamics dynamicsShape="linear" value="$Target_speed_time" dynamicsDimension="time" />
+                      <SpeedActionTarget>
+                        <AbsoluteTargetSpeed value="$Target_speed" />
+                      </SpeedActionTarget>
+                    </SpeedAction>
+                  </LongitudinalAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Distance_to_Stop_Point" delay="$distance_condition_delay" conditionEdge="rising">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="NPC_1" />
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition value="$distance_condition_value" freespace="$distance_condition_freespace" rule="lessThan">
+                          <Position>
+                            <RelativeObjectPosition entityRef="$distance_condition_target" dx="0" dy="0" />
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <ManeuverGroup maximumExecutionCount="$max_execution" name="Control_Traffic_Light_ManeuverGroup">
+          <Actors selectTriggeringEntities="false" />
+          <Maneuver name="TL_Control_Maneuver">
+            <ParameterDeclarations>
+              <ParameterDeclaration name="Traffic_Light_ID" parameterType="string" value="C119BS010034" />
+              <ParameterDeclaration name="Traffic_Light_target_state" parameterType="string" value="LG" />
+            </ParameterDeclarations>
+            <Event name="Arriving_intersection_Event" priority="overwrite">
+              <Action name="Change_To_LeftGreen_Action">
+                <GlobalAction>
+                  <InfrastructureAction>
+                    <TrafficSignalAction>
+                      <TrafficSignalStateAction name="$Traffic_Light_ID" state="$Traffic_Light_target_state" impulse="false" setSibling="false"/>
+                    </TrafficSignalAction>
+                  </InfrastructureAction>
+                </GlobalAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="Distance_to_Stop_Point" delay="$distance_condition_delay" conditionEdge="rising">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="NPC_1" />
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition value="$distance_condition_value" freespace="$distance_condition_freespace" rule="lessThan">
+                          <Position>
+                            <RelativeObjectPosition entityRef="$distance_condition_target" dx="0" dy="0" />
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="MyAct_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="$SimTime_condision_value" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

@@ -1,0 +1,46 @@
+[
+  {
+    "idx": "ND00001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10.0,
+      0.0,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND00000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      10.0,
+      1.0,
+      0.0
+    ],
+    "on_stop_line": false
+  }
+]

@@ -1,0 +1,195 @@
+shp 파일 구조
+
+----------------------------
+1.  File Header (100 Byte)
+
+2.  Record Header (8 Byte)
+    Record Contents (가변 Byte)
+
+    (그리고 2가 반복됨)
+
+    Record Header (8 Byte)
+    Record Contents (가변 Byte)
+
+    Record Header (8 Byte)
+    Record Contents (가변 Byte)
+
+------------------------
+
+1.  File Header (100 Byte)
+  - 세부 구조는 pdf 파일 참조 (소스 코드 보고 만들기)
+  - 가장 중요한 값: SHP Type (Shpelib의 shapefil.h 참고, SHPT_NULL, ... 매크로 상수들)
+  - 한 파일에 하나의 SHP Type만을 수용하는 구조
+    -> Point 타입은 Point 끼리 묶어서 한 파일에 있고,
+       Line 타입은 Line 끼리 묶어서 한 파일에 있는 형태가 됨
+
+2.1 Record Header (8 Byte)
+  -
+  -
+
+2.2 Record Contents (가변 Byte)
+
+
+SHPObject 구조체
+
+ShpaeFile을 이해하기 위해서, 우리는 Box를 이해할 필요가 있다. (MBR, Minimum Bounding Rectangle)
+  - MBR은 Bounding Box라고도 하며, envelope라고도 한다.
+  - 2개의 point로 구성된다.
+    - point #1 : min(x), min(y)
+    - point #2 : max(x), max(y)
+  - 따라서, 각각을 double로 사용할 경우, 8byte인 값이 4개 필요하므로, 32byte가 된다.
+
+
+1. 파일 읽기
+1.1 shp, shx 파일 읽기
+  - Shpopen.c 에 정의되어 있고, 3가지 함수가 있음
+    - 방법1: SHPHandle SHPOpen( const char * pszLayer, const char * pszAccess )
+      - 내부적으로 default SAHooks를 만들고 SHPOpenLL을 호출함. SHPOpenLL을 참조할 것
+    - 방법2: SHPHandle SHPOpenLL( const char * pszLayer, const char * pszAccess, SAHooks *psHooks )
+      -
+    - 방법3: SHPHandle SHPOpenLLEx( const char * pszLayer, const char * pszAccess, SAHooks *psHooks, int bRestoreSHX )
+  - 기본 인자
+    - const char* pszLayer
+      - 접근하려는 레이어 이름. shp 또는 .shx 파일의 이름. // 또는 shp, shx 쌍의 path와 basefile name
+    - const char* pszAccess
+      - fopen() style의 access string. "rb" 또는 "rb+"를 사용해야 함. rb: read-only binary, rb+: read/write binary
+  - 사용 방법
+    - 이 함수는 SHPHandle을 반환 → 이 핸들을 다른 access 함수에 사용해야 함.
+    - SHPClose가 호출되어야 하고 (resources를 recover 하기 위해, 그리고 변경점을 flush 하기 위해)
+  - SHPOpenLL 함수의 상세한 내부 동작 이해
+    - pabyBuf라는 변수를 계속 쓰는데 일종의 임시 버퍼이다. 계속 여기에 파일을 읽고 여기서 데이터를 다시 꺼내온다.
+    - 일단 얘는 여러가지 일을 한다.
+      - 그 중에서 파일 이름을 자르는 부분이 있다. 리팩토링 필요하면 할 수 있는 부분
+        이 부분은 전달된 파일 이름에 확장자가 붙어있으면 이를 없애주고, 이 basename (pszBasename)에다가 .shp 와 .shx를 붙여 파일을 연다.
+      - shp파일의 포인터는 psSHP->fpSHP에 저장
+      - shx파일의 포인터는 psSHP->fpSHX에 저장
+      - SHP파일 (fpSHP)를 읽기 시작
+        - 100바이트(헤더)를 읽는다.
+          - 24번째 Byte부터 BigEndian으로 FileSize 저장되어 있음. (이 값은 byte단위가 아닌, 16bit word 단위라 2를 곱해주어 계산)
+            psSHP->nFileSize에 FileSize 저장
+      - SHX파일 (fpSHX)를 읽기 시작
+        - 100바이트(헤더)를 읽는다. (읽어서 이를 pabyBuf에 저장해둔다)
+          - 초반 4byte의 값이 맞는지 체크한다
+          - nRecord 값을 읽는다. psSHP->nRecords에 Records 수 저장
+            - SHX파일은 헤더 100바이트 + record의 정보들 (record 수 * 8 바이트)가 담겨있다.
+              왜 8byte 냐면, record 하나당 정보가 다음과 같기 때문 >> offset (.shp 파일에서의 offset), content lengh (.shp 파일에서의 길이)
+            - SHX파일 헤더에 쓰인 SHX파일의 길이는 16-bit word이므로,
+              - 바이트단위 길이 = 2 * (헤더에 쓰인 값)
+              - record 수 = (바이트단위 길이 - 100) / 8 해주면 된다.
+          - psSHP->nShapeType에 이 파일의 ShapeType 저장
+          - nRecord가 너무 크면 파일 사이즈가 맞는지 체크한다 (TODO(sglee): 중요도 낮음, 이해하기)
+          - bound값을 읽는다.
+            psSHP->adBoundsMin[0,1,2,3] : Xmin, Ymin, Zmin, Mmin
+            psSHP->adBoundsMin[0,1,2,3] : Xmax, Ymax, Zmax, Mmax
+        - shx 파일에서 shp의 각 record의 offset을 계산한다.
+          - psSHP->nMaxRecord  = nRecord로 일단 저장
+          - psSHP->panRecOffset에 메모리 할당
+            psSHP->panRecSize에 메모리 할당
+          - pabyBuf에 nRecord 수 * 8 만큼 메모리 할당 (이와 관련하여 bLasySXHLoading이 True이면 다르게 처리한다.)
+            그럴경우, 일단 return하고 다른 곳에서 처리하는 것 같다.
+          - shx 파일에서 8바이트 * nRecord 만큼 읽는다. (Record Header가 8바이트이고, nRecord개만큼 있으므로)
+          - rb모드면 SHX파일 닫기 (더 할일 없음)
+          - panRecOffset[i] 와 panRecSize[i]에 각 record의 offset과 length를 저장한다.
+            원래 값이 16bit word에 대해 정의된 값이라, 2를 곱해서 바이트 단위로 만들어준다.
+        - [CHECK]이상한점! rb로 열지 않은 경우에는 psSHP->sHooks.FClose( psSHP->fpSHX ); 를 호출하지 않는 것인가?
+        - [CHECK]이상하점! 마찬가지로 psSHP->sHooks.FClose( psSHP->fpSHP );를 왜 호출하지 않는 것?
+      - nRecords 계산 방식
+        - shapefile.pdf p28에 보면, the file length stored in the index file header is the total length of the index file in 16bit words
+          the fifty 16-bit words of the header plus 4 times the number of records라고 되어있음
+        - shapefile.pdf p8에 보면, the value for the file length is the total length of the file in 16-bit words
+          including the fifty 16-bit words that make up the header라고 표현
+          다시 말해, 이 파일 크기를 16bit word로 나타내었을 때, 그 때 파일 크기이다. 이 떄 파일 크기는 100byte인 헤더를 포함한 크기이다.
+
+1.2 dbf파일 읽기
+  - dbfopen.c에 정의되어 있고, 3가지 함수가 있음
+----------
+  좀 더 봐야할 함수
+  shpopen.c/GetSHPInfo
+
+
+
+
+
+----------
+test_lane.shp 파일 수동으로 분석
+  - 헤더 (0x64 = 100byte만큼 읽어본다.)
+    - type (32byte 위치부터 = 0x20부터 4바이트를 읽어보면, little endian임)
+      [0xD, 0, 0, 0] -> 0xD = 13 -> polylineZ이다.
+  -100byte가 끝난 다음 부터,
+    - 8byte header + record data 구조가 반복됨
+    - (1) offset: 0x64부터,
+      - 0x[00 00 00 01] : record number = 1
+      - 0x[00 00 00 98] : content length = 152 (16bit-word) = 152 * 2 (byte)
+      - 다음 위치 : 0x64(현재 위치) + 8 + 152 * 2 = 412 = 0x19C부터임
+    - (2) offset: 0x19C부터
+      - 0x[00 00 00 02] : record number = 2
+      - 0x[00 00 01 68] : content length = 360 (16bit-word) = 360 * 2 (byte)
+      - 다음 위치 :  0x19C(현재 위치) + 8 + 360 * 2 = 1140 = 0x474
+    - (3) offset: 0x474부터
+      - 0x[00 00 00 03] : record number = 3
+      - 0x[00 00 02 38] : content length = 568 (16bit-word) = 568 * 2 (byte)
+      - 다음 위치 : 0x474 + 8 + 568 * 2 = 2284 = 0x8EC
+    - (4) offset: 0x8EC부터
+      - 0x[00 00 00 04] : record number = 4
+      ...
+  - 우리는 여기서 content는 어떻게 구성되어있나 생각해보아야 함
+    - 방금 읽은 것은 polylineZ
+      typedef struct {
+        double[4] Box;
+        int32 numParts;
+        int32 numPoints;
+        int32[numParts] parts;
+        point[numPoints] points;
+        double[2] z_range;
+        double[numPoints] z_array;
+        double[2] m_range;
+        double[numPoints] m_array;
+      } polylineZ;
+    - 앞에서 content1을 한번 읽어보자.
+      - 일단 총 읽어야할 길이는  = 0x6C 위치부터해서 0x98 * 2 byte만큼이니까
+        0x19C 직전까지이다. (위에서 설명한 부분임)
+      - 0x6C에서부터 총 32byte (8 byte * 4)는 double
+      - shapeType                   // 0x6C에서 004byte 0x[0D 00 00 00] -> 0x[00 00 00 0D] = 13
+      - typedef struct {
+          double[4] Box;            // 0x70에서  8*4 = 32byte
+          int32 numParts;           // 0x90에서         4byte 0x[01 00 00 00] -> 0x[00 00 00 01] = 1
+          int32 numPoints;          // 0x94에서         4byte 0x[07 00 00 00] -> 0x[00 00 00 07] = 7
+          int32[numParts] parts;    // 0x98에서  1*4 =  4byte 0x[00 00 00 00] -> 0x[00 00 00 00] = 0
+          point[numPoints] points;
+          double[2] z_range;
+          double[numPoints] z_array;
+          double[2] m_range;
+          double[numPoints] m_array;
+        } polylineZ;
+  - 각 클래스의 구현에서, 이렇게 동적으로 바뀌는 클래스에 대해서는
+    메모리 할당을 파일을 읽어들일 때 하고, 소멸자를 반드시 호출해야 한다.
+  - 클래스의 공통적인 부분이 무엇일지는 나중에 클래스 하나를 구현하고 테스트까지 작성한 다음 생각하자.
+  - 그런데 이러한 함수로 SHPReadObject 가 있는데 무엇인지 살펴보자
+    -
+
+    ...
+
+  - 지금 고민인 것
+    - 처음에는 이렇게 생각했다.
+    - ShaepReader
+      - BaseRecord* 에 대한 벡터를 모아놓는다.
+      - BaseRecord를 상속한 Record들이 실제로는 벡터에 연결된다.
+
+    - 사용자는 Reader에서 해
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------

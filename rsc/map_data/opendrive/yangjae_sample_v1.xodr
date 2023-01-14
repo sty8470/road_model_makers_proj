@@ -1,0 +1,1371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="6" name="yangje_sample" version="1" date="2020-07-07T13:16:46" north="0.0000000000000000e+00" south="0.0000000000000000e+00" east="0.0000000000000000e+00" west="0.0000000000000000e+00" vendor="MORAI"/>
+    <road name="Road5199" length="4.3147953225659805e+01" id="5199" junction="-1" rule="RHT">
+        <link>
+			<predecessor elementType="junction" elementId="1" contactPoint="start"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="5.0567670682701282e+02" y="1.0889366207877174e+02" hdg="1.7476756128937210e+00" length="4.3147953225659805e+01">
+                <poly3 a="-9.8607613152626476e-32" b="6.1753456651005053e-17" c="-2.8624049130692321e-18" d="6.6339297674193701e-20"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-2.3595152460038653e+00" b="9.2211731352057624e-02" c="-1.7394771793969349e-03" d="-1.8430927311027073e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road38199" length="1.1016228088001080e+01" id="38199" junction="1" rule="RHT">
+        <link>
+			<predecessor elementType="road" elementId="16499" contactPoint="start"/>
+			<successor elementType="road" elementId="5199" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="5.1341842219815589e+02" y="1.0266793694999069e+02" hdg="-2.9965174237408658e+00" length="1.1016228088001080e+01">
+                <poly3 a="2.1660344139721488e-01" b="-6.0743272739454579e-01" c="2.3007119916219931e-01" d="-4.2134065589070117e-02"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-2.4721795961150286e+00" b="1.1132766026461620e-02" c="2.6451269699063716e-03" d="-2.7665859493309855e-04"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road16499" length="1.5093459179189512e+02" id="16499" junction="-1" rule="RHT">
+        <link>
+			<successor elementType="junction" elementId="1" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="6.6395396446762607e+02" y="1.1822911597019993e+02" hdg="-2.9788701899931240e+00" length="9.4567830446945038e+01">
+                <poly3 a="-1.3318204770579626e-05" b="-1.4391972497617551e-02" c="4.1626479302174475e-04" d="-2.3827752454151518e-06"/>
+            </geometry>
+            <geometry s="9.4567830446945038e+01" x="5.7069374149676878e+02" y="1.0256210900680162e+02" hdg="-2.9668459704297074e+00" length="3.5790683460456520e+01">
+                <poly3 a="-3.0357660829594124e-18" b="5.8133193283869074e-06" c="-3.2480014257721930e-05" d="1.6240836550908250e-06"/>
+            </geometry>
+            <geometry s="1.3035851390740157e+02" x="5.3545390990364831e+02" y="9.6307036215905100e+01" hdg="-2.9647760644930434e+00" length="2.0576077884493532e+01">
+                <poly3 a="6.9388939039072284e-18" b="4.8145061615553529e-03" c="-6.5011172445145356e-04" d="1.7022724420836757e-05"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-6.3407664503950905e+00" b="2.2298932627051165e-02" c="-1.7476240028205042e-04" d="1.8279798015607773e-06"/>
+            <elevation s="9.4567830446945038e+01" a="-4.2508470555767390e+00" b="1.0627243924142893e-01" c="-5.7295491703667437e-03" d="1.0419849572666319e-04"/>
+            <elevation s="1.3035851390740157e+02" a="-3.0095055596902931e+00" b="2.6373976643909627e-02" c="1.3859115504224009e-03" d="-4.2916067289972158e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="9.4567830446945038e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="1.3035851390740157e+02" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road37999" length="1.4728455491634517e+01" id="37999" junction="1" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="16499" contactPoint="start"/>
+			<successor elementType="road" elementId="5299" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="5.1519377532741055e+02" y="9.2715230042813346e+01" hdg="-2.9656678153863689e+00" length="1.4728455491634517e+01">
+                <poly3 a="4.8518047218726323e-18" b="-1.7232498365948815e-03" c="2.4755438512356974e-04" d="-2.0501235881296520e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-2.2539317691698675e+00" b="3.1095622938935256e-02" c="-1.6268037905625582e-04" d="1.5333365416321002e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road5299" length="2.0672355268232224e+01" id="5299" junction="-1" rule="RHT">
+        <link>
+			<predecessor elementType="junction" elementId="1"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="5.0069649504241534e+02" y="9.0116045406553894e+01" hdg="-2.9616241040535281e+00" length="2.0672355268232224e+01">
+                <poly3 a="8.2399365108898337e-18" b="-6.8413330169130450e-05" c="1.5177189810272411e-04" d="-1.7457274852999856e-05"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-1.7822415363043556e+00" b="3.1553403354085699e-02" c="5.6951406178930883e-04" d="-8.0839265159051728e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road37899" length="3.9165960816590783e+01" id="37899" junction="-1" rule="RHT">
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <link>
+			<successor elementType="junction" elementId="1"/>
+		</link>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="4.9535977818968240e+02" y="1.4988762132893316e+02" hdg="-1.3963234245662124e+00" length="3.9165960816590783e+01">
+                <poly3 a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-2.5742203500121827e+00" b="7.6421070992634260e-03" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road38299" length="1.2944556814490751e+01" id="38299" junction="1" rule="RHT">
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <link>
+			<predecessor elementType="road" elementId="37899" contactPoint="start"/>
+			<successor elementType="road" elementId="5299" contactPoint="end"/>
+		</link>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="5.0215856075729243e+02" y="1.1131627130997367e+02" hdg="-1.3948815553760099e+00" length="1.2944556814490751e+01">
+                <poly3 a="7.4501278286386002e-02" b="-5.7042632751897315e-01" c="1.8743457116525092e-01" d="-1.6636223076594427e-02"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-2.2834399769825851e+00" b="-1.5904886611238834e-02" c="4.3505922205737471e-03" d="-1.0915235180798842e-04"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>	
+    <road name="Road7099" length="8.8533744487195904e+01" id="7099" junction="-1" rule="RHT">
+        <link>
+			<predecessor elementType="road" elementId="5299" contactPoint="start"/> 
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="4.7940233673958573e+02" y="9.3307452645851299e+01" hdg="-2.9799065070695807e+00" length="8.8533744487195904e+01">
+                <poly3 a="1.4076400158041869e-01" b="-7.2353784285626888e-02" c="1.3901038332961636e-03" d="-7.2960653125919268e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-1.0803712466635262e+00" b="4.2538842633224321e-02" c="3.7160498334928784e-04" d="-2.0979637365497187e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road38399" length="3.8976128973232164e+02" id="38399" junction="-1" rule="RHT">
+        <link>
+			<predecessor elementType="road" elementId="5299" contactPoint="start"/> 
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="4.8034208971261978e+02" y="8.6505087054800242e+01" hdg="-2.9657592249816278e+00" length="1.8377836184499498e+02">
+                <poly3 a="-3.0404686723136676e-02" b="4.3039824955880372e-03" c="-1.4762619868964475e-04" d="4.7956588092482258e-07"/>
+            </geometry>
+            <geometry s="1.8377836184499498e+02" x="2.9917785826697946e+02" y="5.5631909454474226e+01" hdg="-2.9690014692788806e+00" length="1.5228866877839141e+02">
+                <poly3 a="2.4092250660202069e-02" b="-9.2602397316190431e-03" c="1.4531634727116488e-04" d="-7.1644049822178603e-07"/>
+            </geometry>
+            <geometry s="3.3606703062338636e+02" x="1.4907288158580195e+02" y="2.9956734370905906e+01" hdg="-2.9752509697509812e+00" length="5.3694259108935299e+01">
+                <poly3 a="-2.8664561547143905e-03" b="9.5556994188168232e-04" c="5.1676302632451039e-05" d="-6.7160011537140081e-07"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="-9.1504424319318034e-01" b="6.9124343594912263e-02" c="-1.0867585257180131e-03" d="3.7986136976831270e-06"/>
+            <elevation s="1.8377836184499498e+02" a="-1.4736633679690077e+00" b="-3.4560074786231215e-02" c="8.4773285173291371e-04" d="-3.2537515076723540e-06"/>
+            <elevation s="3.3606703062338636e+02" a="1.3011048423389082e+00" b="-1.2488432486951319e-02" c="5.4081878037033312e-05" d="-5.3104671799144818e-07"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="1.8377836184499498e+02" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="3.3606703062338636e+02" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road38999" length="3.1413561089735730e+01" id="38999" junction="12" rule="RHT">
+        <link>
+			<predecessor elementType="road" elementId="7299" contactPoint="start"/>
+			<successor elementType="junction" elementId="10"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.7023698409332428e+02" y="7.0557375887408853e+01" hdg="-2.8078323090729160e+00" length="8.7631269755375563e+00">
+                <poly3 a="-5.8614679949997583e-19" b="2.3505929526613174e-08" c="-4.9879324144246981e-05" d="1.1265237503182060e-05"/>
+            </geometry>
+            <geometry s="8.7631269755375563e+00" x="3.6195866174250841e+02" y="6.7683048299746588e+01" hdg="-2.8120610741509418e+00" length="1.1307337668582891e+01">
+                <poly3 a="-2.3254815291190827e-03" b="2.3181905200171830e-02" c="-4.7646180798328781e-03" d="-1.2484126864639355e-05"/>
+            </geometry>
+            <geometry s="2.0070464644120449e+01" x="3.5115591110149398e+02" y="6.4362936880672351e+01" hdg="-2.8676387604236040e+00" length="1.1343096445615283e+01">
+                <poly3 a="3.2959746043559335e-17" b="4.8794371782708505e-02" c="-1.3956192113707942e-02" d="8.9772714504155024e-04"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.3939999984577298e+00" b="5.9386922671964673e-02" c="-6.2945825821967474e-03" d="4.0859563318631148e-04"/>
+            <elevation s="8.7631269755375563e+00" a="5.7060093574828583e+00" b="2.8522711167152784e-02" c="-2.7864236096077132e-04" d="-2.3869623724006235e-05"/>
+            <elevation s="2.0070464644120449e+01" a="5.9582649795338467e+00" b="2.0236482659755511e-02" c="-1.3470036383924646e-03" d="5.5175823696332556e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+						<link>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+						<link>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+						<link>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="8.7631269755375563e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+						<link>
+							<predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+						<link>
+							<predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+						<link>
+							<predecessor id="-3"/>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="2.0070464644120449e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+						<link>
+							<predecessor id="-1"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+						<link>
+							<predecessor id="-2"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+						<link>
+							<predecessor id="-3"/>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road41599" length="8.9857375114099099e+01" id="41599" junction="-1" rule="RHT">
+        <link/>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="9.6135448708548211e+01" y="2.0973679230548441e+01" hdg="-2.9733614567463471e+00" length="8.9857375114099099e+01">
+                <poly3 a="3.3746666153927907e-02" b="-2.0830994384292253e-02" c="4.1379380646183777e-04" d="-4.4566519447013435e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="7.0307027820734636e-01" b="-1.0578896609533756e-02" c="7.0223336407904431e-05" d="-4.0321783767019467e-07"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road8999" length="8.4000008752265487e+01" id="8999" junction="-1" rule="RHT">
+        <link>
+			<successor elementType="junction" elementId="12"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.8706510782556143e+02" y="1.0316423897724599e+02" hdg="1.9347073193945630e+00" length="8.4000008752265487e+01">
+                <poly3 a="-2.5918467396676609e-02" b="9.1661853435946860e-03" c="-4.2210253507268044e-04" d="2.9876485431314256e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="6.8448453619935492e+00" b="3.7402665296112136e-02" c="1.9626706848711672e-04" d="-3.1554612518390359e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road5899" length="7.0824379201181586e+01" id="5899" junction="-1" rule="RHT">
+        <link/>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.5465396721276920e+02" y="1.7869537830865011e+02" hdg="-1.1915884046925826e+00" length="7.0824379201181586e+01">
+                <poly3 a="5.4328196119457717e-02" b="-1.1972391867609782e-02" c="-6.8010963213101716e-04" d="7.1720824965304420e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="9.4851776366433391e+00" b="-4.9582486985245665e-03" c="-5.9719449966930767e-04" d="3.2285945657895596e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-6" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40299" length="3.1881914476278659e+01" id="40299" junction="-1" rule="RHT">
+        <link>
+			<successor elementType="junction" elementId="10"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.7928362869541161e+02" y="1.1229539129720069e+02" hdg="-1.2087917486279505e+00" length="3.1881914476278659e+01">
+                <poly3 a="4.1690547935432747e-04" b="8.7352797267294710e-04" c="-1.2608705546517937e-04" d="2.3762396321422469e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="7.2862542519204050e+00" b="-4.0237939205396013e-02" c="-2.4225840857598719e-04" d="1.2410361196920963e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-6" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road38799" length="2.1137851094958929e+01" id="38799" junction="12" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="junction" elementId="10"/>
+			<successor elementType="road" elementId="8999" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.9459897572197951e+02" y="8.3414568800013512e+01" hdg="1.9357369971299907e+00" length="2.1137851094958929e+01">
+                <poly3 a="3.3610267347050637e-18" b="1.0694907286257483e-03" c="-1.3174763453199090e-04" d="2.6944072361412533e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="6.2309999996796188e+00" b="1.9341791875900561e-02" c="5.6360366883441957e-04" d="-3.9969488842462059e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40399" length="1.1321717534648357e+01" id="40399" junction="-1" rule="RHT">
+        <link>
+			<predecessor elementType="junction" elementId="10"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.1636470779473893e+02" y="2.9164520303253084e+01" hdg="-9.8589478321373092e-01" length="1.1321717534648357e+01">
+                <poly3 a="2.0474783566523519e-03" b="-2.6250178908572782e-02" c="7.9050766199003589e-03" d="-3.2350568676652941e-04"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.8038430045969784e+00" b="3.0505170505298372e-03" c="-3.7970546262027156e-04" d="3.7315932678045823e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40599" length="3.8536149383007704e+01" id="40599" junction="-1" rule="RHT">
+        <link>
+			<successor elementType="junction" elementId="10"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.4441950412397273e+02" y="-1.4381713315378875e+00" hdg="2.2552899380035325e+00" length="1.3126338802074896e+01">
+                <poly3 a="1.7347234759768071e-17" b="-4.7459732522742593e-04" c="6.0497471645350686e-04" d="-1.2125923820123846e-04"/>
+            </geometry>
+            <geometry s="1.3126338802074896e+01" x="3.3625752808456309e+02" y="8.8413834252860397e+00" hdg="2.2359564824552347e+00" length="2.5409810580932810e+01">
+                <poly3 a="5.8371107656505217e-03" b="-5.4963835241026420e-03" c="-1.1193566513722486e-03" d="2.7740406340262735e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.8919999990612206e+00" b="2.7084565163708163e-01" c="-8.6135383148059103e-02" d="5.0045298653388359e-03"/>
+            <elevation s="1.3126338802074896e+01" a="5.9261018851813496e+00" b="-2.5923094355977741e-03" c="3.9670510171277342e-04" d="-1.6178132577620774e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-6" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-7" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="1.3126338802074896e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-6" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-7" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40999" length="5.9342111944410689e+01" id="40999" junction="10" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="40299" contactPoint="start"/>
+			<successor elementType="road" elementId="40399" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.9054893927625380e+02" y="8.2470215369015932e+01" hdg="-1.2083084946442277e+00" length="5.9342111944410689e+01">
+                <poly3 a="9.4620711617559028e-03" b="-6.2124725460608946e-03" c="1.1225481855082541e-03" d="8.3716628609092570e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="6.1232276120023972e+00" b="-7.1304567144654125e-03" c="3.7491702437566505e-05" d="-1.8571016862747077e-07"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road41099" length="6.0415103907101951e+01" id="41099" junction="10" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="40599" contactPoint="start"/>
+			<successor elementType="junction" elementId="12"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.2121838505368214e+02" y="2.9319066226482391e+01" hdg="2.1466494935330194e+00" length="6.0415103907101951e+01">
+                <poly3 a="3.3840722849269200e-02" b="4.7700862300530111e-04" c="-2.3048655029191149e-03" d="4.9414942289503869e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.8559678722803437e+00" b="6.1769742673207792e-03" c="1.5215841691254482e-06" d="-1.3374866251561509e-08"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-5" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road41199" length="4.9750513517397650e+01" id="41199" junction="10" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="38999" contactPoint="start"/>
+			<successor elementType="road" elementId="40399" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.4025640835298691e+02" y="6.1229521168628708e+01" hdg="-2.8640927185960856e+00" length="4.9750513517397650e+01">
+                <poly3 a="-1.4580213979815899e+00" b="6.1504793415874293e-01" c="-4.8224947516808024e-02" d="1.3047195912342768e-03"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="6.0954854807001739e+00" b="-6.2195622462751995e-03" c="-3.4038108079143713e-05" d="-5.4501649009074262e-08"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road41699" length="2.3467044060533141e+01" id="41699" junction="-1" rule="RHT">
+        <link/>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="1.1784094401902985e+02" y="3.2024377220077440e+01" hdg="-2.9561251687762180e+00" length="2.3467044060533141e+01">
+                <poly3 a="1.7909235884968067e-03" b="3.9539946878506954e-03" c="-1.7715067840693660e-03" d="3.9338513411132301e-05"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="8.1643159582269131e-01" b="-1.1861770273657859e-02" c="-6.6084584568297067e-04" d="2.4342541864491856e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road7499" length="1.2140746718679766e+02" id="7499" junction="-1" rule="RHT">
+		<link>
+			<predecessor elementType="junction" elementId="11"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.3737921180587728e+02" y="5.3155282327439636e+01" hdg="-2.9634291933374093e+00" length="1.2140746718679766e+02">
+                <poly3 a="-1.6930750614158718e-02" b="6.6899352772105004e-03" c="-5.2160603776789350e-04" d="3.6332203945243641e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="3.6347836359021510e+00" b="-3.3356626554635699e-02" c="1.0316878725821142e-04" d="-1.6269719155841255e-07"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40899" length="3.5729866633841418e+01" id="40899" junction="11" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="5899" contactPoint="start"/>
+			<successor elementType="road" elementId="7499" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.6295833342731930e+02" y="7.8380397549597546e+01" hdg="-1.9641285728787685e+00" length="2.0053773834211995e+01">
+                <poly3 a="1.4888360659955691e-02" b="-4.6002525925836896e-03" c="-7.3260599950582400e-03" d="-3.4788645300223820e-04"/>
+            </geometry>
+            <geometry s="2.0053773834211995e+01" x="2.5089939918916207e+02" y="6.2738667071796954e+01" hdg="-2.6255608112278468e+00" length="1.5676092799629425e+01">
+                <poly3 a="-4.7223420444711950e-03" b="-1.9638597037816147e-02" c="1.9812695932318703e-02" d="-1.4953070946295559e-03"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.4125570231027984e+00" b="-5.6895120717557313e-02" c="-1.3589716722312302e-04" d="6.8718325766445612e-06"/>
+            <elevation s="2.0053773834211995e+01" a="4.2867101674831911e+00" b="-4.8395602025979062e-02" c="-7.3877238827201258e-04" d="5.3034947522773249e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="2.0053773834211995e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road40099" length="1.4802717230241100e+01" id="40099" junction="11" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="7799" contactPoint="start"/>
+			<successor elementType="road" elementId="7499" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.5205386427813210e+02" y="5.5096872382564470e+01" hdg="-3.0135900566557794e+00" length="1.4802717230241100e+01">
+                <poly3 a="6.0715321659188248e-18" b="2.0294101942589004e-04" c="-4.9071199092761385e-04" d="4.8391909123010378e-05"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="4.2212412757799012e+00" b="-3.6650816979175377e-01" c="5.6361905716697469e-02" d="-2.3073310388120804e-03"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road7799" length="2.1390506275415472e+01" id="7799" junction="-1" rule="RHT">
+		<link>
+			<predecessor elementType="junction" elementId="10"/>
+			<successor elementType="junction" elementId="11"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="2.7334556950558908e+02" y="5.7142756545450538e+01" hdg="-3.0465402487913460e+00" length="2.1390506275415472e+01">
+                <poly3 a="-8.1303544465729377e-04" b="7.0401075914506301e-03" c="-1.5047977364657165e-03" d="5.5895563956658824e-05"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.0350345791556519e+00" b="-2.8354252873205109e-02" c="-1.2108439848881537e-03" d="3.5633320634093971e-05"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road41299" length="5.8153527922319547e+01" id="41299" junction="10" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="40599" contactPoint="start"/>
+			<successor elementType="road" elementId="7799" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.2278678430151194e+02" y="3.2408376335864887e+01" hdg="2.1651086930192500e+00" length="5.8153527922319547e+01">
+                <poly3 a="-1.1065572422885888e+00" b="1.4126980322400812e-01" c="3.7978421919478145e-04" d="1.7472998161784169e-04"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.8122275581953939e+00" b="-2.7766769570328847e-02" c="7.4118546696684692e-04" d="-9.0185588788442662e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road39099" length="8.4253547521087839e+01" id="39099" junction="12" rule="RHT">
+        <userData>
+			<connectingLane/>
+		</userData>
+		<link>
+			<predecessor elementType="road" elementId="7299" contactPoint="start"/>
+			<successor elementType="road" elementId="8999" contactPoint="end"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.6812241384736262e+02" y="7.6268385660136119e+01" hdg="-2.9664330008321222e+00" length="3.1682471198466210e+01">
+                <poly3 a="4.1683447092702441e-01" b="-4.1746797625195886e-01" c="2.7039668076544163e-02" d="-6.0101041283193153e-04"/>
+            </geometry>
+            <geometry s="3.1682471198466210e+01" x="3.3672824264143128e+02" y="7.5202698406996205e+01" hdg="2.9124440572662889e+00" length="2.2068113161508762e+01">
+                <poly3 a="1.6457301835927196e-02" b="-3.9446908141697601e-03" c="-6.6975966285825941e-03" d="-5.8797562258574958e-05"/>
+            </geometry>
+            <geometry s="5.3750584359974972e+01" x="3.1654653506737668e+02" y="8.3823363182367757e+01" hdg="2.5081350204464621e+00" length="3.0502963161112866e+01">
+                <poly3 a="-2.1730263278138451e-01" b="1.5988367177980845e-01" c="-1.5908582973152740e-02" d="6.6554571954624917e-06"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="5.2841581741012336e+00" b="2.6096658924464434e-02" c="5.8211784513564847e-04" d="-2.5218705314594359e-05"/>
+            <elevation s="3.1682471198466210e+01" a="5.9008349752014428e+00" b="6.1921368900018248e-03" c="9.3924677657665429e-06" d="-2.1329188821237437e-07"/>
+            <elevation s="5.3750584359974972e+01" a="6.0401571371831508e+00" b="1.9503477449820852e-02" c="1.2431863259963530e-04" d="-2.0896566039343170e-06"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="3.1682471198466210e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+            <laneSection s="5.3750584359974972e+01" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-4" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road7299" length="8.0944802961681095e+00" id="7299" junction="-1" rule="RHT">
+        <link>
+			<successor elementType="junction" elementId="12"/>
+		</link>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.7693965034210123e+02" y="7.5612979736411944e+01" hdg="-2.8890707071482038e+00" length="8.0944802961681095e+00">
+                <poly3 a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="4.9154427731409642e+00" b="4.9855853203602446e-02" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="Road39399" length="1.5533637527875541e+01" id="39399" junction="-1" rule="RHT">
+        <link/>
+        <type s="0.0000000000000000e+00" type="town" country="KR"/>
+        <planView>
+            <geometry s="0.0000000000000000e+00" x="3.9198064480617177e+02" y="7.9494007999543101e+01" hdg="-2.8890707102859223e+00" length="1.5533637527875541e+01">
+                <poly3 a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0.0000000000000000e+00" a="4.1409999998286366e+00" b="4.9855854555803235e-02" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0.0000000000000000e+00" singleSide="true">
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <width sOffset="0.0000000000000000e+00" a="3.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+	<junction name="JC1" id="1" type="default">
+		<connection id="11" incomingRoad="16499" connectingRoad="38199" contactPoint="start">
+			<laneLink from="-4" to="-1"/>
+		</connection>
+		<connection id="12" incomingRoad="16499" connectingRoad="37999" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-2" to="-2"/>
+			<laneLink from="-3" to="-3"/>
+			<laneLink from="-4" to="-4"/>
+		</connection>
+		<connection id="13" incomingRoad="37899" connectingRoad="38299" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+		</connection>
+	</junction>
+	<junction name="JC10" id="10" type="default">
+		<connection id="101" incomingRoad="40299" connectingRoad="40999" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-3" to="-2"/>
+			<laneLink from="-4" to="-3"/>
+			<laneLink from="-5" to="-4"/>
+			<laneLink from="-6" to="-5"/>
+		</connection>
+		<connection id="102" incomingRoad="40599" connectingRoad="41099" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-4" to="-2"/>
+			<laneLink from="-5" to="-3"/>
+			<laneLink from="-6" to="-4"/>
+			<laneLink from="-7" to="-5"/>
+		</connection>
+		<connection id="103" incomingRoad="38999" connectingRoad="41199" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-2" to="-2"/>
+			<laneLink from="-3" to="-3"/>
+		</connection>
+		<connection id="104" incomingRoad="40599" connectingRoad="41299" contactPoint="start">
+			<laneLink from="-2" to="-1"/>
+			<laneLink from="-3" to="-2"/>
+		</connection>
+	</junction>
+	<junction name="JC11" id="11" type="default">
+		<connection id="111" incomingRoad="5899" connectingRoad="40899" contactPoint="start">
+			<laneLink from="-6" to="-1"/>
+		</connection>
+		<connection id="112" incomingRoad="7799" connectingRoad="40099" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-2" to="-2"/>
+		</connection>
+	</junction>
+	<junction name="JC12" id="12" type="default">
+		<connection id="121" incomingRoad="7299" connectingRoad="39099" contactPoint="start">
+			<laneLink from="-2" to="-1"/>
+		</connection>
+		<connection id="122" incomingRoad="41099" connectingRoad="38799" contactPoint="start">
+			<laneLink from="-1" to="-1"/>
+			<laneLink from="-2" to="-2"/>
+			<laneLink from="-3" to="-3"/>
+			<laneLink from="-4" to="-4"/>
+			<laneLink from="-5" to="-5"/>
+		</connection>
+		<connection id="123" incomingRoad="7299" connectingRoad="38999" contactPoint="start">
+			<laneLink from="-1" to="-2"/>
+			<laneLink from="-2" to="-3"/>
+		</connection>
+	</junction>
+</OpenDRIVE>

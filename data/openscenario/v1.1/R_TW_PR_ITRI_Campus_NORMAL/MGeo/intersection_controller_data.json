@@ -1,0 +1,23 @@
+[
+  {
+    "idx": "IntTL1",
+    "TLState": [
+      {
+        "duration": 15,
+        "lightcolor": [
+          "R"
+        ]
+      },
+      {
+        "duration": 30,
+        "lightcolor": [
+          "G_with_GLeft"
+        ]
+      }
+    ],
+    "yelloduration": [
+      3
+    ],
+    "PSState": []
+  }
+]

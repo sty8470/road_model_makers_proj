@@ -1,0 +1,31 @@
+{
+	"User": "SIM",
+	"exclude_file_actions": ["mscenario", "mgeo_save", "merge_mgeo"],
+	"exclude_file_submenu": ["menuFileImport", "menuFileExport"],
+	"import_actions": {
+		"42dot": 0,
+		"NGII_Shp_Ver1_Node_Link": 0,
+		"NGII_Shp_Ver1_Lane_Marking_Data": 0,
+		"NGII_Shp_Ver2": 0,
+		"NGII_Shp_Ver2_Lane_Marking_Data": 0,
+		"txt": 0,
+		"stryx_geojson": 0,
+		"naver_geojson": 0,
+		"roadrunner": 0,
+		"Stryx": 0,
+		"Naver": 0,
+		"DeepMap": 0,
+		"TomTom_avro": 0,
+		"TomTom_shp": 0,
+		"TomTom_geojson": 0,
+		"Civilmaps": 0,
+		"Mobiltech": 0,
+		"Kakaomobility": 0
+	},
+	"exclude_export_actions": ["sim_build_data"],
+	"exclude_menu": ["menuImport", "menuExport", "menuMap_Creation", "menuMisc", "menuEdit", "menuOpenDRIVE_Conversion", "menuData_Trimming", "menuData_Integrity", "menuWorld_Settings", "menuLanelet2_Conversion", "menuOpenScenario"],
+	"program_name": "MapViewer (v0.4)",
+	"program_key": "map_viewer",
+	"config_file_io": "config_file_io_default_SIM.json",
+	"user_manual_url": "https://help-morai-sim.scrollhelp.site/"
+}

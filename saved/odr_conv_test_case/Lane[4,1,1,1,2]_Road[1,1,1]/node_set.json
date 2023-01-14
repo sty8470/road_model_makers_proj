@@ -1,0 +1,142 @@
+[
+  {
+    "idx": "N000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "idx": "N001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      0,
+      0
+    ]
+  },
+  {
+    "idx": "N002",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9,
+      0,
+      0
+    ]
+  },
+  {
+    "idx": "N003",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      15,
+      0,
+      0
+    ]
+  },
+  {
+    "idx": "N100",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "idx": "N101",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      10,
+      0
+    ]
+  },
+  {
+    "idx": "N102",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9,
+      10,
+      0
+    ]
+  },
+  {
+    "idx": "N103",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      15,
+      10,
+      0
+    ]
+  },
+  {
+    "idx": "N201",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      20,
+      0
+    ]
+  },
+  {
+    "idx": "N301",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      30,
+      0
+    ]
+  },
+  {
+    "idx": "N401",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      40,
+      0
+    ]
+  },
+  {
+    "idx": "N402",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9,
+      40,
+      0
+    ]
+  },
+  {
+    "idx": "N501",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4,
+      50,
+      0
+    ]
+  },
+  {
+    "idx": "N502",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9,
+      50,
+      0
+    ]
+  }
+]

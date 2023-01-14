@@ -1,0 +1,13 @@
+[
+  {
+    "idx": "Node1",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "on_stop_line": false
+  }
+]

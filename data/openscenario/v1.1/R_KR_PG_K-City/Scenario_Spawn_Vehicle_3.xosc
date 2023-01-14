@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+  <FileHeader revMajor="1" revMinor="1" date="2021-1-28T10:00:00" description="SpawnPoint Staight(StartLink to TargetLink - WorldPosition)" author="morai-core-team"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City" />
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations />
+        <Properties />
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00" />
+              <Weather cloudState="free">
+                <Sun intensity="1.0" azimuth="0.0" elevation="1.571" />
+                <Fog visualRange="100000.0" />
+                <Precipitation precipitationType="dry" precipitationIntensity="0.0" />
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" />
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" />
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed value="3.88"/>
+                </SpeedActionTarget>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition x="197.17785090424152" y="1765.8497152333784" z="-0.5677811894033463" h="-90.0" p="0" r="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="Ego"/>
+          </Actors>
+          <Maneuver name="spawn_point manuever">
+            <Event name="spawn_event" priority="overwrite">
+              <Action name="spawn_start_action">
+                <GlobalAction>
+                  <TrafficAction>
+                    <TrafficSourceAction radius="10" count="5" period="5" periodRange="3" offset="0" offsetRange="0.1"
+                                         closedLoop="false" discretionaryLaneChange="true" >
+                      <Position>
+                        <LinkPosition id="A219BS010322" index="1"/>
+                      </Position>
+                      <InitSpeed>
+                        <AbsoluteTargetSpeed type="link" value="0.2" range="0.1"/>
+                      </InitSpeed>
+                      <DesiredSpeed>
+                        <AbsoluteTargetSpeed type="link" value="0.8" range="0.1"/>
+                      </DesiredSpeed>
+                      <Waypoint routeStrategy="random">
+                        <Position>
+                          <LinkPosition id="A219BS010104" index="2"/>
+                        </Position>
+                      </Waypoint>
+                      <TrafficDefinition name="TrafficDefinition_1">
+                        <VehicleCategoryDistribution>
+                          <VehicleCategoryDistributionEntry category="compact" weight="1" />
+                          <VehicleCategoryDistributionEntry category="middle" weight="1" />
+                          <VehicleCategoryDistributionEntry category="large" weight="1" />
+                        </VehicleCategoryDistribution>
+                      </TrafficDefinition>
+                    </TrafficSourceAction>
+                  </TrafficAction>
+                </GlobalAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition name="event_startTrigger_SimulationTime" delay="0" conditionEdge="none">
+                    <ByValueCondition>
+                      <SimulationTimeCondition value="0" rule="greaterThan" />
+                    </ByValueCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition name="Act1_StartTrigger_SimulationTime" delay="0" conditionEdge="none">
+              <ByValueCondition>
+                <SimulationTimeCondition value="0" rule="greaterThan" />
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+      </Act>
+    </Story>
+    <StopTrigger />
+  </Storyboard>
+</OpenSCENARIO>

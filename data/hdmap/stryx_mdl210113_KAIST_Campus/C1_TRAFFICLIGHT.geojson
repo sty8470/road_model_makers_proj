@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "C1_TRAFFICLIGHT",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32652" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "b39e8bb5-4078-45cd-87df-d3d6cba49c1a", "Type": "99", "User": "car", "Orientation": "vertical", "LinkIDs": "A2200910050100385" }, "geometry": { "type": "Point", "coordinates": [ 352976.093320708489046, 4026410.066367395687848, 74.619777538331462 ] } }
+]
+}

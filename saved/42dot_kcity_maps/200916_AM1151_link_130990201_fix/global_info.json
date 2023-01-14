@@ -1,0 +1,12 @@
+{
+  "maj_ver": 2,
+  "min_ver": 7,
+  "global_coordinate_system": "+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs ",
+  "local_origin_in_global": [
+    935164.8716616083,
+    1914736.3928760968,
+    29.18403830192983
+  ],
+  "lane_change_link_included": true,
+  "license": "MORAI Inc."
+}

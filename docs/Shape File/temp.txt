@@ -1,0 +1,17 @@
+fseek : 기준점을 기준으로 파일포인터 위치를 이동
+  - 응용해서 파일 크기를 얻을 수 있음
+    fseek(fp, 0, SEEK_END);
+    size = ftell(fp);
+  - 
+
+ftell : 파일포인터의 현재 위치 반환
+
+462 : OK
+471 : ERROR
+
+i = 0x1d4 (468)
+offset: 0x57534
+
+hxd에서보면 0x5743c가 되어야 함
+
+i = 0x1d5

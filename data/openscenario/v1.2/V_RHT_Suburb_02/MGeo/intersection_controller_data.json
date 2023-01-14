@@ -1,0 +1,322 @@
+[
+    {
+        "idx" : "IntTL0",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "SG"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+
+        ]
+    },
+    {
+        "idx" : "IntTL2",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "G_with_GLeft",
+                    "R",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "G_with_GLeft",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "G_with_GLeft",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "R",
+                    "G_with_GLeft"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3, 3],
+        "PSState" : [
+            [0, 0, 0, 7, 8],
+            [1, 1, 0, 7, 8],
+            [2, 2, 0, 7, 8],
+            [3, 3, 0, 7, 8]
+        ]
+    },
+    {
+        "idx" : "IntTL5",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "SG"
+                ]
+            },
+            {
+                "duration" : 10,
+                "lightcolor" :
+                [
+                    "R_with_GLeft",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+            
+        ]
+    },
+    {
+        "idx" : "IntTL9",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "G_with_GLeft",
+                    "R",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "G_with_GLeft",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "G_with_GLeft",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "R",
+                    "G_with_GLeft"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3, 3],
+        "PSState" : [
+            [0, 0, 0, 7, 8],
+            [1, 1, 0, 7, 8],
+            [2, 2, 0, 7, 8],
+            [3, 3, 0, 7, 8]
+        ]
+    },
+    {
+        "idx" : "IntTL14",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "SG"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+            
+        ]
+    },
+    {
+        "idx" : "IntTL20",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "R",
+                    "SG"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+            
+        ]
+    },
+    {
+        "idx" : "IntTL27",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "SG"
+                ]
+            },
+            {
+                "duration" : 10,
+                "lightcolor" :
+                [
+                    "R_with_GLeft",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+            
+        ]
+    },
+    {
+        "idx" : "IntTL35",
+        "TLState": [
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "SG",
+                    "R",
+                    "SG"
+                ]
+            },
+            {
+                "duration" : 10,
+                "lightcolor" :
+                [
+                    "R_with_GLeft",
+                    "R",
+                    "R"
+                ]
+            },
+            {
+                "duration" : 20,
+                "lightcolor" :
+                [
+                    "R",
+                    "SG",
+                    "R"
+                ]
+            }
+        ],
+        "yelloduration" : [3, 3, 3],
+        "PSState" : [
+            
+        ]
+    }
+]

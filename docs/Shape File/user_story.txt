@@ -1,0 +1,23 @@
+1)
+  사용자는 파일의 타입을 모른다.
+  파일 이름을 입력하면, 파일에 저장된 타입을 알려준다.
+  사용자는 타입을 확인하고, 그 타입을 사용하기 위한 코드를 작성할 수 있다.
+
+2)
+  사용자는 파일의 타입을 알고 (과정1을 통해)
+  코딩을 시작한다.
+  
+  다음과 같은 형태가 된다.
+  
+  /* 파일 이름 */
+  char filename[256] = "..."
+  
+  /* 데이터를 받을 구조체 선언 */
+  vector<unique_ptr<PolyLineZRecord>> _records;
+  
+  /* 함수 호출 (1) : 파일의 헤더 읽기 */
+  ShapeReader reader = ShapeReader();
+  reader.read_shp_shx_header(filename, open_mode);
+  
+  /* 데이터 받아오기 */
+  reader.read_all_shp_records(&records);

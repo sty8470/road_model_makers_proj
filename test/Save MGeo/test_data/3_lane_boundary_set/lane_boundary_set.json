@@ -1,0 +1,42 @@
+[
+  {
+    "idx": "LM000000",
+    "from_node_idx": "ND000000",
+    "to_node_idx": "ND000001",
+    "points": [
+      [
+        0.25,
+        0.25,
+        0.0
+      ],
+      [
+        9.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "lane_type_def": "MORAI",
+    "lane_type": [
+      250
+    ],
+    "lane_sub_type": 4,
+    "lane_color": [
+      "white"
+    ],
+    "lane_shape": [
+      "solid"
+    ],
+    "lane_width": 0.15,
+    "dash_interval_L1": 30,
+    "dash_interval_L2": 50,
+    "double_line_interval": 0.1,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "pass_restr": "",
+    "lane_type_offset": []
+  }
+]

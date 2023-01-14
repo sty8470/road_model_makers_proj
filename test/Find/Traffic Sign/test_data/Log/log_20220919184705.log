@@ -1,0 +1,218 @@
+d:\Work\Maps\morai_map_editor\src\proj_mgeo_editor_morai_opengl\log\log_20220919184705.log
+		TRACE	2022-09-19 18:47:06	Called: load_mgeo
+TRACE	2022-09-19 18:47:06	Called: ask_save_current_data
+TRACE	2022-09-19 18:47:06	No MGeo data to save -> return
+TRACE	2022-09-19 18:47:06	init_load_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load
+TRACE	2022-09-19 18:47:29	load MGeo data from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/2-link
+INFO	2022-09-19 18:47:29	MGeo data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/2-link
+INFO	2022-09-19 18:47:29	D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/2-link
+TRACE	2022-09-19 18:47:29	Called: reset_start_point
+TRACE	2022-09-19 18:47:29	Called: reset_end_point
+TRACE	2022-09-19 18:47:29	Called: reset_stop_point
+TRACE	2022-09-19 18:47:29	Called: reset_start_point
+TRACE	2022-09-19 18:47:29	Called: reset_end_point
+TRACE	2022-09-19 18:47:29	Called: reset_stop_point
+INFO	2022-09-19 18:47:29	Data successfully loaded from: D:/Work/Maps/morai_map_editor/data/mgeo_data/test/testmap-mgeo_load/2-link
+TRACE	2022-09-19 18:47:44	Called: add_new_mgeo_item MGeoItem.NODE 
+TRACE	2022-09-19 18:47:44	Called: reset_start_point
+TRACE	2022-09-19 18:47:44	Called: reset_end_point
+TRACE	2022-09-19 18:47:44	Called: reset_stop_point
+INFO	2022-09-19 18:47:44	add MGeoItem.NODE point: id: ND000000, point: [ 2.81666856e-01 -1.26802833e+00  4.77495073e-04] in Map: 2-link
+TRACE	2022-09-19 18:48:15	Called: reset_start_point
+TRACE	2022-09-19 18:48:15	Called: reset_end_point
+TRACE	2022-09-19 18:48:15	Called: reset_stop_point
+TRACE	2022-09-19 18:48:15	Called: reset_start_point
+TRACE	2022-09-19 18:48:15	Called: reset_end_point
+TRACE	2022-09-19 18:48:15	Called: reset_stop_point
+INFO	2022-09-19 18:48:15	[Edit item properties] type: NODE, id: ND000000, point 
+		: [0.28166685643011224, -1.2680283289060599, 0.00047749507344322685] → [0.0, 2.0, 0.0]
+TRACE	2022-09-19 18:48:27	Called: add_new_mgeo_item MGeoItem.NODE 
+TRACE	2022-09-19 18:48:27	Called: reset_start_point
+TRACE	2022-09-19 18:48:27	Called: reset_end_point
+TRACE	2022-09-19 18:48:27	Called: reset_stop_point
+INFO	2022-09-19 18:48:27	add MGeoItem.NODE point: id: ND000001, point: [9.39547218e+00 1.61193407e+00 4.77495072e-04] in Map: 2-link
+TRACE	2022-09-19 18:48:35	Called: reset_start_point
+TRACE	2022-09-19 18:48:35	Called: reset_end_point
+TRACE	2022-09-19 18:48:35	Called: reset_stop_point
+TRACE	2022-09-19 18:48:35	Called: reset_start_point
+TRACE	2022-09-19 18:48:35	Called: reset_end_point
+TRACE	2022-09-19 18:48:35	Called: reset_stop_point
+INFO	2022-09-19 18:48:35	[Edit item properties] type: NODE, id: ND000001, point 
+		: [9.395472176002786, 1.6119340657620114, 0.0004774950717948194] → [10.0, 2.0, 0.0]
+TRACE	2022-09-19 18:48:39	point_move: 1
+TRACE	2022-09-19 18:48:39	change_point_in_line (ptr @ link: LN000000, point_idx: 1 )
+TRACE	2022-09-19 18:48:40	point_move: 1
+TRACE	2022-09-19 18:48:40	change_point_in_line (ptr @ link: LN000000, point_idx: 1 )
+TRACE	2022-09-19 18:48:41	point_move: -1
+TRACE	2022-09-19 18:48:41	change_point_in_line (ptr @ link: LN000000, point_idx: 0 )
+TRACE	2022-09-19 18:48:44	Called: add_link_point
+TRACE	2022-09-19 18:48:44	Called: reset_start_point
+TRACE	2022-09-19 18:48:44	Called: reset_end_point
+TRACE	2022-09-19 18:48:44	Called: reset_stop_point
+INFO	2022-09-19 18:48:44	add_link_point is done successfully
+TRACE	2022-09-19 18:48:46	point_move: 1
+TRACE	2022-09-19 18:48:46	change_point_in_line (ptr @ link: LN000000, point_idx: 1 )
+TRACE	2022-09-19 18:48:46	point_move: 1
+TRACE	2022-09-19 18:48:46	change_point_in_line (ptr @ link: LN000000, point_idx: 2 )
+TRACE	2022-09-19 18:48:47	point_move: 1
+TRACE	2022-09-19 18:48:47	change_point_in_line (ptr @ link: LN000000, point_idx: 2 )
+TRACE	2022-09-19 18:48:52	Called: connect_nodes
+INFO	2022-09-19 18:48:52	connecting link (id: LN000001) created (from node: ND000000 -> to: ND000001)
+TRACE	2022-09-19 18:48:52	Called: reset_start_point
+TRACE	2022-09-19 18:48:52	Called: reset_end_point
+TRACE	2022-09-19 18:48:52	Called: reset_stop_point
+TRACE	2022-09-19 18:48:54	Called: add_link_point
+TRACE	2022-09-19 18:48:54	Called: reset_start_point
+TRACE	2022-09-19 18:48:54	Called: reset_end_point
+TRACE	2022-09-19 18:48:54	Called: reset_stop_point
+INFO	2022-09-19 18:48:54	add_link_point is done successfully
+TRACE	2022-09-19 18:49:10	Called: add_new_mgeo_item MGeoItem.TRAFFIC_SIGN 
+TRACE	2022-09-19 18:49:10	Called: reset_start_point
+TRACE	2022-09-19 18:49:10	Called: reset_end_point
+TRACE	2022-09-19 18:49:10	Called: reset_stop_point
+INFO	2022-09-19 18:49:10	add MGeoItem.TRAFFIC_SIGN point: id: SN000000, point: [ 8.91281282e+00 -1.69484887e+00  1.93712978e-05] in Map: 2-link
+TRACE	2022-09-19 18:49:41	Called: reset_start_point
+TRACE	2022-09-19 18:49:41	Called: reset_end_point
+TRACE	2022-09-19 18:49:41	Called: reset_stop_point
+TRACE	2022-09-19 18:49:41	Called: reset_start_point
+TRACE	2022-09-19 18:49:41	Called: reset_end_point
+TRACE	2022-09-19 18:49:41	Called: reset_stop_point
+INFO	2022-09-19 18:49:41	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, type 
+		:  → 41
+TRACE	2022-09-19 18:49:55	Called: reset_start_point
+TRACE	2022-09-19 18:49:55	Called: reset_end_point
+TRACE	2022-09-19 18:49:55	Called: reset_stop_point
+TRACE	2022-09-19 18:49:55	Called: reset_start_point
+TRACE	2022-09-19 18:49:55	Called: reset_end_point
+TRACE	2022-09-19 18:49:55	Called: reset_stop_point
+INFO	2022-09-19 18:49:55	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, sub_type 
+		:  → 21
+TRACE	2022-09-19 18:49:59	Called: reset_start_point
+TRACE	2022-09-19 18:49:59	Called: reset_end_point
+TRACE	2022-09-19 18:49:59	Called: reset_stop_point
+TRACE	2022-09-19 18:49:59	Called: reset_start_point
+TRACE	2022-09-19 18:49:59	Called: reset_end_point
+TRACE	2022-09-19 18:49:59	Called: reset_stop_point
+INFO	2022-09-19 18:49:59	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, type 
+		: 41 → 2
+TRACE	2022-09-19 18:50:08	Called: reset_start_point
+TRACE	2022-09-19 18:50:08	Called: reset_end_point
+TRACE	2022-09-19 18:50:08	Called: reset_stop_point
+TRACE	2022-09-19 18:50:08	Called: reset_start_point
+TRACE	2022-09-19 18:50:08	Called: reset_end_point
+TRACE	2022-09-19 18:50:08	Called: reset_stop_point
+INFO	2022-09-19 18:50:08	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, road_id 
+		:  → 2
+TRACE	2022-09-19 18:50:17	Called: reset_start_point
+TRACE	2022-09-19 18:50:17	Called: reset_end_point
+TRACE	2022-09-19 18:50:17	Called: reset_stop_point
+TRACE	2022-09-19 18:50:17	Called: reset_start_point
+TRACE	2022-09-19 18:50:17	Called: reset_end_point
+TRACE	2022-09-19 18:50:17	Called: reset_stop_point
+INFO	2022-09-19 18:50:17	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, width 
+		: 0.0 → 40.0
+TRACE	2022-09-19 18:50:23	Called: reset_start_point
+TRACE	2022-09-19 18:50:23	Called: reset_end_point
+TRACE	2022-09-19 18:50:23	Called: reset_stop_point
+TRACE	2022-09-19 18:50:23	Called: reset_start_point
+TRACE	2022-09-19 18:50:23	Called: reset_end_point
+TRACE	2022-09-19 18:50:23	Called: reset_stop_point
+INFO	2022-09-19 18:50:23	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, height 
+		: 0.0 → 30.0
+TRACE	2022-09-19 18:50:49	Called: reset_start_point
+TRACE	2022-09-19 18:50:49	Called: reset_end_point
+TRACE	2022-09-19 18:50:49	Called: reset_stop_point
+TRACE	2022-09-19 18:50:49	Called: reset_start_point
+TRACE	2022-09-19 18:50:49	Called: reset_end_point
+TRACE	2022-09-19 18:50:49	Called: reset_stop_point
+INFO	2022-09-19 18:50:49	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, link_id_list 
+		: [] → ['LN000000']
+TRACE	2022-09-19 18:51:03	Called: reset_start_point
+TRACE	2022-09-19 18:51:03	Called: reset_end_point
+TRACE	2022-09-19 18:51:03	Called: reset_stop_point
+TRACE	2022-09-19 18:51:03	Called: reset_start_point
+TRACE	2022-09-19 18:51:03	Called: reset_end_point
+TRACE	2022-09-19 18:51:03	Called: reset_stop_point
+INFO	2022-09-19 18:51:03	[Edit item properties] type: TRAFFIC_SIGN, id: SN000000, z_offset 
+		: 0.0 → 1.6
+TRACE	2022-09-19 18:51:37	Called: reset_start_point
+TRACE	2022-09-19 18:51:37	Called: reset_end_point
+TRACE	2022-09-19 18:51:37	Called: reset_stop_point
+TRACE	2022-09-19 18:51:37	Called: reset_start_point
+TRACE	2022-09-19 18:51:37	Called: reset_end_point
+TRACE	2022-09-19 18:51:37	Called: reset_stop_point
+INFO	2022-09-19 18:51:37	[Edit item properties] type: LINK, id: LN000001, link_type_def 
+		:  → MORAI
+TRACE	2022-09-19 18:51:45	Called: reset_start_point
+TRACE	2022-09-19 18:51:45	Called: reset_end_point
+TRACE	2022-09-19 18:51:45	Called: reset_stop_point
+TRACE	2022-09-19 18:51:45	Called: reset_start_point
+TRACE	2022-09-19 18:51:45	Called: reset_end_point
+TRACE	2022-09-19 18:51:45	Called: reset_stop_point
+INFO	2022-09-19 18:51:45	[Edit item properties] type: LINK, id: LN000001, link_type 
+		: None → driving
+TRACE	2022-09-19 18:51:54	Called: reset_start_point
+TRACE	2022-09-19 18:51:54	Called: reset_end_point
+TRACE	2022-09-19 18:51:54	Called: reset_stop_point
+TRACE	2022-09-19 18:51:54	Called: reset_start_point
+TRACE	2022-09-19 18:51:54	Called: reset_end_point
+TRACE	2022-09-19 18:51:54	Called: reset_stop_point
+INFO	2022-09-19 18:51:54	[Edit item properties] type: LINK, id: LN000001, road_type 
+		: None → 1
+TRACE	2022-09-19 18:51:58	Called: reset_start_point
+TRACE	2022-09-19 18:51:58	Called: reset_end_point
+TRACE	2022-09-19 18:51:58	Called: reset_stop_point
+TRACE	2022-09-19 18:51:58	Called: reset_start_point
+TRACE	2022-09-19 18:51:58	Called: reset_end_point
+TRACE	2022-09-19 18:51:58	Called: reset_stop_point
+INFO	2022-09-19 18:51:58	[Edit item properties] type: LINK, id: LN000001, road_id 
+		:  → 101
+TRACE	2022-09-19 18:52:06	Called: reset_start_point
+TRACE	2022-09-19 18:52:06	Called: reset_end_point
+TRACE	2022-09-19 18:52:06	Called: reset_stop_point
+TRACE	2022-09-19 18:52:06	Called: reset_start_point
+TRACE	2022-09-19 18:52:06	Called: reset_end_point
+TRACE	2022-09-19 18:52:06	Called: reset_stop_point
+INFO	2022-09-19 18:52:06	[Edit item properties] type: LINK, id: LN000001, ego_lane 
+		: None → 1
+TRACE	2022-09-19 18:52:10	Called: reset_start_point
+TRACE	2022-09-19 18:52:10	Called: reset_end_point
+TRACE	2022-09-19 18:52:10	Called: reset_stop_point
+TRACE	2022-09-19 18:52:10	Called: reset_start_point
+TRACE	2022-09-19 18:52:10	Called: reset_end_point
+TRACE	2022-09-19 18:52:10	Called: reset_stop_point
+INFO	2022-09-19 18:52:10	[Edit item properties] type: LINK, id: LN000000, ego_lane 
+		: 1 → 2
+TRACE	2022-09-19 18:52:17	Called: reset_start_point
+TRACE	2022-09-19 18:52:17	Called: reset_end_point
+TRACE	2022-09-19 18:52:17	Called: reset_stop_point
+TRACE	2022-09-19 18:52:17	Called: reset_start_point
+TRACE	2022-09-19 18:52:17	Called: reset_end_point
+TRACE	2022-09-19 18:52:17	Called: reset_stop_point
+INFO	2022-09-19 18:52:17	[Edit item properties] type: LINK, id: LN000001, max_speed_kph 
+		: 0 → 80
+TRACE	2022-09-19 18:52:28	Called: reset_start_point
+TRACE	2022-09-19 18:52:28	Called: reset_end_point
+TRACE	2022-09-19 18:52:28	Called: reset_stop_point
+TRACE	2022-09-19 18:52:28	Called: reset_start_point
+TRACE	2022-09-19 18:52:28	Called: reset_end_point
+TRACE	2022-09-19 18:52:28	Called: reset_stop_point
+INFO	2022-09-19 18:52:28	[Edit item properties] type: LINK, id: LN000001, hov 
+		: False → True
+TRACE	2022-09-19 18:52:39	Called: reset_start_point
+TRACE	2022-09-19 18:52:39	Called: reset_end_point
+TRACE	2022-09-19 18:52:39	Called: reset_stop_point
+TRACE	2022-09-19 18:52:39	Called: reset_start_point
+TRACE	2022-09-19 18:52:39	Called: reset_end_point
+TRACE	2022-09-19 18:52:39	Called: reset_stop_point
+INFO	2022-09-19 18:52:39	[Edit item properties] type: LINK, id: LN000001, speed_unit 
+		:  → kph
+TRACE	2022-09-19 18:52:44	Called: reset_start_point
+TRACE	2022-09-19 18:52:44	Called: reset_end_point
+TRACE	2022-09-19 18:52:44	Called: reset_stop_point
+TRACE	2022-09-19 18:52:44	Called: reset_start_point
+TRACE	2022-09-19 18:52:44	Called: reset_end_point
+TRACE	2022-09-19 18:52:44	Called: reset_stop_point
+INFO	2022-09-19 18:52:44	[Edit item properties] type: LINK, id: LN000001, speed_offset 
+		: [] → [0]
+TRACE	2022-09-19 18:52:48	init_save_path: D:\Work\Maps\morai_map_editor\data\mgeo_data\test\testmap-mgeo_load

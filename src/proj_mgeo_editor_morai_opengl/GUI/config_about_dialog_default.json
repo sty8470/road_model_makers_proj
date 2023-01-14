@@ -1,0 +1,16 @@
+{
+  "avro": "APACHE",
+  "Crypto": "MIT",
+  "elevate": "MIT",
+  "eventhandler": "MIT",
+  "fastavro": "MIT",
+  "iso3166": "MIT",
+  "lxml": "BSD-3-clause",
+  "matplotlib": "PSF",
+  "multipledispatch": "BSD",
+  "nose2": "BSD-3-clause",
+  "numpy": "BSD-3-clause",
+  "pyproj": "MIT",
+  "scipy": "BSD-3-clause",
+  "vtk": "BSD-3-clause"
+}

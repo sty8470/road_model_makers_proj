@@ -1,0 +1,6 @@
+{
+    "42dot_MAP_IMPORT": "../../data/hdmap/",
+    "MGEO_SAVE": "../../data/mgeo/42dot_yangjae_maps/",
+    "MGEO_LOAD": "../../data/mgeo/42dot_yangjae_maps/",
+    "EXPORT_ODR": "../../data/mgeo/42dot_yangjae_maps"
+}

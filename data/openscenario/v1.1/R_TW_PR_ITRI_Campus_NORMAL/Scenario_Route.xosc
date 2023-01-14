@@ -1,0 +1,330 @@
+<?xml version="1.0" ?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OpenScenario.xsd">
+  <FileHeader author="MORAI Inc." date="2021-1-28T10:00:00" description="Full one lap" revMajor="1" revMinor="1"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_TW_PR_ITRI_Campus_NORMAL"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="ITRI_ADV" vehicleCategory="car">
+        <ParameterDeclarations/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_1">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_HD65">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_2">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_Ioniq">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_3">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Kia_Niro">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_4">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_Sonata">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="Goal_Point">
+      <MiscObject mass="0" miscObjectCategory="none" name="Goal_Point">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <TrafficAction>
+            <TrafficSourceAction closedLoop="true" count="2" discretionaryLaneChange="true" offset="0" offsetRange="0.1" period="10" periodRange="3" radius="10" rate="1">
+              <Position>
+                <LinkPosition id="LN000220" index="110"/>
+              </Position>
+              <InitSpeed>
+                <AbsoluteTargetSpeed range="0.05" type="link" value="0.05"/>
+              </InitSpeed>
+              <DesiredSpeed>
+                <AbsoluteTargetSpeed range="0.2" type="link" value="0.8"/>
+              </DesiredSpeed>
+              <Waypoint routeStrategy="random">
+                <Position>
+                  <LinkPosition id="LN000022" index="55"/>
+                </Position>
+              </Waypoint>
+              <TrafficDefinition name="TrafficDefinition_1">
+                <VehicleCategoryDistribution>
+                  <VehicleCategoryDistributionEntry model="2016_Hyundai_Ioniq" weight="1"/>
+                </VehicleCategoryDistribution>
+              </TrafficDefinition>
+            </TrafficSourceAction>
+          </TrafficAction>
+        </GlobalAction>
+        <GlobalAction>
+          <TrafficAction>
+            <TrafficSourceAction closedLoop="true" count="3" discretionaryLaneChange="true" offset="0" offsetRange="0.1" period="10" periodRange="3" radius="10" rate="1">
+              <Position>
+                <LinkPosition id="LN000334" index="60"/>
+              </Position>
+              <InitSpeed>
+                <AbsoluteTargetSpeed range="0.05" type="link" value="0.05"/>
+              </InitSpeed>
+              <DesiredSpeed>
+                <AbsoluteTargetSpeed range="0.2" type="link" value="0.8"/>
+              </DesiredSpeed>
+              <Waypoint routeStrategy="random">
+                <Position>
+                  <LinkPosition id="LN000345" index="110"/>
+                </Position>
+              </Waypoint>
+              <TrafficDefinition name="TrafficDefinition_1">
+                <VehicleCategoryDistribution>
+                  <VehicleCategoryDistributionEntry model="2017_Kia_Niro(HEV)" weight="1"/>
+                </VehicleCategoryDistribution>
+              </TrafficDefinition>
+            </TrafficSourceAction>
+          </TrafficAction>
+        </GlobalAction>
+        <GlobalAction>
+          <TrafficAction>
+            <TrafficSourceAction closedLoop="true" count="2" discretionaryLaneChange="true" offset="0" offsetRange="0.1" period="10" periodRange="3" radius="10" rate="1">
+              <Position>
+                <LinkPosition id="LN000017" index="5"/>
+              </Position>
+              <InitSpeed>
+                <AbsoluteTargetSpeed range="0.05" type="link" value="0.05"/>
+              </InitSpeed>
+              <DesiredSpeed>
+                <AbsoluteTargetSpeed range="0.2" type="link" value="0.8"/>
+              </DesiredSpeed>
+              <Waypoint routeStrategy="random">
+                <Position>
+                  <LinkPosition id="LN000246" index="5"/>
+                </Position>
+              </Waypoint>
+              <TrafficDefinition name="TrafficDefinition_1">
+                <VehicleCategoryDistribution>
+                  <VehicleCategoryDistributionEntry model="2016_Hyundai_Santafe" weight="1"/>
+                </VehicleCategoryDistribution>
+              </TrafficDefinition>
+            </TrafficSourceAction>
+          </TrafficAction>
+        </GlobalAction>
+        <GlobalAction>
+          <TrafficAction>
+            <TrafficSourceAction closedLoop="true" count="2" discretionaryLaneChange="true" offset="0" offsetRange="0.1" period="10" periodRange="3" radius="10" rate="1">
+              <Position>
+                <LinkPosition id="LN000324" index="40"/>
+              </Position>
+              <InitSpeed>
+                <AbsoluteTargetSpeed range="0.05" type="link" value="0.05"/>
+              </InitSpeed>
+              <DesiredSpeed>
+                <AbsoluteTargetSpeed range="0.2" type="link" value="0.8"/>
+              </DesiredSpeed>
+              <Waypoint routeStrategy="random">
+                <Position>
+                  <LinkPosition id="LN000046" index="50"/>
+                </Position>
+              </Waypoint>
+              <TrafficDefinition name="TrafficDefinition_1">
+                <VehicleCategoryDistribution>
+                  <VehicleCategoryDistributionEntry model="2016_Hyundai_Ioniq" weight="1"/>
+                </VehicleCategoryDistribution>
+              </TrafficDefinition>
+            </TrafficSourceAction>
+          </TrafficAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="8.33333"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000245" index="12"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+          <PrivateAction>
+            <RoutingAction>
+              <AssignRouteAction>
+                <Route afterCompletion="hide" closed="false" name="Ego_Route">
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000245" index="12"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000313" index="10"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000323" index="5"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000317" index="5"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000354" index="5"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000247" index="5"/>
+                    </Position>
+                  </Waypoint>
+                </Route>
+              </AssignRouteAction>
+            </RoutingAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_1">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-147.8397" y="242.7608" z="0.5"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_2">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-143.2397" y="238.7608" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_3">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-156.0397" y="250.1108" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_4">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-172.5397" y="264.9108" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="Goal_Point">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000247" index="4"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false"/>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="0" name="Act1_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="0"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+  <Evaluation>
+    <SuccessConditionGroup>
+      <Condition conditionEdge="rising" delay="0" name="Ego_position">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <DistanceCondition freespace="false" rule="lessThan" value="5.0">
+              <Position>
+                <RelativeObjectPosition dx="0" dy="0" entityRef="Goal_Point"/>
+              </Position>
+            </DistanceCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </SuccessConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="once" delay="0" name="Collision_occured">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <CollisionCondition>
+              <ByType type="vehicle"/>
+            </CollisionCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </FailureConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="none" delay="0" name="Time_out">
+        <ByValueCondition>
+          <SimulationTimeCondition rule="greaterThan" value="360"/>
+        </ByValueCondition>
+      </Condition>
+    </FailureConditionGroup>
+  </Evaluation>
+</OpenSCENARIO>

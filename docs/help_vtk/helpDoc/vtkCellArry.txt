@@ -1,0 +1,532 @@
+class vtkCellArray(vtkCommonCorePython.vtkObject)
+ |  vtkCellArray - object to represent cell connectivity
+ |
+ |  Superclass: vtkObject
+ |
+ |  vtkCellArray is a supporting object that explicitly represents cell
+ |  connectivity. The cell array structure is a raw integer list of the
+ |  form: (n,id1,id2,...,idn, n,id1,id2,...,idn, ...) where n is the
+ |  number of points in the cell, and id is a zero-offset index into an
+ |  associated point list.
+ |
+ |  Advantages of this data structure are its compactness, simplicity,
+ |  and easy interface to external data.  However, it is totally
+ |  inadequate for random access.  This functionality (when necessary) is
+ |  accomplished by using the vtkCellTypes and vtkCellLinks objects to
+ |  extend the definition of the data structure.
+ |
+ |  @sa
+ |  vtkCellTypes vtkCellLinks
+ |
+ |  Method resolution order:
+ |      vtkCellArray
+ |      vtkCommonCorePython.vtkObject
+ |      vtkCommonCorePython.vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  Allocate(...)
+ |      V.Allocate(int, int) -> int
+ |      C++: int Allocate(vtkIdType sz, vtkIdType ext=1000)
+ |
+ |      Allocate memory and set the size to extend by.
+ |
+ |  DeepCopy(...)
+ |      V.DeepCopy(vtkCellArray)
+ |      C++: void DeepCopy(vtkCellArray *ca)
+ |
+ |      Perform a deep copy (no reference counting) of the given cell
+ |      array.
+ |
+ |  EstimateSize(...)
+ |      V.EstimateSize(int, int) -> int
+ |      C++: vtkIdType EstimateSize(vtkIdType numCells, int maxPtsPerCell)
+ |
+ |      Utility routines help manage memory of cell array. EstimateSize()
+ |      returns a value used to initialize and allocate memory for array
+ |      based on number of cells and maximum number of points making up
+ |      cell.  If every cell is the same size (in terms of number of
+ |      points), then the memory estimate is guaranteed exact. (If not
+ |      exact, use Squeeze() to reclaim any extra memory.)
+ |
+ |  GetActualMemorySize(...)
+ |      V.GetActualMemorySize() -> int
+ |      C++: unsigned long GetActualMemorySize()
+ |
+ |      Return the memory in kibibytes (1024 bytes) consumed by this cell
+ |      array. Used to support streaming and reading/writing data. The
+ |      value returned is guaranteed to be greater than or equal to the
+ |      memory required to actually represent the data represented by
+ |      this object. The information returned is valid only after the
+ |      pipeline has been updated.
+ |
+ |  GetCell(...)
+ |      V.GetCell(int, int, [int, ...])
+ |      C++: void GetCell(vtkIdType loc, vtkIdType &npts, vtkIdType *&pts)
+ |      V.GetCell(int, vtkIdList)
+ |      C++: void GetCell(vtkIdType loc, vtkIdList *pts)
+ |
+ |      Internal method used to retrieve a cell given an offset into the
+ |      internal array.
+ |
+ |  GetData(...)
+ |      V.GetData() -> vtkIdTypeArray
+ |      C++: vtkIdTypeArray *GetData()
+ |
+ |      Return the underlying data as a data array.
+ |
+ |  GetInsertLocation(...)
+ |      V.GetInsertLocation(int) -> int
+ |      C++: vtkIdType GetInsertLocation(int npts)
+ |
+ |      Computes the current insertion location within the internal
+ |      array. Used in conjunction with GetCell(int loc,...).
+ |
+ |  GetMaxCellSize(...)
+ |      V.GetMaxCellSize() -> int
+ |      C++: int GetMaxCellSize()
+ |
+ |      Returns the size of the largest cell. The size is the number of
+ |      points defining the cell.
+ |
+ |  GetNextCell(...)
+ |      V.GetNextCell(int, [int, ...]) -> int
+ |      C++: int GetNextCell(vtkIdType &npts, vtkIdType *&pts)
+ |      V.GetNextCell(vtkIdList) -> int
+ |      C++: int GetNextCell(vtkIdList *pts)
+ |
+ |      A cell traversal methods that is more efficient than vtkDataSet
+ |      traversal methods.  GetNextCell() gets the next cell in the list.
+ |      If end of list is encountered, 0 is returned. A value of 1 is
+ |      returned whenever npts and pts have been updated without error.
+ |
+ |  GetNumberOfCells(...)
+ |      V.GetNumberOfCells() -> int
+ |      C++: virtual vtkIdType GetNumberOfCells()
+ |
+ |      Get the number of cells in the array.
+ |
+ |  GetNumberOfConnectivityEntries(...)
+ |      V.GetNumberOfConnectivityEntries() -> int
+ |      C++: vtkIdType GetNumberOfConnectivityEntries()
+ |
+ |      Get the total number of entries (i.e., data values) in the
+ |      connectivity array. This may be much less than the allocated size
+ |      (i.e., return value from GetSize().)
+ |
+ |  GetPointer(...)
+ |      V.GetPointer() -> (int, ...)
+ |      C++: vtkIdType *GetPointer()
+ |
+ |      Get pointer to array of cell data.
+ |
+ |  GetSize(...)
+ |      V.GetSize() -> int
+ |      C++: vtkIdType GetSize()
+ |
+ |      Get the size of the allocated connectivity array.
+ |
+ |  GetTraversalLocation(...)
+ |      V.GetTraversalLocation() -> int
+ |      C++: vtkIdType GetTraversalLocation()
+ |      V.GetTraversalLocation(int) -> int
+ |      C++: vtkIdType GetTraversalLocation(vtkIdType npts)
+ |
+ |      Get/Set the current traversal location.
+ |
+ |  InitTraversal(...)
+ |      V.InitTraversal()
+ |      C++: void InitTraversal()
+ |
+ |      A cell traversal methods that is more efficient than vtkDataSet
+ |      traversal methods.  InitTraversal() initializes the traversal of
+ |      the list of cells.
+ |
+ |  Initialize(...)
+ |      V.Initialize()
+ |      C++: void Initialize()
+ |
+ |      Free any memory and reset to an empty state.
+ |
+ |  InsertCellPoint(...)
+ |      V.InsertCellPoint(int)
+ |      C++: void InsertCellPoint(vtkIdType id)
+ |
+ |      Used in conjunction with InsertNextCell(int npts) to add another
+ |      point to the list of cells.
+ |
+ |  InsertNextCell(...)
+ |      V.InsertNextCell(vtkCell) -> int
+ |      C++: vtkIdType InsertNextCell(vtkCell *cell)
+
+ |      V.InsertNextCell(int, (int, ...)) -> int
+ |      C++: vtkIdType InsertNextCell(vtkIdType npts,
+ |          const vtkIdType *pts)
+
+ |      V.InsertNextCell(vtkIdList) -> int
+ |      C++: vtkIdType InsertNextCell(vtkIdList *pts)
+
+ |      V.InsertNextCell(int) -> int
+ |      C++: vtkIdType InsertNextCell(int npts)
+ |
+ |      Insert a cell object. Return the cell id of the cell.
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkCellArray
+ |      C++: vtkCellArray *NewInstance()
+ |
+ |  ReplaceCell(...)
+ |      V.ReplaceCell(int, int, (int, ...))
+ |      C++: void ReplaceCell(vtkIdType loc, int npts,
+ |          const vtkIdType *pts)
+ |
+ |      Replace the point ids of the cell with a different list of point
+ |      ids. Calling this method does not mark the vtkCellArray as
+ |      modified.  This is the responsibility of the caller and may be
+ |      done after multiple calls to ReplaceCell.
+ |
+ |  Reset(...)
+ |      V.Reset()
+ |      C++: void Reset()
+ |
+ |      Reuse list. Reset to initial condition.
+ |
+ |  ReverseCell(...)
+ |      V.ReverseCell(int)
+ |      C++: void ReverseCell(vtkIdType loc)
+ |
+ |      Special method inverts ordering of current cell. Must be called
+ |      carefully or the cell topology may be corrupted.
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkCellArray
+ |      C++: static vtkCellArray *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetCells(...)
+ |      V.SetCells(int, vtkIdTypeArray)
+ |      C++: void SetCells(vtkIdType ncells, vtkIdTypeArray *cells)
+ |
+ |      Define multiple cells by providing a connectivity list. The list
+ |      is in the form (npts,p0,p1,...p(npts-1), repeated for each cell).
+ |      Be careful using this method because it discards the old cells,
+ |      and anything referring these cells becomes invalid (for example,
+ |      if BuildCells() has been called see vtkPolyData).  The traversal
+ |      location is reset to the beginning of the list; the insertion
+ |      location is set to the end of the list.
+ |
+ |  SetNumberOfCells(...)
+ |      V.SetNumberOfCells(int)
+ |      C++: virtual void SetNumberOfCells(vtkIdType _arg)
+ |
+ |      Set the number of cells in the array. DO NOT do any kind of
+ |      allocation, advanced use only.
+ |
+ |  SetTraversalLocation(...)
+ |      V.SetTraversalLocation(int)
+ |      C++: void SetTraversalLocation(vtkIdType loc)
+ |
+ |  Squeeze(...)
+ |      V.Squeeze()
+ |      C++: void Squeeze()
+ |
+ |      Reclaim any extra memory.
+ |
+ |  UpdateCellCount(...)
+ |      V.UpdateCellCount(int)
+ |      C++: void UpdateCellCount(int npts)
+ |
+ |      Used in conjunction with InsertNextCell(int npts) and
+ |      InsertCellPoint() to update the number of points defining the
+ |      cell.
+ |
+ |  WritePointer(...)
+ |      V.WritePointer(int, int) -> (int, ...)
+ |      C++: vtkIdType *WritePointer(const vtkIdType ncells,
+ |          const vtkIdType size)
+ |
+ |      Get pointer to data array for purpose of direct writes of data.
+ |      Size is the total storage consumed by the cell array. ncells is
+ |      the number of cells represented in the array.
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __vtkname__ = 'vtkCellArray'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: virtual vtkMTimeType GetMTime()
+ |
+ |      Return this object's modified time.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: virtual void Modified()
+ |
+ |      Update the modification time for this object. Many filters rely
+ |      on the modification time to determine if they need to recompute
+ |      their data. The modification time is a unique monotonically
+ |      increasing unsigned long integer.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).

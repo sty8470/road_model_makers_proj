@@ -1,0 +1,24 @@
+[
+  {
+    "idx": "ND000000",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      0.25,
+      0.25,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "ND000001",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      9.0,
+      -1.0,
+      0.0
+    ],
+    "on_stop_line": false
+  }
+]

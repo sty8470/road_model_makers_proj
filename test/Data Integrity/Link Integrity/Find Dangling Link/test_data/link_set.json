@@ -1,0 +1,112 @@
+[
+  {
+    "idx": "to_missing",
+    "from_node_idx": "ND00000",
+    "to_node_idx": null,
+    "points": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        10.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "max_speed": 80,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "driving",
+    "link_type_def": "MORAI",
+    "road_type": "1",
+    "road_id": "101",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": false,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [],
+    "lane_mark_right": [],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "kph",
+    "speed_offset": [
+      0
+    ],
+    "speed_list": null,
+    "recommended_speed": 0
+  },
+  {
+    "idx": "from_missing",
+    "from_node_idx": null,
+    "to_node_idx": "ND000001",
+    "points": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        10.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "max_speed": 0,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": null,
+    "link_type_def": "",
+    "road_type": null,
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [],
+    "lane_mark_right": [],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": 0
+  }
+]

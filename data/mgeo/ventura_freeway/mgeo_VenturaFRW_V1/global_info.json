@@ -1,0 +1,14 @@
+{
+  "saved_utc_time": "2021-05-05 23:09:21.212473",
+  "mgeo_file_hash": "{'crosswalk_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'intersection_controller_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'lane_marking_set.json': '5542938cdeb0648cb1ebfb523c810959ea61176f945aef57fe22c50b5118f8d0', 'lane_node_set.json': '7fac138b8e6f0ddd2272a3d9912dd0a0bc4ecddcec22cc3d81e405d237621848', 'link_set.json': '4117bd64ab7da3fa29791dfb7e6f4d5e2637cefc595969e9748bc6c4fa2bdebd', 'node_set.json': 'a6e08faa5525ab74f850a1ee8768e241466035fcb898cd555af09aaacef816d6', 'singlecrosswalk_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'surface_marking_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'synced_traffic_light_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'traffic_light_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945', 'traffic_sign_set.json': '4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945'}",
+  "maj_ver": 2,
+  "min_ver": 8,
+  "global_coordinate_system": "UTM52N",
+  "local_origin_in_global": [
+    -7.07371865202494e-10,
+    -0.02032539388164878,
+    0.0
+  ],
+  "lane_change_link_included": true,
+  "license": "MORAI Inc."
+}

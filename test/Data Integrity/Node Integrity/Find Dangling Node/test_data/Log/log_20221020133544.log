@@ -1,0 +1,87 @@
+e:\road_model_maker\src\proj_mgeo_editor_morai_opengl\log\log_20221020133544.log
+		TRACE	2022-10-20 13:35:46	Called: load_mgeo
+TRACE	2022-10-20 13:35:46	Called: ask_save_current_data
+TRACE	2022-10-20 13:35:46	No MGeo data to save -> return
+TRACE	2022-10-20 13:35:46	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:35:50	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:35:50	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:35:50	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:35:50	Called: reset_start_point
+TRACE	2022-10-20 13:35:50	Called: reset_end_point
+TRACE	2022-10-20 13:35:50	Called: reset_stop_point
+TRACE	2022-10-20 13:35:50	Called: reset_start_point
+TRACE	2022-10-20 13:35:50	Called: reset_end_point
+TRACE	2022-10-20 13:35:50	Called: reset_stop_point
+INFO	2022-10-20 13:35:50	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:37:01	Called: load_mgeo
+TRACE	2022-10-20 13:37:01	Called: ask_save_current_data
+TRACE	2022-10-20 13:37:03	Save current MGeo data before load? -> No
+TRACE	2022-10-20 13:37:03	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:37:06	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:37:06	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:37:06	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:37:06	Called: reset_start_point
+TRACE	2022-10-20 13:37:06	Called: reset_end_point
+TRACE	2022-10-20 13:37:06	Called: reset_stop_point
+TRACE	2022-10-20 13:37:06	Called: reset_start_point
+TRACE	2022-10-20 13:37:06	Called: reset_end_point
+TRACE	2022-10-20 13:37:06	Called: reset_stop_point
+INFO	2022-10-20 13:37:06	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:37:12	Called: load_mgeo
+TRACE	2022-10-20 13:37:12	Called: ask_save_current_data
+TRACE	2022-10-20 13:37:12	No MGeo data to save -> return
+TRACE	2022-10-20 13:37:12	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:37:17	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+INFO	2022-10-20 13:37:17	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+WARNING	2022-10-20 13:37:17	Changes detail info {'Changed': ['node_set.json']}
+INFO	2022-10-20 13:37:18	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:37:18	Called: reset_start_point
+TRACE	2022-10-20 13:37:18	Called: reset_end_point
+TRACE	2022-10-20 13:37:18	Called: reset_stop_point
+TRACE	2022-10-20 13:37:18	Called: reset_start_point
+TRACE	2022-10-20 13:37:18	Called: reset_end_point
+TRACE	2022-10-20 13:37:18	Called: reset_stop_point
+INFO	2022-10-20 13:37:18	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Overlapped Node/test_data
+TRACE	2022-10-20 13:37:21	Called: load_mgeo
+TRACE	2022-10-20 13:37:21	Called: ask_save_current_data
+TRACE	2022-10-20 13:37:21	No MGeo data to save -> return
+TRACE	2022-10-20 13:37:21	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Overlapped Node
+TRACE	2022-10-20 13:37:29	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:37:29	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:37:29	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:37:29	Called: reset_start_point
+TRACE	2022-10-20 13:37:29	Called: reset_end_point
+TRACE	2022-10-20 13:37:29	Called: reset_stop_point
+TRACE	2022-10-20 13:37:29	Called: reset_start_point
+TRACE	2022-10-20 13:37:29	Called: reset_end_point
+TRACE	2022-10-20 13:37:29	Called: reset_stop_point
+INFO	2022-10-20 13:37:29	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:38:01	Called: find_dangling_nodes
+INFO	2022-10-20 13:38:03	find_dangling_nodes result: [ND000000, ]
+TRACE	2022-10-20 13:47:34	Called: delete_dangling_nodes
+INFO	2022-10-20 13:47:34	NODE (id: ND000000) deleted.
+TRACE	2022-10-20 13:47:34	Called: reset_start_point
+TRACE	2022-10-20 13:47:34	Called: reset_end_point
+TRACE	2022-10-20 13:47:34	Called: reset_stop_point
+INFO	2022-10-20 13:47:34	dangling nodes ([ND000000, ]) deleted.
+TRACE	2022-10-20 13:47:54	Called: load_mgeo
+TRACE	2022-10-20 13:47:54	Called: ask_save_current_data
+TRACE	2022-10-20 13:47:55	Save current MGeo data before load? -> No
+TRACE	2022-10-20 13:47:55	init_load_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:47:57	load MGeo data from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:47:57	MGeo data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+INFO	2022-10-20 13:47:57	E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:47:57	Called: reset_start_point
+TRACE	2022-10-20 13:47:57	Called: reset_end_point
+TRACE	2022-10-20 13:47:57	Called: reset_stop_point
+TRACE	2022-10-20 13:47:57	Called: reset_start_point
+TRACE	2022-10-20 13:47:57	Called: reset_end_point
+TRACE	2022-10-20 13:47:57	Called: reset_stop_point
+INFO	2022-10-20 13:47:57	Data successfully loaded from: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data
+TRACE	2022-10-20 13:48:14	Called: add_new_mgeo_item MGeoItem.NODE 
+TRACE	2022-10-20 13:48:14	Called: reset_start_point
+TRACE	2022-10-20 13:48:14	Called: reset_end_point
+TRACE	2022-10-20 13:48:14	Called: reset_stop_point
+INFO	2022-10-20 13:48:14	add MGeoItem.NODE point: id: ND000001, point: [-9.28192051e+00  1.05180408e+03 -5.58562158e-01] in Map: test_data
+TRACE	2022-10-20 13:49:17	init_save_path: E:\road_model_maker\test\Data Integrity\Node Integrity\Find Dangling Node
+TRACE	2022-10-20 13:49:22	save MGeo data into: E:/road_model_maker/test/Data Integrity/Node Integrity/Find Dangling Node/test_data

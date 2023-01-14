@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OpenScenario.xsd">
+  <FileHeader author="MORAI Inc." date="2021-1-28T10:00:00" description="Car-to-Pedestrian Nearside Adult" revMajor="1" revMinor="0"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_TW_PR_ITRI_Campus_NORMAL"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+        <ParameterDeclarations/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car"/>
+    </ScenarioObject>
+    <ScenarioObject name="Pedestrian_1">
+      <Pedestrian mass="55" name="Man1" pedestrianCategory="pedestrian">
+        <Properties>
+          <Property name="activeDistance" value="23"/>
+          <Property name="moveDistance" value="40"/>
+        </Properties>
+      </Pedestrian>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_1">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_SantaFe">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_2">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_Ioniq">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_3">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Kia_Niro">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="ParkedCar_4">
+      <MiscObject mass="0" miscObjectCategory="obstacle" name="OBJ_Hyundai_Sonata">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+    <ScenarioObject name="Goal_Point">
+      <MiscObject mass="0" miscObjectCategory="none" name="Goal_Point">
+        <Properties>
+          <Property name="scale_x" value="1.0"/>
+          <Property name="scale_y" value="1.0"/>
+          <Property name="scale_z" value="1.0"/>
+        </Properties>
+      </MiscObject>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="8.33333"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000137" index="0"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+          <PrivateAction>
+            <RoutingAction>
+              <AssignRouteAction>
+                <Route afterCompletion="random" closed="false" name="Ego_Route">
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000137" index="0"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000305" index="15"/>
+                    </Position>
+                  </Waypoint>
+                </Route>
+              </AssignRouteAction>
+            </RoutingAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="8.33333"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000137" index="49"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+          <PrivateAction>
+            <RoutingAction>
+              <AssignRouteAction>
+                <Route afterCompletion="hide" closed="false" name="NPC_1_Route">
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000137" index="49"/>
+                    </Position>
+                  </Waypoint>
+                  <Waypoint routeStrategy="shortest">
+                    <Position>
+                      <LinkPosition id="LN000305" index="14"/>
+                    </Position>
+                  </Waypoint>
+                </Route>
+              </AssignRouteAction>
+            </RoutingAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="Pedestrian_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="1.5"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-132" p="0" r="0" x="-151.3397" y="248.26080000000366" z="-3.1876"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_1">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-147.8397" y="242.7608" z="0.5"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_2">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-143.2397" y="238.7608" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_3">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-156.0397" y="250.1108" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="ParkedCar_4">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="138" p="0" r="0" x="-172.5397" y="264.9108" z="0.8"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="Goal_Point">
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <LinkPosition id="LN000180" index="1"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory">
+      <ParameterDeclarations/>
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1"/>
+          </Actors>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="0" name="Act1_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="0"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+  <Evaluation>
+    <SuccessConditionGroup>
+      <Condition conditionEdge="rising" delay="0" name="Ego_position">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <DistanceCondition alongRoute="false" freespace="false" rule="lessThan" value="5.0">
+              <Position>
+                <RelativeObjectPosition dx="0" dy="0" entityRef="Goal_Point"/>
+              </Position>
+            </DistanceCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </SuccessConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="once" delay="0" name="Collision_occured">
+        <ByEntityCondition>
+          <TriggeringEntities triggeringEntitiesRule="any">
+            <EntityRef entityRef="Ego"/>
+          </TriggeringEntities>
+          <EntityCondition>
+            <CollisionCondition>
+              <ByType type="vehicle"/>
+            </CollisionCondition>
+          </EntityCondition>
+        </ByEntityCondition>
+      </Condition>
+    </FailureConditionGroup>
+    <FailureConditionGroup>
+      <Condition conditionEdge="none" delay="0" name="Time_out">
+        <ByValueCondition>
+          <SimulationTimeCondition rule="greaterThan" value="60"/>
+        </ByValueCondition>
+      </Condition>
+    </FailureConditionGroup>
+  </Evaluation>
+</OpenSCENARIO>

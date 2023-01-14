@@ -1,0 +1,26 @@
+TODO #0003 [중요]
+  - read_shp_shx_header의 리턴값을 추가해야 함.
+  - SHPOpen의 리턴값과 그 결과를 체크하지 않고 있음.
+    반드시 추가해야 하는 부분.
+
+    
+    
+TODO #0001 
+  - SHPOpen 시 .shx 파일을 읽어서,
+    .shp 파일에 있는 각 record의 offset과 size 정보를 알 수 있다.
+    이 값이 panRecOffset, panRecSize에 담겨있다.
+    지금 내가 구현한 코드에서는 .shp 파일을 그냥 쭉 읽기 때문에
+    .shx 파일의 정보 (panRecOffset, panRecSize)는 사용하지 않는데,
+    이 정보를 나중에 파일 읽을 때 오류 검사하는데 사용할 수 있다.
+    
+    
+    
+TODO #0002
+  - struct tagSHPObject 타입을 보면,
+    내가 정의하지 않은 몇몇값들이 있다. (bMeasureIsUsed 등)
+    이러한 값들이 사용될 수 있을까? 판별 필요
+  
+  
+  
+  
+  

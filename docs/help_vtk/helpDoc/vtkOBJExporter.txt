@@ -1,0 +1,401 @@
+
+(conda_venv_vmtk_002) C:\Users\user>python
+Python 3.6.4 |Anaconda, Inc.| (default, Mar 12 2018, 20:20:50) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import vtk
+>>> objexporter = vtk.vtkOBJExporter()
+>>> objexporter
+(vtkIOExportPython.vtkOBJExporter)0000021A8EAD8DC8
+>>> help(vtk.vtkOBJExporter)
+Help on class vtkOBJExporter:
+
+class vtkOBJExporter(vtkExporter)
+ |  vtkOBJExporter - export a scene into Wavefront format.
+ |
+ |  Superclass: vtkExporter
+ |
+ |  vtkOBJExporter is a concrete subclass of vtkExporter that writes
+ |  wavefront .OBJ files in ASCII form. It also writes out a mtl file
+ |  that contains the material properties. The filenames are derived by
+ |  appending the .obj and .mtl suffix onto the user specified
+ |  FilePrefix.
+ |
+ |  @sa
+ |  vtkExporter
+ |
+ |  Method resolution order:
+ |      vtkOBJExporter
+ |      vtkExporter
+ |      vtkCommonCorePython.vtkObject
+ |      vtkCommonCorePython.vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  GetFilePrefix(...)
+ |      V.GetFilePrefix() -> string
+ |      C++: virtual char *GetFilePrefix()
+ |
+ |      Specify the prefix of the files to write out. The resulting
+ |      filenames will have .obj and .mtl appended to them.
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkOBJExporter
+ |      C++: vtkOBJExporter *NewInstance()
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkOBJExporter
+ |      C++: static vtkOBJExporter *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetFilePrefix(...)
+ |      V.SetFilePrefix(string)
+ |      C++: virtual void SetFilePrefix(const char *_arg)
+ |
+ |      Specify the prefix of the files to write out. The resulting
+ |      filenames will have .obj and .mtl appended to them.
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __vtkname__ = 'vtkOBJExporter'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkExporter:
+ |
+ |  GetInput(...)
+ |      V.GetInput() -> vtkRenderWindow
+ |      C++: vtkRenderWindow *GetInput()
+ |
+ |      These methods are provided for backward compatibility. Will
+ |      disappear soon.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: vtkMTimeType GetMTime() override;
+ |
+ |      Returns the MTime also considering the RenderWindow.
+ |
+ |  GetRenderWindow(...)
+ |      V.GetRenderWindow() -> vtkRenderWindow
+ |      C++: virtual vtkRenderWindow *GetRenderWindow()
+ |
+ |      Set/Get the rendering window that contains the scene to be
+ |      written.
+ |
+ |  SetEndWrite(...)
+ |      V.SetEndWrite(function)
+ |      C++: void SetEndWrite(void (*f)(void *), void *arg)
+ |
+ |      Specify a function to be called after data is written. Function
+ |      will be called with argument provided.
+ |
+ |  SetInput(...)
+ |      V.SetInput(vtkRenderWindow)
+ |      C++: void SetInput(vtkRenderWindow *renWin)
+ |
+ |      These methods are provided for backward compatibility. Will
+ |      disappear soon.
+ |
+ |  SetRenderWindow(...)
+ |      V.SetRenderWindow(vtkRenderWindow)
+ |      C++: virtual void SetRenderWindow(vtkRenderWindow *)
+ |
+ |      Set/Get the rendering window that contains the scene to be
+ |      written.
+ |
+ |  SetStartWrite(...)
+ |      V.SetStartWrite(function)
+ |      C++: void SetStartWrite(void (*f)(void *), void *arg)
+ |
+ |      Specify a function to be called before data is written.  Function
+ |      will be called with argument provided.
+ |
+ |  Update(...)
+ |      V.Update()
+ |      C++: void Update()
+ |
+ |      Convenient alias for Write() method.
+ |
+ |  Write(...)
+ |      V.Write()
+ |      C++: virtual void Write()
+ |
+ |      Write data to output. Method executes subclasses WriteData()
+ |      method, as well as StartWrite() and EndWrite() methods.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: virtual void Modified()
+ |
+ |      Update the modification time for this object. Many filters rely
+ |      on the modification time to determine if they need to recompute
+ |      their data. The modification time is a unique monotonically
+ |      increasing unsigned long integer.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkCommonCorePython.vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).
+
+>>>
+>>>
+>>>
+>>>
+>>>

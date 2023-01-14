@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSCENARIO
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../Schema/OpenSCENARIO.xsd">
+    <FileHeader
+        revMajor="1"
+        revMinor="1"
+        date="2021-1-28T10:00:00"
+        description="Scenario 1"
+        author="ASAM e.V."/>
+    <ParameterDeclarations/>
+    <CatalogLocations/>
+    <RoadNetwork>
+        <LogicFile filepath="MGeo"/>
+    </RoadNetwork>
+    <SimulatorInfo>
+        <Map name="V_RHT_Fourway_EuroNCAP"/>
+    </SimulatorInfo>
+    <Entities>
+        <ScenarioObject name="Ego">
+            <Vehicle name="2016_Hyundai_Genesis_DH" vehicleCategory="car">
+                <ParameterDeclarations />
+                <Properties />
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="NPC_1">
+            <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+                <ParameterDeclarations />
+                <Properties />
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="Bicycle">
+            <Pedestrian mass="55" pedestrianCategory="pedestrian" name="NCAP_EBT">
+                <Properties>
+                    <Property name="activeDistance" value="25"/>
+                    <Property name="moveDistance" value="10"/>
+                </Properties>
+            </Pedestrian>
+        </ScenarioObject>
+    </Entities>
+    <Storyboard>
+        <Init>
+            <Actions>
+                <GlobalAction>
+                    <EnvironmentAction>
+                        <Environment name="Environment1">
+                            <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00"/>
+                            <Weather cloudState="free">
+                                <Sun intensity="1.0" azimuth="0.0" elevation="1.571"/>
+                                <Fog visualRange="100000.0"/>
+                                <Precipitation precipitationType="dry" precipitationIntensity="0.0"/>
+                            </Weather>
+                            <RoadCondition frictionScaleFactor="1.0"/>
+                        </Environment>
+                    </EnvironmentAction>
+                </GlobalAction>
+                <Private entityRef="Ego">
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time" />
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="8.3333"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <WorldPosition x="291.739013671875" y="1.75" z="0.3409999907016754" h="-179.995" p="0.355" r="0.000"/>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="NPC_1">
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="0.0"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <WorldPosition
+                                    x="224.2"
+                                    y="6.0"
+                                    z="0.28999999165534975"
+                                    h="90.000"
+                                    p="359.930"
+                                    r="0.000"/>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="Bicycle">
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="2.7777"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <WorldPosition x="219.4" y="8.0" z="0.15239999999999998" h="-90" p="0" r="0"/>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                </Private>
+            </Actions>
+        </Init>
+        <StopTrigger/>
+    </Storyboard>
+</OpenSCENARIO>

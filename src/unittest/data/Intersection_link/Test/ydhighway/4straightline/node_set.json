@@ -1,0 +1,90 @@
+[
+  {
+    "idx": "LANE_LINK.20833_2_3E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -39.82417570601683,
+      50.68594066472724,
+      0.5200000000000102
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20833_3_4E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -39.043190827127546,
+      54.24777667922899,
+      0.5200000000000102
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20833_4_5E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -38.28741804836318,
+      57.7792508257553,
+      0.5200000000000102
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20833_5_6E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -37.47893089835998,
+      61.49472892889753,
+      0.5200000000000102
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20836_2_3E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -95.23850790981669,
+      63.52450477750972,
+      0.0800000000000125
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20836_3_4E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -94.40764991514152,
+      67.11623996589333,
+      0.0800000000000125
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20836_4_5E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -93.6020041552838,
+      70.6776134534739,
+      0.0800000000000125
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "LANE_LINK.20836_5_6E",
+    "node_type": "Hyundai AutoEver",
+    "junction": [],
+    "point": [
+      -92.79750544496346,
+      74.17734701465815,
+      0.0800000000000125
+    ],
+    "on_stop_line": false
+  }
+]

@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OpenScenario.xsd">
+  <FileHeader author="ASAM e.V." date="2021-07-19T10:00:00" description="Scenario 3" revMajor="1" revMinor="0"/>
+  <ParameterDeclarations/>
+  <CatalogLocations/>
+  <RoadNetwork>
+    <LogicFile filepath="MGeo"/>
+  </RoadNetwork>
+  <SimulatorInfo>
+    <Map name="R_KR_PG_K-City"/>
+  </SimulatorInfo>
+  <Entities>
+    <ScenarioObject name="Ego">
+      <Vehicle name="2016_Hyundai_Ioniq" role="none" vehicleCategory="car">
+        <ParameterDeclarations/>
+        <Properties/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_1">
+      <Vehicle name="2016_Hyundai_Ioniq" role="none" vehicleCategory="car">
+        <ParameterDeclarations/>
+        <Properties/>
+      </Vehicle>
+    </ScenarioObject>
+    <ScenarioObject name="NPC_2">
+      <Vehicle name="2016_Hyundai_Ioniq" role="none" vehicleCategory="car">
+        <ParameterDeclarations/>
+        <Properties/>
+      </Vehicle>
+    </ScenarioObject>
+  </Entities>
+  <Storyboard>
+    <Init>
+      <Actions>
+        <GlobalAction>
+          <EnvironmentAction>
+            <Environment name="Environment1">
+              <TimeOfDay animation="false" dateTime="2021-07-19T12:00:00"/>
+              <Weather fractionalCloudCover="zeroOktas">
+                <Sun azimuth="0.0" elevation="1.571" illuminance="1.0"/>
+                <Fog visualRange="100000.0"/>
+                <Precipitation precipitationIntensity="0.0" precipitationType="dry"/>
+              </Weather>
+              <RoadCondition frictionScaleFactor="1.0" wetness="unspecified"/>
+            </Environment>
+          </EnvironmentAction>
+        </GlobalAction>
+        <Private entityRef="Ego">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="9.8"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" followingMode="position" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-90.0" p="0" r="0" x="204.63553515619958" y="1755.3871767281707" z="-0.49388930307584394"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_1">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="16.5"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" followingMode="position" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-90.0" p="0" r="0" x="204.82146073580577" y="1718.88767164039" z="-0.5055755551008324"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+        <Private entityRef="NPC_2">
+          <PrivateAction>
+            <LongitudinalAction>
+              <SpeedAction>
+                <SpeedActionTarget>
+                  <AbsoluteTargetSpeed range="0" type="custom" value="16"/>
+                </SpeedActionTarget>
+                <SpeedActionDynamics dynamicsDimension="time" dynamicsShape="step" followingMode="position" value="0"/>
+              </SpeedAction>
+            </LongitudinalAction>
+          </PrivateAction>
+          <PrivateAction>
+            <TeleportAction>
+              <Position>
+                <WorldPosition h="-90.0" p="0" r="0" x="204.205" y="1820.623" z="-0.533"/>
+              </Position>
+            </TeleportAction>
+          </PrivateAction>
+        </Private>
+      </Actions>
+    </Init>
+    <Story name="MyStory1">
+      <Act name="Act1">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_1"/>
+          </Actors>
+          <Maneuver name="ManueverStory1">
+            <Event maximumExecutionCount="1" name="Event1" priority="overwrite">
+              <Action name="Action1">
+                <PrivateAction>
+                  <LateralAction>
+                    <LaneChangeAction targetLaneOffset="0">
+                      <LaneChangeActionDynamics dynamicsDimension="distance" dynamicsShape="cubic" followingMode="position" value="54.8254917969"/>
+                      <LaneChangeTarget>
+                        <RelativeTargetLane entityRef="Ego" value="1"/>
+                      </LaneChangeTarget>
+                    </LaneChangeAction>
+                  </LateralAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition conditionEdge="rising" delay="0" name="StartCondition1">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="NPC_2"/>
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition coordinateSystem="entity" freespace="false" routingAlgorithm="undefined" rule="lessThan" value="30.0">
+                          <Position>
+                            <RelativeObjectPosition dx="0" dy="0" dz="0" entityRef="Ego"/>
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="0" name="Act1_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="2"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <Story name="MyStory2">
+      <Act name="Act2">
+        <ManeuverGroup maximumExecutionCount="1" name="Sequence1">
+          <Actors selectTriggeringEntities="false">
+            <EntityRef entityRef="NPC_2"/>
+          </Actors>
+          <Maneuver name="ManueverStory2">
+            <Event maximumExecutionCount="1" name="Event2" priority="overwrite">
+              <Action name="Action2">
+                <PrivateAction>
+                  <LateralAction>
+                    <LaneChangeAction targetLaneOffset="0">
+                      <LaneChangeActionDynamics dynamicsDimension="distance" dynamicsShape="cubic" followingMode="position" value="54.8254917969"/>
+                      <LaneChangeTarget>
+                        <RelativeTargetLane entityRef="Ego" value="1"/>
+                      </LaneChangeTarget>
+                    </LaneChangeAction>
+                  </LateralAction>
+                </PrivateAction>
+              </Action>
+              <StartTrigger>
+                <ConditionGroup>
+                  <Condition conditionEdge="rising" delay="0" name="StartCondition1">
+                    <ByEntityCondition>
+                      <TriggeringEntities triggeringEntitiesRule="any">
+                        <EntityRef entityRef="NPC_2"/>
+                      </TriggeringEntities>
+                      <EntityCondition>
+                        <DistanceCondition coordinateSystem="entity" freespace="false" routingAlgorithm="undefined" rule="lessThan" value="30.0">
+                          <Position>
+                            <RelativeObjectPosition dx="0" dy="0" dz="0" entityRef="Ego"/>
+                          </Position>
+                        </DistanceCondition>
+                      </EntityCondition>
+                    </ByEntityCondition>
+                  </Condition>
+                </ConditionGroup>
+              </StartTrigger>
+            </Event>
+          </Maneuver>
+        </ManeuverGroup>
+        <StartTrigger>
+          <ConditionGroup>
+            <Condition conditionEdge="none" delay="0" name="Act2_StartTrigger_SimulationTime">
+              <ByValueCondition>
+                <SimulationTimeCondition rule="greaterThan" value="2"/>
+              </ByValueCondition>
+            </Condition>
+          </ConditionGroup>
+        </StartTrigger>
+        <StopTrigger/>
+      </Act>
+    </Story>
+    <StopTrigger/>
+  </Storyboard>
+  <Evaluation/>
+</OpenSCENARIO>

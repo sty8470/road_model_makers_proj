@@ -1,0 +1,521 @@
+class vtkPoints(vtkObject)
+ |  vtkPoints - represent and manipulate 3D points
+ |
+ |  Superclass: vtkObject
+ |
+ |  vtkPoints represents 3D points. The data model for vtkPoints is an
+ |  array of vx-vy-vz triplets accessible by (point or cell) id.
+ |
+ |  Method resolution order:
+ |      vtkPoints
+ |      vtkObject
+ |      vtkObjectBase
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  Allocate(...)
+ |      V.Allocate(int, int) -> int
+ |      C++: virtual int Allocate(vtkIdType sz, vtkIdType ext=1000)
+ |
+ |      Allocate initial memory size. ext is no longer used.
+ |
+ |  ComputeBounds(...)
+ |      V.ComputeBounds()
+ |      C++: virtual void ComputeBounds()
+ |
+ |      Determine (xmin,xmax, ymin,ymax, zmin,zmax) bounds of points.
+ |
+ |  DeepCopy(...)
+ |      V.DeepCopy(vtkPoints)
+ |      C++: virtual void DeepCopy(vtkPoints *ad)
+ |
+ |      Different ways to copy data. Shallow copy does reference count
+ |      (i.e., assigns pointers and updates reference count); deep copy
+ |      runs through entire data array assigning values.
+ |
+ |  GetActualMemorySize(...)
+ |      V.GetActualMemorySize() -> int
+ |      C++: unsigned long GetActualMemorySize()
+ |
+ |      Return the memory in kibibytes (1024 bytes) consumed by this
+ |      attribute data. Used to support streaming and reading/writing
+ |      data. The value returned is guaranteed to be greater than or
+ |      equal to the memory required to actually represent the data
+ |      represented by this object. The information returned is valid
+ |      only after the pipeline has been updated.
+ |
+ |  GetBounds(...)
+ |      V.GetBounds() -> (float, float, float, float, float, float)
+ |      C++: double *GetBounds()
+ |      V.GetBounds([float, float, float, float, float, float])
+ |      C++: void GetBounds(double bounds[6])
+ |
+ |      Return the bounds of the points.
+ |
+ |  GetData(...)
+ |      V.GetData() -> vtkDataArray
+ |      C++: vtkDataArray *GetData()
+ |
+ |  GetDataType(...)
+ |      V.GetDataType() -> int
+ |      C++: virtual int GetDataType()
+ |
+ |      Return the underlying data type. An integer indicating data type
+ |      is returned as specified in vtkSetGet.h.
+ |
+ |  GetMTime(...)
+ |      V.GetMTime() -> int
+ |      C++: vtkMTimeType GetMTime() override;
+ |
+ |      The modified time of the points.
+ |
+ |  GetNumberOfPoints(...)
+ |      V.GetNumberOfPoints() -> int
+ |      C++: vtkIdType GetNumberOfPoints()
+ |
+ |      Return number of points in array.
+ |
+ |  GetPoint(...)
+ |      V.GetPoint(int) -> (float, float, float)
+ |      C++: double *GetPoint(vtkIdType id)
+ |      V.GetPoint(int, [float, float, float])
+ |      C++: void GetPoint(vtkIdType id, double x[3])
+ |
+ |      Return a pointer to a double point x[3] for a specific id.
+ |      WARNING: Just don't use this error-prone method, the returned
+ |      pointer and its values are only valid as long as another method
+ |      invocation is not performed. Prefer GetPoint() with the return
+ |      value in argument.
+ |
+ |  GetPoints(...)
+ |      V.GetPoints(vtkIdList, vtkPoints)
+ |      C++: void GetPoints(vtkIdList *ptId, vtkPoints *fp)
+ |
+ |      Given a list of pt ids, return an array of points.
+ |
+ |  GetVoidPointer(...)
+ |      V.GetVoidPointer(int) -> void
+ |      C++: void *GetVoidPointer(const int id)
+ |
+ |      Return a void pointer. For image pipeline interface and other
+ |      special pointer manipulation.
+ |
+ |  Initialize(...)
+ |      V.Initialize()
+ |      C++: virtual void Initialize()
+ |
+ |      Return object to instantiated state.
+ |
+ |  InsertNextPoint(...)
+ |      V.InsertNextPoint((float, float, float)) -> int
+ |      C++: vtkIdType InsertNextPoint(const double x[3])
+ |      V.InsertNextPoint(float, float, float) -> int
+ |      C++: vtkIdType InsertNextPoint(double x, double y, double z)
+ |
+ |  InsertPoint(...)
+ |      V.InsertPoint(int, (float, float, float))
+ |      C++: void InsertPoint(vtkIdType id, const double x[3])
+ |      V.InsertPoint(int, float, float, float)
+ |      C++: void InsertPoint(vtkIdType id, double x, double y, double z)
+ |
+ |      Insert point into object. Range checking performed and memory
+ |      allocated as necessary.
+ |
+ |  InsertPoints(...)
+ |      V.InsertPoints(vtkIdList, vtkIdList, vtkPoints)
+ |      C++: void InsertPoints(vtkIdList *dstIds, vtkIdList *srcIds,
+ |          vtkPoints *source)
+ |      V.InsertPoints(int, int, int, vtkPoints)
+ |      C++: void InsertPoints(vtkIdType dstStart, vtkIdType n,
+ |          vtkIdType srcStart, vtkPoints *source)
+ |
+ |      Copy the points indexed in srcIds from the source array to the
+ |      tuple locations indexed by dstIds in this array. Note that memory
+ |      allocation is performed as necessary to hold the data.
+ |
+ |  IsA(...)
+ |      V.IsA(string) -> int
+ |      C++: vtkTypeBool IsA(const char *type) override;
+ |
+ |      Return 1 if this class is the same type of (or a subclass of) the
+ |      named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  IsTypeOf(...)
+ |      V.IsTypeOf(string) -> int
+ |      C++: static vtkTypeBool IsTypeOf(const char *type)
+ |
+ |      Return 1 if this class type is the same type of (or a subclass
+ |      of) the named class. Returns 0 otherwise. This method works in
+ |      combination with vtkTypeMacro found in vtkSetGet.h.
+ |
+ |  Modified(...)
+ |      V.Modified()
+ |      C++: void Modified() override;
+ |
+ |      Update the modification time for this object and its Data. As
+ |      this object acts as a shell around a DataArray and forwards Set
+ |      methods it needs to forward Modified as well.
+ |
+ |  NewInstance(...)
+ |      V.NewInstance() -> vtkPoints
+ |      C++: vtkPoints *NewInstance()
+ |
+ |  Reset(...)
+ |      V.Reset()
+ |      C++: virtual void Reset()
+ |
+ |      Make object look empty but do not delete memory.
+ |
+ |  Resize(...)
+ |      V.Resize(int) -> int
+ |      C++: int Resize(vtkIdType numPoints)
+ |
+ |      Resize the internal array while conserving the data.  Returns 1
+ |      if resizing succeeded and 0 otherwise.
+ |
+ |  SafeDownCast(...)
+ |      V.SafeDownCast(vtkObjectBase) -> vtkPoints
+ |      C++: static vtkPoints *SafeDownCast(vtkObjectBase *o)
+ |
+ |  SetData(...)
+ |      V.SetData(vtkDataArray)
+ |      C++: virtual void SetData(vtkDataArray *)
+ |
+ |      Set/Get the underlying data array. This function must be
+ |      implemented in a concrete subclass to check for consistency. (The
+ |      tuple size must match the type of data. For example, 3-tuple data
+ |      array can be assigned to a vector, normal, or points object, but
+ |      not a tensor object, which has a tuple dimension of 9. Scalars,
+ |      on the other hand, can have tuple dimension from 1-4, depending
+ |      on the type of scalar.)
+ |
+ |  SetDataType(...)
+ |      V.SetDataType(int)
+ |      C++: virtual void SetDataType(int dataType)
+ |
+ |      Specify the underlying data type of the object.
+ |
+ |  SetDataTypeToBit(...)
+ |      V.SetDataTypeToBit()
+ |      C++: void SetDataTypeToBit()
+ |
+ |  SetDataTypeToChar(...)
+ |      V.SetDataTypeToChar()
+ |      C++: void SetDataTypeToChar()
+ |
+ |  SetDataTypeToDouble(...)
+ |      V.SetDataTypeToDouble()
+ |      C++: void SetDataTypeToDouble()
+ |
+ |  SetDataTypeToFloat(...)
+ |      V.SetDataTypeToFloat()
+ |      C++: void SetDataTypeToFloat()
+ |
+ |  SetDataTypeToInt(...)
+ |      V.SetDataTypeToInt()
+ |      C++: void SetDataTypeToInt()
+ |
+ |  SetDataTypeToLong(...)
+ |      V.SetDataTypeToLong()
+ |      C++: void SetDataTypeToLong()
+ |
+ |  SetDataTypeToShort(...)
+ |      V.SetDataTypeToShort()
+ |      C++: void SetDataTypeToShort()
+ |
+ |  SetDataTypeToUnsignedChar(...)
+ |      V.SetDataTypeToUnsignedChar()
+ |      C++: void SetDataTypeToUnsignedChar()
+ |
+ |  SetDataTypeToUnsignedInt(...)
+ |      V.SetDataTypeToUnsignedInt()
+ |      C++: void SetDataTypeToUnsignedInt()
+ |
+ |  SetDataTypeToUnsignedLong(...)
+ |      V.SetDataTypeToUnsignedLong()
+ |      C++: void SetDataTypeToUnsignedLong()
+ |
+ |  SetDataTypeToUnsignedShort(...)
+ |      V.SetDataTypeToUnsignedShort()
+ |      C++: void SetDataTypeToUnsignedShort()
+ |
+ |  SetNumberOfPoints(...)
+ |      V.SetNumberOfPoints(int)
+ |      C++: void SetNumberOfPoints(vtkIdType numPoints)
+ |
+ |      Specify the number of points for this object to hold. Does an
+ |      allocation as well as setting the MaxId ivar. Used in conjunction
+ |      with SetPoint() method for fast insertion.
+ |
+ |  SetPoint(...)
+ |      V.SetPoint(int, (float, float, float))
+ |      C++: void SetPoint(vtkIdType id, const double x[3])
+ |      V.SetPoint(int, float, float, float)
+ |      C++: void SetPoint(vtkIdType id, double x, double y, double z)
+ |
+ |  ShallowCopy(...)
+ |      V.ShallowCopy(vtkPoints)
+ |      C++: virtual void ShallowCopy(vtkPoints *ad)
+ |
+ |      Different ways to copy data. Shallow copy does reference count
+ |      (i.e., assigns pointers and updates reference count); deep copy
+ |      runs through entire data array assigning values.
+ |
+ |  Squeeze(...)
+ |      V.Squeeze()
+ |      C++: virtual void Squeeze()
+ |
+ |      Reclaim any extra memory.
+ |
+ |  __delattr__(self, name, /)
+ |      Implement delattr(self, name).
+ |
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |
+ |  __setattr__(self, name, value, /)
+ |      Implement setattr(self, name, value).
+ |
+ |  __str__(self, /)
+ |      Return str(self).
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      Dictionary of attributes set by user.
+ |
+ |  __this__
+ |      Pointer to the C++ object.
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  __vtkname__ = 'vtkPoints'
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObject:
+ |
+ |  AddObserver(...)
+ |      V.AddObserver(int, function) -> int
+ |      C++: unsigned long AddObserver(const char *event,
+ |          vtkCommand *command, float priority=0.0f)
+ |
+ |      Add an event callback function(vtkObject, int) for an event type.
+ |      Returns a handle that can be used with RemoveEvent(int).
+ |
+ |  BreakOnError(...)
+ |      V.BreakOnError()
+ |      C++: static void BreakOnError()
+ |
+ |      This method is called when vtkErrorMacro executes. It allows the
+ |      debugger to break on error.
+ |
+ |  DebugOff(...)
+ |      V.DebugOff()
+ |      C++: virtual void DebugOff()
+ |
+ |      Turn debugging output off.
+ |
+ |  DebugOn(...)
+ |      V.DebugOn()
+ |      C++: virtual void DebugOn()
+ |
+ |      Turn debugging output on.
+ |
+ |  GetCommand(...)
+ |      V.GetCommand(int) -> vtkCommand
+ |      C++: vtkCommand *GetCommand(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  GetDebug(...)
+ |      V.GetDebug() -> bool
+ |      C++: bool GetDebug()
+ |
+ |      Get the value of the debug flag.
+ |
+ |  GetGlobalWarningDisplay(...)
+ |      V.GetGlobalWarningDisplay() -> int
+ |      C++: static int GetGlobalWarningDisplay()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOff(...)
+ |      V.GlobalWarningDisplayOff()
+ |      C++: static void GlobalWarningDisplayOff()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  GlobalWarningDisplayOn(...)
+ |      V.GlobalWarningDisplayOn()
+ |      C++: static void GlobalWarningDisplayOn()
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  HasObserver(...)
+ |      V.HasObserver(int, vtkCommand) -> int
+ |      C++: int HasObserver(unsigned long event, vtkCommand *)
+ |      V.HasObserver(string, vtkCommand) -> int
+ |      C++: int HasObserver(const char *event, vtkCommand *)
+ |      V.HasObserver(int) -> int
+ |      C++: int HasObserver(unsigned long event)
+ |      V.HasObserver(string) -> int
+ |      C++: int HasObserver(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  InvokeEvent(...)
+ |      V.InvokeEvent(int, void) -> int
+ |      C++: int InvokeEvent(unsigned long event, void *callData)
+ |      V.InvokeEvent(string, void) -> int
+ |      C++: int InvokeEvent(const char *event, void *callData)
+ |      V.InvokeEvent(int) -> int
+ |      C++: int InvokeEvent(unsigned long event)
+ |      V.InvokeEvent(string) -> int
+ |      C++: int InvokeEvent(const char *event)
+ |
+ |      This method invokes an event and return whether the event was
+ |      aborted or not. If the event was aborted, the return value is 1,
+ |      otherwise it is 0.
+ |
+ |  RemoveAllObservers(...)
+ |      V.RemoveAllObservers()
+ |      C++: void RemoveAllObservers()
+ |
+ |  RemoveObserver(...)
+ |      V.RemoveObserver(vtkCommand)
+ |      C++: void RemoveObserver(vtkCommand *)
+ |      V.RemoveObserver(int)
+ |      C++: void RemoveObserver(unsigned long tag)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  RemoveObservers(...)
+ |      V.RemoveObservers(int, vtkCommand)
+ |      C++: void RemoveObservers(unsigned long event, vtkCommand *)
+ |      V.RemoveObservers(string, vtkCommand)
+ |      C++: void RemoveObservers(const char *event, vtkCommand *)
+ |      V.RemoveObservers(int)
+ |      C++: void RemoveObservers(unsigned long event)
+ |      V.RemoveObservers(string)
+ |      C++: void RemoveObservers(const char *event)
+ |
+ |      Allow people to add/remove/invoke observers (callbacks) to any
+ |      VTK object.  This is an implementation of the subject/observer
+ |      design pattern. An observer is added by specifying an event to
+ |      respond to and a vtkCommand to execute. It returns an unsigned
+ |      long tag which can be used later to remove the event or retrieve
+ |      the command. When events are invoked, the observers are called in
+ |      the order they were added. If a priority value is specified, then
+ |      the higher priority commands are called first. A command may set
+ |      an abort flag to stop processing of the event. (See vtkCommand.h
+ |      for more information.)
+ |
+ |  SetDebug(...)
+ |      V.SetDebug(bool)
+ |      C++: void SetDebug(bool debugFlag)
+ |
+ |      Set the value of the debug flag. A true value turns debugging on.
+ |
+ |  SetGlobalWarningDisplay(...)
+ |      V.SetGlobalWarningDisplay(int)
+ |      C++: static void SetGlobalWarningDisplay(int val)
+ |
+ |      This is a global flag that controls whether any debug, warning or
+ |      error messages are displayed.
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from vtkObjectBase:
+ |
+ |  FastDelete(...)
+ |      V.FastDelete()
+ |      C++: virtual void FastDelete()
+ |
+ |      Delete a reference to this object.  This version will not invoke
+ |      garbage collection and can potentially leak the object if it is
+ |      part of a reference loop.  Use this method only when it is known
+ |      that the object has another reference and would not be collected
+ |      if a full garbage collection check were done.
+ |
+ |  GetAddressAsString(...)
+ |      V.GetAddressAsString(string) -> string
+ |      C++: const char *GetAddressAsString()
+ |
+ |      Get address of C++ object in format 'Addr=%p' after casting to
+ |      the specified type.  You can get the same information from o.__this__.
+ |
+ |  GetClassName(...)
+ |      V.GetClassName() -> string
+ |      C++: const char *GetClassName()
+ |
+ |      Return the class name as a string.
+ |
+ |  GetReferenceCount(...)
+ |      V.GetReferenceCount() -> int
+ |      C++: int GetReferenceCount()
+ |
+ |      Return the current reference count of this object.
+ |
+ |  InitializeObjectBase(...)
+ |      V.InitializeObjectBase()
+ |      C++: void InitializeObjectBase()
+ |
+ |  Register(...)
+ |      V.Register(vtkObjectBase)
+ |      C++: virtual void Register(vtkObjectBase *o)
+ |
+ |      Increase the reference count by 1.
+ |
+ |  SetReferenceCount(...)
+ |      V.SetReferenceCount(int)
+ |      C++: void SetReferenceCount(int)
+ |
+ |      Sets the reference count. (This is very dangerous, use with
+ |      care.)
+ |
+ |  UnRegister(...)
+ |      V.UnRegister(vtkObjectBase)
+ |      C++: virtual void UnRegister(vtkObjectBase *o)
+ |
+ |      Decrease the reference count (release by another object). This
+ |      has the same effect as invoking Delete() (i.e., it reduces the
+ |      reference count by 1).

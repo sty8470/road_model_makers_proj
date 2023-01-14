@@ -1,0 +1,1398 @@
+[
+  {
+    "idx": "A219BS010381",
+    "from_node_idx": "A119BS010244",
+    "to_node_idx": "A119BS010171",
+    "points": [
+      [
+        49.12395852996269,
+        1163.3409977997653,
+        -0.5019996795654293
+      ],
+      [
+        49.391958529129624,
+        1163.8609977988526,
+        -0.4770000610351559
+      ],
+      [
+        50.792958532168996,
+        1166.492997798603,
+        -0.48199922180175747
+      ],
+      [
+        52.3629585353774,
+        1169.3279977990314,
+        -0.48000032043456997
+      ],
+      [
+        54.07595853618113,
+        1172.418997799512,
+        -0.4770000610351559
+      ],
+      [
+        55.44895853771595,
+        1174.8959977990016,
+        -0.4749992523193356
+      ],
+      [
+        56.5109585399623,
+        1176.8119978001341,
+        -0.47399980163574185
+      ],
+      [
+        57.89895854174392,
+        1179.3159977989271,
+        -0.4709995422363278
+      ],
+      [
+        58.814958543807734,
+        1180.965997801628,
+        -0.47000009155273403
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000038",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011278"
+    ],
+    "lane_mark_right": [
+      "B219BS011279"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010382",
+    "from_node_idx": "A119BS010245",
+    "to_node_idx": "A119BS010172",
+    "points": [
+      [
+        55.58395853766706,
+        1185.406997800339,
+        -0.539000335693359
+      ],
+      [
+        55.25895853713155,
+        1184.8179977987893,
+        -0.5159996185302731
+      ],
+      [
+        53.44695853552548,
+        1181.5449977978133,
+        -0.47799951171874966
+      ],
+      [
+        51.866958533239085,
+        1178.696997799445,
+        -0.48000032043456997
+      ],
+      [
+        51.08095853123814,
+        1177.276997801382,
+        -0.4809997711181637
+      ],
+      [
+        49.75295852968702,
+        1174.8839977970347,
+        -0.4840000305175778
+      ],
+      [
+        47.50795852817828,
+        1170.8389978008345,
+        -0.4860008392333981
+      ],
+      [
+        45.93595852464205,
+        1168.004997799173,
+        -0.4879997406005856
+      ],
+      [
+        45.107958524895366,
+        1166.538997800555,
+        -0.4860008392333981
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000039",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011288"
+    ],
+    "lane_mark_right": [
+      "B219BS011289"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010384",
+    "from_node_idx": "A119BS010238",
+    "to_node_idx": "A119BS010165",
+    "points": [
+      [
+        53.169958533660974,
+        1209.8369977995753,
+        -0.5549991760253903
+      ],
+      [
+        51.76595853094477,
+        1210.5879977997392,
+        -0.49799996948242153
+      ],
+      [
+        48.60095852782251,
+        1212.288997801952,
+        -0.5010002288818356
+      ],
+      [
+        47.08995852427324,
+        1213.118997800164,
+        -0.5010002288818356
+      ],
+      [
+        44.254958520818036,
+        1214.6939978008159,
+        -0.49799996948242153
+      ],
+      [
+        41.62195851764409,
+        1216.1569978008047,
+        -0.49499971008300747
+      ],
+      [
+        39.75795851426665,
+        1217.1949977986515,
+        -0.4940002593994137
+      ],
+      [
+        37.09395850932924,
+        1218.6969978003763,
+        -0.5469997558593747
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000041",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011294"
+    ],
+    "lane_mark_right": [
+      "B219BS011292"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010389",
+    "from_node_idx": "A119BS010234",
+    "to_node_idx": "A119BS010161",
+    "points": [
+      [
+        82.40795857459307,
+        1233.7009978001006,
+        -0.5539997253417965
+      ],
+      [
+        81.74395857361378,
+        1232.4869977990165,
+        -0.47600061035156216
+      ],
+      [
+        80.21395857160678,
+        1229.7399978004396,
+        -0.47399980163574185
+      ],
+      [
+        78.74195857095765,
+        1227.0959977996536,
+        -0.4730003509521481
+      ],
+      [
+        76.9319585672929,
+        1223.840997800231,
+        -0.47399980163574185
+      ],
+      [
+        75.23595856514294,
+        1220.788997799158,
+        -0.4749992523193356
+      ],
+      [
+        73.74395856278716,
+        1218.0839977990836,
+        -0.5409992370605465
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000046",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011310"
+    ],
+    "lane_mark_right": [
+      "B219BS011313"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010390",
+    "from_node_idx": "A119BS010235",
+    "to_node_idx": "A119BS010162",
+    "points": [
+      [
+        77.02295856975252,
+        1213.7129978006706,
+        -0.4690006408691403
+      ],
+      [
+        77.57595856930129,
+        1214.7069978001527,
+        -0.4690006408691403
+      ],
+      [
+        79.55895857268479,
+        1218.281997798942,
+        -0.47000009155273403
+      ],
+      [
+        81.25295857380843,
+        1221.3359977994114,
+        -0.4709995422363278
+      ],
+      [
+        83.14595857745735,
+        1224.7449978007935,
+        -0.47200090026855435
+      ],
+      [
+        84.61395857925527,
+        1227.3919978006743,
+        -0.4730003509521481
+      ],
+      [
+        85.6429585806909,
+        1229.2589978002943,
+        -0.5089996490478512
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000047",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011314"
+    ],
+    "lane_mark_right": [
+      "B219BS011316"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010644",
+    "from_node_idx": "A119BS010171",
+    "to_node_idx": "A119BS010235",
+    "points": [
+      [
+        58.814958543807734,
+        1180.965997801628,
+        -0.47000009155273403
+      ],
+      [
+        60.269958546501584,
+        1183.5829978017136,
+        -0.47000009155273403
+      ],
+      [
+        64.63595855119638,
+        1191.433997800108,
+        -0.47000009155273403
+      ],
+      [
+        69.00095855788095,
+        1199.2859978000633,
+        -0.4690006408691403
+      ],
+      [
+        73.36695856251754,
+        1207.1369978017174,
+        -0.4690006408691403
+      ],
+      [
+        77.02295856975252,
+        1213.7129978006706,
+        -0.4690006408691403
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000170",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "straight",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000232"
+    ],
+    "lane_mark_right": [
+      "LM000178"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010645",
+    "from_node_idx": "A119BS010171",
+    "to_node_idx": "A119BS010241",
+    "points": [
+      [
+        58.814958543807734,
+        1180.965997801628,
+        -0.47000009155273403
+      ],
+      [
+        60.38895854528528,
+        1183.5069977990352,
+        -0.48300057983398403
+      ],
+      [
+        64.19995855161687,
+        1189.6589978011325,
+        -0.5140007171630856
+      ],
+      [
+        70.22395856009098,
+        1192.973997797817,
+        -0.5269992980957028
+      ],
+      [
+        77.54095857118955,
+        1191.5249978010543,
+        -0.5290001068115231
+      ],
+      [
+        81.48895857710158,
+        1189.9719978002831,
+        -0.5409992370605465
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000224",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "right_unprotected",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000233"
+    ],
+    "lane_mark_right": [
+      "B219BS011281"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010646",
+    "from_node_idx": "A119BS010171",
+    "to_node_idx": "A119BS010238",
+    "points": [
+      [
+        58.814958543807734,
+        1180.965997801628,
+        -0.47000009155273403
+      ],
+      [
+        60.19895854505012,
+        1183.6159977978095,
+        -0.48000032043456997
+      ],
+      [
+        64.27095855184598,
+        1191.417997799348,
+        -0.5089996490478512
+      ],
+      [
+        65.69995855301386,
+        1198.5239978004247,
+        -0.4919994506835934
+      ],
+      [
+        61.565958547464106,
+        1204.7599978004582,
+        -0.5240009460449215
+      ],
+      [
+        53.888958534167614,
+        1209.401997799985,
+        -0.552000823974609
+      ],
+      [
+        53.169958533660974,
+        1209.8369977995753,
+        -0.5549991760253903
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "40001701",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "left",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS010176"
+    ],
+    "lane_mark_right": [
+      "LM000179"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010647",
+    "from_node_idx": "A119BS010166",
+    "to_node_idx": "A119BS010241",
+    "points": [
+      [
+        49.426958528289106,
+        1207.8299977988936,
+        -0.5040004882812497
+      ],
+      [
+        52.044958532380406,
+        1206.3719978020526,
+        -0.5070007476806637
+      ],
+      [
+        59.89795854425756,
+        1201.997997800354,
+        -0.5159996185302731
+      ],
+      [
+        67.75095855590189,
+        1197.6239978000522,
+        -0.5250003967285153
+      ],
+      [
+        75.60495856852503,
+        1193.2499977992848,
+        -0.5339992675781247
+      ],
+      [
+        81.48895857710158,
+        1189.9719978002831,
+        -0.5409992370605465
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": "A219BS010648",
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000171-1",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "straight",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000068"
+    ],
+    "lane_mark_right": [
+      "LM000234"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010648",
+    "from_node_idx": "A119BS010166",
+    "to_node_idx": "A119BS010235",
+    "points": [
+      [
+        49.426958528289106,
+        1207.8299977988936,
+        -0.5040004882812497
+      ],
+      [
+        52.085958531766664,
+        1206.454997798428,
+        -0.5110004577636715
+      ],
+      [
+        59.567958543950226,
+        1202.5849977992475,
+        -0.5290001068115231
+      ],
+      [
+        65.51895855326438,
+        1201.4949977998622,
+        -0.4989994201660153
+      ],
+      [
+        70.17095855926163,
+        1204.097997800447,
+        -0.5169990692138668
+      ],
+      [
+        74.20595856447471,
+        1209.5999977998435,
+        -0.5010002288818356
+      ],
+      [
+        77.02295856975252,
+        1213.7129978006706,
+        -0.4690006408691403
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": "A219BS010647",
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000171",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "left",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000212"
+    ],
+    "lane_mark_right": [
+      "LM000235"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010649",
+    "from_node_idx": "A119BS010166",
+    "to_node_idx": "A119BS010245",
+    "points": [
+      [
+        49.426958528289106,
+        1207.8299977988936,
+        -0.5040004882812497
+      ],
+      [
+        51.9299585314584,
+        1206.1879977993667,
+        -0.512999359130859
+      ],
+      [
+        57.327958541107364,
+        1202.6459977994673,
+        -0.5310009155273434
+      ],
+      [
+        61.18395854521077,
+        1197.9799977992661,
+        -0.5199993286132809
+      ],
+      [
+        59.25995854253415,
+        1192.449997799471,
+        -0.5159996185302731
+      ],
+      [
+        55.58395853766706,
+        1185.406997800339,
+        -0.539000335693359
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000172",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "right_unprotected",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000069"
+    ],
+    "lane_mark_right": [
+      "B219BS011290"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010650",
+    "from_node_idx": "A119BS010161",
+    "to_node_idx": "A119BS010245",
+    "points": [
+      [
+        73.74395856278716,
+        1218.0839977990836,
+        -0.5409992370605465
+      ],
+      [
+        72.2889585623634,
+        1215.4659977992997,
+        -0.5409992370605465
+      ],
+      [
+        67.92495855630841,
+        1207.61399779981,
+        -0.5399997863769528
+      ],
+      [
+        63.56095854914747,
+        1199.7609978001565,
+        -0.5399997863769528
+      ],
+      [
+        59.19695854384918,
+        1191.9079977986403,
+        -0.539000335693359
+      ],
+      [
+        55.58395853766706,
+        1185.406997800339,
+        -0.539000335693359
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000173",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "straight",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000072"
+    ],
+    "lane_mark_right": [
+      "LM000231"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010651",
+    "from_node_idx": "A119BS010161",
+    "to_node_idx": "A119BS010238",
+    "points": [
+      [
+        73.74395856278716,
+        1218.0839977990836,
+        -0.5409992370605465
+      ],
+      [
+        72.23495856078807,
+        1215.503997801803,
+        -0.539000335693359
+      ],
+      [
+        68.436958557053,
+        1209.0069978013635,
+        -0.5350006256103512
+      ],
+      [
+        65.64995855203597,
+        1206.4369978001341,
+        -0.5329998168945309
+      ],
+      [
+        58.23795854230411,
+        1207.6059978003614,
+        -0.5369995269775387
+      ],
+      [
+        53.169958533660974,
+        1209.8369977995753,
+        -0.5549991760253903
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000225",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "right_unprotected",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000073"
+    ],
+    "lane_mark_right": [
+      "B219BS010480"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010652",
+    "from_node_idx": "A119BS010161",
+    "to_node_idx": "A119BS010241",
+    "points": [
+      [
+        73.74395856278716,
+        1218.0839977990836,
+        -0.5409992370605465
+      ],
+      [
+        72.44795856269775,
+        1215.3859977992252,
+        -0.536000076293945
+      ],
+      [
+        68.76995855610585,
+        1207.7329978006892,
+        -0.522999588012695
+      ],
+      [
+        69.1199585585855,
+        1200.808997801505,
+        -0.5049999389648434
+      ],
+      [
+        73.0419585640775,
+        1195.1599977980368,
+        -0.5059993896484372
+      ],
+      [
+        80.68495857447851,
+        1190.4659977997653,
+        -0.5380008850097653
+      ],
+      [
+        81.48895857710158,
+        1189.9719978002831,
+        -0.5409992370605465
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000174",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "left",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011312"
+    ],
+    "lane_mark_right": [
+      "LM000230"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010653",
+    "from_node_idx": "A119BS010167",
+    "to_node_idx": "A119BS010238",
+    "points": [
+      [
+        85.19195858231978,
+        1191.9389977972023,
+        -0.5189998779296872
+      ],
+      [
+        82.57595857820706,
+        1193.4009978002869,
+        -0.5220001373291012
+      ],
+      [
+        74.72995856654597,
+        1197.7869978011586,
+        -0.5310009155273434
+      ],
+      [
+        66.88295855349861,
+        1202.1729978015646,
+        -0.5399997863769528
+      ],
+      [
+        59.03595854266314,
+        1206.5579977976158,
+        -0.5479992065429684
+      ],
+      [
+        53.169958533660974,
+        1209.8369977995753,
+        -0.5549991760253903
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000226",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "straight",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011325"
+    ],
+    "lane_mark_right": [
+      "LM000075"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010654",
+    "from_node_idx": "A119BS010167",
+    "to_node_idx": "A119BS010235",
+    "points": [
+      [
+        85.19195858231978,
+        1191.9389977972023,
+        -0.5189998779296872
+      ],
+      [
+        82.67395857680822,
+        1193.5729978005402,
+        -0.5329998168945309
+      ],
+      [
+        76.94695856893668,
+        1197.7639978006482,
+        -0.5320003662109372
+      ],
+      [
+        74.87295856553828,
+        1204.4109978014603,
+        -0.5609996948242184
+      ],
+      [
+        76.69595856929664,
+        1212.573997800704,
+        -0.4809997711181637
+      ],
+      [
+        77.02295856975252,
+        1213.7129978006706,
+        -0.4690006408691403
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000175",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "right_unprotected",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000074"
+    ],
+    "lane_mark_right": [
+      "B219BS011319"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  },
+  {
+    "idx": "A219BS010655",
+    "from_node_idx": "A119BS010167",
+    "to_node_idx": "A119BS010245",
+    "points": [
+      [
+        85.19195858231978,
+        1191.9389977972023,
+        -0.5189998779296872
+      ],
+      [
+        82.55195857753279,
+        1193.3679978,
+        -0.5290001068115231
+      ],
+      [
+        75.2949585664901,
+        1196.9359978004359,
+        -0.5180004272460934
+      ],
+      [
+        67.36995855608257,
+        1197.48899779981,
+        -0.5010002288818356
+      ],
+      [
+        61.14695854723686,
+        1193.9329977994785,
+        -0.49099999999999966
+      ],
+      [
+        56.24695853859885,
+        1186.4239978012629,
+        -0.5329998168945309
+      ],
+      [
+        55.58395853766706,
+        1185.406997800339,
+        -0.539000335693359
+      ]
+    ],
+    "max_speed": 60,
+    "min_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "1",
+    "link_type_def": "ngii_model2",
+    "road_type": "1",
+    "road_id": "4000176",
+    "ego_lane": 1,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": "left",
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "LM000215"
+    ],
+    "lane_mark_right": [
+      "LM000182"
+    ],
+    "opp_traffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_offset": [],
+    "speed_list": null,
+    "recommended_speed": null
+  }
+]

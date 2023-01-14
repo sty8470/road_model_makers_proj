@@ -1,0 +1,12 @@
+{
+  "maj_ver": 2,
+  "min_ver": 7,
+  "global_coordinate_system": "UTM52N",
+  "local_origin_in_global": [
+    0,
+    0,
+    0
+  ],
+  "lane_change_link_included": true,
+  "license": "MORAI Inc."
+}

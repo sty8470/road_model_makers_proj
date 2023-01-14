@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<OpenSCENARIO>
+    <FileHeader
+        revMajor="1"
+        revMinor="1"
+        date="2021-09-15T10:00:00"
+        description="Route"
+        author="morai-core-team"/>
+    <ParameterDeclarations/>
+    <CatalogLocations/>
+    <RoadNetwork>
+        <LogicFile filepath="MGeo"/>
+    </RoadNetwork>
+    <SimulatorInfo>
+        <Map name="R_KR_PG_K-City"/>
+    </SimulatorInfo>
+    <Entities>
+        <ScenarioObject name="Ego">
+            <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+                <ParameterDeclarations />
+                <Properties />
+            </Vehicle>
+        </ScenarioObject>
+        <ScenarioObject name="NPC_1">
+            <Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+                <ParameterDeclarations />
+                <Properties />
+            </Vehicle>
+        </ScenarioObject>
+    </Entities>
+    <Storyboard>
+        <Init>
+            <Actions>
+                <Private entityRef="Ego">
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="6"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <WorldPosition
+                                    x="-11.146102655533074"
+                                    y="1054.8817030706273"
+                                    z="-0.6288006093176581"
+                                    h="60.0"
+                                    p="0"
+                                    r="0"/>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                </Private>
+                <Private entityRef="NPC_1">
+                    <PrivateAction>
+                        <TeleportAction>
+                            <Position>
+                                <WorldPosition
+                                    x="49.59228063874204"
+                                    y="1164.2244397031354"
+                                    z="-0.48815864815810744"
+                                    h="60.0"
+                                    p="0"
+                                    r="0"/>
+                            </Position>
+                        </TeleportAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <RoutingAction>
+                            <AssignRouteAction>
+                                <Route name="NPC_1_Route" closed="false" afterCompletion="hide">
+                                    <Waypoint routeStrategy="shortest">
+                                        <Position>
+                                            <LinkPosition id="A219BS010381" index="2"/>
+                                        </Position>
+                                    </Waypoint>
+                                    <Waypoint routeStrategy="shortest">
+                                        <Position>
+                                            <LinkPosition id="A219BS010402"/>
+                                        </Position>
+                                    </Waypoint>
+                                    <Waypoint routeStrategy="shortest">
+                                        <Position>
+                                            <LinkPosition id="A219BS010422"/>
+                                        </Position>
+                                    </Waypoint>
+                                    <Waypoint routeStrategy="shortest">
+                                        <Position>
+                                            <LinkPosition id="A219BS010073" index="10"/>
+                                        </Position>
+                                    </Waypoint>
+                                </Route>
+                            </AssignRouteAction>
+                        </RoutingAction>
+                    </PrivateAction>
+                    <PrivateAction>
+                        <LongitudinalAction>
+                            <SpeedAction>
+                                <SpeedActionDynamics dynamicsShape="step" value="0.0" dynamicsDimension="time"/>
+                                <SpeedActionTarget>
+                                    <AbsoluteTargetSpeed value="10"/>
+                                </SpeedActionTarget>
+                            </SpeedAction>
+                        </LongitudinalAction>
+                    </PrivateAction>
+                </Private>
+            </Actions>
+        </Init>
+        <Story name="Story">
+            <ParameterDeclarations/>
+            <Act name="AquirePosition act">
+                <ManeuverGroup maximumExecutionCount="1" name="AquirePosition maneuver group">
+                    <Actors selectTriggeringEntities="false">
+                        <EntityRef entityRef="NPC_1"/>
+                    </Actors>
+                </ManeuverGroup>
+                <StartTrigger>
+                    <ConditionGroup>
+                        <Condition name="AquirePosition act start condition" delay="0" conditionEdge="risingOrFalling">
+                            <ByValueCondition>
+                                <SimulationTimeCondition value="0" rule="greaterThan"/>
+                            </ByValueCondition>
+                        </Condition>
+                    </ConditionGroup>
+                </StartTrigger>
+            </Act>
+        </Story>
+        <StopTrigger />
+    </Storyboard>
+</OpenSCENARIO>

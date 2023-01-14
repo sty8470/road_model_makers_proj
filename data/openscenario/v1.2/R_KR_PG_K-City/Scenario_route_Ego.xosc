@@ -1,0 +1,231 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<OpenSCENARIO>
+	<FileHeader revMajor="1"
+               revMinor="2"
+               date="2021-09-15T10:00:00"
+               description="Scenario : assign the ego vehicle's route"
+               author="MORAI:scenario-module-team"/>
+	<ParameterDeclarations/>
+	<VariableDeclarations/>
+	<CatalogLocations/>
+	<RoadNetwork>
+		<LogicFile filepath="MGeo"/>
+	</RoadNetwork>
+	<SimulatorInfo>
+		<Map name="R_KR_PG_K-City" />
+	</SimulatorInfo>
+	<Entities>
+		<ScenarioObject name="Ego">
+			<Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+				<ParameterDeclarations />
+            <Properties />
+         </Vehicle>
+		</ScenarioObject>
+		<ScenarioObject name="NPC_1">
+			<Vehicle name="2016_Hyundai_Ioniq" vehicleCategory="car">
+				<ParameterDeclarations />
+            <Properties />
+         </Vehicle>
+		</ScenarioObject>
+	</Entities>
+	<Storyboard>
+		<Init>
+			<Actions>
+				<Private entityRef="Ego">
+				<PrivateAction>
+					<LongitudinalAction>
+					<SpeedAction>
+						<SpeedActionDynamics dynamicsShape="step" value="0" dynamicsDimension="time"  />
+						<SpeedActionTarget>
+						<AbsoluteTargetSpeed value="6"/>
+						</SpeedActionTarget>
+					</SpeedAction>
+					</LongitudinalAction>
+				</PrivateAction>
+				<PrivateAction>
+					<TeleportAction>
+					<Position>
+						<WorldPosition x="-11.146102655533074" y="1054.8817030706273" z="-0.6288006093176581" h="60.0" p="0" r="0"/>
+					</Position>
+					</TeleportAction>
+				</PrivateAction>
+				<PrivateAction>
+					<RoutingAction>
+						<AssignRouteAction>
+							<Route name="Ego_Route" closed="false" afterCompletion="random">
+								<Waypoint routeStrategy="shortest">
+									<Position>
+										<LinkPosition id="A219BS010380" index="71"/>
+									</Position>
+								</Waypoint> 
+								<Waypoint routeStrategy="shortest">
+									<Position>
+										<LinkPosition id="A219BS010402" />
+									</Position>
+								</Waypoint>
+								<Waypoint routeStrategy="shortest">
+									<Position>
+										<LinkPosition id="A219BS010422" />
+									</Position>
+								</Waypoint>
+								<Waypoint routeStrategy="shortest">
+									<Position>
+										<LinkPosition id="A219BS010073" index="10"/>
+									</Position>
+								</Waypoint>
+							</Route>
+						</AssignRouteAction>
+					</RoutingAction>
+				</PrivateAction>     
+				</Private>
+				<Private entityRef="NPC_1">
+					<PrivateAction>
+						<TeleportAction>
+							<Position>
+								<WorldPosition x="49.59228063874204" y="1164.2244397031354" z="-0.48815864815810744" h="60.0" p="0" r="0"/>
+							</Position>
+						</TeleportAction>
+					</PrivateAction>
+					<PrivateAction>
+						<RoutingAction>
+							<AssignRouteAction>
+								<Route name="NPC_Route" closed="false" afterCompletion="hide">
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<LinkPosition id="A219BS010381" index="2"/>
+										</Position>
+									</Waypoint> 
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<LinkPosition id="A219BS010402" />
+										</Position>
+									</Waypoint>
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<LinkPosition id="A219BS010422" />
+										</Position>
+									</Waypoint>
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<LinkPosition id="A219BS010073" index="10"/>
+										</Position>
+									</Waypoint>
+								</Route>
+							</AssignRouteAction>
+						</RoutingAction>
+					</PrivateAction>              
+					<PrivateAction>
+						<LongitudinalAction>
+							<SpeedAction>
+								<SpeedActionDynamics dynamicsShape="step" value="0.0" dynamicsDimension="time" />
+								<SpeedActionTarget>
+									<AbsoluteTargetSpeed value="10"/>
+								</SpeedActionTarget>
+							</SpeedAction>
+						</LongitudinalAction>
+					</PrivateAction>
+				</Private>
+				<!-- <Private entityRef="1">
+					<PrivateAction>
+						<TeleportAction>
+							<Position>
+								<WorldPosition x="-728.5653725847113" y="-8.750000001289497" z="6.1" h="0" p="0" r="0"/>
+							</Position>
+						</TeleportAction>
+					</PrivateAction>
+					<PrivateAction>
+						<RoutingAction>
+							<AssignRouteAction>
+								<Route name="1_Route" closed="false">
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<WorldPosition x="63.0" y="-2.0" z="0.0" h="-90" p="0" r="0"/>
+										</Position>
+									</Waypoint>
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<WorldPosition x="63.0" y="-2.0" z="0.0" h="-90" p="0" r="0"/>
+										</Position>
+									</Waypoint>
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<WorldPosition x="63.0" y="-2.0" z="0.0" h="-90" p="0" r="0"/>
+										</Position>
+									</Waypoint>
+									<Waypoint routeStrategy="shortest">
+										<Position>
+											<WorldPosition x="63.0" y="-2.0" z="0.0" h="-90" p="0" r="0"/>
+										</Position>
+									</Waypoint>
+								</Route>
+							</AssignRouteAction>
+						</RoutingAction>
+					</PrivateAction>              
+					<PrivateAction>
+						<LongitudinalAction>
+							<SpeedAction>
+								<SpeedActionDynamics dynamicsShape="step" value="0.0" dynamicsDimension="time" />
+								<SpeedActionTarget>
+									<AbsoluteTargetSpeed value="15"/>
+								</SpeedActionTarget>
+							</SpeedAction>
+						</LongitudinalAction>
+					</PrivateAction>
+				</Private> -->
+			</Actions>
+		</Init>
+		<Story name="Story">
+        <ParameterDeclarations/>
+        <Act name="AquirePosition act">
+            <ManeuverGroup maximumExecutionCount="1" name="AquirePosition maneuver group">
+               <Actors selectTriggeringEntities="false">
+                  <EntityRef entityRef="NPC_1"/>
+               </Actors>
+               <!-- <Maneuver name="AquirePosition maneuver">
+                  <Event name="AquirePosition event" maximumExecutionCount="1" priority="overwrite">
+                     <Action name="AquirePosition action">
+                        <PrivateAction>
+                           <RoutingAction>
+                              <AcquirePositionAction>
+                                  <Position>
+                                      <WorldPosition x="84.912461639872" y="-2.0" z="0.0" h="0" p="0" r="0"/>
+                                  </Position>
+                              </AcquirePositionAction>
+                           </RoutingAction>
+                        </PrivateAction>
+                     </Action>
+                     <StartTrigger>
+                        <ConditionGroup>
+                           <Condition name="AquirePosition condition" delay="0" conditionEdge="rising">
+                              <ByEntityCondition>
+                                 <TriggeringEntities triggeringEntitiesRule="any">
+                                    <EntityRef entityRef="Ego"/>
+                                 </TriggeringEntities>
+                                 <EntityCondition>
+                                    <ReachPositionCondition tolerance="2.0">
+                                       <Position>
+                                          <WorldPosition x="190.279526564605" y="197.5" z="0.0" h="0" p="0" r="0"/>
+                                       </Position>
+                                    </ReachPositionCondition>
+                                 </EntityCondition>
+                              </ByEntityCondition>
+                           </Condition>
+                        </ConditionGroup>
+                     </StartTrigger>
+                  </Event>
+               </Maneuver> -->
+            </ManeuverGroup>
+            <StartTrigger>
+               <ConditionGroup>
+                  <Condition name="AquirePosition act start condition" delay="0" conditionEdge="risingOrFalling">
+                     <ByValueCondition>
+                        <SimulationTimeCondition value="0" rule="greaterThan"/>
+                     </ByValueCondition>
+                  </Condition>
+               </ConditionGroup>
+            </StartTrigger>
+        </Act>
+      </Story>
+      <StopTrigger />
+   </Storyboard>
+</OpenSCENARIO>

@@ -1,0 +1,463 @@
+[
+  {
+    "idx": "A219BS010417",
+    "from_node_idx": "A119BS010222",
+    "to_node_idx": "A119BS010712",
+    "points": [
+      [
+        133.61395864299266,
+        1430.8239977983758,
+        -0.5679996643066403
+      ],
+      [
+        133.56355186539523,
+        1434.8236790409514,
+        -0.5649806313665255
+      ],
+      [
+        133.5303744865333,
+        1438.823541086262,
+        -0.5632835702046467
+      ],
+      [
+        133.50632101344567,
+        1442.8234687566546,
+        -0.5630344545490639
+      ],
+      [
+        133.48281046447934,
+        1446.8233977398304,
+        -0.5669566527096676
+      ],
+      [
+        133.45960618324537,
+        1450.8233191360716,
+        -0.5764637671254904
+      ],
+      [
+        133.43588464544655,
+        1454.8232369689501,
+        -0.5861909900238127
+      ],
+      [
+        133.4124407303455,
+        1458.8229944410862,
+        -0.5489009519975674
+      ],
+      [
+        133.40895864157937,
+        1459.4149978002533,
+        -0.5420005950927731
+      ]
+    ],
+    "max_speed": 60,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": true,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": "A219BS010418",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "TomTom_v2105a",
+    "road_type": "1",
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011406"
+    ],
+    "lane_mark_right": [
+      "B219BS011408"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": {},
+    "recommended_speed": 0
+  },
+  {
+    "idx": "A219BS010418",
+    "from_node_idx": "A119BS010223",
+    "to_node_idx": "A119BS010713",
+    "points": [
+      [
+        137.122958647029,
+        1430.7629978000186,
+        -0.536000076293945
+      ],
+      [
+        137.06094956771955,
+        1434.7625124119725,
+        -0.5421435973681183
+      ],
+      [
+        137.02959876785854,
+        1438.7623891871717,
+        -0.5404375582632213
+      ],
+      [
+        137.01022804660946,
+        1442.7623419170152,
+        -0.5387246146558109
+      ],
+      [
+        136.9902470972168,
+        1446.7622904847685,
+        -0.5422198956520793
+      ],
+      [
+        136.9689385149199,
+        1450.7622225392663,
+        -0.5516805363573187
+      ],
+      [
+        136.94669322072488,
+        1454.7621467264883,
+        -0.5622466786194698
+      ],
+      [
+        136.9246921043826,
+        1458.7620395284862,
+        -0.5429199249999901
+      ],
+      [
+        136.9209586455836,
+        1459.4379978007637,
+        -0.5380008850097653
+      ]
+    ],
+    "max_speed": 60,
+    "lazy_init": false,
+    "can_move_left_lane": true,
+    "can_move_right_lane": true,
+    "left_lane_change_dst_link_idx": "A219BS010417",
+    "right_lane_change_dst_link_idx": "A219BS010419",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "TomTom_v2105a",
+    "road_type": "1",
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011408"
+    ],
+    "lane_mark_right": [
+      "B219BS011415"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": {},
+    "recommended_speed": 0
+  },
+  {
+    "idx": "A219BS010419",
+    "from_node_idx": "A119BS010221",
+    "to_node_idx": "A119BS010714",
+    "points": [
+      [
+        140.62095865246374,
+        1430.6509978007525,
+        -0.5560005340576168
+      ],
+      [
+        140.60747561284484,
+        1434.650974585588,
+        -0.5579825582225845
+      ],
+      [
+        140.59278416947762,
+        1438.650947592179,
+        -0.5576538692867694
+      ],
+      [
+        140.57688681080575,
+        1442.65091573835,
+        -0.5591042500968061
+      ],
+      [
+        140.55794145030515,
+        1446.650868448835,
+        -0.5635073399875217
+      ],
+      [
+        140.53705249042477,
+        1450.650809317891,
+        -0.569565013749985
+      ],
+      [
+        140.5165616525951,
+        1454.650753104983,
+        -0.5750263018003609
+      ],
+      [
+        140.49642669242004,
+        1458.650701902742,
+        -0.5729772321046298
+      ],
+      [
+        140.49295865063323,
+        1459.4589978004806,
+        -0.5679996643066403
+      ]
+    ],
+    "max_speed": 60,
+    "lazy_init": false,
+    "can_move_left_lane": true,
+    "can_move_right_lane": true,
+    "left_lane_change_dst_link_idx": "A219BS010418",
+    "right_lane_change_dst_link_idx": "A219BS010420",
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "TomTom_v2105a",
+    "road_type": "1",
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011415"
+    ],
+    "lane_mark_right": [
+      "B219BS011416"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": {},
+    "recommended_speed": 0
+  },
+  {
+    "idx": "A219BS010420",
+    "from_node_idx": "A119BS010711",
+    "to_node_idx": "A119BS010715",
+    "points": [
+      [
+        144.09395865822444,
+        1430.539997802116,
+        -0.6029995117187497
+      ],
+      [
+        144.0862231340983,
+        1434.5399769905634,
+        -0.6133268372980263
+      ],
+      [
+        144.07071455637626,
+        1438.5399469175861,
+        -0.613585547079185
+      ],
+      [
+        144.0526666867585,
+        1442.539905949741,
+        -0.6150052245021361
+      ],
+      [
+        144.0344417622928,
+        1446.5398640889541,
+        -0.6166595135767837
+      ],
+      [
+        144.01757804393162,
+        1450.5398285297124,
+        -0.616955609513648
+      ],
+      [
+        144.00102397135572,
+        1454.5397942494421,
+        -0.6165043125387777
+      ],
+      [
+        143.98403683133523,
+        1458.539758155058,
+        -0.6160674562963002
+      ],
+      [
+        143.9799586563022,
+        1459.4879978001118,
+        -0.6159999999999997
+      ]
+    ],
+    "max_speed": 60,
+    "lazy_init": false,
+    "can_move_left_lane": true,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": "A219BS010419",
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": "6",
+    "link_type_def": "TomTom_v2105a",
+    "road_type": "1",
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [
+      "B219BS011416"
+    ],
+    "lane_mark_right": [
+      "B219BS011413"
+    ],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": {},
+    "recommended_speed": 0
+  },
+  {
+    "idx": "LN000000",
+    "from_node_idx": "A119BS010711",
+    "to_node_idx": "A119BS010712",
+    "points": [
+      [
+        144.09395865822444,
+        1430.539997802116,
+        -0.6029995117187497
+      ],
+      [
+        142.70578301169186,
+        1434.2913849550032,
+        -0.5950746441105942
+      ],
+      [
+        141.3176073651593,
+        1438.0427721078904,
+        -0.5871497765024387
+      ],
+      [
+        139.92943171862672,
+        1441.7941592607776,
+        -0.5792249088942832
+      ],
+      [
+        138.54125607209414,
+        1445.5455464136649,
+        -0.5713000412861278
+      ],
+      [
+        137.15308042556157,
+        1449.296933566552,
+        -0.5633751736779723
+      ],
+      [
+        135.764904779029,
+        1453.0483207194393,
+        -0.5554503060698168
+      ],
+      [
+        134.37672913249642,
+        1456.7997078723265,
+        -0.5475254384616614
+      ],
+      [
+        133.40895864157937,
+        1459.4149978002533,
+        -0.5420005950927731
+      ]
+    ],
+    "max_speed": 0,
+    "lazy_init": false,
+    "can_move_left_lane": false,
+    "can_move_right_lane": false,
+    "left_lane_change_dst_link_idx": null,
+    "right_lane_change_dst_link_idx": null,
+    "lane_ch_link_path": [],
+    "link_type": null,
+    "link_type_def": "",
+    "road_type": null,
+    "road_id": "",
+    "ego_lane": null,
+    "lane_change_dir": null,
+    "hov": null,
+    "geometry": [
+      {
+        "id": 0,
+        "method": "poly3"
+      }
+    ],
+    "related_signal": null,
+    "its_link_id": null,
+    "force_width_start": false,
+    "width_start": 3.5,
+    "force_width_end": false,
+    "width_end": 3.5,
+    "enable_side_border": false,
+    "lane_mark_left": [],
+    "lane_mark_right": [],
+    "oppTraffic": false,
+    "is_entrance": false,
+    "is_exit": false,
+    "speed_unit": "",
+    "speed_start": [],
+    "speed_end": [],
+    "speed_list": null,
+    "recommended_speed": null
+  }
+]

@@ -1,0 +1,40 @@
+﻿
+Line Select Mode
+Point Select Mode 
+
+
+Click 모드 변경
+
+1. Select Mode 변경
+1) 대표 선 기준
+2) 라인 내 특정 점 선택 모드 
+
+
+A) Start Point 선정
+B) End Point 선정
+=> Confirm? 
+=> 선 정보 하나가 저장됨
+----------
+
+우선 선을 선택, 그 다음 S키를 누르면 Start로 인식
+그 다음 E키를 누르면 End로 인식
+
+----------
+
+
+
+
+특정 라인에서 Point만 Select하는 모드로 변경
+
+
+
+
+ 
+
+
+
+
+지금 필요한 것
+
+1) 자동으로 연결된 point를 검색해서, 하나의 객체를 만들어주는 것
+

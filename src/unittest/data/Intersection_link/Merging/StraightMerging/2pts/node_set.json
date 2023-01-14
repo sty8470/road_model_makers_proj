@@ -1,0 +1,46 @@
+[
+  {
+    "idx": "34S",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4.725336074829102,
+      -0.8098265528678894,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "58E",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5.075328826904297,
+      -0.8077182173728943,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "126S",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      5.075342178344727,
+      -2.807712972164154,
+      0.0
+    ],
+    "on_stop_line": false
+  },
+  {
+    "idx": "127S",
+    "node_type": null,
+    "junction": [],
+    "point": [
+      4.725341796875,
+      -2.8077184557914734,
+      0.0
+    ],
+    "on_stop_line": false
+  }
+]

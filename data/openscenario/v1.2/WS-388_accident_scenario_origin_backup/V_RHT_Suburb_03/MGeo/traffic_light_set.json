@@ -1,0 +1,2006 @@
+[
+  {
+    "idx": "667",
+    "link_id_list": [
+      "_58_0_R1_",
+      "_83_0_R1_",
+      "_89_0_R1_",
+      "_110_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      544.0297343001947,
+      -22.502281108969065,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999145743908
+  },
+  {
+    "idx": "668",
+    "link_id_list": [
+      "_58_0_R1_",
+      "_83_0_R1_",
+      "_89_0_R1_",
+      "_110_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      540.4072315791781,
+      -22.510686595159143,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999781084152
+  },
+  {
+    "idx": "665",
+    "link_id_list": [
+      "_41_0_L1_",
+      "_65_0_L1_",
+      "_71_0_L1_",
+      "_76_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      551.308827846942,
+      29.603312794328225,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000050041318
+  },
+  {
+    "idx": "664",
+    "link_id_list": [
+      "_44_0_R1_",
+      "_61_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      568.5193105613479,
+      -5.385823202701103,
+      7.5543576965332
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.5543576965332,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 194.5576851027441
+  },
+  {
+    "idx": "663",
+    "link_id_list": [
+      "_44_0_R1_",
+      "_61_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      567.61319583311,
+      -1.8966331116544854,
+      7.554028904052718
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554028904052718,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 194.5576851027441
+  },
+  {
+    "idx": "666",
+    "link_id_list": [
+      "_41_0_L1_",
+      "_65_0_L1_",
+      "_71_0_L1_",
+      "_76_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      554.9137536308646,
+      29.60331279432813,
+      7.496334884524343
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496334884524343,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.9999999951754
+  },
+  {
+    "idx": "657",
+    "link_id_list": [
+      "_143_0_R1_",
+      "_159_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      297.27128093105415,
+      -10.964854160421858,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99998884409985
+  },
+  {
+    "idx": "658",
+    "link_id_list": [
+      "_143_0_R1_",
+      "_159_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      293.6663550991264,
+      -10.964853616093185,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99998884409985
+  },
+  {
+    "idx": "660",
+    "link_id_list": [
+      "_128_0_R1_",
+      "_130_0_R1_",
+      "_149_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      320.43054342813286,
+      -5.7999325399950195,
+      7.4963348845243445
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.4963348845243445,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999749552194
+  },
+  {
+    "idx": "659",
+    "link_id_list": [
+      "_128_0_R1_",
+      "_130_0_R1_",
+      "_149_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      320.4305435857092,
+      -2.1950067080672837,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999749552194
+  },
+  {
+    "idx": "661",
+    "link_id_list": [
+      "_132_0_L1_",
+      "_134_0_L1_",
+      "_145_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      277.90855930725735,
+      3.081408030544854,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 359.8596309611342
+  },
+  {
+    "idx": "662",
+    "link_id_list": [
+      "_132_0_L1_",
+      "_134_0_L1_",
+      "_145_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      277.91739117103646,
+      6.686323194238168,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 359.8596309611342
+  },
+  {
+    "idx": "683",
+    "link_id_list": [
+      "_215_0_L1_",
+      "_219_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      312.9926746745692,
+      214.5745315633685,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.85962895865595
+  },
+  {
+    "idx": "684",
+    "link_id_list": [
+      "_181_0_R1_",
+      "_183_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      312.66876097248615,
+      214.88918515226626,
+      3.3332591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.8596269293415
+  },
+  {
+    "idx": "682",
+    "link_id_list": [
+      "_192_0_L1_",
+      "_215_0_L1_",
+      "_219_0_L1_",
+      "_229_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      308.8264657174233,
+      214.7715644963664,
+      7.4963348845243445
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.4963348845243445,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.8596312132698
+  },
+  {
+    "idx": "673",
+    "link_id_list": [
+      "_173_0_L1_",
+      "_177_0_L1_",
+      "_179_0_L1_",
+      "_194_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      287.14358429083404,
+      205.05975853534582,
+      7.496007060619339
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496007060619339,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 8.65142200549467e-06
+  },
+  {
+    "idx": "677",
+    "link_id_list": [
+      "_181_0_R1_",
+      "_183_0_R1_",
+      "_207_0_R1_",
+      "_226_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      313.34381262867794,
+      194.29261269195715,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999749552194
+  },
+  {
+    "idx": "680",
+    "link_id_list": [
+      "_210_0_R1_",
+      "_223_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      313.46900715085354,
+      186.84516061636813,
+      3.3332591313123694
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123694,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999538366063
+  },
+  {
+    "idx": "679",
+    "link_id_list": [
+      "_181_0_R1_",
+      "_183_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      313.15131364130366,
+      186.51711719208598,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999447544144
+  },
+  {
+    "idx": "678",
+    "link_id_list": [
+      "_181_0_R1_",
+      "_183_0_R1_",
+      "_207_0_R1_",
+      "_226_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      313.3416345012881,
+      190.68613351379454,
+      7.4963348845243445
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.4963348845243445,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.9999937090147
+  },
+  {
+    "idx": "674",
+    "link_id_list": [
+      "_173_0_L1_",
+      "_177_0_L1_",
+      "_179_0_L1_",
+      "_194_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      287.14343599389883,
+      208.66459236946,
+      7.496335853099822
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496335853099822,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 3.2019191033698435e-06
+  },
+  {
+    "idx": "675",
+    "link_id_list": [
+      "_177_0_L1_",
+      "_179_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      287.33518912725054,
+      212.83455893688884,
+      3.353260099887847
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.353260099887847,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 3.532307821126725e-06
+  },
+  {
+    "idx": "676",
+    "link_id_list": [
+      "_215_0_L1_",
+      "_219_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      287.0194750307072,
+      212.5077229629949,
+      3.333260099887848
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.333260099887848,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.99999299194883
+  },
+  {
+    "idx": "681",
+    "link_id_list": [
+      "_192_0_L1_",
+      "_215_0_L1_",
+      "_219_0_L1_",
+      "_229_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      305.219905904421,
+      214.7835638920378,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.8596257283864
+  },
+  {
+    "idx": "669",
+    "link_id_list": [
+      "_170_0_R1_",
+      "_198_0_R1_",
+      "_210_0_R1_",
+      "_223_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      296.369235939527,
+      185.59567814177328,
+      7.496007060619339
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496007060619339,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.85963096412635
+  },
+  {
+    "idx": "670",
+    "link_id_list": [
+      "_170_0_R1_",
+      "_198_0_R1_",
+      "_210_0_R1_",
+      "_223_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      292.76499051945626,
+      185.60339880806615,
+      7.496335853099822
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496335853099822,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.8596314617823
+  },
+  {
+    "idx": "671",
+    "link_id_list": [
+      "_210_0_R1_",
+      "_223_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      288.59473346914285,
+      185.80663556857283,
+      3.353260099887847
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.353260099887847,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.85963022225985
+  },
+  {
+    "idx": "672",
+    "link_id_list": [
+      "_177_0_L1_",
+      "_179_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      288.9229096866697,
+      185.48685168496868,
+      3.333260099887847
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.333260099887847,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 359.8596300934566
+  },
+  {
+    "idx": "705",
+    "link_id_list": [
+      "_240_0_L1_",
+      "_243_0_L1_",
+      "_303_0_L1_",
+      "_325_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      454.90484527716217,
+      403.8965657863224,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 8.65142200549467e-06
+  },
+  {
+    "idx": "710",
+    "link_id_list": [
+      "_283_0_R1_",
+      "_320_0_R1_",
+      "_349_0_R1_",
+      "_356_0_R1_",
+      "_363_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      466.8977955985066,
+      383.34814584057597,
+      7.496334884524343
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496334884524343,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 93.27553411357349
+  },
+  {
+    "idx": "709",
+    "link_id_list": [
+      "_283_0_R1_",
+      "_320_0_R1_",
+      "_349_0_R1_",
+      "_356_0_R1_",
+      "_363_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      470.4961677044819,
+      383.5547866940345,
+      7.496006092043862
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496006092043862,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 93.27553565803723
+  },
+  {
+    "idx": "711",
+    "link_id_list": [
+      "_349_0_R1_",
+      "_356_0_R1_",
+      "_363_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      462.72234606515303,
+      383.30325372794994,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 93.27553590273156
+  },
+  {
+    "idx": "712",
+    "link_id_list": [
+      "_240_0_L1_",
+      "_243_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      463.0677647893256,
+      383.00521188856396,
+      3.3332591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 3.2755362808335904
+  },
+  {
+    "idx": "708",
+    "link_id_list": [
+      "_331_0_L1_",
+      "_336_0_L1_",
+      "_341_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      454.7770323677434,
+      411.3426385172907,
+      3.3332591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.9999987359761
+  },
+  {
+    "idx": "707",
+    "link_id_list": [
+      "_240_0_L1_",
+      "_243_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      455.0957346626007,
+      411.6711958896199,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 360.00000634823857
+  },
+  {
+    "idx": "706",
+    "link_id_list": [
+      "_240_0_L1_",
+      "_243_0_L1_",
+      "_303_0_L1_",
+      "_325_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      454.9032218173461,
+      407.50085809126153,
+      7.4963348845243445
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.4963348845243445,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 1.7670591887508635e-06
+  },
+  {
+    "idx": "697",
+    "link_id_list": [
+      "_245_0_R1_",
+      "_248_0_R1_",
+      "_252_0_R1_",
+      "_270_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      502.7004937474526,
+      392.06481877117767,
+      7.49600609204386
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.49600609204386,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999927310057
+  },
+  {
+    "idx": "698",
+    "link_id_list": [
+      "_245_0_R1_",
+      "_248_0_R1_",
+      "_252_0_R1_",
+      "_270_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      502.7012324375956,
+      388.460390346743,
+      7.4963348845243445
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.4963348845243445,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 180.00000494892492
+  },
+  {
+    "idx": "700",
+    "link_id_list": [
+      "_349_0_R1_",
+      "_356_0_R1_",
+      "_363_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      502.82670326283005,
+      384.61776016842686,
+      3.3332591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999410319771
+  },
+  {
+    "idx": "699",
+    "link_id_list": [
+      "_245_0_R1_",
+      "_248_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      502.5082432557649,
+      384.289037046851,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999191133043
+  },
+  {
+    "idx": "703",
+    "link_id_list": [
+      "_331_0_L1_",
+      "_336_0_L1_",
+      "_341_0_L1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      501.3201935928416,
+      416.3151037511988,
+      3.3532591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3532591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 275.49784883203205
+  },
+  {
+    "idx": "704",
+    "link_id_list": [
+      "_245_0_R1_",
+      "_248_0_R1_"
+    ],
+    "road_id": "",
+    "type": "pedestrian",
+    "sub_type": null,
+    "dynamic": true,
+    "orientation": "+",
+    "point": [
+      500.9585896138247,
+      416.60510104302625,
+      3.3332591313123703
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 3.3332591313123703,
+    "height": 0.5982818007469177,
+    "width": 0.3772552053939616,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 185.49784317296283
+  },
+  {
+    "idx": "702",
+    "link_id_list": [
+      "_267_0_L1_",
+      "_286_0_L1_",
+      "_331_0_L1_",
+      "_336_0_L1_",
+      "_341_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      497.14623250777277,
+      416.1122926345245,
+      7.496334884524343
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496334884524343,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 275.49784613066174
+  },
+  {
+    "idx": "701",
+    "link_id_list": [
+      "_267_0_L1_",
+      "_286_0_L1_",
+      "_331_0_L1_",
+      "_336_0_L1_",
+      "_341_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      493.56046677220064,
+      415.76328530662585,
+      7.49600609204386
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.49600609204386,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 275.49785430793315
+  },
+  {
+    "idx": "654",
+    "link_id_list": [
+      "_384_0_L1_",
+      "_387_0_L1_",
+      "_396_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      85.07228071535756,
+      6.69358814121,
+      7.554356727957723
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957723,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 7.702849984525528e-07
+  },
+  {
+    "idx": "652",
+    "link_id_list": [
+      "_368_0_R1_",
+      "_379_0_R1_",
+      "_381_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      116.93164146117363,
+      -5.871702262680463,
+      7.554357696533202
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554357696533202,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999749552194
+  },
+  {
+    "idx": "651",
+    "link_id_list": [
+      "_368_0_R1_",
+      "_379_0_R1_",
+      "_381_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      116.93164161874994,
+      -2.2667764307527274,
+      7.5540289040527195
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.5540289040527195,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.99999749552194
+  },
+  {
+    "idx": "653",
+    "link_id_list": [
+      "_384_0_L1_",
+      "_387_0_L1_",
+      "_396_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      85.07146422410185,
+      3.088220016634598,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 8.65142200549467e-06
+  },
+  {
+    "idx": "656",
+    "link_id_list": [
+      "_370_0_R1_",
+      "_403_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      95.55250164453658,
+      -10.211463303898364,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999066533266
+  },
+  {
+    "idx": "655",
+    "link_id_list": [
+      "_370_0_R1_",
+      "_403_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      99.15742747646433,
+      -10.211463848227037,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999066533266
+  },
+  {
+    "idx": "691",
+    "link_id_list": [
+      "_423_0_L1_",
+      "_449_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      303.8612569593504,
+      410.7319495066502,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000025044782
+  },
+  {
+    "idx": "692",
+    "link_id_list": [
+      "_423_0_L1_",
+      "_449_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      307.4661827912781,
+      410.7319495066502,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000025044782
+  },
+  {
+    "idx": "694",
+    "link_id_list": [
+      "_432_0_L1_",
+      "_434_0_L1_",
+      "_440_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      278.99714613439664,
+      406.5783349049588,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 8.65142200549467e-06
+  },
+  {
+    "idx": "693",
+    "link_id_list": [
+      "_432_0_L1_",
+      "_434_0_L1_",
+      "_440_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      278.99714629197297,
+      402.97340907303106,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 8.65142200549467e-06
+  },
+  {
+    "idx": "695",
+    "link_id_list": [
+      "_425_0_R1_",
+      "_436_0_R1_",
+      "_438_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      315.668466812107,
+      395.8224005523295,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.8596302877472
+  },
+  {
+    "idx": "696",
+    "link_id_list": [
+      "_425_0_R1_",
+      "_436_0_R1_",
+      "_438_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      315.658378814897,
+      392.21682271656624,
+      7.554356727957723
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957723,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 179.85962754348452
+  },
+  {
+    "idx": "688",
+    "link_id_list": [
+      "_490_0_R1_",
+      "_497_0_R1_",
+      "_502_0_R1_",
+      "_520_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      488.2414357291325,
+      182.04603077556283,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99998759093302
+  },
+  {
+    "idx": "687",
+    "link_id_list": [
+      "_490_0_R1_",
+      "_497_0_R1_",
+      "_502_0_R1_",
+      "_520_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      491.84489349097464,
+      182.04824642084094,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999193058005
+  },
+  {
+    "idx": "690",
+    "link_id_list": [
+      "_465_0_R1_",
+      "_532_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      519.771964919667,
+      192.93761957766915,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 191.04966276751605
+  },
+  {
+    "idx": "689",
+    "link_id_list": [
+      "_465_0_R1_",
+      "_532_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      519.0810367257062,
+      196.47571549394274,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 191.04966366576036
+  },
+  {
+    "idx": "686",
+    "link_id_list": [
+      "_514_0_L1_",
+      "_471_0_L1_",
+      "_508_0_L1_",
+      "_452_0_L1_",
+      "_639_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      509.5398521258274,
+      231.69174319464423,
+      7.496334884524343
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.496334884524343,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.00000009644657
+  },
+  {
+    "idx": "685",
+    "link_id_list": [
+      "_508_0_L1_",
+      "_452_0_L1_",
+      "_639_0_L1_",
+      "_471_0_L1_",
+      "_514_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "left",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      505.9349262225952,
+      231.69174319464426,
+      7.49600609204386
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.49600609204386,
+    "height": 1.5141302347183228,
+    "width": 0.5249231234352479,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.0000063860632
+  },
+  {
+    "idx": "648",
+    "link_id_list": [
+      "_561_0_L1_",
+      "_563_0_L1_",
+      "_574_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      106.84939848146443,
+      219.65702825389877,
+      7.5543576965332
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.5543576965332,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 270.00000162335766
+  },
+  {
+    "idx": "650",
+    "link_id_list": [
+      "_552_0_L1_",
+      "_576_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      88.81380415441616,
+      213.3034325612088,
+      7.554356727957725
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554356727957725,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 4.325711002747335e-06
+  },
+  {
+    "idx": "649",
+    "link_id_list": [
+      "_552_0_L1_",
+      "_576_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      88.81380431199247,
+      209.69850672928106,
+      7.554027935477242
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554027935477242,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 4.325711002747335e-06
+  },
+  {
+    "idx": "646",
+    "link_id_list": [
+      "_554_0_R1_",
+      "_565_0_R1_",
+      "_567_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      92.07514566704026,
+      185.97093098859983,
+      7.554357696533202
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.554357696533202,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999499104388
+  },
+  {
+    "idx": "647",
+    "link_id_list": [
+      "_561_0_L1_",
+      "_563_0_L1_",
+      "_574_0_L1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      103.24440515270977,
+      219.65733402813458,
+      7.5540289040527195
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.5540289040527195,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 269.99999499104365
+  },
+  {
+    "idx": "645",
+    "link_id_list": [
+      "_554_0_R1_",
+      "_565_0_R1_",
+      "_567_0_R1_"
+    ],
+    "road_id": "",
+    "type": "car",
+    "sub_type": [
+      "red",
+      "yellow",
+      "straight"
+    ],
+    "dynamic": true,
+    "orientation": "horizontal",
+    "point": [
+      95.680071498968,
+      185.9709306734472,
+      7.5540289040527195
+    ],
+    "value": 0,
+    "country": "OpenDRIVE",
+    "z_offset": 7.5540289040527195,
+    "height": 1.1595988869667053,
+    "width": 0.5249231424516214,
+    "type_def": "",
+    "ref_crosswalk_id": "",
+    "heading": 89.99999499104388
+  }
+]
